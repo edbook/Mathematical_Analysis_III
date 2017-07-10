@@ -272,8 +272,8 @@ latex_elements = {
 # SET DOCUMENT TITLE AND AUTHOR FOR LATEX OUTPUT HERE
 
 latex_documents = [
-  (master_doc, 'NAME.tex', 'NAME Documentation',
-   'AUTHOR', 'manual'),
+  (master_doc, 'staeIII.tex', 'Stærðfræðigreining III',
+   'Ragnar Sigurðsson', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
