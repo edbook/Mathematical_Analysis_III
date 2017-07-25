@@ -1,4 +1,4 @@
-Chapter
+Chapter of examples (tutorial)
 =======
 
 Section

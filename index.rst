@@ -10,8 +10,10 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
+   :glob:
 
-   chapter01
+   chapter*
 
 Indices and tables
 ==================
