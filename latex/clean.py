@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/python
 import os
 import sys
@@ -17,14 +18,31 @@ reps = {
 	'\\end{frame}':'',
 	'\\begin{block}':'\subsubsection', 
 	'\\end{block}':'',
-	'\\begin{theorem}':'\subsubsection', 
-	'\\end{theorem}':'',
-	'\\begin{definition}':'\subsubsection', 
-	'\\end{definition}':'',
-	'\\begin{proof}':'\subsubsection', 
-	'\\end{proof}':'',
-	'\\begin{proposition}':'\subsubsection', 
-	'\\end{proposition}':'',
+	'\\begin{se}':'\subsubsection{Setning}',
+	'\\end{se}':'',
+	'\\begin{sex}':'\subsubsection{Setning}', 
+	'\\end{sex}':'',
+	'\\begin{sk}':'\subsubsection{Skilgreining}', 
+	'\\end{sk}':'',
+    '\\begin{sesk}':'\subsubsection{Setning og skilgreining}',
+	'\\end{sesk}':'',
+	'\\begin{hs}':'\subsubsection{Hjálparsetning}', 
+	'\\end{hs}':'',
+	'\\begin{fs}':'\subsubsection{Fylgisetning}', 
+	'\\end{fs}':'',
+	'\\begin{sy}':'\subsubsection{Sýnidæmi}', 
+	'\\end{sy}':'',
+	'\\begin{fo}':'\subsubsection{Forrit}', 
+	'\\end{fo}':'',
+	'\\begin{so}':'\subsubsection{Sönnun}', 
+	'\\end{so}':'',
+	'\\begin{sotx}':'\subsubsection{Sönnun}', 
+	'\\end{sotx}':'',
+	'\\æfing':'\section{Æfingardæmi}', 
+	'\\dæmi':'\subsubsection',
+	'\\vfigura':'MYND VANTAR HÉR!!!',
+	'\\figura':'MYND VANTAR HÉR!!!',
+	#r'\\label{.*}':'.. _[1]:',
 #	'sub':'dub'
 }
 
