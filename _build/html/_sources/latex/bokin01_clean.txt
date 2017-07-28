@@ -508,21 +508,12 @@ rakningu er best lýst í þríhyrningi Pascals, en línurnar í honum geyma
 alla tvíliðurstuðlana. Fyrstu :math:`7` línurnar, :math:`n=0,\dots,6`, í
 honum eru
 
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     |     |     |     |      |      | 1    |      |      |     |     |     |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     |     |     |     |      | 1    |      | 1    |      |     |     |     |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     |     |     |     | 1    |      | 2    |      | 1    |     |     |     |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     |     |     | 1   |      | 3    |      | 3    |      | 1   |     |     |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     |     | 1   |     | 4    |      | 6    |      | 4    |     | 1   |     |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-|     | 1   |     | 5   |      | 10   |      | 10   |      | 5   |     | 1   |     |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
-| 1   |     | 6   |     | 15   |      | 20   |      | 15   |     | 6   |     | 1   |    |
-+-----+-----+-----+-----+------+------+------+------+------+-----+-----+-----+-----+----+
+| cccccccccccccc & & & & & & 1 & & & & & & & & & & & & 1 & &1 & & & & 1
+  & &2 & &1
+| & & & 1 & &3 & &3& &1
+| & & 1 & &4 & &6& &4& &1
+| & 1 & &5& &10& &10& &5 & &1
+| 1 & &6& &15& &20& &15 & & 6 & & 1
 
 Raunhluti, þverhluti og samok
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1034,6 +1025,8 @@ lausina á einföldu formi
  Ef :math:`v=0` og :math:`u>0`, þá er :math:`w=u` og við fáum jákvæðu
 rótina :math:`z=\sqrt w` út úr þessari formúlu.
 
+.. \_sy:raetur:
+
 Sýnidæmi
 ^^^^^^^^
 
@@ -1307,7 +1300,9 @@ skrifað
 .. math::
 
    Q(z)= a(z-\alpha_1)\cdots(z-\alpha_m), \qquad z\in {{\mathbb  C}},
-   \label{4.4.1}
+
+
+   .. _4.4.1:
 
  þar sem :math:`\alpha_1,\dots,\alpha_m` eru hinar ólíku núllstöðvar
 :math:`Q`. Stofnbrotaliðun :math:`R` er þá einfaldlega
@@ -1315,7 +1310,9 @@ skrifað
 .. math::
 
    R(z) = \dfrac {A_1}{z-\alpha_1}+\cdots+\dfrac {A_m}{z-\alpha_m}.
-   \label{4.4.2}
+
+
+   .. _4.4.2:
 
  Við munum sanna þessa formúlu í kafla 4. Nú þarf að reikna stuðlana
 :math:`A_1,\dots,A_m` út. Við athugum að
@@ -1343,7 +1340,9 @@ formúluna
 .. math::
 
    A_j=\dfrac{P(\alpha_j)}{Q{{\sp{\prime}}}(\alpha_j)}.
-   \label{4.4.3}
+
+
+   .. _4.4.3:
 
  Við notum nú þáttunina á :math:`Q` í fyrsta stigs liði til þess að
 reikna út afleiðuna af :math:`Q` í :math:`{\alpha}_j`,
@@ -1353,7 +1352,9 @@ reikna út afleiðuna af :math:`Q` í :math:`{\alpha}_j`,
    Q{{\sp{\prime}}}(\alpha_j)=a\prod_{\substack{k=1\\ k\neq
     j}}^m
    (\alpha_j-\alpha_k).
-   \label{4.4.4}
+
+
+   .. _4.4.4:
 
  Þessi formúla segir okkur að :math:`Q'(\alpha_j)` sé fundið með því að
 taka þáttunina á :math:`Q` í fyrsta stigs liði, deila út þættinum
@@ -1461,7 +1462,10 @@ verður nú af gerðinni
    \begin{aligned}
    \dfrac{P(z)}{Q(z)}&=
    \dfrac{A_{11}}{(z-\alpha_1)}+\cdots+\dfrac{A_{m_11}}{(z-\alpha_1)^{m_1}}
-   \label{4.4.5}\\\
+
+
+   .. _4.4.5:
+   \\\
    &+\dfrac{A_{12}}{(z-\alpha_2)}+\cdots+\dfrac{A_{m_22}}{(z-\alpha_2)^{m_2}}\nonumber\\
    &\qquad \vdots\qquad\qquad\vdots\qquad \qquad \vdots\nonumber\\
    &+\dfrac{A_{1k}}{(z-\alpha_k)}+\cdots+\dfrac{A_{m_kk}}{(z-\alpha_k)^{m_k}}\nonumber\end{aligned}
@@ -2119,6 +2123,8 @@ fastapunktarnir :math:`p` uppfylla
 
  Hún hefur í mesta lagi tvær lausnir. Niðurstaða okkar er því:
 
+.. \_se:fastapunktar:
+
 Setning
 ^^^^^^^
 
@@ -2203,10 +2209,12 @@ uppfyllir samskeytingin
 Hugsum okkur nú að :math:`g` sé önnur brotin línuleg vörpun sem
 uppfyllir :math:`g(z_1)=w_1`, :math:`g(z_2)=w_2` og :math:`g(z_3)=w_3`.
 Þá hefur vörpunin :math:`f^{-1}\circ g(z)` þrjá fastapunkta :math:`z_1`,
-:math:`z_2` og :math:`z_3`. Setning [se:fastapunktar] segir nú að
+:math:`z_2` og :math:`z_3`. Setning :ref:‘se:fastapunktar‘ segir nú að
 :math:`f^{-1}\circ g(z)=z` fyrir öll
 :math:`z\in \widehat {{\mathbb  C}}` og þar með er :math:`f(z)=g(z)`
 fyrir öll :math:`z\in \widehat {{\mathbb  C}}`. Niðurstaðan er því:
+
+.. \_se:thrir\_punktar:
 
 Setning
 ^^^^^^^
@@ -2283,7 +2291,9 @@ formúlunni
 .. math::
 
    {\alpha}|z|^2+\bar {\beta} z+{\beta}\bar z +{\gamma}=0,
-   \label{4.1.11}
+
+
+   .. _4.1.11:
 
  en við höfum lýst öllum þeim mengjum sem svona jafna skilgreinir. Við
 stingum myndpunktinum :math:`w`, en hann uppfyllir :math:`z=1/w`, inn í
@@ -2292,14 +2302,16 @@ stingum myndpunktinum :math:`w`, en hann uppfyllir :math:`z=1/w`, inn í
 .. math::
 
    {\gamma}|w|^2+{\beta}w+\bar {\beta}\bar w +{\alpha}=0.
-   \label{4.1.12}
 
- Ef ([4.1.11]) er jafna línu gegnum :math:`0` með þvervigur
+
+   .. _4.1.12:
+
+ Ef (:ref:‘4.1.11‘) er jafna línu gegnum :math:`0` með þvervigur
 :math:`{\beta}`, þá er :math:`{\alpha}={\gamma}=0` og við fáum að
 :math:`w` liggur á línu gegnum :math:`0` með þvervigur
-:math:`\bar {\beta}`. Ef ([4.1.11]) er jafna línu sem fer ekki gegnum
-:math:`0` og hefur þvervigur :math:`{\beta}`, þá er :math:`{\alpha}=0`
-og :math:`{\gamma}\neq
+:math:`\bar {\beta}`. Ef (:ref:‘4.1.11‘) er jafna línu sem fer ekki
+gegnum :math:`0` og hefur þvervigur :math:`{\beta}`, þá er
+:math:`{\alpha}=0` og :math:`{\gamma}\neq
 0`. Við fáum því að myndmengið er hringur með miðju :math:`m=-\bar
 {\beta}/{\gamma}` og geislann :math:`r=|{\beta}|/|{\gamma}|`.
 
@@ -2307,14 +2319,14 @@ MYND VANTAR HÉR!!! fig0316Mynd: Umhverfing af línu.
 
 MYND VANTAR HÉR!!! fig0316aMynd: Umhverfing af línu.
 
-Ef ([4.1.11]) er jafna hrings gegnum :math:`0`, þá er
+Ef (:ref:‘4.1.11‘) er jafna hrings gegnum :math:`0`, þá er
 :math:`{\alpha}\neq 0`, :math:`{\gamma}=0`, miðjan er
 :math:`m=-{\beta}/{\alpha}` og geislinn er
 :math:`r=|{\beta}|/|{\alpha}|`. Athugum að punkturinn
 :math:`-2{\beta}/{\alpha}` er á hringnum og því er myndmengi hans línan
 með þvervigur :math:`\bar {\beta}` gegnum punktinn
 :math:`-{\alpha}/2{\beta}=-{\alpha}\bar{\beta}/2|{\beta}|^2`. Ef
-([4.1.11]) er jafna hrings, sem inniheldur ekki :math:`0`, þá er
+(:ref:‘4.1.11‘) er jafna hrings, sem inniheldur ekki :math:`0`, þá er
 :math:`{\alpha}\neq 0`, :math:`{\gamma}\neq 0`, miðjan er
 :math:`m=-{\beta}/{\alpha}` og geislinn er
 :math:`r=\sqrt{|{\beta}|^2-{\alpha}{\gamma}}\, /|{\alpha}|`. Myndmengið
@@ -2638,7 +2650,7 @@ Sýnið með útreikningi að formúlan
 
 **.**
 
-Notið formúluna í sýnidæmi [sy:raetur] til þess að reikna út
+Notið formúluna í sýnidæmi :ref:‘sy:raetur‘ til þess að reikna út
 :math:`\cos(\pi/16)` og :math:`\sin( \pi/16)`. Finnið formúlu fyrir
 :math:`\cos(\pi/2^n)` fyrir :math:`n\geq 2` og sannið hana með þrepun.
 

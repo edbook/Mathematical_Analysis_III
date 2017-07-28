@@ -1,3 +1,14 @@
+%Allir pakkar sem Ã¾arf aÃ° nota.
+%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[icelandic]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pictex}
+\usepackage{epsfig,psfrag}
+\usepackage{makeidx}
+%\selectlanguage{icelandic}
 %----------------------------
 
 %
@@ -8,7 +19,7 @@
 \textheight=23truecm
 \evensidemargin=0truecm
 %
-% Gömlu gildin á bókinni 
+% GÃ¶mlu gildin Ã¡ bÃ³kinni 
 %
 %\voffset 1.4truecm
 %\hoffset .25truecm
@@ -16,7 +27,7 @@
 %\hsize  15truecm
 %
 %
-% Skilgreiningar á ımsum skipunum.
+% Skilgreiningar Ã¡ Ã½msum skipunum.
 %
 %\newcommand{\Sb}{
 %$$
@@ -95,19 +106,19 @@
 %
 \renewcommand{\chaptername}{Kafli}
 %
-% Númering á formæulum.
+% NÃºmering Ã¡ formÃ¦ulum.
 %
 \numberwithin{equation}{section}
 %
-%  Innsetning á myndum.
+%  Innsetning Ã¡ myndum.
 %
-\defMYND VANTAR HÉR!!!#1#2{
+\defMYND VANTAR HÃ‰R!!!#1#2{
 \vbox{\centerline{
 \input #1
 }
 \centerline{#2}
 }\medskip}
-\defMYND VANTAR HÉR!!!#1#2{
+\defMYND VANTAR HÃ‰R!!!#1#2{
 \setbox0\vbox{{
 \input #1
 }}
@@ -132,9 +143,9 @@
 \newtheorem{skilgreining+}  [setning+]  {Skilgreining}
 \newtheorem{setningogskilgreining+}  [setning+]  {Setning og
 skilgreining}
-\newtheorem{hjalparsetning+}  [setning+]  {Hjálparsetning}
+\newtheorem{hjalparsetning+}  [setning+]  {HjÃ¡lparsetning}
 \newtheorem{fylgisetning+}  [setning+]  {Fylgisetning}
-\newtheorem{synidaemi+}  [setning+]  {Sınidæmi}
+\newtheorem{synidaemi+}  [setning+]  {SÃ½nidÃ¦mi}
 \newtheorem{forrit+}  [setning+]  {Forrit}
 
 \newcommand{\tx}[1]{{\rm({\it #1}). \ }}
@@ -147,16 +158,16 @@ skilgreining}
 \newenvironment{fs}{\begin{fylgisetning+}\sl}{\hfill$\square$\end{fylgisetning+}\rm}
 \newenvironment{sy}{\begin{synidaemi+}\rm}{\hfill$\square$\end{synidaemi+}\rm}
 \newenvironment{fo}{\begin{forrit+}\rm}{\hfill\end{forrit+}\rm}
-\newenvironment{so}{\medbreak\noindent{\it Sönnun:}\rm}{\hfill$\blacksquare$\rm}
+\newenvironment{so}{\medbreak\noindent{\it SÃ¶nnun:}\rm}{\hfill$\blacksquare$\rm}
 \newenvironment{sotx}[1]{\medbreak\noindent{\it #1:}\rm}{\hfill$\blacksquare$\rm}
 \newcounter{daemateljari}
-\newcommand{\aefing}{\section{Æfingardæmi} \setcounter{daemateljari}{1}}
+\newcommand{\aefing}{\section{Ã†fingardÃ¦mi} \setcounter{daemateljari}{1}}
 \newcommand{\daemi}{
 {\medskip\noindent{\bf \thedaemateljari.}}
 \addtocounter{daemateljari}{1}
 }
 
-%\def\aefing{{\large\bf\bigskip\bigskip\noindent Æfingardæmi}}
+%\def\aefing{{\large\bf\bigskip\bigskip\noindent Ã†fingardÃ¦mi}}
 %\def\daemi#1{\medskip\noindent{\bf #1.}}
 \def\svar#1{\smallskip\noindent{\bf #1.} \ }
 \def\lausn#1{\smallskip\noindent{\bf #1.} \ }
@@ -165,83 +176,83 @@ skilgreining}
 %\newcommand{\proclaimbox}{\hfill$\square$}
 
 
-\chapter{TVINNTÖLUR} 
+\chapter{TVINNTÃ–LUR} 
 
 \section{Talnakerfin}
 
-\subsection*{Náttúrlegar tölur}
+\subsection*{NÃ¡ttÃºrlegar tÃ¶lur}
 
-Tölurnar $1,2,3,4,\dots$ mynda mengi náttúrlegra talna sem viğ táknum
-meğ $\N$.   Á şessu mengi höfum viğ skilgreindar tvær ağgerğir, {\it
-samlagningu} og {\it margföldun}, şannig
-ağ fyrir sérhvert par $(a,b)$ af náttúrlegum tölum $a$ og $b$ er
-úthlutağ nákvæmlega einni tölu $a+b$ sem nefnist {\it summa} $a$ og
-$b$ og annarri tölu $ab$ sem nefnist {\it margfeldi} $a$ og $b$.
-Viğ táknum margfeldiğ einnig meğ $a\cdot b$.
-Um şessar ağgerğir gilda nokkrar reiknireglur
+TÃ¶lurnar $1,2,3,4,\dots$ mynda mengi nÃ¡ttÃºrlegra talna sem viÃ° tÃ¡knum
+meÃ° $\N$.   Ã Ã¾essu mengi hÃ¶fum viÃ° skilgreindar tvÃ¦r aÃ°gerÃ°ir, {\it
+samlagningu} og {\it margfÃ¶ldun}, Ã¾annig
+aÃ° fyrir sÃ©rhvert par $(a,b)$ af nÃ¡ttÃºrlegum tÃ¶lum $a$ og $b$ er
+ÃºthlutaÃ° nÃ¡kvÃ¦mlega einni tÃ¶lu $a+b$ sem nefnist {\it summa} $a$ og
+$b$ og annarri tÃ¶lu $ab$ sem nefnist {\it margfeldi} $a$ og $b$.
+ViÃ° tÃ¡knum margfeldiÃ° einnig meÃ° $a\cdot b$.
+Um Ã¾essar aÃ°gerÃ°ir gilda nokkrar reiknireglur
 
 \begin{center}
 \begin{tabular}{ll}
 $(a+b)+c=a+(b+c)$&{\it tengiregla fyrir samlagningu}\\
-$(ab)c=a(bc)$&{\it tengiregla fyrir margföldun}\\
-$a+b=b+a$ &{\it víxlregla fyrir samlagningu} \\
-$ab=ba$ &{\it víxlregla fyrir margföldun} \\
+$(ab)c=a(bc)$&{\it tengiregla fyrir margfÃ¶ldun}\\
+$a+b=b+a$ &{\it vÃ­xlregla fyrir samlagningu} \\
+$ab=ba$ &{\it vÃ­xlregla fyrir margfÃ¶ldun} \\
 $a(b+c)=ab+ac$&{\it dreifiregla}\\
-$1a=a$ &{\it $1$ er margföldunarhlutleysa}\\
+$1a=a$ &{\it $1$ er margfÃ¶ldunarhlutleysa}\\
 \end{tabular}
 \end{center}
  
-Viğ höfum {\it röğun} şannig ağ um sérhverjar tvær tölur $a$ og $b$
-gildir eitt af şrennu: {\it $a$ er minni en $b$}, táknağ $a<b$, {\it
-$a$ er jafnt og $b$}, táknağ $a=b$ eğa {\it $a$ er stærra en $b$},
-táknağ $a>b$.  Şetta er skilgreint şannig ağ $a$ er sagt vera {\it minna en} $b$, ef til er
-náttúrleg tala $c$ şannig ağ $a+c=b$, og $a$ er sagt vera {\it stærra
+ViÃ° hÃ¶fum {\it rÃ¶Ã°un} Ã¾annig aÃ° um sÃ©rhverjar tvÃ¦r tÃ¶lur $a$ og $b$
+gildir eitt af Ã¾rennu: {\it $a$ er minni en $b$}, tÃ¡knaÃ° $a<b$, {\it
+$a$ er jafnt og $b$}, tÃ¡knaÃ° $a=b$ eÃ°a {\it $a$ er stÃ¦rra en $b$},
+tÃ¡knaÃ° $a>b$.  Ãetta er skilgreint Ã¾annig aÃ° $a$ er sagt vera {\it minna en} $b$, ef til er
+nÃ¡ttÃºrleg tala $c$ Ã¾annig aÃ° $a+c=b$, og $a$ er sagt vera {\it stÃ¦rra
 en} $b$,  ef $b$ er minni en $a$.  
 
 
-Um röğun {\it náttúrlegra talna} gilda tvær mikilvægar reglur 
+Um rÃ¶Ã°un {\it nÃ¡ttÃºrlegra talna} gilda tvÃ¦r mikilvÃ¦gar reglur 
 \begin{center}
 \begin{tabular}{ll}
-ef $a<b$ şá er $a+c<b+c$&{\it röğun er óbreytt viğ samlagningu}\\
-ef $a<b$ şá er $ac<bc$&{\it röğun er óbreytt viğ margföldun}\\
+ef $a<b$ Ã¾Ã¡ er $a+c<b+c$&{\it rÃ¶Ã°un er Ã³breytt viÃ° samlagningu}\\
+ef $a<b$ Ã¾Ã¡ er $ac<bc$&{\it rÃ¶Ã°un er Ã³breytt viÃ° margfÃ¶ldun}\\
 \end{tabular}
 \end{center}
 
-Ef $a<b$ og $a+c=b$, şá nefnist talan $c$ {\it mismunur } $b$ og $a$,
-táknağ $c=b-a$. Ağgerğin ağ finna 
-mismun nefnist {\it frádráttur}.
+Ef $a<b$ og $a+c=b$, Ã¾Ã¡ nefnist talan $c$ {\it mismunur } $b$ og $a$,
+tÃ¡knaÃ° $c=b-a$. AÃ°gerÃ°in aÃ° finna 
+mismun nefnist {\it frÃ¡drÃ¡ttur}.
 
-Náttúrleg tala $a\in \N$ er sögğ vera {\it deilanleg } meğ tölunni
-$b\in \N$ ef til er $c\in \N$ şannig ağ $a=bc$.  Allar tölur $a$ eru
-deilanlegar meğ $1$ og sjálfri sér, şví $a=1\cdot a$.  Şær nátturlegu
-tölur $\geq 2$  sem  ağeins eru deilanlegar meğ $1$ og sjálfri sér 
-nefnast {\it frumtölur} ({\it prímtölur}).  Fyrstu frumtölurnar eru
+NÃ¡ttÃºrleg tala $a\in \N$ er sÃ¶gÃ° vera {\it deilanleg } meÃ° tÃ¶lunni
+$b\in \N$ ef til er $c\in \N$ Ã¾annig aÃ° $a=bc$.  Allar tÃ¶lur $a$ eru
+deilanlegar meÃ° $1$ og sjÃ¡lfri sÃ©r, Ã¾vÃ­ $a=1\cdot a$.  ÃÃ¦r nÃ¡tturlegu
+tÃ¶lur $\geq 2$  sem  aÃ°eins eru deilanlegar meÃ° $1$ og sjÃ¡lfri sÃ©r 
+nefnast {\it frumtÃ¶lur} ({\it prÃ­mtÃ¶lur}).  Fyrstu frumtÃ¶lurnar eru
 $$
 2,3,5,7,11,13,17,19,23,29,\dots
 $$
-Sérhverja náttúrlega tölu $a\geq 2$ má skrifa sem margfeldi frumtalna
+SÃ©rhverja nÃ¡ttÃºrlega tÃ¶lu $a\geq 2$ mÃ¡ skrifa sem margfeldi frumtalna
 $$
 a=p_1p_2p_3\cdots p_m
 $$
-şar sem sumar frumtölur $p_j$ geta veriğ endurteknar og í şessari
-framsetningu hafa frumtölurnar sjálfar ağeins einn şátt.  Sem dæmi
-getum viğ tekiğ
+Ã¾ar sem sumar frumtÃ¶lur $p_j$ geta veriÃ° endurteknar og Ã­ Ã¾essari
+framsetningu hafa frumtÃ¶lurnar sjÃ¡lfar aÃ°eins einn Ã¾Ã¡tt.  Sem dÃ¦mi
+getum viÃ° tekiÃ°
 $$
 7=7, \quad 24=2\cdot 2\cdot 2\cdot 3=2^3\cdot 3, \quad  250=2\cdot 5\cdot
 5\cdot 5=2\cdot 5^3.
 $$
-Şáttun á náttúrlegum tölum í frumtölur nefnist {\it frumşáttun}.
+ÃÃ¡ttun Ã¡ nÃ¡ttÃºrlegum tÃ¶lum Ã­ frumtÃ¶lur nefnist {\it frumÃ¾Ã¡ttun}.
 
-Til şess ağ gera okkur mynd af náttúrlegu tölunum şurfum viğ fyrst ağ
-bæta {\it núlli} $0$ viğ talnakerfiğ.  Viğ setjum $\N_0=\N\cup\{0\}$
-og útvíkkum reikniağgerğirnar.  Allar reiknireglurnar gilda áfram og
-viğ fáum eina reglu til viğbótar:
+Til Ã¾ess aÃ° gera okkur mynd af nÃ¡ttÃºrlegu tÃ¶lunum Ã¾urfum viÃ° fyrst aÃ°
+bÃ¦ta {\it nÃºlli} $0$ viÃ° talnakerfiÃ°.  ViÃ° setjum $\N_0=\N\cup\{0\}$
+og ÃºtvÃ­kkum reikniaÃ°gerÃ°irnar.  Allar reiknireglurnar gilda Ã¡fram og
+viÃ° fÃ¡um eina reglu til viÃ°bÃ³tar:
 \begin{center}
 \begin{tabular}{ll}
 $0+a=a+0=a$ &{\it $0$ er samlagningarhlutleysa}\\
 \end{tabular}
 \end{center}
-Fyrri röğurnareglan gildir áfram en sú síğari ağeins ef $c\neq 0$.
+Fyrri rÃ¶Ã°urnareglan gildir Ã¡fram en sÃº sÃ­Ã°ari aÃ°eins ef $c\neq 0$.
 
 \setlength{\unitlength}{1cm}
 \begin{center}
@@ -260,38 +271,38 @@ Fyrri röğurnareglan gildir áfram en sú síğari ağeins ef $c\neq 0$.
 \end{center}
 
 \bigskip\noindent
-Til şess ağ gera okkur mynd af náttúrlegu tölunum
-veljum viğ okkur viğmiğunarpunkt á beinni línu og  setjum $0$ í hann.  Síğan
-veljum viğ einingarlengd á línunni  og mörkum punkt til hægri viğ $0$ í 
-einingarfjarlægğ og táknum hann meğ $1$.  Síğan eru haldiğ áfram 
-eins og myndin sınir.  Şá höfum viğ ağ $a<b$ ef og ağeins ef $b$ er 
-hægra megin viğ $a$ á talnalínunni.  Nú er hægt ağ lısa
-reikningsağgerğunum  á $\N_0$ sem  færslum á talnalínunni.  
+Til Ã¾ess aÃ° gera okkur mynd af nÃ¡ttÃºrlegu tÃ¶lunum
+veljum viÃ° okkur viÃ°miÃ°unarpunkt Ã¡ beinni lÃ­nu og  setjum $0$ Ã­ hann.  SÃ­Ã°an
+veljum viÃ° einingarlengd Ã¡ lÃ­nunni  og mÃ¶rkum punkt til hÃ¦gri viÃ° $0$ Ã­ 
+einingarfjarlÃ¦gÃ° og tÃ¡knum hann meÃ° $1$.  SÃ­Ã°an eru haldiÃ° Ã¡fram 
+eins og myndin sÃ½nir.  ÃÃ¡ hÃ¶fum viÃ° aÃ° $a<b$ ef og aÃ°eins ef $b$ er 
+hÃ¦gra megin viÃ° $a$ Ã¡ talnalÃ­nunni.  NÃº er hÃ¦gt aÃ° lÃ½sa
+reikningsaÃ°gerÃ°unum  Ã¡ $\N_0$ sem  fÃ¦rslum Ã¡ talnalÃ­nunni.  
 
 
-\subsection*{Heilar tölur}
+\subsection*{Heilar tÃ¶lur}
 
-Reikningur meğ náttúrlegar tölur er ófullkominn meğal annars vegna
-şess ağ ekki er alltaf hægt ağ framkvæma {\it frádrátt}  ş.e.a.s.~ağ finna
-náttúrlega tölu $x$ şannig ağ $a=b+x$.  Şetta er ağeins hægt ef $a>b$.
-Talan $x$ nefnist şá mismunur $a$ og $b$ og er táknuğ meğ $a-b$.
+Reikningur meÃ° nÃ¡ttÃºrlegar tÃ¶lur er Ã³fullkominn meÃ°al annars vegna
+Ã¾ess aÃ° ekki er alltaf hÃ¦gt aÃ° framkvÃ¦ma {\it frÃ¡drÃ¡tt}  Ã¾.e.a.s.~aÃ° finna
+nÃ¡ttÃºrlega tÃ¶lu $x$ Ã¾annig aÃ° $a=b+x$.  Ãetta er aÃ°eins hÃ¦gt ef $a>b$.
+Talan $x$ nefnist Ã¾Ã¡ mismunur $a$ og $b$ og er tÃ¡knuÃ° meÃ° $a-b$.
 
-Til şess ağ ráğa bót á şessu er talnakerfiğ stækkağ şannig ağ bætt er
-viğ tölunni $0$, sem nefnist {\it núll}, og síğan er bætt viğ tölunum
-$-1,-2,-3,-4,\dots$.  Şetta stækkağa kerfi nefnist {\it heilar tölur}
- og er táknağ meğ $\Z$.  
+Til Ã¾ess aÃ° rÃ¡Ã°a bÃ³t Ã¡ Ã¾essu er talnakerfiÃ° stÃ¦kkaÃ° Ã¾annig aÃ° bÃ¦tt er
+viÃ° tÃ¶lunni $0$, sem nefnist {\it nÃºll}, og sÃ­Ã°an er bÃ¦tt viÃ° tÃ¶lunum
+$-1,-2,-3,-4,\dots$.  Ãetta stÃ¦kkaÃ°a kerfi nefnist {\it heilar tÃ¶lur}
+ og er tÃ¡knaÃ° meÃ° $\Z$.  
 
 
-Á $\Z$ er skilgreind samlagning og margföldun.  Um şessar ağgerğir
-gilda sömu reglur og fyrir náttúrlegar tölur.  
-Ağ auki höfum viğ 
-ağ sérhver tala á sér samlagningarandhverfu, en şağ şığir ağ fyrir
-sérhvert $a\in \Z$ er til $b\in \Z$, sem nefnist {\it
-samlagningar\-andhverfa} tölunnar $a$,  şannig ağ $a+b=0$.
-Samlagningarandhverfan er táknuğ meğ $-a$.    
+Ã $\Z$ er skilgreind samlagning og margfÃ¶ldun.  Um Ã¾essar aÃ°gerÃ°ir
+gilda sÃ¶mu reglur og fyrir nÃ¡ttÃºrlegar tÃ¶lur.  
+AÃ° auki hÃ¶fum viÃ° 
+aÃ° sÃ©rhver tala Ã¡ sÃ©r samlagningarandhverfu, en Ã¾aÃ° Ã¾Ã½Ã°ir aÃ° fyrir
+sÃ©rhvert $a\in \Z$ er til $b\in \Z$, sem nefnist {\it
+samlagningar\-andhverfa} tÃ¶lunnar $a$,  Ã¾annig aÃ° $a+b=0$.
+Samlagningarandhverfan er tÃ¡knuÃ° meÃ° $-a$.    
 
-Viğ gerum okkur einnig mynd af heilum tölum meğ şví ağ marka şær á
-talnalínu.  
+ViÃ° gerum okkur einnig mynd af heilum tÃ¶lum meÃ° Ã¾vÃ­ aÃ° marka Ã¾Ã¦r Ã¡
+talnalÃ­nu.  
 
 \setlength{\unitlength}{1cm}
 \begin{center}
@@ -313,67 +324,67 @@ talnalínu.
 \end{picture}
 \end{center}
 
-\subsection*{Ræğar tölur}
+\subsection*{RÃ¦Ã°ar tÃ¶lur}
 
-Deiling er ófullkomin ağgerğ í heilu tölunum.  Til şess ağ 
-bæta úr şví er talnakerfiğ stækkağ meğ şví ağ innleiğa ræğar tölur. 
-{\it Ræğar tölur}  samanstanda af öllum brotum $\dfrac pq$ şar sem $p$ og
-$q$ eru heilar tölur og $q\neq 0$.   Viğ táknum brot einnig meğ
+Deiling er Ã³fullkomin aÃ°gerÃ° Ã­ heilu tÃ¶lunum.  Til Ã¾ess aÃ° 
+bÃ¦ta Ãºr Ã¾vÃ­ er talnakerfiÃ° stÃ¦kkaÃ° meÃ° Ã¾vÃ­ aÃ° innleiÃ°a rÃ¦Ã°ar tÃ¶lur. 
+{\it RÃ¦Ã°ar tÃ¶lur}  samanstanda af Ã¶llum brotum $\dfrac pq$ Ã¾ar sem $p$ og
+$q$ eru heilar tÃ¶lur og $q\neq 0$.   ViÃ° tÃ¡knum brot einnig meÃ°
 $p/q$ og $p:q$.  
 
-Tvö brot $\dfrac pq$ og $\dfrac
-rs$ skilgreina sömu ræğu töluna ef til er heiltala $t\neq 0$ şannig ağ
-$r=tp$ og $s=tq$ eğa $p=tr$ og $q=ts$.  Şannig er til dæmis
+TvÃ¶ brot $\dfrac pq$ og $\dfrac
+rs$ skilgreina sÃ¶mu rÃ¦Ã°u tÃ¶luna ef til er heiltala $t\neq 0$ Ã¾annig aÃ°
+$r=tp$ og $s=tq$ eÃ°a $p=tr$ og $q=ts$.  Ãannig er til dÃ¦mis
 $$
 \dfrac 13=\dfrac 26=\dfrac {-2}{-6}=\dfrac 39=\dfrac{-3}{-9}=\cdots.
 $$
-Á ræğum tölum höfum viğ tvær reikningsağgerğir samlagningu og
-margföldun.  Şær eru skilgreindar meğ brotunum
+Ã rÃ¦Ã°um tÃ¶lum hÃ¶fum viÃ° tvÃ¦r reikningsaÃ°gerÃ°ir samlagningu og
+margfÃ¶ldun.  ÃÃ¦r eru skilgreindar meÃ° brotunum
 $$
 \dfrac pq+\dfrac rs=\dfrac{ps+qr}{qs}, \qquad \dfrac pq\cdot \dfrac
 rs=\dfrac{pr}{qs}.
 $$
-Viğ hugsum okkur ağ heilu tölurnar séu hlutmengi í ræğu tölunum,
-$\Z\subset \Q$ meğ şví ağ gera ekki greinarmun á heilu tölunni $n$ 
-og ræğu tölunni  $\dfrac n1$.   
-Núll $0$ er samlagningarhlutleysa, $a+0=a$ fyrir öll $a\in \Q$,
-og $1$ er  margföldunarhlutleysa, $1\cdot a=a\cdot 1=a$ fyrir öll $a\in \Q$.
+ViÃ° hugsum okkur aÃ° heilu tÃ¶lurnar sÃ©u hlutmengi Ã­ rÃ¦Ã°u tÃ¶lunum,
+$\Z\subset \Q$ meÃ° Ã¾vÃ­ aÃ° gera ekki greinarmun Ã¡ heilu tÃ¶lunni $n$ 
+og rÃ¦Ã°u tÃ¶lunni  $\dfrac n1$.   
+NÃºll $0$ er samlagningarhlutleysa, $a+0=a$ fyrir Ã¶ll $a\in \Q$,
+og $1$ er  margfÃ¶ldunarhlutleysa, $1\cdot a=a\cdot 1=a$ fyrir Ã¶ll $a\in \Q$.
 
 
-Viğ fáum nákvæmlega sömu reiknireglur fyrir ræğar tölur og fyrir
-heilar  tölur en til viğbótar kemur ağ sérhver ræğ tala $a\neq 0$ á sér
-margföldunarandhverfu, sem viğ táknum meğ $a^{-1}$.  Ef $a=\dfrac pq$
-şar sem $p\neq 0$ og $q\neq 0$ eru heiltölur, şá er $a^{-1}=\dfrac
+ViÃ° fÃ¡um nÃ¡kvÃ¦mlega sÃ¶mu reiknireglur fyrir rÃ¦Ã°ar tÃ¶lur og fyrir
+heilar  tÃ¶lur en til viÃ°bÃ³tar kemur aÃ° sÃ©rhver rÃ¦Ã° tala $a\neq 0$ Ã¡ sÃ©r
+margfÃ¶ldunarandhverfu, sem viÃ° tÃ¡knum meÃ° $a^{-1}$.  Ef $a=\dfrac pq$
+Ã¾ar sem $p\neq 0$ og $q\neq 0$ eru heiltÃ¶lur, Ã¾Ã¡ er $a^{-1}=\dfrac
 qp$.   
 
 
-Hægt er ağ úthluta sérhverri ræğri tölu punkti á talnalínunni,
-şannig ağ sérhver jákvæğ ræğ tala svari til lengdar á striki.  Meğ
-şessu er hægt  ağ túlka reikningsağgerğirnar sem færslur á
-talnalínunni.  Şağ er töluvert mál ağ útfæra şetta í smáatriğum, en
-şiğ şekkiğ şetta efni öll úr grunn- og framhaldsskóla.
+HÃ¦gt er aÃ° Ãºthluta sÃ©rhverri rÃ¦Ã°ri tÃ¶lu punkti Ã¡ talnalÃ­nunni,
+Ã¾annig aÃ° sÃ©rhver jÃ¡kvÃ¦Ã° rÃ¦Ã° tala svari til lengdar Ã¡ striki.  MeÃ°
+Ã¾essu er hÃ¦gt  aÃ° tÃºlka reikningsaÃ°gerÃ°irnar sem fÃ¦rslur Ã¡
+talnalÃ­nunni.  ÃaÃ° er tÃ¶luvert mÃ¡l aÃ° ÃºtfÃ¦ra Ã¾etta Ã­ smÃ¡atriÃ°um, en
+Ã¾iÃ° Ã¾ekkiÃ° Ã¾etta efni Ã¶ll Ãºr grunn- og framhaldsskÃ³la.
 
 
-\subsection*{Rauntölur}
+\subsection*{RauntÃ¶lur}
 
-Şağ er eğlilegt ağ spyrja sig hvort sérhver punktur á talnalínunni 
-sé gefinn meğ ræğri tölu.  Şağ er jafngilt şví ağ spyrja hvort sérhver
-lengd á striki sé gefin meğ ræğri tölu.  Forn-Grikkir hugsuğu mikiğ um
-şetta vandamál og sáu ağ svariğ viğ spurningunni er neikvætt.  Regla
-Pışagórasar segir okkur ağ langhliğ $c$ í rétthyrndum şríhyrningi meğ
-skammhliğar af lengd $1$ uppfyllir $c^2=2$.  Şağ er síğan einfalt ağ
-sına fram á ağ ekki er hægt ağ skrifa $c$ sem ræğa tölu.  Şessi tala
-er venjulega nefnd kvağratrótin af $2$ og er táknuğ meğ $\sqrt 2$.
+ÃaÃ° er eÃ°lilegt aÃ° spyrja sig hvort sÃ©rhver punktur Ã¡ talnalÃ­nunni 
+sÃ© gefinn meÃ° rÃ¦Ã°ri tÃ¶lu.  ÃaÃ° er jafngilt Ã¾vÃ­ aÃ° spyrja hvort sÃ©rhver
+lengd Ã¡ striki sÃ© gefin meÃ° rÃ¦Ã°ri tÃ¶lu.  Forn-Grikkir hugsuÃ°u mikiÃ° um
+Ã¾etta vandamÃ¡l og sÃ¡u aÃ° svariÃ° viÃ° spurningunni er neikvÃ¦tt.  Regla
+PÃ½Ã¾agÃ³rasar segir okkur aÃ° langhliÃ° $c$ Ã­ rÃ©tthyrndum Ã¾rÃ­hyrningi meÃ°
+skammhliÃ°ar af lengd $1$ uppfyllir $c^2=2$.  ÃaÃ° er sÃ­Ã°an einfalt aÃ°
+sÃ½na fram Ã¡ aÃ° ekki er hÃ¦gt aÃ° skrifa $c$ sem rÃ¦Ã°a tÃ¶lu.  Ãessi tala
+er venjulega nefnd kvaÃ°ratrÃ³tin af $2$ og er tÃ¡knuÃ° meÃ° $\sqrt 2$.
 
-Rauntölurnar $\R$ eru upp fundnar til şess meğal annars ağ leysa úr
-şeim vandræğum ağ geta ekki tjáğ lengdir á strikum og ferlum 
-í rúmfræği meğ ræğum tölum.   Viğ lítum á talnakerfiğ $\Q$ sem punkta
-á  talnalínunni
-og stækkum şağ şannig ağ til sérhvers punkts á línunni svari tala $a$
-og látum $\R$ tákna mengi allra slíkra talna.  Ağgerğirnar 
-samlagning og margföldun eru síğan skilgreindar meğ sams konar færslum
-og fyrir ræğar tölur.  Şetta er raunar ekki einfalt ağ gera í
-smáatriğum.  
+RauntÃ¶lurnar $\R$ eru upp fundnar til Ã¾ess meÃ°al annars aÃ° leysa Ãºr
+Ã¾eim vandrÃ¦Ã°um aÃ° geta ekki tjÃ¡Ã° lengdir Ã¡ strikum og ferlum 
+Ã­ rÃºmfrÃ¦Ã°i meÃ° rÃ¦Ã°um tÃ¶lum.   ViÃ° lÃ­tum Ã¡ talnakerfiÃ° $\Q$ sem punkta
+Ã¡  talnalÃ­nunni
+og stÃ¦kkum Ã¾aÃ° Ã¾annig aÃ° til sÃ©rhvers punkts Ã¡ lÃ­nunni svari tala $a$
+og lÃ¡tum $\R$ tÃ¡kna mengi allra slÃ­kra talna.  AÃ°gerÃ°irnar 
+samlagning og margfÃ¶ldun eru sÃ­Ã°an skilgreindar meÃ° sams konar fÃ¦rslum
+og fyrir rÃ¦Ã°ar tÃ¶lur.  Ãetta er raunar ekki einfalt aÃ° gera Ã­
+smÃ¡atriÃ°um.  
 
 \setlength{\unitlength}{1cm}
 \begin{center}
@@ -400,118 +411,118 @@ smáatriğum.
 \end{center}
 
 \bigskip\bigskip
-Sérhver rauntala sem ekki er ræğ tala nefnist {\it óræğ tala}.
-Ekki er neitt sérstakt tákn notağ fyrir  mengi óræğra talna í
-stærğfræğinni, svo  şağ er oftast táknağ $\R\setminus \Q$.
+SÃ©rhver rauntala sem ekki er rÃ¦Ã° tala nefnist {\it Ã³rÃ¦Ã° tala}.
+Ekki er neitt sÃ©rstakt tÃ¡kn notaÃ° fyrir  mengi Ã³rÃ¦Ã°ra talna Ã­
+stÃ¦rÃ°frÃ¦Ã°inni, svo  Ã¾aÃ° er oftast tÃ¡knaÃ° $\R\setminus \Q$.
 
-Rauntölurnar uppfylla allar sömu reiknireglur of ræğar tölur,
- şannig ağ  fyrir rauntölur $a$, $b$ og $c$ höfum viğ
+RauntÃ¶lurnar uppfylla allar sÃ¶mu reiknireglur of rÃ¦Ã°ar tÃ¶lur,
+ Ã¾annig aÃ°  fyrir rauntÃ¶lur $a$, $b$ og $c$ hÃ¶fum viÃ°
 \begin{center}
 \begin{tabular}{ll}
 $(a+b)+c=a+(b+c)$&{\it tengiregla fyrir samlagningu}\\
-$(ab)c=a(bc)$&{\it tengiregla fyrir margföldun}\\
-$a+b=b+a$ &{\it víxlegra fyrir samlagningu} \\
-$ab=ba$ &{\it víxlegra fyrir margföldun} \\
+$(ab)c=a(bc)$&{\it tengiregla fyrir margfÃ¶ldun}\\
+$a+b=b+a$ &{\it vÃ­xlegra fyrir samlagningu} \\
+$ab=ba$ &{\it vÃ­xlegra fyrir margfÃ¶ldun} \\
 $a(b+c)=ab+ac$&{\it dreifiregla}\\
 $a+0=a$& {\it $0$ er samlagningarhlutleysa}\\
-$1a=a$ &{\it $1$ er margföldunarhlutleysa}\\
+$1a=a$ &{\it $1$ er margfÃ¶ldunarhlutleysa}\\
 \end{tabular}
 \end{center}
  
-Sérhver rauntala $a$ á sér samlagningarandhverfu sem er ótvírætt
-ákvörğuğ og viğ táknum hana meğ $-a$ og sérhver rauntala $a\neq 0$ á
-sér margföldunarandhverfu $a^{-1}$ sem er ótvírætt ákvörğuğ.  Viğ
-athugum ağ $a^{-1}=1/a$.
+SÃ©rhver rauntala $a$ Ã¡ sÃ©r samlagningarandhverfu sem er Ã³tvÃ­rÃ¦tt
+Ã¡kvÃ¶rÃ°uÃ° og viÃ° tÃ¡knum hana meÃ° $-a$ og sÃ©rhver rauntala $a\neq 0$ Ã¡
+sÃ©r margfÃ¶ldunarandhverfu $a^{-1}$ sem er Ã³tvÃ­rÃ¦tt Ã¡kvÃ¶rÃ°uÃ°.  ViÃ°
+athugum aÃ° $a^{-1}=1/a$.
 
-Viğ höfum röğun $<$ á $\R$ sem er şannig ağ um sérhverjar tvær tölur 
-$a$ og $b$ gildir eitt af şrennu $a<b$, $a=b$ eğa $b<a$.  Viğ skrifum
-einnig $a>b$ ef $b<a$.  Viğ höfum eftirtaldar reglur um röğun
+ViÃ° hÃ¶fum rÃ¶Ã°un $<$ Ã¡ $\R$ sem er Ã¾annig aÃ° um sÃ©rhverjar tvÃ¦r tÃ¶lur 
+$a$ og $b$ gildir eitt af Ã¾rennu $a<b$, $a=b$ eÃ°a $b<a$.  ViÃ° skrifum
+einnig $a>b$ ef $b<a$.  ViÃ° hÃ¶fum eftirtaldar reglur um rÃ¶Ã°un
 rauntalna  
 
 \begin{center}
 \begin{tabular}{ll}
-ef $a<b$ og $b<c$, şá er $a<c$ &{\it röğun er gegnvirk}\\ 
-ef $a<b$ şá er $a+c<b+c$&{\it röğun er óbreytt viğ samlagningu}\\
-ef $a<b$ og $c>0$, şá er $ac<bc$&{\it röğun er óbreytt viğ
-margföldun}\\ 
-&{\it meğ jákvæğri tölu}\\
-ef $a<b$ og $c<0$, şá er $bc<ac$&{\it röğun er viğsnúin viğ
-margföldun}\\
-& {\it meğ neikvæğri tölu}\\
+ef $a<b$ og $b<c$, Ã¾Ã¡ er $a<c$ &{\it rÃ¶Ã°un er gegnvirk}\\ 
+ef $a<b$ Ã¾Ã¡ er $a+c<b+c$&{\it rÃ¶Ã°un er Ã³breytt viÃ° samlagningu}\\
+ef $a<b$ og $c>0$, Ã¾Ã¡ er $ac<bc$&{\it rÃ¶Ã°un er Ã³breytt viÃ°
+margfÃ¶ldun}\\ 
+&{\it meÃ° jÃ¡kvÃ¦Ã°ri tÃ¶lu}\\
+ef $a<b$ og $c<0$, Ã¾Ã¡ er $bc<ac$&{\it rÃ¶Ã°un er viÃ°snÃºin viÃ°
+margfÃ¶ldun}\\
+& {\it meÃ° neikvÃ¦Ã°ri tÃ¶lu}\\
 \end{tabular}
 \end{center}
 
-Viğ höfum líka {\it hlutröğun $ \leq $} á $\R$.  Viğ skrifum 
-$a\leq b$ og segjum ağ $a$ {\it sé minni eğa jafnt} $b$, ef
-$a<b$ eğa $a=b$.   Eins skrifum viğ $a\geq b$ og segjum ağ 
-{\it $a$ sé stærri eğa jafnt $b$} ef $a>b$ eğa $a=b$.  
+ViÃ° hÃ¶fum lÃ­ka {\it hlutrÃ¶Ã°un $ \leq $} Ã¡ $\R$.  ViÃ° skrifum 
+$a\leq b$ og segjum aÃ° $a$ {\it sÃ© minni eÃ°a jafnt} $b$, ef
+$a<b$ eÃ°a $a=b$.   Eins skrifum viÃ° $a\geq b$ og segjum aÃ° 
+{\it $a$ sÃ© stÃ¦rri eÃ°a jafnt $b$} ef $a>b$ eÃ°a $a=b$.  
 
-Ef $a,b\in \R$ og $a<b$,  şá skilgreinum viğ mismunandi bil.
+Ef $a,b\in \R$ og $a<b$,  Ã¾Ã¡ skilgreinum viÃ° mismunandi bil.
 \begin{center}
 \begin{tabular}{ll}
-$]a,b[=\{x\in \R\,;\, a<x<b\}$ \qquad  &{\it opiğ bil}\\
-$[a,b]=\{x\in \R\,;\, a\leq x\leq b\}$ \qquad  &{\it lokağ bil}\\
-$[a,b[=\{x\in \R\,;\, a\leq x<b\}$ \qquad  &{\it hálf-opiğ bil}\\
-$]a,b]=\{x\in \R\,;\, a<x\leq b\}$ \qquad  &{\it hálf-opiğ bil}\\
-$]-\infty,a[=\{x\in \R\,;\, x<a\}$ \qquad  &{\it opin vinstri hálflína}\\
-$]-\infty,a]=\{x\in \R\,;\, x\leq a\}$ \qquad  &{\it lokuğ vinstri hálflína}\\
-$]a,\infty[=\{x\in \R\,;\, x>a\}$ \qquad  &{\it opin hægri hálflína}\\
-$[a,\infty[=\{x\in \R\,;\, x\geq a\}$ \qquad  &{\it lokuğ hægri hálflína}\\
-$]-\infty,\infty[=\R$\qquad &{\it öll rauntalnalínan}\\
+$]a,b[=\{x\in \R\,;\, a<x<b\}$ \qquad  &{\it opiÃ° bil}\\
+$[a,b]=\{x\in \R\,;\, a\leq x\leq b\}$ \qquad  &{\it lokaÃ° bil}\\
+$[a,b[=\{x\in \R\,;\, a\leq x<b\}$ \qquad  &{\it hÃ¡lf-opiÃ° bil}\\
+$]a,b]=\{x\in \R\,;\, a<x\leq b\}$ \qquad  &{\it hÃ¡lf-opiÃ° bil}\\
+$]-\infty,a[=\{x\in \R\,;\, x<a\}$ \qquad  &{\it opin vinstri hÃ¡lflÃ­na}\\
+$]-\infty,a]=\{x\in \R\,;\, x\leq a\}$ \qquad  &{\it lokuÃ° vinstri hÃ¡lflÃ­na}\\
+$]a,\infty[=\{x\in \R\,;\, x>a\}$ \qquad  &{\it opin hÃ¦gri hÃ¡lflÃ­na}\\
+$[a,\infty[=\{x\in \R\,;\, x\geq a\}$ \qquad  &{\it lokuÃ° hÃ¦gri hÃ¡lflÃ­na}\\
+$]-\infty,\infty[=\R$\qquad &{\it Ã¶ll rauntalnalÃ­nan}\\
 $[a,a]$\qquad &{\it eins punkts bil}
 \end{tabular}
 \end{center}
-Stundum er skrifağ $(a,b)$ í stağ $]a,b[$,  $(a,b]$ í stağ
+Stundum er skrifaÃ° $(a,b)$ Ã­ staÃ° $]a,b[$,  $(a,b]$ Ã­ staÃ°
 $]a,b]$ o.s.frv.
 
-Á sérhverju opnu bili eru óendanlega margar ræğar tölur og óendanlega
-margar óræğar tölur.
+Ã sÃ©rhverju opnu bili eru Ã³endanlega margar rÃ¦Ã°ar tÃ¶lur og Ã³endanlega
+margar Ã³rÃ¦Ã°ar tÃ¶lur.
 
-Fyrir sérhvert $x\in \R$ skilgreinum viğ {\it tölugildiğ} af
-$x$ meğ 
+Fyrir sÃ©rhvert $x\in \R$ skilgreinum viÃ° {\it tÃ¶lugildiÃ°} af
+$x$ meÃ° 
 $$
 |x|=\begin{cases}
 x &x\geq 0, \\
 -x &x <0. 
 \end{cases}
 $$ 
-Talan $|x|$ mælir fjarlægğ milli  $0$ og $x$ á talnalínunni.
-Ef gefnar eru tvær rauntölur $x$ og $y$, şá mælir 
-$|x-y|$ fjarlægğina á milli şeirra.  Ef $a$ og $\varepsilon$ eru rauntölur og
-$\varepsilon>0$, şá er
+Talan $|x|$ mÃ¦lir fjarlÃ¦gÃ° milli  $0$ og $x$ Ã¡ talnalÃ­nunni.
+Ef gefnar eru tvÃ¦r rauntÃ¶lur $x$ og $y$, Ã¾Ã¡ mÃ¦lir 
+$|x-y|$ fjarlÃ¦gÃ°ina Ã¡ milli Ã¾eirra.  Ef $a$ og $\varepsilon$ eru rauntÃ¶lur og
+$\varepsilon>0$, Ã¾Ã¡ er
 $$
 \{x\in \R\,;\,  |x-a|<\varepsilon\}=(a-\varepsilon,a+\varepsilon)
 $$
-opiğ bil meğ miğju í $a$ og şvermáliğ $2\varepsilon$.
+opiÃ° bil meÃ° miÃ°ju Ã­ $a$ og Ã¾vermÃ¡liÃ° $2\varepsilon$.
 
 
 \subsection*{Takmarkanir rauntalnakerfisins}
 
-Viğ höfum séğ ağ öll talnakerfin $\N$, $\Z$ og $\Q$ hafa sínar
-takmarkanir og şağ sama á viğ um rauntölurnar $\R$.  Í mengi
-náttúrlegra talna er frádráttur ófullkomin ağgerğ. Í mengi heilla
-talna er deiling ófullkomin ağgerğ.  Ræğu tölurnar duga ekki til şess
-ağ lısa lengdum á strikum og ferlum sem koma fyrir í rúmfræğinni.
+ViÃ° hÃ¶fum sÃ©Ã° aÃ° Ã¶ll talnakerfin $\N$, $\Z$ og $\Q$ hafa sÃ­nar
+takmarkanir og Ã¾aÃ° sama Ã¡ viÃ° um rauntÃ¶lurnar $\R$.  Ã mengi
+nÃ¡ttÃºrlegra talna er frÃ¡drÃ¡ttur Ã³fullkomin aÃ°gerÃ°. Ã mengi heilla
+talna er deiling Ã³fullkomin aÃ°gerÃ°.  RÃ¦Ã°u tÃ¶lurnar duga ekki til Ã¾ess
+aÃ° lÃ½sa lengdum Ã¡ strikum og ferlum sem koma fyrir Ã­ rÃºmfrÃ¦Ã°inni.
 
-Viğ vitum ağ rauntala í öğru veldi er alltaf stærri eğa jöfn núlli 
-svo jafnan $x^2+1=0$ getur ekki haft lausn.  Sama er ağ segja um 
-annars stigs jöfnuna $ax^2+bx+c=0$, $a\neq 0$. Hún hefur enga lausn
-ef $D=b^2-4ac<0$.   Şağ er auğvelt ağ skrifa niğur dæmi um margliğur
-sem hafa engar núllstöğvar í $\R$, en stig şeirra şarf ağ vera slétt
-tala, şví margliğur af oddatölustigi hafa alltaf núllstöğ.  
+ViÃ° vitum aÃ° rauntala Ã­ Ã¶Ã°ru veldi er alltaf stÃ¦rri eÃ°a jÃ¶fn nÃºlli 
+svo jafnan $x^2+1=0$ getur ekki haft lausn.  Sama er aÃ° segja um 
+annars stigs jÃ¶fnuna $ax^2+bx+c=0$, $a\neq 0$. HÃºn hefur enga lausn
+ef $D=b^2-4ac<0$.   ÃaÃ° er auÃ°velt aÃ° skrifa niÃ°ur dÃ¦mi um margliÃ°ur
+sem hafa engar nÃºllstÃ¶Ã°var Ã­ $\R$, en stig Ã¾eirra Ã¾arf aÃ° vera slÃ©tt
+tala, Ã¾vÃ­ margliÃ°ur af oddatÃ¶lustigi hafa alltaf nÃºllstÃ¶Ã°.  
 
-Nú er eğlilegt ağ spyrja, hvort hægt sé ağ stækka rauntalnakerfiğ
-yfir  í stærra mengi
-şannig ağ innan şess mengis sé hægt ağ finna lausn á annars stigs
-jöfnunni $x^2+1=0$ og hvort slíkt talnakerfi gefi af sér lausnir 
-á fleiri jöfnum sem ekki eru leysanlegar í $\R$.
+NÃº er eÃ°lilegt aÃ° spyrja, hvort hÃ¦gt sÃ© aÃ° stÃ¦kka rauntalnakerfiÃ°
+yfir  Ã­ stÃ¦rra mengi
+Ã¾annig aÃ° innan Ã¾ess mengis sÃ© hÃ¦gt aÃ° finna lausn Ã¡ annars stigs
+jÃ¶fnunni $x^2+1=0$ og hvort slÃ­kt talnakerfi gefi af sÃ©r lausnir 
+Ã¡ fleiri jÃ¶fnum sem ekki eru leysanlegar Ã­ $\R$.
 
-Ímyndum  okkur nú augnablik ağ til sé talnakerfi sem inniheldur rauntölurnar
-sem hlutmengi og ağ şar sé stak $i$ sem uppfyllir $i^2=-1$.
-Şá er $i$ ağ sjálfsögğu ekki rauntala.   Viğ gefum okkur ağ allar
-reiknireglur fyrir rauntölur gildi áfram.  Víxlreglan fyrir margföldun
-segir okkur şá ağ $ia=ai$ fyrir allar rauntölur $a$.
-Tökum nú rauntölur $a$, $b$, $c$ og  $d$ og athugum hvağ reiknireglurnar
+Ãmyndum  okkur nÃº augnablik aÃ° til sÃ© talnakerfi sem inniheldur rauntÃ¶lurnar
+sem hlutmengi og aÃ° Ã¾ar sÃ© stak $i$ sem uppfyllir $i^2=-1$.
+ÃÃ¡ er $i$ aÃ° sjÃ¡lfsÃ¶gÃ°u ekki rauntala.   ViÃ° gefum okkur aÃ° allar
+reiknireglur fyrir rauntÃ¶lur gildi Ã¡fram.  VÃ­xlreglan fyrir margfÃ¶ldun
+segir okkur Ã¾Ã¡ aÃ° $ia=ai$ fyrir allar rauntÃ¶lur $a$.
+TÃ¶kum nÃº rauntÃ¶lur $a$, $b$, $c$ og  $d$ og athugum hvaÃ° reiknireglurnar
 segja um  summu og margfeldi talnanna $a+ib$ og $c+id$,
 $$
 (a+ib)+(c+id)=a+(c+ib)+id=(a+c)+i(b+d)
@@ -522,97 +533,97 @@ og
 &=ac+ibc+ iad+i^2 bd 
 =(ac-bd)+i(ad+bc). 
 \end{align*}
-Şessar tvær formúlur gefa okkur forskrift ağ şví hvernig leggja á saman
-og margfalda saman tölur af gerğinni $a+ib$ şannig ağ út komi tölur af
-sömu gerğ.  
+Ãessar tvÃ¦r formÃºlur gefa okkur forskrift aÃ° Ã¾vÃ­ hvernig leggja Ã¡ saman
+og margfalda saman tÃ¶lur af gerÃ°inni $a+ib$ Ã¾annig aÃ° Ãºt komi tÃ¶lur af
+sÃ¶mu gerÃ°.  
 
 
-\section{Tvinntalnaplaniğ}
+\section{TvinntalnaplaniÃ°}
 
-Nú snúum viğ okkur ağ spurningunni um şağ  hvort hægt sé ağ skilgreina
-útvíkkun  á $\R$ şar sem til er tala $i$ sem uppfyllir $i^2=-1$.
-Şağ kemur í ljós ağ slíkt kerfi er til og ağ sérhverja tölu í şví má
-skrifa sem $a+ib$ şar sem $a$ og $b$ eru rauntölur.
-
-
-\subsection*{Skilgreining á tvinntölum}
+NÃº snÃºum viÃ° okkur aÃ° spurningunni um Ã¾aÃ°  hvort hÃ¦gt sÃ© aÃ° skilgreina
+ÃºtvÃ­kkun  Ã¡ $\R$ Ã¾ar sem til er tala $i$ sem uppfyllir $i^2=-1$.
+ÃaÃ° kemur Ã­ ljÃ³s aÃ° slÃ­kt kerfi er til og aÃ° sÃ©rhverja tÃ¶lu Ã­ Ã¾vÃ­ mÃ¡
+skrifa sem $a+ib$ Ã¾ar sem $a$ og $b$ eru rauntÃ¶lur.
 
 
-MYND VANTAR HÉR!!!{siiibmynd0101}{{\small Mynd: Hnit punkts í plani}}  
-Lítum nú á mengi allra vigra í plani.  Sérhver vigur hefur hnit
-$(a,b)\in \R^2$ sem segja okkur hvar lokapunktur vigurs er stağsettur ef
-upphafspunktur hans er settur í upphafspunkt hnitakerfisins.
-Á mengi allra vigra höfum viğ tvær ağgerğir, samlagningu og margföldun
-meğ tölu.  Samlagningunni er lıst meğ hnitum, 
+\subsection*{Skilgreining Ã¡ tvinntÃ¶lum}
+
+
+MYND VANTAR HÃ‰R!!!{siiibmynd0101}{{\small Mynd: Hnit punkts Ã­ plani}}  
+LÃ­tum nÃº Ã¡ mengi allra vigra Ã­ plani.  SÃ©rhver vigur hefur hnit
+$(a,b)\in \R^2$ sem segja okkur hvar lokapunktur vigurs er staÃ°settur ef
+upphafspunktur hans er settur Ã­ upphafspunkt hnitakerfisins.
+Ã mengi allra vigra hÃ¶fum viÃ° tvÃ¦r aÃ°gerÃ°ir, samlagningu og margfÃ¶ldun
+meÃ° tÃ¶lu.  Samlagningunni er lÃ½st meÃ° hnitum, 
 $$(a,b)+(c,d)=(a+c,b+d).
 $$  
-og margfeldi tölunnar $a$ og vigursins $(c,d)$ er
+og margfeldi tÃ¶lunnar $a$ og vigursins $(c,d)$ er
 $$
 a(c,d)=(ac,ad).
 $$ 
-Viğ skilgreinum nú margföldun á $\R^2$ meğ hliğsjón af formúlunni sem viğ
-uppgötvuğum hér ağ framan, 
+ViÃ° skilgreinum nÃº margfÃ¶ldun Ã¡ $\R^2$ meÃ° hliÃ°sjÃ³n af formÃºlunni sem viÃ°
+uppgÃ¶tvuÃ°um hÃ©r aÃ° framan, 
 $$
 (a,b)(c,d)=(ac-bd,ad+bc).
 $$
 
 
-Talnaplaniğ $\R^2$ meğ venjulegri samlagningu og şessari margföldun
-nefnist {\it tvinntölur } og er táknağ meğ $\C$.  Nú er auğvelt ağ
-sannfæra  sig um ağ víxl-, tengi- og dreifireglur gildi um
-şessa margföldun
+TalnaplaniÃ° $\R^2$ meÃ° venjulegri samlagningu og Ã¾essari margfÃ¶ldun
+nefnist {\it tvinntÃ¶lur } og er tÃ¡knaÃ° meÃ° $\C$.  NÃº er auÃ°velt aÃ°
+sannfÃ¦ra  sig um aÃ° vÃ­xl-, tengi- og dreifireglur gildi um
+Ã¾essa margfÃ¶ldun
 \begin{center}
 \begin{tabular}{ll}
 $\big((a,b)+(c,d)\big)+(e,f)=(a,b)+\big((c,d)+(e,f)\big)$
 &{\it tengiregla fyrir samlagningu}\\
 $\big((a,b)(c,d)\big)(e,f)=(a,b)\big((c,d)(e,f)\big)$
-&{\it tengiregla fyrir margföldun}\\
+&{\it tengiregla fyrir margfÃ¶ldun}\\
 $(a,b)+(c,d)=(c,d)+(a,b)$ 
-&{\it víxlregla fyrir samlagningu} \\
+&{\it vÃ­xlregla fyrir samlagningu} \\
 $(a,b)(c,d)=(c,d)(a,b)$ 
-&{\it víxlregla fyrir margföldun} \\
+&{\it vÃ­xlregla fyrir margfÃ¶ldun} \\
 $(a,b)\big((c,d)+(e,f)\big) =(a,b)(c,d)+(a,b)(e,f)$
 &{\it dreifiregla}\\
 $(a,b)+(0,0)=(a,b)$
 &{\it $(0,0)$ er samlagningarhlutleysa}\\
 $(1,0)(a,b)=(a,b)$
-&{\it $(1,0)$ er margföldunarhlutleysa}\\
+&{\it $(1,0)$ er margfÃ¶ldunarhlutleysa}\\
 \end{tabular}
 \end{center}
 
 
-Ljóst er ağ $(-a,-b)$ er samlagningarandhverfa $(a,b)$.  Viğ athugum ağ
-jafnan $(a,b)(a,-b)=(a^2+b^2,0)$ segir okkur ağ talan
-$(a,b)\neq (0,0)$ eigi sér margföldunarandhverfuna
+LjÃ³st er aÃ° $(-a,-b)$ er samlagningarandhverfa $(a,b)$.  ViÃ° athugum aÃ°
+jafnan $(a,b)(a,-b)=(a^2+b^2,0)$ segir okkur aÃ° talan
+$(a,b)\neq (0,0)$ eigi sÃ©r margfÃ¶ldunarandhverfuna
 $$(\dfrac a{a^2+b^2},\dfrac{-b}{a^2+b^2}).
 $$  
 
-Viğ tökum eftir  ağ 
+ViÃ° tÃ¶kum eftir  aÃ° 
 $$
 (a,0)(c,d)=(ac,ad)=a(c,d).
 $$
-sem segir okkur ağ margföldun meğ
-vigrinum $(a,0)$ sé şağ sama og margföldun meğ tölunni $a$.
-Eins sjáum viğ ağ vigrar af gerğinni $(a,0)$ haga sér eins 
-og rauntölur şví 
+sem segir okkur aÃ° margfÃ¶ldun meÃ°
+vigrinum $(a,0)$ sÃ© Ã¾aÃ° sama og margfÃ¶ldun meÃ° tÃ¶lunni $a$.
+Eins sjÃ¡um viÃ° aÃ° vigrar af gerÃ°inni $(a,0)$ haga sÃ©r eins 
+og rauntÃ¶lur Ã¾vÃ­ 
 $$
 (a,0)+(b,0)=(a+b,0) \qquad \text{ og } \qquad 
 (a,0)(b,0)=(ab,0).
 $$
-Í mengi tvinntalna gerum viğ şví ekki greinarmun á rauntölunni $a$ og
-vigrinum $(a,0)$ og lítum á lárétta hnitaásinn
-$\{(x,0)\in\R^2\,;\, x\in \R\}$ sem rauntalnalínuna $\R$.
-Viğ skrifum şá sérstaklega $1$ í stağ $(1,0)$ og $0$ í stağ 
+Ã mengi tvinntalna gerum viÃ° Ã¾vÃ­ ekki greinarmun Ã¡ rauntÃ¶lunni $a$ og
+vigrinum $(a,0)$ og lÃ­tum Ã¡ lÃ¡rÃ©tta hnitaÃ¡sinn
+$\{(x,0)\in\R^2\,;\, x\in \R\}$ sem rauntalnalÃ­nuna $\R$.
+ViÃ° skrifum Ã¾Ã¡ sÃ©rstaklega $1$ Ã­ staÃ° $(1,0)$ og $0$ Ã­ staÃ° 
 $(0,0)$
 
-Lítum nú á vigurinn $(0,1)$ sem viğ táknum meğ $i$.  
+LÃ­tum nÃº Ã¡ vigurinn $(0,1)$ sem viÃ° tÃ¡knum meÃ° $i$.  
 Um hann gildir 
 $$
 i^2=(0,1)^2=(0,1)(0,1)=(-1,0)=-1.
 $$
-Sérhvern vigur $(a,b)$ má skrifa sem samantekt $(a,b)=a(1,0)+b(0,1)$
-Viğ skrifum $a$ og $b$ í stağ $(a,0)$ og $(b,0)$ og erum şar meğ
-komin meğ framsetninguna
+SÃ©rhvern vigur $(a,b)$ mÃ¡ skrifa sem samantekt $(a,b)=a(1,0)+b(0,1)$
+ViÃ° skrifum $a$ og $b$ Ã­ staÃ° $(a,0)$ og $(b,0)$ og erum Ã¾ar meÃ°
+komin meÃ° framsetninguna
 $$
 (a,b)=(a,0)(1,0)+(b,0)(0,1)=a+ib.
 $$ 
@@ -620,13 +631,13 @@ $$
 
 \subsection*{Veldareglur}
 
-Ef $z$ er tvinntala şá getum viğ skilgreint heiltöluveldi şannig
-ağ $z^0=1$, $z^1=z$, og $z^n=z\cdots z$ şar sem allir şættirnir eru
-eins og fjöldi şeirra er $n\geq 2$.  Fyrir $z\neq 0$ eru
-neikvæğu veldin skilgreind
-şannig ağ $z^{-1}$ er margföldunarandhverfan af $z$ og fyrir neikvæğ 
-$n$ er $z^n=(z^{-1})^{|n|}$.  Meğ şessu fást sömu veldareglur og gilda
-um rauntölur  
+Ef $z$ er tvinntala Ã¾Ã¡ getum viÃ° skilgreint heiltÃ¶luveldi Ã¾annig
+aÃ° $z^0=1$, $z^1=z$, og $z^n=z\cdots z$ Ã¾ar sem allir Ã¾Ã¦ttirnir eru
+eins og fjÃ¶ldi Ã¾eirra er $n\geq 2$.  Fyrir $z\neq 0$ eru
+neikvÃ¦Ã°u veldin skilgreind
+Ã¾annig aÃ° $z^{-1}$ er margfÃ¶ldunarandhverfan af $z$ og fyrir neikvÃ¦Ã° 
+$n$ er $z^n=(z^{-1})^{|n|}$.  MeÃ° Ã¾essu fÃ¡st sÃ¶mu veldareglur og gilda
+um rauntÃ¶lur  
 \begin{align*}
 z^n\cdot z^m&=z^{n+m}\\
 \dfrac {z^n}{z^m}&=z^{n-m}\\
@@ -634,36 +645,36 @@ z^n\cdot w^n&=(zw)^n\\
 (z^n)^m&=z^{nm}
 \end{align*}
 
-\subsection*{Tvíliğureglan}
+\subsection*{TvÃ­liÃ°ureglan}
 
 
-Okkar gamli kunningi, tvíliğureglan, er eins fyrir tvinntölur og
-rauntölur,
+Okkar gamli kunningi, tvÃ­liÃ°ureglan, er eins fyrir tvinntÃ¶lur og
+rauntÃ¶lur,
 $$
 (a+b)^n=\sum_{k=0}^n\binom nk a^kb^{n-k}
 $$
-şar sem {\it tvíliğustuğlarnir} eru gefnir meğ 
+Ã¾ar sem {\it tvÃ­liÃ°ustuÃ°larnir} eru gefnir meÃ° 
 $$
 \binom nk=\dfrac{n(n-1)\cdots(n-k+1)}{k!}=\dfrac{n!}{(n-k)!k!},
 $$
-fyrir $n=0,1,2,3,\dots$ og $k=0,\dots,n$.   Viğ köllum şennan stuğul
-$n$ {\it yfir} $k$ og sjáum beint frá formúlunni ağ tvíliğustuğlarnir
- eru samhverfir í şeim skilningi ağ
+fyrir $n=0,1,2,3,\dots$ og $k=0,\dots,n$.   ViÃ° kÃ¶llum Ã¾ennan stuÃ°ul
+$n$ {\it yfir} $k$ og sjÃ¡um beint frÃ¡ formÃºlunni aÃ° tvÃ­liÃ°ustuÃ°larnir
+ eru samhverfir Ã­ Ã¾eim skilningi aÃ°
 $$
 \binom nk=\binom n{n-k}.
 $$
-Tvíliğustuğlarnir uppfylla 
+TvÃ­liÃ°ustuÃ°larnir uppfylla 
 $$
 \binom n0=\binom nn=1
 $$
-fyrir $n=0,1,2,\dots$ og rakningarformúluna
+fyrir $n=0,1,2,\dots$ og rakningarformÃºluna
 $$
 \binom nk=\binom{n-1}{k-1}+\binom{n-1}k, 
 $$
 fyrir $n=2,3,4,\dots$ og $k=1,2,\dots,n-1$.
-Şessari rakningu er best lıst í  şríhyrningi Pascals, en línurnar í
-honum geyma alla tvíliğurstuğlana.  Fyrstu $7$ línurnar, 
-$n=0,\dots,6$, í honum eru
+Ãessari rakningu er best lÃ½st Ã­  Ã¾rÃ­hyrningi Pascals, en lÃ­nurnar Ã­
+honum geyma alla tvÃ­liÃ°urstuÃ°lana.  Fyrstu $7$ lÃ­nurnar, 
+$n=0,\dots,6$, Ã­ honum eru
 
 \begin{center}
 \begin{tabular}{cccccccccccccc}
@@ -680,23 +691,23 @@ $n=0,\dots,6$, í honum eru
 
 
 
-\subsection*{Raunhluti, şverhluti og samok}
+\subsection*{Raunhluti, Ã¾verhluti og samok}
 
-Sérhverja tvinntölu $z$ má rita sem $z=x+iy$ şar sem $x$ og
-$y$ eru rauntölur. Talan $x$ nefnist şá {\it raunhluti} tölunnar 
-$z$ og talan $y$ nefnist {\it şverhluti } hennar.       Viğ táknum
-raunhlutann meğ $\Re z$ og şverhlutann meğ $\Im z$.
+SÃ©rhverja tvinntÃ¶lu $z$ mÃ¡ rita sem $z=x+iy$ Ã¾ar sem $x$ og
+$y$ eru rauntÃ¶lur. Talan $x$ nefnist Ã¾Ã¡ {\it raunhluti} tÃ¶lunnar 
+$z$ og talan $y$ nefnist {\it Ã¾verhluti } hennar.       ViÃ° tÃ¡knum
+raunhlutann meÃ° $\Re z$ og Ã¾verhlutann meÃ° $\Im z$.
 
-Tvinntala $z$ er sögğ vera {\it rauntala} 
-ef $\Im z=0$ og hún er sögğ vera {\it hrein
-şvertala} ef $\Re z=0$.  
+Tvinntala $z$ er sÃ¶gÃ° vera {\it rauntala} 
+ef $\Im z=0$ og hÃºn er sÃ¶gÃ° vera {\it hrein
+Ã¾vertala} ef $\Re z=0$.  
 
-Ef $z\in \C$, $x=\Re z$ og $y=\Im z$, şá nefnist talan
+Ef $z\in \C$, $x=\Re z$ og $y=\Im z$, Ã¾Ã¡ nefnist talan
 $\bar z=x-iy$
-{\it samok} tölunnar $z$.  
-Athugiğ ağ $\bar z$ er spegilmynd $z$ í raunásnum og şví er
+{\it samok} tÃ¶lunnar $z$.  
+AthugiÃ° aÃ° $\bar z$ er spegilmynd $z$ Ã­ raunÃ¡snum og Ã¾vÃ­ er
 $\bar{\bar z}=z$.  
-Viğ höfum nokkrar reiknireglur
+ViÃ° hÃ¶fum nokkrar reiknireglur
 um samok
 \begin{align*}
 z\bar z&=(x+iy)(x-iy)=x^2+y^2  \\
@@ -708,111 +719,111 @@ z-\bar z&=2iy=2i\Im \, z.\\
 \overline{z/w} &= \bar z/ \bar w \\
  |\bar z|&=|z| 
 \end{align*}
-Viğ höfum ağ $z$ er rauntala şá og şví ağeins ağ $z=\bar z$ og ağ $z$
-er hrein şvertala şá og şví ağeins ağ $z=-\bar z$.
+ViÃ° hÃ¶fum aÃ° $z$ er rauntala Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° $z=\bar z$ og aÃ° $z$
+er hrein Ã¾vertala Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° $z=-\bar z$.
 
 \subsection*{Lengd og stefnuhorn}
 
 
-MYND VANTAR HÉR!!!{siiibmynd0102}{}  
-Ef $z\in \C$, $x=\Re z$ og $y=\Im z$, şá nefnist talan
+MYND VANTAR HÃ‰R!!!{siiibmynd0102}{}  
+Ef $z\in \C$, $x=\Re z$ og $y=\Im z$, Ã¾Ã¡ nefnist talan
 $$
 |z|=\sqrt{x^ 2+y^2},
 $$
-{\it lengd}, {\it tölugildi } eğa {\it algildi } tvinntölunnar
+{\it lengd}, {\it tÃ¶lugildi } eÃ°a {\it algildi } tvinntÃ¶lunnar
 $z$.  
-Ef $\theta\in \R$ og hægt er ağ skrifa tvinntöluna $z$ 
-á forminu $$
+Ef $\theta\in \R$ og hÃ¦gt er aÃ° skrifa tvinntÃ¶luna $z$ 
+Ã¡ forminu $$
 z=|z|(\cos \theta +i\sin \theta),
 $$
-şá nefnist talan $\theta$ {\it stefnuhorn} eğa 
-{\it horngildi } tvinntölunnar $z$ og stærğtákniğ í hægri hliğinni
-nefnist {\it pólform tvinntölunnar $z$}.
-Hornaföllin $\cos$ og $\sin$ eru lotubundin meğ lotuna 
-$2\pi$ og şví eru allar tölur af gerğinni $\theta+2\pi k$
-meğ $k\in \Z$ einnig stefnuhorn fyrir $z$.  
-Rağtvenndin $(|z|,\theta)$ er nefnd {\it pólhnit}
-eğa {\it skauthnit} tölunnar $z$.
+Ã¾Ã¡ nefnist talan $\theta$ {\it stefnuhorn} eÃ°a 
+{\it horngildi } tvinntÃ¶lunnar $z$ og stÃ¦rÃ°tÃ¡kniÃ° Ã­ hÃ¦gri hliÃ°inni
+nefnist {\it pÃ³lform tvinntÃ¶lunnar $z$}.
+HornafÃ¶llin $\cos$ og $\sin$ eru lotubundin meÃ° lotuna 
+$2\pi$ og Ã¾vÃ­ eru allar tÃ¶lur af gerÃ°inni $\theta+2\pi k$
+meÃ° $k\in \Z$ einnig stefnuhorn fyrir $z$.  
+RaÃ°tvenndin $(|z|,\theta)$ er nefnd {\it pÃ³lhnit}
+eÃ°a {\it skauthnit} tÃ¶lunnar $z$.
 
-Viğ höfum ağ $$
+ViÃ° hÃ¶fum aÃ° $$
 \tan \theta=\dfrac{\sin\theta}{\cos\theta}
 =\dfrac{r\sin\theta}{r\cos\theta}=\dfrac yx
 $$
-og af şví leiğir ağ horniğ er gefiğ meğ formúlunni
+og af Ã¾vÃ­ leiÃ°ir aÃ° horniÃ° er gefiÃ° meÃ° formÃºlunni
 $$
 \theta(z)=\arctan\bigg(\dfrac yx\bigg).
 $$
-Athugiğ ağ şağ eru miklar takmarkanir á şessri formúlu, şví hún gildir
-ağeins fyrir $x>0$, şví falliğ $\arctan$ gefur okkur gildi á bilinu
+AthugiÃ° aÃ° Ã¾aÃ° eru miklar takmarkanir Ã¡ Ã¾essri formÃºlu, Ã¾vÃ­ hÃºn gildir
+aÃ°eins fyrir $x>0$, Ã¾vÃ­ falliÃ° $\arctan$ gefur okkur gildi Ã¡ bilinu
 $]-\tfrac 12 \pi,\tfrac 12 \pi[$.  
 
-Nú skulum viğ leiğa út formúlu fyrir stefnuhorni tvinntölunnar 
-$z$ sem gefur okkur samfellt fall af $z$ á $\C\setminus \R_-$ sem
-tekur gildi á bilinu $]-\pi,\pi[$. Şetta er gert úr frá formúlunni
-fyrir tangens af hálfu horni,
+NÃº skulum viÃ° leiÃ°a Ãºt formÃºlu fyrir stefnuhorni tvinntÃ¶lunnar 
+$z$ sem gefur okkur samfellt fall af $z$ Ã¡ $\C\setminus \R_-$ sem
+tekur gildi Ã¡ bilinu $]-\pi,\pi[$. Ãetta er gert Ãºr frÃ¡ formÃºlunni
+fyrir tangens af hÃ¡lfu horni,
 \begin{align*}
 \tan(\tfrac 12\theta)&=\dfrac{\sin(\tfrac 12\theta)}{\cos(\tfrac
 12\theta)} = \dfrac{2\sin(\tfrac 12\theta)\cos(\tfrac 12\theta)}
 {2\cos^2(\tfrac 12\theta)}=\dfrac{\sin \theta}{1+\cos\theta}  \\
 &=\dfrac{|z|\sin \theta}{|z|+|z|\cos\theta}=\dfrac y{|z|+x}.
 \end{align*}
-Formúlan sem viğ endum meğ er
+FormÃºlan sem viÃ° endum meÃ° er
 $$
 \theta(z)=2\arctan\bigg(\dfrac y{|z|+x}\bigg).
 $$
-Şetta fall sem gefur okkur horngildiğ af tvinntölunni
-$z\in \C\setminus \R_-$  á bilinu $]-\pi,\pi[$
-nefnist {\it höfuğgrein hornsins} og er şağ táknağ meğ
+Ãetta fall sem gefur okkur horngildiÃ° af tvinntÃ¶lunni
+$z\in \C\setminus \R_-$  Ã¡ bilinu $]-\pi,\pi[$
+nefnist {\it hÃ¶fuÃ°grein hornsins} og er Ã¾aÃ° tÃ¡knaÃ° meÃ°
 $\Arg \, z$
 
-Viğ höfum nokkrar reiknireglur um lengd tvinntalna,
+ViÃ° hÃ¶fum nokkrar reiknireglur um lengd tvinntalna,
 \begin{align*}
   z\bar z&=(x+iy)(x-iy)=x^2+y^2=|z|^2,\\
 |\bar z|&=|z|,\\
 |zw|&=|z||w|.
 \end{align*}
 Fyrsta jafnan  gefur okkur 
-formúlu fyrir margföldunarandhverfunni
+formÃºlu fyrir margfÃ¶ldunarandhverfunni
 $$
 z^{-1}=\dfrac 1z=\dfrac{x-iy}{x^2+y^2}=\dfrac{\bar z}{|z|^2}, \qquad z\neq 0.
 $$
 
-\subsection*{Fjarlægğ milli punkta}
+\subsection*{FjarlÃ¦gÃ° milli punkta}
 
-Fjarlægğ milli tveggja punkta $z=x+iy$ og $w=u+iv$ er gefin meğ
+FjarlÃ¦gÃ° milli tveggja punkta $z=x+iy$ og $w=u+iv$ er gefin meÃ°
 $$
 |z-w|=\sqrt{(x-u)^2+(y-v)^2}.
 $$
-Ef $\alpha$ og $\beta$ eru tvinntölur og $\alpha\neq
-\beta$, şá er 
+Ef $\alpha$ og $\beta$ eru tvinntÃ¶lur og $\alpha\neq
+\beta$, Ã¾Ã¡ er 
 $$\{z\in \C\,;\, |z-\alpha|=|z-\beta|\}
 $$ mengi allra punkta
-$z$ í $\C$ sem eru í sömu fjarlægğ frá báğum punktum $\alpha$ og
-$\beta$.  Şağ er augljóst ağ miğpunktur striksins $\frac
-12(\alpha+\beta)$ milli $\alpha$ og $\beta$ er í fjarlægğinni
-$\frac 12|\alpha-\beta|$ frá báğum punktum.  Ef viğ drögum línuna 
-gegnum miğpunktinn sem
-liggur hornrétt á strikiğ, şá fáum viğ mengi allra punkta sem eru í
-sömu fjarlægğ frá $\alpha$ og $\beta$.
+$z$ Ã­ $\C$ sem eru Ã­ sÃ¶mu fjarlÃ¦gÃ° frÃ¡ bÃ¡Ã°um punktum $\alpha$ og
+$\beta$.  ÃaÃ° er augljÃ³st aÃ° miÃ°punktur striksins $\frac
+12(\alpha+\beta)$ milli $\alpha$ og $\beta$ er Ã­ fjarlÃ¦gÃ°inni
+$\frac 12|\alpha-\beta|$ frÃ¡ bÃ¡Ã°um punktum.  Ef viÃ° drÃ¶gum lÃ­nuna 
+gegnum miÃ°punktinn sem
+liggur hornrÃ©tt Ã¡ strikiÃ°, Ã¾Ã¡ fÃ¡um viÃ° mengi allra punkta sem eru Ã­
+sÃ¶mu fjarlÃ¦gÃ° frÃ¡ $\alpha$ og $\beta$.
 
 \bigskip\hrule\bigskip
 
-\subsubsection{Sınidæmi}  Ákvarğiğ mengi allra punkta $z=x+iy$ sem uppfylla
+\subsubsection{SÃ½nidÃ¦mi}  ÃkvarÃ°iÃ° mengi allra punkta $z=x+iy$ sem uppfylla
 
 \smallskip
 {\bf a)} \ $|z-1|=|z+2|$, \qquad {\bf b)} \ $|z+1+i|=|z-1-i|$
 
 
 \medskip
-{\it Lausn}: \ (a) Hér lítum viğ á mengi allra punkta 
-sem eru í sömu fjarlægğ frá $\alpha=1$ og $\beta=-2$.  Miğpunktur
-striksins á milli şeirra er $m=\tfrac 12(1-2)=-\tfrac 12$ og línan
-gegnum hann hornrétt á strikiğ er gefin meğ jöfnunni $x=\Re z=-\tfrac
+{\it Lausn}: \ (a) HÃ©r lÃ­tum viÃ° Ã¡ mengi allra punkta 
+sem eru Ã­ sÃ¶mu fjarlÃ¦gÃ° frÃ¡ $\alpha=1$ og $\beta=-2$.  MiÃ°punktur
+striksins Ã¡ milli Ã¾eirra er $m=\tfrac 12(1-2)=-\tfrac 12$ og lÃ­nan
+gegnum hann hornrÃ©tt Ã¡ strikiÃ° er gefin meÃ° jÃ¶fnunni $x=\Re z=-\tfrac
 12$.
 
 
-Şá má líka komast ağ şessari niğurstöğu meğ şví ağ líta á
-eftirfarandi jafngildu jöfnur:
+ÃÃ¡ mÃ¡ lÃ­ka komast aÃ° Ã¾essari niÃ°urstÃ¶Ã°u meÃ° Ã¾vÃ­ aÃ° lÃ­ta Ã¡
+eftirfarandi jafngildu jÃ¶fnur:
 \begin{align*}
 |z-1|&=|z+2| \\
 |z-1|^2&=|z+2|^2 \\
@@ -822,18 +833,18 @@ eftirfarandi jafngildu jöfnur:
 -6\Re z&=3\\
 \Re z&=x=-\tfrac 12
 \end{align*} 
-Şetta segir okkur ağ mengiğ samanstandi  af öllum punktum 
-í $z$-plani sem uppfylla $\Re z=-\tfrac 12$.
+Ãetta segir okkur aÃ° mengiÃ° samanstandi  af Ã¶llum punktum 
+Ã­ $z$-plani sem uppfylla $\Re z=-\tfrac 12$.
 
 \smallskip\noindent
-(b) Í şessu tilfelli eru punktarnir $\alpha=-1-i$ og $\beta=1+i$.
-Miğpunkturinn á strikinu á milli şeirra er $0$.  Şeir liggja
-greinilega báğir á línunni sem gefin er meğ jöfnunni $y=x$. Jafnan
-fyrir línuna sem er hornrétt á hana og liggur gegnum $0$ er
+(b) Ã Ã¾essu tilfelli eru punktarnir $\alpha=-1-i$ og $\beta=1+i$.
+MiÃ°punkturinn Ã¡ strikinu Ã¡ milli Ã¾eirra er $0$.  Ãeir liggja
+greinilega bÃ¡Ã°ir Ã¡ lÃ­nunni sem gefin er meÃ° jÃ¶fnunni $y=x$. Jafnan
+fyrir lÃ­nuna sem er hornrÃ©tt Ã¡ hana og liggur gegnum $0$ er
 $y=-x$.
 
-Leysum şetta líka meğ algebru eins og í fyrri liğ dæmisins.
-Viğ höfum jafngildar jöfnur:
+Leysum Ã¾etta lÃ­ka meÃ° algebru eins og Ã­ fyrri liÃ° dÃ¦misins.
+ViÃ° hÃ¶fum jafngildar jÃ¶fnur:
 \begin{align*}
 |z+1+i|&=|z-1-i| \\
 |z+1+i|^2&=|z-1-i|^2 \\
@@ -843,7 +854,7 @@ z-(1-i)) \\
 2((1-i)z+(1+i)\bar z)&=0\\
 \Re ((1-i)z)&=x+y=0
 \end{align*} 
-Şetta er lína sem gefin er í $xy$-hnitakerfi meğ jöfnunni
+Ãetta er lÃ­na sem gefin er Ã­ $xy$-hnitakerfi meÃ° jÃ¶fnunni
 $y=-x$.
 
 
@@ -854,60 +865,60 @@ $y=-x$.
 {\it Innfeldi\index{innfeldi}} tveggja vigra\index{innfeldi!vigra}
 $z=(x,y)$ og $w=(u,v)$ er 
 skilgreint sem rauntalan $z\boldcdot w=xu+yv$.
-Ef viğ lítum á $z$ og $w$ sem tvinntölur og skrifum
+Ef viÃ° lÃ­tum Ã¡ $z$ og $w$ sem tvinntÃ¶lur og skrifum
 $z=x+iy=r(\cos\alpha+i\sin \alpha)$ og
-$w=u+iv=s(\cos\beta+i\sin\beta)$, şá fáum viğ formúluna
+$w=u+iv=s(\cos\beta+i\sin\beta)$, Ã¾Ã¡ fÃ¡um viÃ° formÃºluna
 $$
 \Re\big(z\bar w\big)=\Re\big(\bar z w\big)
 =\tfrac 12\big(z\bar w+\bar z w\big)=xu+yv=(x,y)\cdot(u,v)=rs\cos(\alpha-\beta).
 $$
-Şverhluti şessarar stærğar er {\it krossfeldi\index{krossfeldi}} $z$ og $w$, 
+Ãverhluti Ã¾essarar stÃ¦rÃ°ar er {\it krossfeldi\index{krossfeldi}} $z$ og $w$, 
 $$
 \Im(\bar z w\big)=-\Im\big(z\bar w)=xv-yu=\left|\begin{matrix}
  x&u  \\
  y&v 
 \end{matrix}\right|=-rs\sin(\alpha-\beta)
 $$
-en tölugildi\index{tvinntala!tölugildi}\index{tölugildi}
-\index{tölugildi!tvinntölu} şess $|\Im\big(z\bar w)|$ er flatarmál
-samsíğungsins, sem tölurnar $z$ og $w$ spanna.  
+en tÃ¶lugildi\index{tvinntala!tÃ¶lugildi}\index{tÃ¶lugildi}
+\index{tÃ¶lugildi!tvinntÃ¶lu} Ã¾ess $|\Im\big(z\bar w)|$ er flatarmÃ¡l
+samsÃ­Ã°ungsins, sem tÃ¶lurnar $z$ og $w$ spanna.  
 
 
-\subsection*{Jafna línu og jafna hrings}
+\subsection*{Jafna lÃ­nu og jafna hrings}
 
-{\it Bein lína} í $\C$\index{bein lína í $\C$} er gefin sem mengi allra punkta $(x,y)$
-sem uppfylla jöfnu af gerğinni
+{\it Bein lÃ­na} Ã­ $\C$\index{bein lÃ­na Ã­ $\C$} er gefin sem mengi allra punkta $(x,y)$
+sem uppfylla jÃ¶fnu af gerÃ°inni
 $$
 ax+by+c=0.
 $$
-Viğ getum greinilega snúiğ şessu yfir í jöfnuna 
+ViÃ° getum greinilega snÃºiÃ° Ã¾essu yfir Ã­ jÃ¶fnuna 
 $$
 2\Re\big( \bar {\beta} z\big)+c=\bar {\beta} z+{\beta}\bar z+c=0,
 $$
-şar sem ${\beta}=\frac 12(a+ib)$.  Tvinntalan ${\beta}$ er hornrétt á
-línuna og $i{\beta}$ er í stefnu hennar. 
+Ã¾ar sem ${\beta}=\frac 12(a+ib)$.  Tvinntalan ${\beta}$ er hornrÃ©tt Ã¡
+lÃ­nuna og $i{\beta}$ er Ã­ stefnu hennar. 
 
 
-{\it Hringur } í $\C$ \index{hringur í $\C$}meğ miğju $m$ og geisla $r$ er mengi allra
-punkta $z$ sem eru í fjarlægğinni $r$ frá $m$,
-$|z-m|=r$. Viğ getum greinilega tjáğ şessa jöfnu meğ jafngildum hætti,
+{\it Hringur } Ã­ $\C$ \index{hringur Ã­ $\C$}meÃ° miÃ°ju $m$ og geisla $r$ er mengi allra
+punkta $z$ sem eru Ã­ fjarlÃ¦gÃ°inni $r$ frÃ¡ $m$,
+$|z-m|=r$. ViÃ° getum greinilega tjÃ¡Ã° Ã¾essa jÃ¶fnu meÃ° jafngildum hÃ¦tti,
  $$|z-m|^2-r^2=(z-m)(\bar z-\bar m)-r^2=|z|^2-\bar
 mz-m\bar z +|m|^2-r^2=0.
  $$
-Viğ getum auğveldlega flokkağ öll mengi sem gefin eru meğ jöfnu af
-gerğinni
+ViÃ° getum auÃ°veldlega flokkaÃ° Ã¶ll mengi sem gefin eru meÃ° jÃ¶fnu af
+gerÃ°inni
  \begin{equation}\alpha|z|^2+\overline \beta z+\beta\overline z +\gamma=0,
  \end{equation}
-şar sem $\alpha$ og $\gamma$ eru rauntölur og $\beta$ er tvinntala.
+Ã¾ar sem $\alpha$ og $\gamma$ eru rauntÃ¶lur og $\beta$ er tvinntala.
 Tilfellin eru:
 
 \noindent
-(i) {\it Lína}:  $\alpha=0$, $\beta\neq 0$.
+(i) {\it LÃ­na}:  $\alpha=0$, $\beta\neq 0$.
 
 \noindent
 (ii) {\it Hringur}:  $\alpha\neq 0$,
-$|\beta|^2-{\alpha}\gamma>0$.  Ef miğjan er  $m$ og 
-geislinn  $r$, şá er 
+$|\beta|^2-{\alpha}\gamma>0$.  Ef miÃ°jan er  $m$ og 
+geislinn  $r$, Ã¾Ã¡ er 
 $$m=-\beta/\alpha\qquad \text{ og } \qquad
 r=\sqrt{|\beta|^2-\alpha\gamma}\, /|\alpha|.
 $$
@@ -918,30 +929,30 @@ $|\beta|^2-\alpha\gamma=0$.   Punkturinn er
 $m=-\beta/\alpha$. 
 
 \noindent
-(iv) {\it Tóma mengiğ}:  $\alpha\neq 0$,
-$|\beta|^2-\alpha\gamma<0$ eğa $\alpha=0$, $\beta=0$,
+(iv) {\it TÃ³ma mengiÃ°}:  $\alpha\neq 0$,
+$|\beta|^2-\alpha\gamma<0$ eÃ°a $\alpha=0$, $\beta=0$,
 $\gamma\neq 0$.  
 
 \noindent
-(v) {\it Allt planiğ $\C$}:  $\alpha=\beta=\gamma=0$.
+(v) {\it Allt planiÃ° $\C$}:  $\alpha=\beta=\gamma=0$.
 
 
 \subsection*{Einingarhringurinn}
 
-Einingarhringurinn $\T$ er hringurinn meğ miğju í $0$
-og geislann $1$.  Hann samanstendur af öllum tvinntölum 
-meğ tölugildi $1$.  Sérhvert $z$ í $\T$  má şví skrifa
-á forminu  $z=\cos \alpha+i\sin \alpha$. 
-Tökum nú ağra slíka tölu 
+Einingarhringurinn $\T$ er hringurinn meÃ° miÃ°ju Ã­ $0$
+og geislann $1$.  Hann samanstendur af Ã¶llum tvinntÃ¶lum 
+meÃ° tÃ¶lugildi $1$.  SÃ©rhvert $z$ Ã­ $\T$  mÃ¡ Ã¾vÃ­ skrifa
+Ã¡ forminu  $z=\cos \alpha+i\sin \alpha$. 
+TÃ¶kum nÃº aÃ°ra slÃ­ka tÃ¶lu 
 $w=\cos \beta+i\sin \beta$ og 
-margföldum saman
+margfÃ¶ldum saman
 \begin{align*}
 zw&=(\cos \alpha +i\sin \alpha)(\cos \beta+i\sin \beta) \\
 &=(\cos\alpha\cos\beta-\sin\alpha\sin\beta)+i(\sin\alpha\cos\beta+\cos
 \alpha\sin\beta)\\
 &=\cos(\alpha+\beta)+i\sin(\alpha+\beta). 
 \end{align*}
-Í síğustu jöfnunni notuğum viğ samlagningarformúlur fyrir $\cos$ og
+Ã sÃ­Ã°ustu jÃ¶fnunni notuÃ°um viÃ° samlagningarformÃºlur fyrir $\cos$ og
 $\sin$
 \begin{align*}
 \cos(\alpha-\beta) &=\cos \alpha \cos \beta +\sin \alpha \sin \beta \\
@@ -949,154 +960,154 @@ $\sin$
 \sin(\alpha+\beta) &=\sin \alpha \cos \beta + \cos \alpha \sin \beta \\
 \sin(\alpha-\beta) &=\sin \alpha \cos \beta - \cos \alpha \sin \beta \\
 \end{align*}
-Af  formúlunni fyrir margfeldi leiğir regla sem kennd er 
-viğ de Movire
+Af  formÃºlunni fyrir margfeldi leiÃ°ir regla sem kennd er 
+viÃ° de Movire
 $$
 \big(\cos\theta+i\sin\theta\big)^n
 =\cos(n\theta)+i\sin(n\theta).
 $$
 
-\subsection*{Rúmfræğileg túlkun á margföldun}
+\subsection*{RÃºmfrÃ¦Ã°ileg tÃºlkun Ã¡ margfÃ¶ldun}
 
-Látum nú $z$ og $w$ vera tvær tvinntölur meğ lengdir 
+LÃ¡tum nÃº $z$ og $w$ vera tvÃ¦r tvinntÃ¶lur meÃ° lengdir 
 $|z|$ og $|w|$ og stefnuhornin $\alpha$ og $\beta$.
-Şá fáum viğ
+ÃÃ¡ fÃ¡um viÃ°
 $$
 zw=|z||w|\big(\cos(\alpha+\beta)+i\sin(\alpha+\beta)\big).
 $$
-sem segir okkur ağ lengd margfeldisins sé 
+sem segir okkur aÃ° lengd margfeldisins sÃ© 
 margfeldi lengda $z$ og $w$ og  
-ağ stefnuhorn margfeldisins sé summa stefnuhorna $z$  og $w$.
+aÃ° stefnuhorn margfeldisins sÃ© summa stefnuhorna $z$  og $w$.
 
-Ef nú $u\in \T$ er tala á einingarhringnum meğ stefnuhorniğ
-$\beta$, şá er $uz$ snúningur á $z$ um horniğ $\beta$.
+Ef nÃº $u\in \T$ er tala Ã¡ einingarhringnum meÃ° stefnuhorniÃ°
+$\beta$, Ã¾Ã¡ er $uz$ snÃºningur Ã¡ $z$ um horniÃ° $\beta$.
 
 
-\subsection*{Şríhyrningsójafnan}
+\subsection*{ÃrÃ­hyrningsÃ³jafnan}
 
-Tökum tvær tvinntölur $z$ og $w$ og reiknum smávegis
+TÃ¶kum tvÃ¦r tvinntÃ¶lur $z$ og $w$ og reiknum smÃ¡vegis
 \begin{align*}
 |z+w|^2&=(z+w)(\overline{z+w})=(z+w)(\bar z+\bar w)  \\
  &=z\bar z+z\bar w+w\bar z+w\bar w\\
 &=|z|^2+z\bar w+\overline{z\bar w}+|w|^2\\
 &=|z|^2+2\Re(z\bar w)+|w|^2
 \end{align*}
-Athugum nú ağ
+Athugum nÃº aÃ°
 $$
 |\Re z|\leq |z| \qquad \text{ og } \qquad 
 |\Im z|\leq |z|
 $$
-Af fyrri ójöfnunni  leiğir ağ
+Af fyrri Ã³jÃ¶fnunni  leiÃ°ir aÃ°
 $$
 |z+w|^2\leq |z|^2+2|z||w|+|w|^2=(|z|+|w|)^2.
 $$
-Ef viğ tökum kvağratrót beggja vegna ójöfnumerkisins, şá fáum viğ
-{\it şríhyrningsójöfnuna}
+Ef viÃ° tÃ¶kum kvaÃ°ratrÃ³t beggja vegna Ã³jÃ¶fnumerkisins, Ã¾Ã¡ fÃ¡um viÃ°
+{\it Ã¾rÃ­hyrningsÃ³jÃ¶fnuna}
 $$
 |z+w|\leq |z|+|w|
 $$
-Ef henni er beitt á liğina $z-w$ og $w$ í stağ $z$ og $w$, şá fáum viğ
+Ef henni er beitt Ã¡ liÃ°ina $z-w$ og $w$ Ã­ staÃ° $z$ og $w$, Ã¾Ã¡ fÃ¡um viÃ°
 $|z|=|(z-w)+w|\leq |z-w|+|w|$, svo $|z|-|w|\leq |z-w|$.
-Ef viğ skiptum á hlutverkum $z$ og $w$, şá fæst
-$|w|-|z|\leq |w-z|=|z-w|$. Şessar tvær ójöfnu gefa okkur
-annağ afbrigği af şríhyrningsójöfnunni
+Ef viÃ° skiptum Ã¡ hlutverkum $z$ og $w$, Ã¾Ã¡ fÃ¦st
+$|w|-|z|\leq |w-z|=|z-w|$. Ãessar tvÃ¦r Ã³jÃ¶fnu gefa okkur
+annaÃ° afbrigÃ°i af Ã¾rÃ­hyrningsÃ³jÃ¶fnunni
 $$
 ||z|-|w||\leq |z-w|.
 $$
 
-\section{Rætur}
+\section{RÃ¦tur}
 
-Látum nú $w$ vera gefna tvinntölu og $n\geq 2$ vera náttúrlega tölu.
-Tvinntalan $z$ kallast şá  {\it $n$-ta  rót} tvinntölunnar $w$ ef hún
-uppfyllir jöfnuna $z^n=w$
+LÃ¡tum nÃº $w$ vera gefna tvinntÃ¶lu og $n\geq 2$ vera nÃ¡ttÃºrlega tÃ¶lu.
+Tvinntalan $z$ kallast Ã¾Ã¡  {\it $n$-ta  rÃ³t} tvinntÃ¶lunnar $w$ ef hÃºn
+uppfyllir jÃ¶fnuna $z^n=w$
 
-\subsection*{Einingarrætur}
+\subsection*{EiningarrÃ¦tur}
 
-Lítum á jöfnuna $z^n=1$, şar sem $n\geq 2$ er náttúrleg tala.
-Lausnir hennar nefnast {\it $n$-tu einingarrætur} eğa {\it $n$-tu
-rætur af einum}. 
-Ef $z$ er lausn, şá er $1=|z^n|=|z|^n$ sem segir okkur
-ağ $|z|=1$ og ağ viğ getum skrifağ $z=\cos \theta+i\sin \theta$.
-Regla de Moivres segir nú ağ 
+LÃ­tum Ã¡ jÃ¶fnuna $z^n=1$, Ã¾ar sem $n\geq 2$ er nÃ¡ttÃºrleg tala.
+Lausnir hennar nefnast {\it $n$-tu einingarrÃ¦tur} eÃ°a {\it $n$-tu
+rÃ¦tur af einum}. 
+Ef $z$ er lausn, Ã¾Ã¡ er $1=|z^n|=|z|^n$ sem segir okkur
+aÃ° $|z|=1$ og aÃ° viÃ° getum skrifaÃ° $z=\cos \theta+i\sin \theta$.
+Regla de Moivres segir nÃº aÃ° 
 $$
 \cos (n\theta)+i\sin(n\theta)=(\cos \theta+i\sin \theta)^n=z^n=1
 $$
-Talan $1$ hefur horngildi $2\pi k$ şar sem  $k\in \Z$ getur veriğ
-hvağa tala sem er 
-og şessi jafna segir okkur şví ağ 
-$n\theta$ sé heiltölumargfeldi af $2\pi$ og şar meğ eru möguleg
+Talan $1$ hefur horngildi $2\pi k$ Ã¾ar sem  $k\in \Z$ getur veriÃ°
+hvaÃ°a tala sem er 
+og Ã¾essi jafna segir okkur Ã¾vÃ­ aÃ° 
+$n\theta$ sÃ© heiltÃ¶lumargfeldi af $2\pi$ og Ã¾ar meÃ° eru mÃ¶guleg
 horngildi
 $$
 \theta=2\pi k/n, \qquad k\in \Z.
 $$
-Ef tvær heiltölur $k_1$ og $k_2$ hafa sama afgang viğ heiltöludeilingu
-meğ $n$, şá er $\cos(2\pi k_1/n)=\cos(2\pi k_2/n)$
-og $\sin(2\pi k_1/n)=\sin(2\pi k_2/n)$.  Şetta gefur okkur ağ 
-jafnan $z^n=1$ hefur $n$ ólíkar lausnir $u_0,\dots,u_{n-1}$, 
-sem nefnast {\it $n$-tu rætur af $1$} og eru gefnar meğ formúlunni
+Ef tvÃ¦r heiltÃ¶lur $k_1$ og $k_2$ hafa sama afgang viÃ° heiltÃ¶ludeilingu
+meÃ° $n$, Ã¾Ã¡ er $\cos(2\pi k_1/n)=\cos(2\pi k_2/n)$
+og $\sin(2\pi k_1/n)=\sin(2\pi k_2/n)$.  Ãetta gefur okkur aÃ° 
+jafnan $z^n=1$ hefur $n$ Ã³lÃ­kar lausnir $u_0,\dots,u_{n-1}$, 
+sem nefnast {\it $n$-tu rÃ¦tur af $1$} og eru gefnar meÃ° formÃºlunni
 $$
 u_k=\cos(2\pi k/n)+i\sin(2\pi k/n), \qquad k=0,1,2,\dots,n-1.
 $$
-Şessar tölur eru allar á einingarhringnum.  Athugiğ 
-ağ $u_0=1$,  $u_k=u_1^k$ fyrir $k=0,\dots,n-1$,  og ağ 
-şær rağa sér í hornin á reglulegum $n$-hyrningi, şar sem tvíhyrningur 
-er strikiğ $[-1,1]$.
+Ãessar tÃ¶lur eru allar Ã¡ einingarhringnum.  AthugiÃ° 
+aÃ° $u_0=1$,  $u_k=u_1^k$ fyrir $k=0,\dots,n-1$,  og aÃ° 
+Ã¾Ã¦r raÃ°a sÃ©r Ã­ hornin Ã¡ reglulegum $n$-hyrningi, Ã¾ar sem tvÃ­hyrningur 
+er strikiÃ° $[-1,1]$.
 \begin{center}
-MYND VANTAR HÉR!!!{siiibmynd0103}{Mynd: Einingarrætur}
+MYND VANTAR HÃ‰R!!!{siiibmynd0103}{Mynd: EiningarrÃ¦tur}
 \end{center}
 
 
-\subsection*{Útreikningur á $n$-tu rótum}
+\subsection*{Ãštreikningur Ã¡ $n$-tu rÃ³tum}
 
-Látum nú $w=s(\cos\alpha+i\sin \alpha)$ vera gefna tvinntölu
-af lengd $s\geq 0$ og meğ stefnuhorniğ $\alpha$
-og leitum ağ lausnum á jöfnunni $z^n=w$.  Ef $z$ er slík lausn
-og $u$ er $n$-ta einingarrót, şá er $(zu)^n=z^nu^n=z^n=w$ og şví er 
-$zu$ einnig lausn.  Nú eru einingarræturnar $n$ talsins og şetta segir
-okkur ağ um leiğ og viğ finnum eina lausn $z_0$ şá fáum viğ $n$ ólíkar
-lausnir $z_0u$ meğ şví ağ stinga inn öllum mögulegum $n$-tu rótum
+LÃ¡tum nÃº $w=s(\cos\alpha+i\sin \alpha)$ vera gefna tvinntÃ¶lu
+af lengd $s\geq 0$ og meÃ° stefnuhorniÃ° $\alpha$
+og leitum aÃ° lausnum Ã¡ jÃ¶fnunni $z^n=w$.  Ef $z$ er slÃ­k lausn
+og $u$ er $n$-ta einingarrÃ³t, Ã¾Ã¡ er $(zu)^n=z^nu^n=z^n=w$ og Ã¾vÃ­ er 
+$zu$ einnig lausn.  NÃº eru einingarrÃ¦turnar $n$ talsins og Ã¾etta segir
+okkur aÃ° um leiÃ° og viÃ° finnum eina lausn $z_0$ Ã¾Ã¡ fÃ¡um viÃ° $n$ Ã³lÃ­kar
+lausnir $z_0u$ meÃ° Ã¾vÃ­ aÃ° stinga inn Ã¶llum mÃ¶gulegum $n$-tu rÃ³tum
 fyrir $u$.  
-Látum nú $z_0$ vera tvinntöluna, sem gefin er meğ formúlunni
+LÃ¡tum nÃº $z_0$ vera tvinntÃ¶luna, sem gefin er meÃ° formÃºlunni
 $$
 z_0=s^{\frac 1n}\big(\cos(\alpha/n)+i\sin(\alpha/n)\big)
 $$ 
-og færum hana síğan í $n$-ta veldi,
+og fÃ¦rum hana sÃ­Ã°an Ã­ $n$-ta veldi,
 \begin{align*}
 z_0^n &=\big(s^{\frac 1n}\big)^n\big(\cos(\alpha/n)+i\sin(\alpha/n)\big)^n \\
  & =s\big(\cos(n\alpha/n)+i\sin(n\alpha/n)\big)=w
 \end{align*}
-Şar meğ erum viğ komin meğ formúlu fyrir einni  lausn. 
-Meğ şví ağ nota formúluna fyrir $n$-tu einingarrótunum, şá
-fáum viğ upptalningu á öllum lausnum jöfnunnar
+Ãar meÃ° erum viÃ° komin meÃ° formÃºlu fyrir einni  lausn. 
+MeÃ° Ã¾vÃ­ aÃ° nota formÃºluna fyrir $n$-tu einingarrÃ³tunum, Ã¾Ã¡
+fÃ¡um viÃ° upptalningu Ã¡ Ã¶llum lausnum jÃ¶fnunnar
 $z^n=w=\varrho(\cos\alpha+i\sin \alpha)$,
 $$
 z_k=\varrho^{\frac 1n}\big(\cos((\alpha+2\pi k)/n)+i\sin((\alpha+2\pi
 k)/n)\big), \qquad k=0,\dots,n-1.
 $$
-Şessari formúlu má lısa şannig ağ $n$-tu ræturnar eru fundnar şannig ağ
-fyrst er fundin ein rót $z_0$.  Henni er snúiğ um horniğ $2\pi/n$ 
-meğ şví ağ  margfalda meğ 
-$u_1$ yfir í $z_1=u_1z_0$.  Næst er $z_1$ snúiğ um horniğ $2\pi/n$
-í $z_2=u_1z_1$ og şannig er haldiğ áfram şar til $n$ ólíkar rætur eru
+Ãessari formÃºlu mÃ¡ lÃ½sa Ã¾annig aÃ° $n$-tu rÃ¦turnar eru fundnar Ã¾annig aÃ°
+fyrst er fundin ein rÃ³t $z_0$.  Henni er snÃºiÃ° um horniÃ° $2\pi/n$ 
+meÃ° Ã¾vÃ­ aÃ°  margfalda meÃ° 
+$u_1$ yfir Ã­ $z_1=u_1z_0$.  NÃ¦st er $z_1$ snÃºiÃ° um horniÃ° $2\pi/n$
+Ã­ $z_2=u_1z_1$ og Ã¾annig er haldiÃ° Ã¡fram Ã¾ar til $n$ Ã³lÃ­kar rÃ¦tur eru
 fundnar.
 
 
-\subsection*{Ferningsrætur}
+\subsection*{FerningsrÃ¦tur}
 
 
 
-Ef $w$ er tvinntala og $z$ uppfyllir $z^2=w$, şá er $z$ sögğ vera
-{\it ferningsrót} eğa {\it kvağratrót } tölunnar $w$.
-Muniğ ağ ef $w$ er jákvæğ rauntala, şá táknar $\sqrt w$ alltaf jákvæğu
-rauntöluna  töluna sem uppfyllir $(\sqrt w)^2=\alpha$.  
-Ağ sjálfsögğu er $\sqrt 0=0$.
+Ef $w$ er tvinntala og $z$ uppfyllir $z^2=w$, Ã¾Ã¡ er $z$ sÃ¶gÃ° vera
+{\it ferningsrÃ³t} eÃ°a {\it kvaÃ°ratrÃ³t } tÃ¶lunnar $w$.
+MuniÃ° aÃ° ef $w$ er jÃ¡kvÃ¦Ã° rauntala, Ã¾Ã¡ tÃ¡knar $\sqrt w$ alltaf jÃ¡kvÃ¦Ã°u
+rauntÃ¶luna  tÃ¶luna sem uppfyllir $(\sqrt w)^2=\alpha$.  
+AÃ° sjÃ¡lfsÃ¶gÃ°u er $\sqrt 0=0$.
 
 
-Ef $w\neq 0$ er tvinntala og $w$ er ekki jákvæğ rauntala, şá 
-er hefur $\sqrt w$ enga stağlağa merkingu.  Viğ vitum bara ağ 
-$w$ hefur tvær  ferningsrætur  $z_0$ og $z_1$.  Ef viğ skrifum 
-$w=s(\cos \alpha+i\sin\alpha)$, şá gefa reikningar okkar hér ağ framan
-ağ viğ getum viğ tekiğ
+Ef $w\neq 0$ er tvinntala og $w$ er ekki jÃ¡kvÃ¦Ã° rauntala, Ã¾Ã¡ 
+er hefur $\sqrt w$ enga staÃ°laÃ°a merkingu.  ViÃ° vitum bara aÃ° 
+$w$ hefur tvÃ¦r  ferningsrÃ¦tur  $z_0$ og $z_1$.  Ef viÃ° skrifum 
+$w=s(\cos \alpha+i\sin\alpha)$, Ã¾Ã¡ gefa reikningar okkar hÃ©r aÃ° framan
+aÃ° viÃ° getum viÃ° tekiÃ°
 $$
 z_0=\sqrt{s}(\cos(\alpha/2)+i\sin (\alpha/2))
 $$
@@ -1104,18 +1115,18 @@ og
 $$
 z_1=\sqrt{s}(\cos(\alpha/2+\pi)+i\sin (\alpha/2+\pi))=-z_0.
 $$  
-Nú ætlum viğ ağ leiğa út formúlu fyrir ferningsrótum  
-$w=u+iv$, sem er sett fram meğ raunhluta $u$ og şverhluta $v$, en ekki
-lengd og stefnuhorni.  Viğ takmörkum okkur viğ
-tölur $w$ sem liggja ekki á neikvæğa raunásnum $\R_-=\{x\in \R\,;\,
-x\leq 0\}$.  Skrifum  rótina sem $z_0=z=x+iy$ og veljum $z_0$ sem şá
-rót sem hefur $x>0$.  
+NÃº Ã¦tlum viÃ° aÃ° leiÃ°a Ãºt formÃºlu fyrir ferningsrÃ³tum  
+$w=u+iv$, sem er sett fram meÃ° raunhluta $u$ og Ã¾verhluta $v$, en ekki
+lengd og stefnuhorni.  ViÃ° takmÃ¶rkum okkur viÃ°
+tÃ¶lur $w$ sem liggja ekki Ã¡ neikvÃ¦Ã°a raunÃ¡snum $\R_-=\{x\in \R\,;\,
+x\leq 0\}$.  Skrifum  rÃ³tina sem $z_0=z=x+iy$ og veljum $z_0$ sem Ã¾Ã¡
+rÃ³t sem hefur $x>0$.  
 
 
-Şá er $z^2=x^2-y^2+2ixy=u+iv=w$.  Meğ şví ağ bera saman
-raun- og şverhluta í şessari jöfnu, şá fáum viğ tvær
-formúlur  $x^2-y^2=u$ og $2xy=v$.  Formúlan $|w|=|z^2|=|w|^2=x^2+y^2$
-gefur okkur eina jöfnu til viğbótar og viğ getum leyst út $x^2$ og
+ÃÃ¡ er $z^2=x^2-y^2+2ixy=u+iv=w$.  MeÃ° Ã¾vÃ­ aÃ° bera saman
+raun- og Ã¾verhluta Ã­ Ã¾essari jÃ¶fnu, Ã¾Ã¡ fÃ¡um viÃ° tvÃ¦r
+formÃºlur  $x^2-y^2=u$ og $2xy=v$.  FormÃºlan $|w|=|z^2|=|w|^2=x^2+y^2$
+gefur okkur eina jÃ¶fnu til viÃ°bÃ³tar og viÃ° getum leyst Ãºt $x^2$ og
 $y^2$, 
 $$
 \begin{cases}
@@ -1127,9 +1138,9 @@ x^2=\tfrac 12(|w|+u),\\
 y^2=\tfrac 12(|w|-u).
 \end{cases}\qquad
 $$
-Viğ gáfum okkur ağ $x>0$ og şví  er formerkiğ á $y$ 
-şağ sama og formerkiğ á $v=2xy$.   
-{\it Formerkisfalliğ} $\sign$ er skilgreint meğ
+ViÃ° gÃ¡fum okkur aÃ° $x>0$ og Ã¾vÃ­  er formerkiÃ° Ã¡ $y$ 
+Ã¾aÃ° sama og formerkiÃ° Ã¡ $v=2xy$.   
+{\it FormerkisfalliÃ°} $\sign$ er skilgreint meÃ°
 $$
 \sign(t)=
 \begin{cases}
@@ -1138,32 +1149,34 @@ $$
 -1,&t<0.
 \end{cases}
 $$
-Ef $v\neq 0$, şá  gefur şessi  formúla okkur kost á ağ  viğ 
-skrifa lausina á einföldu formi
+Ef $v\neq 0$, Ã¾Ã¡  gefur Ã¾essi  formÃºla okkur kost Ã¡ aÃ°  viÃ° 
+skrifa lausina Ã¡ einfÃ¶ldu formi
 \begin{align*}
 z&=\sqrt{\tfrac 12(|w|+u)}+i\, \sign(v)\, \sqrt{\tfrac 12(|w|-u)}\\
 &=\sqrt{\tfrac 12(|w|+\Re w)}+i\, \sign(\Im w)\, \sqrt{\tfrac
 12(|w|-\Re w)}.
 \end{align*}
-Ef $v=0$ og $u>0$, şá er $w=u$ og viğ fáum jákvæğu rótina
-$z=\sqrt w$ út úr şessari formúlu.
+Ef $v=0$ og $u>0$, Ã¾Ã¡ er $w=u$ og viÃ° fÃ¡um jÃ¡kvÃ¦Ã°u rÃ³tina
+$z=\sqrt w$ Ãºt Ãºr Ã¾essari formÃºlu.
 
-.. _sy:raetur
 
-\subsubsection{Sınidæmi}  Reiknum út formúlur fyrir $\cos(\pi/8)$
-og $\sin(\pi/8)$ meğ şví ağ notfæra okkur ağ
-formúluna fyrir kvağratrót tvinntölu og şá stağreynd
-ağ $\cos(\pi/4)=\sqrt 2/2=\sin(\pi/4)$.  
+
+.. _sy:raetur:
+
+\subsubsection{SÃ½nidÃ¦mi}  Reiknum Ãºt formÃºlur fyrir $\cos(\pi/8)$
+og $\sin(\pi/8)$ meÃ° Ã¾vÃ­ aÃ° notfÃ¦ra okkur aÃ°
+formÃºluna fyrir kvaÃ°ratrÃ³t tvinntÃ¶lu og Ã¾Ã¡ staÃ°reynd
+aÃ° $\cos(\pi/4)=\sqrt 2/2=\sin(\pi/4)$.  
 
 \smallskip\noindent
 {\it Lausn}: \ Talan $z=\cos(\pi/8)+i\sin(\pi/8)$ er
-ferningsrótin af tölunni $w=\cos(\pi/4)+i\sin(\pi/4)$
-sem gefin er meğ formúlunni hér ağ framan.  Viğ höfum şví
+ferningsrÃ³tin af tÃ¶lunni $w=\cos(\pi/4)+i\sin(\pi/4)$
+sem gefin er meÃ° formÃºlunni hÃ©r aÃ° framan.  ViÃ° hÃ¶fum Ã¾vÃ­
 $$
 z=\sqrt{\dfrac 12(1+\sqrt 2/2)}+i\sqrt{\dfrac 12(1-
 \sqrt 2/2)}=\dfrac 12(\sqrt{2+\sqrt 2}+i\sqrt{2-\sqrt 2}).
 $$
-Şar meğ er 
+Ãar meÃ° er 
 $$
 \cos(\pi/8)=\dfrac 12\sqrt{2+\sqrt 2}\qquad \text{ og } \qquad
 \sin(\pi/8)=\dfrac 12\sqrt{2-\sqrt 2}.
@@ -1171,136 +1184,136 @@ $$
 
 
 
-\section{Margliğur}
+\section{MargliÃ°ur}
 
-Viğ getum skilgreint margliğur meğ tvinntölustuğlum á nákvæmlega sama
-hátt og fyrr, en şağ eru stærğtákn af gerğinni
+ViÃ° getum skilgreint margliÃ°ur meÃ° tvinntÃ¶lustuÃ°lum Ã¡ nÃ¡kvÃ¦mlega sama
+hÃ¡tt og fyrr, en Ã¾aÃ° eru stÃ¦rÃ°tÃ¡kn af gerÃ°inni
 $$
 P(z)=a_nz^n+a_{n-1}z^{n-1}+\cdots+a_1z+a_0.
 $$
-şar sem $a_0,\dots,a_n$ eru tvinntölur og $z$ er breyta sem tekur
-gildi í tvinntölunum.  Viğ getum litiğ á $P$ sem fall sem skilgreint
-er á $\C$ og tekur gildi í $\C$.  {\it Núllmargliğan} er margliğan sem
-hefur alla stuğla $a_j=0$.  Viğ táknum hana meğ $0$.
-Stig margliğunnar $P\neq 0$ er skilgreint eins og áğur sem stærsta 
-heiltala $j$ şannig ağ $a_j\neq 0$.  
+Ã¾ar sem $a_0,\dots,a_n$ eru tvinntÃ¶lur og $z$ er breyta sem tekur
+gildi Ã­ tvinntÃ¶lunum.  ViÃ° getum litiÃ° Ã¡ $P$ sem fall sem skilgreint
+er Ã¡ $\C$ og tekur gildi Ã­ $\C$.  {\it NÃºllmargliÃ°an} er margliÃ°an sem
+hefur alla stuÃ°la $a_j=0$.  ViÃ° tÃ¡knum hana meÃ° $0$.
+Stig margliÃ°unnar $P\neq 0$ er skilgreint eins og Ã¡Ã°ur sem stÃ¦rsta 
+heiltala $j$ Ã¾annig aÃ° $a_j\neq 0$.  
 
 
-Margliğudeiling er alveg eins fyrir margliğur meğ tvinntölustuğla og
-margliğur meğ rauntölustuğla.  Ef $P$ er margliğa  og 
-$Q$ er margliğa af stigi $m$, şá eru til margliğa  $R$ af stigi minna en $m$
-og margliğa $S$, şannig ağ
+MargliÃ°udeiling er alveg eins fyrir margliÃ°ur meÃ° tvinntÃ¶lustuÃ°la og
+margliÃ°ur meÃ° rauntÃ¶lustuÃ°la.  Ef $P$ er margliÃ°a  og 
+$Q$ er margliÃ°a af stigi $m$, Ã¾Ã¡ eru til margliÃ°a  $R$ af stigi minna en $m$
+og margliÃ°a $S$, Ã¾annig aÃ°
 $$
 P(z)=Q(z)S(z)+R(z)
 $$ 
-Margliğan $R$ nefnist şá {\it leif} eğa {\it afgangur viğ deilingu á
-$P$ meğ $Q$} og $S$ nefnist {\it kvóti $P$ og $Q$}.  Viğ segjum ağ 
-{\it $Q$ deili $P$} eğa ağ {\it $Q$ gangi upp í $P$} ef $R$ er
-núllmargliğan.  
+MargliÃ°an $R$ nefnist Ã¾Ã¡ {\it leif} eÃ°a {\it afgangur viÃ° deilingu Ã¡
+$P$ meÃ° $Q$} og $S$ nefnist {\it kvÃ³ti $P$ og $Q$}.  ViÃ° segjum aÃ° 
+{\it $Q$ deili $P$} eÃ°a aÃ° {\it $Q$ gangi upp Ã­ $P$} ef $R$ er
+nÃºllmargliÃ°an.  
 
-Ef $\alpha\in \C$, şá er $z-\alpha$ fyrsta stigs margliğa og viğ fáum
-ağ leifin viğ deilingu á $P(z)$ meğ $(z-\alpha)$ verğur fastamargliğan
+Ef $\alpha\in \C$, Ã¾Ã¡ er $z-\alpha$ fyrsta stigs margliÃ°a og viÃ° fÃ¡um
+aÃ° leifin viÃ° deilingu Ã¡ $P(z)$ meÃ° $(z-\alpha)$ verÃ°ur fastamargliÃ°an
 $P(\alpha)$,
 $$
 P(z)=(z-\alpha)S(z)+P(\alpha).
 $$
-Tvinntalan $\alpha$ er sögğ vera {\it núllstöğ} eğa {\it rót}
-margliğunnar $P$ ef $P(\alpha)=0$.   Viğ höfum nú {\it  şáttaregluna}.
+Tvinntalan $\alpha$ er sÃ¶gÃ° vera {\it nÃºllstÃ¶Ã°} eÃ°a {\it rÃ³t}
+margliÃ°unnar $P$ ef $P(\alpha)=0$.   ViÃ° hÃ¶fum nÃº {\it  Ã¾Ã¡ttaregluna}.
 
-\subsubsection{Setning}  Margliğa $P$ af stigi $\geq 1$ hefur núllstöğ $\alpha$
-şá og şví ağeins ağ $z-\alpha$ gangi upp í $P$.
+\subsubsection{Setning}  MargliÃ°a $P$ af stigi $\geq 1$ hefur nÃºllstÃ¶Ã° $\alpha$
+Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° $z-\alpha$ gangi upp Ã­ $P$.
 
 
 
-\subsection*{Núllstöğvar annars stigs margliğu}
+\subsection*{NÃºllstÃ¶Ã°var annars stigs margliÃ°u}
 
-Nú viljum viğ leysa jöfnuna  $az^2+bz+c=0$ og ganga út frá şví 
-ağ  stuğlarnir $a$, $b$ og $c$ séu tvinntölur og ağ $a\neq 0$.
-Şetta er gert nánast eins og fyrir rauntölur, en niğurstağan verğur
+NÃº viljum viÃ° leysa jÃ¶fnuna  $az^2+bz+c=0$ og ganga Ãºt frÃ¡ Ã¾vÃ­ 
+aÃ°  stuÃ°larnir $a$, $b$ og $c$ sÃ©u tvinntÃ¶lur og aÃ° $a\neq 0$.
+Ãetta er gert nÃ¡nast eins og fyrir rauntÃ¶lur, en niÃ°urstaÃ°an verÃ°ur
 almennari. 
-Fyrsta verkiğ er ağ deila báğum hliğum meğ $a$ og fá şannig jafngilda
-jöfnu  $z^2+Bz+C=0$, şar sem $B=b/a$ og $C=c/a$.  Næsta skref er ağ
-líta á tvo fyrstu liğina $z^2+Bz$ og skrifa şá sem ferning ağ viğbættum
-fasta.  Meğ orğinu ferningur er átt viğ fyrsta stigs stærğtákni
-í öğru veldi, $(z+\alpha)^2$.  Ferningsreglan fyrir fyrir summu segir
-ağ $(z+\alpha)^2=z^2+2\alpha z+\alpha^2$.  Şví er 
+Fyrsta verkiÃ° er aÃ° deila bÃ¡Ã°um hliÃ°um meÃ° $a$ og fÃ¡ Ã¾annig jafngilda
+jÃ¶fnu  $z^2+Bz+C=0$, Ã¾ar sem $B=b/a$ og $C=c/a$.  NÃ¦sta skref er aÃ°
+lÃ­ta Ã¡ tvo fyrstu liÃ°ina $z^2+Bz$ og skrifa Ã¾Ã¡ sem ferning aÃ° viÃ°bÃ¦ttum
+fasta.  MeÃ° orÃ°inu ferningur er Ã¡tt viÃ° fyrsta stigs stÃ¦rÃ°tÃ¡kni
+Ã­ Ã¶Ã°ru veldi, $(z+\alpha)^2$.  Ferningsreglan fyrir fyrir summu segir
+aÃ° $(z+\alpha)^2=z^2+2\alpha z+\alpha^2$.  ÃvÃ­ er 
 $$
 0=z^2+Bz+C=(z+\dfrac B2)^2-\dfrac {B^2}4+C.
 $$
-Şetta segir okkur ağ upphaflega jafnan jafngildi
+Ãetta segir okkur aÃ° upphaflega jafnan jafngildi
 $$
 0=(az^2+bz+c)/a=\bigg(z+\dfrac {b}{2a}\bigg)^2-\dfrac{b^2}{4a^2}+\dfrac ca.
 $$
-Meğ şví ağ draga töluna $-b^2/(4a^2)+c/a$ frá báğum hliğum, şá fáum viğ
-jafngilda jöfnu
+MeÃ° Ã¾vÃ­ aÃ° draga tÃ¶luna $-b^2/(4a^2)+c/a$ frÃ¡ bÃ¡Ã°um hliÃ°um, Ã¾Ã¡ fÃ¡um viÃ°
+jafngilda jÃ¶fnu
 $$
 \bigg(z+\dfrac {b}{2a}\bigg)^2=\dfrac{b^2}{4a^2}-\dfrac ca=\dfrac{b^2-4ac}{4a^2}.
 $$
-Tvinntalan  $D=b^2-4ac$ nefnist {\it ağgreinir} eğa {\it ağskilja }
-jöfnunnar. Ef $D\neq 0$, şá hefur $D$ tvær kvağratrætur.  
-Látum $\sqrt D$ tákna ağra şeirra.  Şá er hin jöfn
-$-\sqrt D$ og viğ fáum tvær ólíkar lausnir 
+Tvinntalan  $D=b^2-4ac$ nefnist {\it aÃ°greinir} eÃ°a {\it aÃ°skilja }
+jÃ¶fnunnar. Ef $D\neq 0$, Ã¾Ã¡ hefur $D$ tvÃ¦r kvaÃ°ratrÃ¦tur.  
+LÃ¡tum $\sqrt D$ tÃ¡kna aÃ°ra Ã¾eirra.  ÃÃ¡ er hin jÃ¶fn
+$-\sqrt D$ og viÃ° fÃ¡um tvÃ¦r Ã³lÃ­kar lausnir 
 $$
 z_1=\dfrac{-b+\sqrt D}{2a} \qquad\text {og} \qquad
 z_2=\dfrac{-b-\sqrt D}{2a}.
 $$
-Ef $D=0$, fæst ein lausn
+Ef $D=0$, fÃ¦st ein lausn
 $$
 z=\dfrac{-b}{2a}.
 $$
-Ef $D$ er rauntala og $D<0$ şá getum viğ valiğ $\sqrt D=i\sqrt{|D|}$
-og lausnarformúlan verğur
+Ef $D$ er rauntala og $D<0$ Ã¾Ã¡ getum viÃ° valiÃ° $\sqrt D=i\sqrt{|D|}$
+og lausnarformÃºlan verÃ°ur
 $$
 z_1=\dfrac{-b+i\sqrt{ |D|}}{2a} \qquad\text {og} \qquad
 z_2=\dfrac{-b-i\sqrt{|D|}}{2a}.
 $$
 
-\subsection*{Undirstöğusetning algebrunnar}
+\subsection*{UndirstÃ¶Ã°usetning algebrunnar}
 
-Viğ byrjuğum á şví ağ innleiğa tvinntölurnar meğ şağ fyrir augum ağ
-geta leyst jöfnur sem hafa engar rauntölulausnir og lögğum upp meğ şağ
-ağ finna lausn á jöfnunni $z^2+1=0$.  Şağ er şví ekki hægt ağ
-segja annağ en ağ útvíkkun talnakerfisins frá rauntölum yfir í
-tvinntölur sé vel heppnuğ:
+ViÃ° byrjuÃ°um Ã¡ Ã¾vÃ­ aÃ° innleiÃ°a tvinntÃ¶lurnar meÃ° Ã¾aÃ° fyrir augum aÃ°
+geta leyst jÃ¶fnur sem hafa engar rauntÃ¶lulausnir og lÃ¶gÃ°um upp meÃ° Ã¾aÃ°
+aÃ° finna lausn Ã¡ jÃ¶fnunni $z^2+1=0$.  ÃaÃ° er Ã¾vÃ­ ekki hÃ¦gt aÃ°
+segja annaÃ° en aÃ° ÃºtvÃ­kkun talnakerfisins frÃ¡ rauntÃ¶lum yfir Ã­
+tvinntÃ¶lur sÃ© vel heppnuÃ°:
  
-\subsubsection{Setning} \  ({\it Undirstöğusetning
-algebrunnar})   Sérhver margliğa af stigi $\geq 1$
-meğ tvinntölustuğlum hefur  núllstöğ í $\C$.  
+\subsubsection{Setning} \  ({\it UndirstÃ¶Ã°usetning
+algebrunnar})   SÃ©rhver margliÃ°a af stigi $\geq 1$
+meÃ° tvinntÃ¶lustuÃ°lum hefur  nÃºllstÃ¶Ã° Ã­ $\C$.  
 
 
 \bigskip
-Sönnunin á undirstöğusetningunni  kemur síğar í námskeiğinu, en viğ 
-skulum taka hana  trúanlega  og athuga nokkrar merkilegar
-afleiğingar hennar.   
+SÃ¶nnunin Ã¡ undirstÃ¶Ã°usetningunni  kemur sÃ­Ã°ar Ã­ nÃ¡mskeiÃ°inu, en viÃ° 
+skulum taka hana  trÃºanlega  og athuga nokkrar merkilegar
+afleiÃ°ingar hennar.   
 
 
-Segjum nú ağ $P$  sé margliğa af stigi $m\geq 1$
-og ağ $\alpha_1$ sé núllstöğ hennar.  Viğ getum şá skrifağ
+Segjum nÃº aÃ° $P$  sÃ© margliÃ°a af stigi $m\geq 1$
+og aÃ° $\alpha_1$ sÃ© nÃºllstÃ¶Ã° hennar.  ViÃ° getum Ã¾Ã¡ skrifaÃ°
 $$
 P(z)=(z-\alpha_1)Q_1(z)
 $$
-samkvæmt şáttareglunni.  Şá er $Q_1$ af stigi $m-1$ og 
-samkvæmt meginsetningunni hefur $Q_1$
-núllstöğ $\alpha_2$ ef $m\geq 2$. Viğ şáttum $Q_1$ meğ $z-\alpha_2$ og fáum şannig
+samkvÃ¦mt Ã¾Ã¡ttareglunni.  ÃÃ¡ er $Q_1$ af stigi $m-1$ og 
+samkvÃ¦mt meginsetningunni hefur $Q_1$
+nÃºllstÃ¶Ã° $\alpha_2$ ef $m\geq 2$. ViÃ° Ã¾Ã¡ttum $Q_1$ meÃ° $z-\alpha_2$ og fÃ¡um Ã¾annig
 $$
 P(z)=(z-\alpha_1)(z-\alpha_2)Q_2(z)
-$$ şar sem $Q_2$ er margliğa af stigi
-$m-2$.  Şessu er unnt ağ halda áfram şar til viğ endum meğ fullkomna
-şáttun á $P$ í fyrsta stigs liği
+$$ Ã¾ar sem $Q_2$ er margliÃ°a af stigi
+$m-2$.  Ãessu er unnt aÃ° halda Ã¡fram Ã¾ar til viÃ° endum meÃ° fullkomna
+Ã¾Ã¡ttun Ã¡ $P$ Ã­ fyrsta stigs liÃ°i
 $$
 P(z)=A(z-\alpha_1)(z-\alpha_2)\cdots(z-\alpha_m)
 $$
-şar sem $\alpha_1,\dots,\alpha_m$ er upptalning á öllum núllstöğvum $P$
-meğ hugsanlegum endurtekningum og $A\neq 0$ er stuğullinn í veldiğ
-$z^m$ í margliğunni $P$.
+Ã¾ar sem $\alpha_1,\dots,\alpha_m$ er upptalning Ã¡ Ã¶llum nÃºllstÃ¶Ã°vum $P$
+meÃ° hugsanlegum endurtekningum og $A\neq 0$ er stuÃ°ullinn Ã­ veldiÃ°
+$z^m$ Ã­ margliÃ°unni $P$.
 
-Ef $\alpha$ er núllstöğ margliğu $P$ og hægt er ağ şátta $P$
-í $P(z)=(z-\alpha)^jQ(z)$ şar sem $Q$ er margliğa og $Q(\alpha)\neq 0$
-şá segjum viğ ağ $\alpha$ sé {\it $j$-föld núllstöğ $P$} og köllum töluna
-$j$ {\it margfeldni núllstöğvarinnar $\alpha$ í $P$}.  Ef $P$ er af
-stigi $m$ og $\beta_1,\dots,\beta_k$ er upptalning á ólíkum
-núllstöğvum margliğunnar $P$ og şær hafa margfeldni $m_1,\dots,m_k$,
-şá getum viğ skrifağ 
+Ef $\alpha$ er nÃºllstÃ¶Ã° margliÃ°u $P$ og hÃ¦gt er aÃ° Ã¾Ã¡tta $P$
+Ã­ $P(z)=(z-\alpha)^jQ(z)$ Ã¾ar sem $Q$ er margliÃ°a og $Q(\alpha)\neq 0$
+Ã¾Ã¡ segjum viÃ° aÃ° $\alpha$ sÃ© {\it $j$-fÃ¶ld nÃºllstÃ¶Ã° $P$} og kÃ¶llum tÃ¶luna
+$j$ {\it margfeldni nÃºllstÃ¶Ã°varinnar $\alpha$ Ã­ $P$}.  Ef $P$ er af
+stigi $m$ og $\beta_1,\dots,\beta_k$ er upptalning Ã¡ Ã³lÃ­kum
+nÃºllstÃ¶Ã°vum margliÃ°unnar $P$ og Ã¾Ã¦r hafa margfeldni $m_1,\dots,m_k$,
+Ã¾Ã¡ getum viÃ° skrifaÃ° 
 $$
 P(z)=A(z-\beta_1)^{m_1}\cdots(z-\beta_k)^{m_k}
 $$
@@ -1310,60 +1323,60 @@ m=m_1+\cdots+m_k.
 $$
 
 
-\subsection*{Margliğur meğ rauntölustuğla}
+\subsection*{MargliÃ°ur meÃ° rauntÃ¶lustuÃ°la}
 
-Viğ lítum allaf á rauntölurnar sem hluta af tvinntölunum og şví er
-sérhver margliğa meğ rauntölustuğla jafnframt margliğa meğ
-tvinntölustuğla.  Meginsetning algebrunnar á şví viğ um şessar
-margliğur einnig. Hugsum okkur nú ağ  $P(z)$ sé margliğa af stigi
-$m\geq 1$ meğ rauntölustuğla $a_0,\dots,a_m$ og ağ $\alpha\in \C$ sé
-núllstöğ hennar og gerum ráğ fyrir ağ $\alpha$ sé ekki rauntala.  
-Meğ şví ağ beita reiknireglunum fyrir samok og şá sérstaklega ağ 
-$\bar a_j=a_j$, şá fáum viğ
+ViÃ° lÃ­tum allaf Ã¡ rauntÃ¶lurnar sem hluta af tvinntÃ¶lunum og Ã¾vÃ­ er
+sÃ©rhver margliÃ°a meÃ° rauntÃ¶lustuÃ°la jafnframt margliÃ°a meÃ°
+tvinntÃ¶lustuÃ°la.  Meginsetning algebrunnar Ã¡ Ã¾vÃ­ viÃ° um Ã¾essar
+margliÃ°ur einnig. Hugsum okkur nÃº aÃ°  $P(z)$ sÃ© margliÃ°a af stigi
+$m\geq 1$ meÃ° rauntÃ¶lustuÃ°la $a_0,\dots,a_m$ og aÃ° $\alpha\in \C$ sÃ©
+nÃºllstÃ¶Ã° hennar og gerum rÃ¡Ã° fyrir aÃ° $\alpha$ sÃ© ekki rauntala.  
+MeÃ° Ã¾vÃ­ aÃ° beita reiknireglunum fyrir samok og Ã¾Ã¡ sÃ©rstaklega aÃ° 
+$\bar a_j=a_j$, Ã¾Ã¡ fÃ¡um viÃ°
 \begin{equation*}
 0=P(\alpha)=\overline{P(\alpha)}
 =\overline{\sum_{k=0}^ma_k\alpha^k} =\sum_{k=0}^m \overline{a_k}\overline{\alpha^k}
 =\sum_{k=0}^m a_k (\overline{\alpha})^k=P(\bar\alpha)
 \end{equation*}
-Viğ höfum şví sınt ağ $\bar \alpha$ er einnig núllstöğ $P$. 
-Viğ getum şví şáttağ út $(z-\alpha)(z-\bar \alpha)$
-Athugum ağ 
+ViÃ° hÃ¶fum Ã¾vÃ­ sÃ½nt aÃ° $\bar \alpha$ er einnig nÃºllstÃ¶Ã° $P$. 
+ViÃ° getum Ã¾vÃ­ Ã¾Ã¡ttaÃ° Ãºt $(z-\alpha)(z-\bar \alpha)$
+Athugum aÃ° 
 $$
 (z-\alpha)(z-\bar\alpha)=
 z^2-(\alpha+\bar\alpha)z+\alpha\bar\alpha
 =z^2-2(\Re\, \alpha)z+|\alpha|^2
 $$
-Nú beitum viğ şáttareglunni og sjáum ağ í şessu tilfelli fæst 
-şáttun á $P(z)$ í tvær rauntalnamargliğur
+NÃº beitum viÃ° Ã¾Ã¡ttareglunni og sjÃ¡um aÃ° Ã­ Ã¾essu tilfelli fÃ¦st 
+Ã¾Ã¡ttun Ã¡ $P(z)$ Ã­ tvÃ¦r rauntalnamargliÃ°ur
 $$
 P(z)=\big(z^2-2(\Re\, \alpha)z+|\alpha|^2\big)Q(z).
 $$
 
 
 
-\subsection*{Afleiğur af margliğum}
+\subsection*{AfleiÃ°ur af margliÃ°um}
 
-Tvíliğustuğlarnir eru dálítiğ fyrirferğarmiklir í útskrift svo viğ
-skulum tákna $n$ yfir $k$ meğ $c_{n,k}$.  Viğ fáum şá 
+TvÃ­liÃ°ustuÃ°larnir eru dÃ¡lÃ­tiÃ° fyrirferÃ°armiklir Ã­ Ãºtskrift svo viÃ°
+skulum tÃ¡kna $n$ yfir $k$ meÃ° $c_{n,k}$.  ViÃ° fÃ¡um Ã¾Ã¡ 
 $$
 (z+h)^n=z^n+nz^{n-1}h+c_{n,2}z^{n-2}h^2+\cdots+c_{n,n-2}z^{n-2}h^2+nzh^{n-1}+h^n.
 $$
-Viğ fáum şví formúluna
+ViÃ° fÃ¡um Ã¾vÃ­ formÃºluna
 $$
 \dfrac{(z+h)^n-z^n}h=nz^{n-1}+c_{n,2}z^{n-2}h+\cdots+nzh^{n-2}+h^{n-1}.
 $$
-Nú látum viğ $h\to 0$ og fáum
+NÃº lÃ¡tum viÃ° $h\to 0$ og fÃ¡um
 $$\lim_{h\to 0}\bigg(
 \dfrac{(z+h)^n-z^n}h\bigg)=nz^{n-1}.
 $$
-Viğ skilgreinum afleiğuna af einliğunni $z\mapsto z^n$ sem falliğ
-$z\mapsto nz^{n-1}$ fyrir $n=0,1,2,\dots$ og almennt skilgreinum viğ 
-afleiğu af margliğu $P(z)=\sum_{n=0}^ma_nz^n$ meğ
+ViÃ° skilgreinum afleiÃ°una af einliÃ°unni $z\mapsto z^n$ sem falliÃ°
+$z\mapsto nz^{n-1}$ fyrir $n=0,1,2,\dots$ og almennt skilgreinum viÃ° 
+afleiÃ°u af margliÃ°u $P(z)=\sum_{n=0}^ma_nz^n$ meÃ°
 $$
 P'(z)=\lim_{h\to 0}\dfrac{P(z+h)-P(z)}h=\sum_{n=0}^mna_nz^{n-1}.
 $$
-Şağ er enginn vandi  ağ sına fram á ağ venjulegu reiknireglurnar
- fyrir afleiğur gildi,
+ÃaÃ° er enginn vandi  aÃ° sÃ½na fram Ã¡ aÃ° venjulegu reiknireglurnar
+ fyrir afleiÃ°ur gildi,
 $$
 (P+Q)'(z)=P'(z)+Q'(z)
 $$
@@ -1372,112 +1385,120 @@ $$
 (PQ)'(z)=P'(z)Q(z)+P(z)Q'(z).
 $$
 
-\section{Ræğ föll}
+\section{RÃ¦Ã° fÃ¶ll}
 
-{\it Rætt fall} er kvóti tveggja margliğa $R=P/Q$. Şağ er
-skilgreint í öllum punktum $z\in \C$  şar sem $Q(z)\neq 0$.
-Viğ skilgreinum afleiğuna af $R$ meğ hliğstæğum hætti og fyrir
-margliğur og fáum venjulega reiknireglu
+{\it RÃ¦tt fall} er kvÃ³ti tveggja margliÃ°a $R=P/Q$. ÃaÃ° er
+skilgreint Ã­ Ã¶llum punktum $z\in \C$  Ã¾ar sem $Q(z)\neq 0$.
+ViÃ° skilgreinum afleiÃ°una af $R$ meÃ° hliÃ°stÃ¦Ã°um hÃ¦tti og fyrir
+margliÃ°ur og fÃ¡um venjulega reiknireglu
 $$
 R'(z)=\lim_{h\to
 0}\dfrac{R(z+h)-R(z)}h=\dfrac{P'(z)Q(z)-P(z)Q'(z)}{Q(z)^2}.
 $$
 
 
-\subsection*{Stofnbrotaliğun\index{stofnbrotaliğun}}
+\subsection*{StofnbrotaliÃ°un\index{stofnbrotaliÃ°un}}
 
 \noindent
-Ef $P$ og $Q$ eru margliğur, $Q\neq 0$ og $\stig P\geq \stig Q$, 
-şá getum viğ alltaf
-framkvæmt deilingu meğ afgangi og fengiğ ağ
+Ef $P$ og $Q$ eru margliÃ°ur, $Q\neq 0$ og $\stig P\geq \stig Q$, 
+Ã¾Ã¡ getum viÃ° alltaf
+framkvÃ¦mt deilingu meÃ° afgangi og fengiÃ° aÃ°
 $$
 R(z)=\dfrac {P(z)}{Q(z)}=P_1(z)+\dfrac {P_2(z)}{Q(z)}
 $$ 
-şar sem $P_1$ og $P_2$ eru margliğur,  $\stig P_1=\stig P-\stig Q$ 
+Ã¾ar sem $P_1$ og $P_2$ eru margliÃ°ur,  $\stig P_1=\stig P-\stig Q$ 
 og $\stig P_2<\stig Q$.  
 
-Nú ætlum viğ ağ líta á rætt fall  $R=P/Q$ şar sem  $P$ og $Q$ 
-eru margliğur og $\stig P < \stig Q$.  Şá er 
-alltaf hægt ağ liğa ræğa falliğ
-í stofnbrot\index{stofnbrot}.  Viğ gerum fyrst ráğ fyrir şví ağ
-ağ allar núllstöğvar $Q$ séu einfaldar.  Şá getum viğ
-skrifağ
+NÃº Ã¦tlum viÃ° aÃ° lÃ­ta Ã¡ rÃ¦tt fall  $R=P/Q$ Ã¾ar sem  $P$ og $Q$ 
+eru margliÃ°ur og $\stig P < \stig Q$.  ÃÃ¡ er 
+alltaf hÃ¦gt aÃ° liÃ°a rÃ¦Ã°a falliÃ°
+Ã­ stofnbrot\index{stofnbrot}.  ViÃ° gerum fyrst rÃ¡Ã° fyrir Ã¾vÃ­ aÃ°
+aÃ° allar nÃºllstÃ¶Ã°var $Q$ sÃ©u einfaldar.  ÃÃ¡ getum viÃ°
+skrifaÃ°
  \begin{equation*}Q(z)= a(z-\alpha_1)\cdots(z-\alpha_m), \qquad z\in \C,
-.. _4.4.1
+
+
+.. _4.4.1:
 
  \end{equation*}
-şar sem $\alpha_1,\dots,\alpha_m$ eru hinar ólíku núllstöğvar $Q$.
-Stofnbrotaliğun $R$ er şá einfaldlega
+Ã¾ar sem $\alpha_1,\dots,\alpha_m$ eru hinar Ã³lÃ­ku nÃºllstÃ¶Ã°var $Q$.
+StofnbrotaliÃ°un $R$ er Ã¾Ã¡ einfaldlega
  \begin{equation*}R(z) = \dfrac {A_1}{z-\alpha_1}+\cdots+\dfrac {A_m}{z-\alpha_m}.
-.. _4.4.2
+
+
+.. _4.4.2:
 
  \end{equation*}
-Viğ munum sanna şessa formúlu í kafla 4.
-Nú şarf ağ reikna stuğlana $A_1,\dots,A_m$ út.  Viğ athugum ağ
+ViÃ° munum sanna Ã¾essa formÃºlu Ã­ kafla 4.
+NÃº Ã¾arf aÃ° reikna stuÃ°lana $A_1,\dots,A_m$ Ãºt.  ViÃ° athugum aÃ°
  $$\lim\limits_{z\to\alpha_1} (z-\alpha_1)R(z) = A_1
 +\lim\limits_{z\to\alpha_1}
 (z-{\alpha}_1)\bigg(
 \dfrac {A_2}{z-\alpha_2}+\cdots+\dfrac {A_m}{z-\alpha_m}
 \bigg)=A_1.
  $$
-{Á} hinn bóginn er $Q(\alpha_1)=0$, svo
+{Ã} hinn bÃ³ginn er $Q(\alpha_1)=0$, svo
  $$\lim\limits_{z\to\alpha_1}(z-\alpha_1)R(z) =
 \lim\limits_{z\to
 \alpha_1}\dfrac{(z-\alpha_1)P(z)}{Q(z)-Q(\alpha_1)}=
 \dfrac{P(\alpha_1)}{Q\dash(\alpha_1)}.
  $$
-Ef viğ meğhöndlum hinar núllstöğvarnar meğ sama hætti, şá fáum viğ
-formúluna
+Ef viÃ° meÃ°hÃ¶ndlum hinar nÃºllstÃ¶Ã°varnar meÃ° sama hÃ¦tti, Ã¾Ã¡ fÃ¡um viÃ°
+formÃºluna
  \begin{equation*}A_j=\dfrac{P(\alpha_j)}{Q\dash(\alpha_j)}.
-.. _4.4.3
+
+
+.. _4.4.3:
 
  \end{equation*}
-Viğ notum nú şáttunina á $Q$ í fyrsta stigs liği til şess ağ 
-reikna út afleiğuna af $Q$ í ${\alpha}_j$,
+ViÃ° notum nÃº Ã¾Ã¡ttunina Ã¡ $Q$ Ã­ fyrsta stigs liÃ°i til Ã¾ess aÃ° 
+reikna Ãºt afleiÃ°una af $Q$ Ã­ ${\alpha}_j$,
  \begin{equation*}Q\dash(\alpha_j)=a\prod_{\substack{k=1\\ k\neq
  j}}^m
 (\alpha_j-\alpha_k).
-.. _4.4.4
+
+
+.. _4.4.4:
 
  \end{equation*}
-Şessi formúla segir okkur ağ $Q'(\alpha_j)$ sé fundiğ meğ şví ağ
-taka şáttunina á $Q$ í fyrsta stigs liği, deila út şættinum
-$z-\alpha_j$ og stinga síğan inn $\alpha_j$ fyrir $z$.
-Í sumum tilfellum getur veriğ einfaldast ağ nota şessa formúlu til
-şess ağ reikna út gildin á afleiğum margliğunnar $Q$ í núllstöğvunum.
+Ãessi formÃºla segir okkur aÃ° $Q'(\alpha_j)$ sÃ© fundiÃ° meÃ° Ã¾vÃ­ aÃ°
+taka Ã¾Ã¡ttunina Ã¡ $Q$ Ã­ fyrsta stigs liÃ°i, deila Ãºt Ã¾Ã¦ttinum
+$z-\alpha_j$ og stinga sÃ­Ã°an inn $\alpha_j$ fyrir $z$.
+Ã sumum tilfellum getur veriÃ° einfaldast aÃ° nota Ã¾essa formÃºlu til
+Ã¾ess aÃ° reikna Ãºt gildin Ã¡ afleiÃ°um margliÃ°unnar $Q$ Ã­ nÃºllstÃ¶Ã°vunum.
 
 
-\subsubsection{Sınidæmi} Reiknum út stofnbrotaliğun á ræğa fallinu
+\subsubsection{SÃ½nidÃ¦mi} Reiknum Ãºt stofnbrotaliÃ°un Ã¡ rÃ¦Ã°a fallinu
 $$
 R(z)=\dfrac{1}{z^3-3z^2+4z-2}.
 $$
-{\it Lausn}: \  Viğ verğum ağ byrja á şví ağ ákvarğa fullkomna şáttun
-á margliğunni $Q(z)=z^3-3z^2+4z-2$.  Meğ ágiskun finnum viğ ağ
+{\it Lausn}: \  ViÃ° verÃ°um aÃ° byrja Ã¡ Ã¾vÃ­ aÃ° Ã¡kvarÃ°a fullkomna Ã¾Ã¡ttun
+Ã¡ margliÃ°unni $Q(z)=z^3-3z^2+4z-2$.  MeÃ° Ã¡giskun finnum viÃ° aÃ°
 $\alpha_1=1$ er
-núllstöğ.  Şağ gefur okkur şáttunina $Q(z)=(z-1)(z^2-2z+2)$.  Viğ
-finnum síğan hinar núllstöğvarnar $\alpha_2=1+i$ og $\alpha_3=1-i$ meğ
-şví ağ stinga inn í lausnarformúluna fyrir annars stigs jöfnu.  Şáttun
-á $Q(z)$ í fyrsta stigs şætti er 
+nÃºllstÃ¶Ã°.  ÃaÃ° gefur okkur Ã¾Ã¡ttunina $Q(z)=(z-1)(z^2-2z+2)$.  ViÃ°
+finnum sÃ­Ã°an hinar nÃºllstÃ¶Ã°varnar $\alpha_2=1+i$ og $\alpha_3=1-i$ meÃ°
+Ã¾vÃ­ aÃ° stinga inn Ã­ lausnarformÃºluna fyrir annars stigs jÃ¶fnu.  ÃÃ¡ttun
+Ã¡ $Q(z)$ Ã­ fyrsta stigs Ã¾Ã¦tti er 
 $$
 Q(z)=(z-1)(z-1-i)(z-1+i).
 $$
-Afleiğan verğur şví 
+AfleiÃ°an verÃ°ur Ã¾vÃ­ 
 $$
 Q'(z)=(z-1-i)(z-1+i)+(z-1)(z-1+i)+(z-1)(z-1-i).
 $$
-Gildin sem viğ sækjumst eftir eru
+Gildin sem viÃ° sÃ¦kjumst eftir eru
 $$
 Q'(1)=1, \qquad Q'(1+i)=i(2i)=-2 \quad \text{ og } \quad
 Q'(1-i)=-i(-2i)=-2.
 $$
-Stofnbrotaliğunin er şví
+StofnbrotaliÃ°unin er Ã¾vÃ­
 $$
 R(z)=\dfrac 1{z-1}+\dfrac {-1/2}{z-1-i}+\dfrac {-1/2}{z-1+i}
 $$
-Margliğan $Q$ hefur rauntölustuğla, svo şağ getur veriğ eğlilegt ağ
-skrifa stofnbrotaliğunina meğ nefnurum sem eru annars stigs og 
-óşáttanlegar yfir rauntölurnar.  Şá leggjum viğ saman tvo síğustu
-liğina í şessari formúlu og fáum
+MargliÃ°an $Q$ hefur rauntÃ¶lustuÃ°la, svo Ã¾aÃ° getur veriÃ° eÃ°lilegt aÃ°
+skrifa stofnbrotaliÃ°unina meÃ° nefnurum sem eru annars stigs og 
+Ã³Ã¾Ã¡ttanlegar yfir rauntÃ¶lurnar.  ÃÃ¡ leggjum viÃ° saman tvo sÃ­Ã°ustu
+liÃ°ina Ã­ Ã¾essari formÃºlu og fÃ¡um
 $$
 R(z)=\dfrac 1{z-1}+\dfrac {-z+1}{z^2-2z+2}.
 $$
@@ -1485,31 +1506,31 @@ $$
 
 
 
-\subsubsection{Sınidæmi}  Reikniğ út stofnbrotaliğun ræğa fallsins
+\subsubsection{SÃ½nidÃ¦mi}  ReikniÃ° Ãºt stofnbrotaliÃ°un rÃ¦Ã°a fallsins
 $$
 R(z)=\dfrac {120}{(z^2+1)(z^2+4)(z^2+9)}.
 $$
-{\it Lausn}: \ Viğ vitum ağ  hægt er ağ skrifa
+{\it Lausn}: \ ViÃ° vitum aÃ°  hÃ¦gt er aÃ° skrifa
  $$\dfrac {120}{(z^2+1)(z^2+4)(z^2+9)}=
 \dfrac {Az+B}{z^2+1} +\dfrac {Cz+D}{z^2+4}+\dfrac {Ez+F}{z^2+9}
  $$
-Şar sem stuğlarnir $A,B,C,D,E$ og $F$ eru rauntölur.
-Til şess ağ ákvarğa $A$ og $B$ margföldum viğ gegnum jöfnuna meğ
-$z^2+1$ og setjum síğan $s=i$. Şá fæst
+Ãar sem stuÃ°larnir $A,B,C,D,E$ og $F$ eru rauntÃ¶lur.
+Til Ã¾ess aÃ° Ã¡kvarÃ°a $A$ og $B$ margfÃ¶ldum viÃ° gegnum jÃ¶fnuna meÃ°
+$z^2+1$ og setjum sÃ­Ã°an $s=i$. ÃÃ¡ fÃ¦st
  $$\dfrac {120}{(i^2+4)(i^2+9)}= Ai+B, 
 \quad 5=Ai+B, \quad A=0, \quad B=5.
  $$
-Næst margföldum viğ jöfnuna meğ $z^2+4$ og setum síğan $z=2i$.  Şá
-fæst
+NÃ¦st margfÃ¶ldum viÃ° jÃ¶fnuna meÃ° $z^2+4$ og setum sÃ­Ã°an $z=2i$.  ÃÃ¡
+fÃ¦st
  $$\dfrac {120}{((2i)^2+1)((2i)^2+9)}= 2Ci+D, 
 \quad -8=2Ci+D, \quad C=0, \quad D=-8.
  $$
-Ağ lokum margföldum viğ í gegnum jöfnuna meğ $z^2+9$ og setjum síğan
-$s=3i$.   Şağ gefur
+AÃ° lokum margfÃ¶ldum viÃ° Ã­ gegnum jÃ¶fnuna meÃ° $z^2+9$ og setjum sÃ­Ã°an
+$s=3i$.   ÃaÃ° gefur
  $$\dfrac {120}{((3i)^2+1)((3i)^2+4)}= 3Ei+F, 
 \quad 3=3Ei+F, \quad E=0, \quad F=3.
  $$
-Niğurstağan verğur şví 
+NiÃ°urstaÃ°an verÃ°ur Ã¾vÃ­ 
  $$\dfrac {120}{(z^2+1)(z^2+4)(z^2+9)}=
 \dfrac {5}{z^2+1} -\dfrac {8}{z^2+4}+\dfrac{3}{z^2+9}.
  $$
@@ -1517,41 +1538,43 @@ Niğurstağan verğur şví
 
 \bigskip\hrule\bigskip
 
-Gerum nú ráğ fyrir ağ $Q$ hafi ólíkar núllstöğvar
+Gerum nÃº rÃ¡Ã° fyrir aÃ° $Q$ hafi Ã³lÃ­kar nÃºllstÃ¶Ã°var
 $\alpha_1,\dots,\alpha_k$ af stigi $m_1,\dots,m_k$,
-og $\stig Q=m=m_1+\cdots+m_k$.  Viğ getum şáttağ
-út núllstöğina $\alpha_j$ meğ şví ağ skrifa
+og $\stig Q=m=m_1+\cdots+m_k$.  ViÃ° getum Ã¾Ã¡ttaÃ°
+Ãºt nÃºllstÃ¶Ã°ina $\alpha_j$ meÃ° Ã¾vÃ­ aÃ° skrifa
 $Q(z)=(z-\alpha_j)^{m_j}q_j(z)$, 
-şar sem $q_j$ er margliğa af stigi $m-m_j$ og $q_j(\alpha_j)\neq 0$.
-Stofnbrotaliğunin verğur nú af gerğinni 
+Ã¾ar sem $q_j$ er margliÃ°a af stigi $m-m_j$ og $q_j(\alpha_j)\neq 0$.
+StofnbrotaliÃ°unin verÃ°ur nÃº af gerÃ°inni 
 \begin{align}
 \dfrac{P(z)}{Q(z)}&=
 \dfrac{A_{11}}{(z-\alpha_1)}+\cdots+\dfrac{A_{m_11}}{(z-\alpha_1)^{m_1}}
-.. _4.4.5
+
+
+.. _4.4.5:
 \\\
 &+\dfrac{A_{12}}{(z-\alpha_2)}+\cdots+\dfrac{A_{m_22}}{(z-\alpha_2)^{m_2}}\nonumber\\
 &\qquad \vdots\qquad\qquad\vdots\qquad \qquad \vdots\nonumber\\
 &+\dfrac{A_{1k}}{(z-\alpha_k)}+\cdots+\dfrac{A_{m_kk}}{(z-\alpha_k)^{m_k}}\nonumber
 \end{align}
-şar sem stuğlarnir eru gefnir meğ formúlunni
+Ã¾ar sem stuÃ°larnir eru gefnir meÃ° formÃºlunni
 $$ A_{lj}=\left.\dfrac 1{(m_j-l)!}
 \bigg(\dfrac {d}{dz}\bigg)^{m_j-l}\bigg(
 \dfrac{P(z)}{q_j(z)}\bigg)\right|_{z=\alpha_j}.
 $$
-Şessa formúlu munum viğ sanna  síğar, en  şağ er fínt ağ æfa
-sig í şví ağ nota hana.
+Ãessa formÃºlu munum viÃ° sanna  sÃ­Ã°ar, en  Ã¾aÃ° er fÃ­nt aÃ° Ã¦fa
+sig Ã­ Ã¾vÃ­ aÃ° nota hana.
 
 \bigskip\hrule\bigskip
 
-\subsubsection{Sınidæmi}  Liğiğ ræğa falliğ
+\subsubsection{SÃ½nidÃ¦mi}  LiÃ°iÃ° rÃ¦Ã°a falliÃ°
  $$\dfrac {P(z)}{Q(z)}=\dfrac{z^2}{(z^2+1)^2}=\dfrac{z^2}{(z-i)^2(z+i)^2}.
  $$
-í stofnbrot.
+Ã­ stofnbrot.
 
 \smallskip\noindent
 {\it Lausn}: \ 
-Margliğan $Q$ hefur núllstöğvarnar $\alpha_1=i$ og $\alpha_2=-i$ og eru
-şær báğar af stigi 2.  Viğ höfum
+MargliÃ°an $Q$ hefur nÃºllstÃ¶Ã°varnar $\alpha_1=i$ og $\alpha_2=-i$ og eru
+Ã¾Ã¦r bÃ¡Ã°ar af stigi 2.  ViÃ° hÃ¶fum
 \begin{gather*}
 q_1(z)=(z+i)^2, \qquad \dfrac{P(i)}{q_1(i)}= \dfrac 14,\\
 \dfrac d{dz}\bigg(\dfrac{z^2}{(z+i)^2}\bigg)= \dfrac
@@ -1564,76 +1587,76 @@ q_2(z)=(z-i)^2, \qquad \dfrac{P(-i)}{q_2(-i)}= \dfrac 14,\\
 \left.\dfrac d{dz}\bigg(\dfrac{P(z)}{q_2(z)}\bigg)\right|_{z=-i}
 =\dfrac{i}4.
 \end{gather*}
- Svariğ verğur şví 
+ SvariÃ° verÃ°ur Ã¾vÃ­ 
  $$\dfrac{z^2}{(z^2+1)^2}=
 \dfrac{-i/4}{(z-i)}+\dfrac{1/4}{(z-i)^2} +
 \dfrac {i/4}{(z+i)}+\dfrac{1/4}{(z+i)^2}.
  $$
 
 
-\section{Veldisvísisfalliğ og skyld föll}
+\section{VeldisvÃ­sisfalliÃ° og skyld fÃ¶ll}
 
-Viğ höfum séğ hvernig skilgreiningarmengi margliğa 
-er útvíkkağ frá şví ağ vera rauntalnaásinn $\R$ yfir í şağ ağ
-vera  allt tvinntalnaplaniğ $\C$.  Şetta er hægt ağ gera á eğlilegan
-máta fyrir mörg föll sem skilgreind eru á hlutmengjum á
-rauntalnalínunni şannig ağ şau fái náttúrlegt skilgeiningarsvæği í 
+ViÃ° hÃ¶fum sÃ©Ã° hvernig skilgreiningarmengi margliÃ°a 
+er ÃºtvÃ­kkaÃ° frÃ¡ Ã¾vÃ­ aÃ° vera rauntalnaÃ¡sinn $\R$ yfir Ã­ Ã¾aÃ° aÃ°
+vera  allt tvinntalnaplaniÃ° $\C$.  Ãetta er hÃ¦gt aÃ° gera Ã¡ eÃ°lilegan
+mÃ¡ta fyrir mÃ¶rg fÃ¶ll sem skilgreind eru Ã¡ hlutmengjum Ã¡
+rauntalnalÃ­nunni Ã¾annig aÃ° Ã¾au fÃ¡i nÃ¡ttÃºrlegt skilgeiningarsvÃ¦Ã°i Ã­ 
 $\C$.
 
 
-\subsection*{Framlenging á veldisvísisfallinu}
+\subsection*{Framlenging Ã¡ veldisvÃ­sisfallinu}
 
-Veldisvísisfalliğ $\exp:\R\to \R$ er andhverfa náttúrlega lograns
-sem skilgreindur  er meğ heildinu
+VeldisvÃ­sisfalliÃ° $\exp:\R\to \R$ er andhverfa nÃ¡ttÃºrlega lograns
+sem skilgreindur  er meÃ° heildinu
 $$
 \ln x=\int_1^x\dfrac {dt}t, \qquad x>0.
 $$
-Talan $e$ er skilgreind meğ $e=\exp(1)$.   Nú útvíkkum viğ
-skilgreiningarsvæği $\exp$ şannig ağ şağ verği allt $\C$ meğ
-formúlunni
+Talan $e$ er skilgreind meÃ° $e=\exp(1)$.   NÃº ÃºtvÃ­kkum viÃ°
+skilgreiningarsvÃ¦Ã°i $\exp$ Ã¾annig aÃ° Ã¾aÃ° verÃ°i allt $\C$ meÃ°
+formÃºlunni
 $$
 \exp(z)=e^x(\cos y+i\sin y), \qquad z=x+iy\in \C, \quad x,y\in \R
 $$
-Viğ skrifum $e^z=\exp z$ fyrir $z\in \C$.
+ViÃ° skrifum $e^z=\exp z$ fyrir $z\in \C$.
 
-Fyrst hornaföllin $\cos $ og $\sin $ eru lotubundin meğ lotuna $2\pi$,
-şá fáum viğ beint út frá skilgreiningunni á veldisvísisfallinu ağ şağ
-er lotubundiğ meğ lotuna $2\pi i$,
+Fyrst hornafÃ¶llin $\cos $ og $\sin $ eru lotubundin meÃ° lotuna $2\pi$,
+Ã¾Ã¡ fÃ¡um viÃ° beint Ãºt frÃ¡ skilgreiningunni Ã¡ veldisvÃ­sisfallinu aÃ° Ã¾aÃ°
+er lotubundiÃ° meÃ° lotuna $2\pi i$,
 $$
 e^{z+2\pi k i}=e^z, \qquad k\in \Z.
 $$
 
-\subsection*{Jöfnur Eulers}
+\subsection*{JÃ¶fnur Eulers}
 
-Stingum nú hreinni şvertölu $i\theta$ şar sem $\theta\in \R$ inn í
-veldisvísisfalliğ $e^{i\theta}=(\cos\theta+i\sin\theta)\in \T$.  Şetta
-segir okkur ağ vörpunin $\theta\mapsto e^{i\theta}$ varpi
-rauntalnalínunni á einingarhringinn.  
-Stillum nú upp tveimur jöfnum
+Stingum nÃº hreinni Ã¾vertÃ¶lu $i\theta$ Ã¾ar sem $\theta\in \R$ inn Ã­
+veldisvÃ­sisfalliÃ° $e^{i\theta}=(\cos\theta+i\sin\theta)\in \T$.  Ãetta
+segir okkur aÃ° vÃ¶rpunin $\theta\mapsto e^{i\theta}$ varpi
+rauntalnalÃ­nunni Ã¡ einingarhringinn.  
+Stillum nÃº upp tveimur jÃ¶fnum
 \begin{align*}
 e^{i\theta}&=\cos\theta+i\sin\theta\\
 e^{-i\theta}&=\cos\theta-i\sin\theta
 \end{align*}
-Tökum nú summu af hægri hliğum og vinstri hliğum.
-Şá fæst $e^{i\theta}+e^{-i\theta}=2\cos \theta$. Tökum síğan
-mismun af şví sama. Şá fæst 
+TÃ¶kum nÃº summu af hÃ¦gri hliÃ°um og vinstri hliÃ°um.
+ÃÃ¡ fÃ¦st $e^{i\theta}+e^{-i\theta}=2\cos \theta$. TÃ¶kum sÃ­Ã°an
+mismun af Ã¾vÃ­ sama. ÃÃ¡ fÃ¦st 
 $e^{i\theta}-e^{-i\theta}=2i\sin \theta$.
-Út úr şessu fæst samband milli
-veldisvísisfallsins og hornafallanna sem nefnt er {\it jöfnur Eulers},
+Ãšt Ãºr Ã¾essu fÃ¦st samband milli
+veldisvÃ­sisfallsins og hornafallanna sem nefnt er {\it jÃ¶fnur Eulers},
 $$
 \cos\theta=\dfrac{e^{i\theta}+e^{-i\theta}}2,\qquad \text{ og } \qquad
 \sin\theta=\dfrac{e^{i\theta}-e^{-i\theta}}{2i}.
 $$
 
-\subsection*{Samlagningarformúla veldisvísisfallsins}
+\subsection*{SamlagningarformÃºla veldisvÃ­sisfallsins}
 
-Munum ağ veldisvísisfalliğ $\exp: \R\to \R$,  $x\mapsto e^x$, uppfyllir
-regluna $e^{a+b}=e^ae^b$ fyrir allar rauntölur $a$ og $b$.  
-Hún er nefnd {\it samlagningarformúla } eğa {\it samlagningarregla}
-veldisvísisfallsins.
-Nú  skulum viğ taka tvær tvinntölur $z=x+iy$ og $w=u+iv$ og sjá hvernig
-şessi regla alhæfist şegar viğ erum búin ağ framlengja
-skilgreiningarsvæği veldisvísisfallsins yfir í allt tvinntalnaplaniğ
+Munum aÃ° veldisvÃ­sisfalliÃ° $\exp: \R\to \R$,  $x\mapsto e^x$, uppfyllir
+regluna $e^{a+b}=e^ae^b$ fyrir allar rauntÃ¶lur $a$ og $b$.  
+HÃºn er nefnd {\it samlagningarformÃºla } eÃ°a {\it samlagningarregla}
+veldisvÃ­sisfallsins.
+NÃº  skulum viÃ° taka tvÃ¦r tvinntÃ¶lur $z=x+iy$ og $w=u+iv$ og sjÃ¡ hvernig
+Ã¾essi regla alhÃ¦fist Ã¾egar viÃ° erum bÃºin aÃ° framlengja
+skilgreiningarsvÃ¦Ã°i veldisvÃ­sisfallsins yfir Ã­ allt tvinntalnaplaniÃ°
 $\C$,
 \begin{align*}
 e^ze^w &=e^x(\cos y+i\sin y)e^u(\cos v+i\sin v) \\
@@ -1641,96 +1664,96 @@ e^ze^w &=e^x(\cos y+i\sin y)e^u(\cos v+i\sin v) \\
  & =e^{x+u}(\cos(y+v)+i\sin (y+v))\\
  & =e^{(x+u)+i(y+v)}=e^{z+w}.
 \end{align*}
-Viğ höfum şví ağ samlagningarformúlan gildir áfram
+ViÃ° hÃ¶fum Ã¾vÃ­ aÃ° samlagningarformÃºlan gildir Ã¡fram
 $$
 e^{z+w}=e^ze^w, \qquad z,w\in \C.
 $$
 
 
-Reglurnar um reikning meğ samoka tvinntölum gefa
+Reglurnar um reikning meÃ° samoka tvinntÃ¶lum gefa
 okkur
 $$\overline{e^z}=e^{\overline z},\qquad z\in \C,
 $$
-og síğan
+og sÃ­Ã°an
  $$|e^z|^2=e^z\overline{e^{z}}=e^ze^{\overline z}=e^{x+iy}e^{x-iy}=e^{2x}
  $$
-Şar meğ er
+Ãar meÃ° er
  $$|e^z|=e^{\Re z}, \qquad z\in \C,
  $$
-og sérstaklega gildir 
+og sÃ©rstaklega gildir 
 $$
 |e^{iy}|=1, \qquad y\in \R.
 $$
-Af şessu leiğir  ağ veldisvísisfalliğ hefur enga
-núllstöğ\index{veldisvísisfalliğ!núllstöğ}
-$e^z=e^xe^{iy}$ og  hvorugur şátturinn í hægri hliğinni getur veriğ
-núll.  Viğ sjáum einnig ağ veldisvísisfalliğ varpar lóğréttu línunni
-sem gefin er meğ jöfnunni 
-$x=\Re z=a$ í $z$-plani á hringinn sem gefinn er meğ jöfnununni 
-$|w|=e^a$ í $w$-plani og şağ varpar
-láréttu línunni sem gefin er meğ jöfnunni  $y=\Im z=b$ á hálflínuna
-út frá $0$ meğ stefnuvigur $e^{ib}$.  
+Af Ã¾essu leiÃ°ir  aÃ° veldisvÃ­sisfalliÃ° hefur enga
+nÃºllstÃ¶Ã°\index{veldisvÃ­sisfalliÃ°!nÃºllstÃ¶Ã°}
+$e^z=e^xe^{iy}$ og  hvorugur Ã¾Ã¡tturinn Ã­ hÃ¦gri hliÃ°inni getur veriÃ°
+nÃºll.  ViÃ° sjÃ¡um einnig aÃ° veldisvÃ­sisfalliÃ° varpar lÃ³Ã°rÃ©ttu lÃ­nunni
+sem gefin er meÃ° jÃ¶fnunni 
+$x=\Re z=a$ Ã­ $z$-plani Ã¡ hringinn sem gefinn er meÃ° jÃ¶fnununni 
+$|w|=e^a$ Ã­ $w$-plani og Ã¾aÃ° varpar
+lÃ¡rÃ©ttu lÃ­nunni sem gefin er meÃ° jÃ¶fnunni  $y=\Im z=b$ Ã¡ hÃ¡lflÃ­nuna
+Ãºt frÃ¡ $0$ meÃ° stefnuvigur $e^{ib}$.  
 
-MYND VANTAR HÉR!!! {fig0318}{Mynd: Veldisvísisfalliğ}
+MYND VANTAR HÃ‰R!!! {fig0318}{Mynd: VeldisvÃ­sisfalliÃ°}
 
 
 
-\subsection*{Framlenging á hornaföllum og breiğbogaföllum}
+\subsection*{Framlenging Ã¡ hornafÃ¶llum og breiÃ°bogafÃ¶llum}
 
-Um leiğ og viğ höfum framlengt veldisvísisfalliğ
-yfir á allt tvinntalnaplaniğ, şá framlengjast  hornaföllin 
-sjálfkrafa yfir á allt planiğ meğ Euler formúlunum,
+Um leiÃ° og viÃ° hÃ¶fum framlengt veldisvÃ­sisfalliÃ°
+yfir Ã¡ allt tvinntalnaplaniÃ°, Ã¾Ã¡ framlengjast  hornafÃ¶llin 
+sjÃ¡lfkrafa yfir Ã¡ allt planiÃ° meÃ° Euler formÃºlunum,
 $$
 \cos z =\dfrac{e^{iz}+e^{-iz}}2, \qquad \text{ og } \qquad 
 \sin z =\dfrac{e^{iz}-e^{-iz}}{2i} 
 $$
-og sama er ağ segja um breiğbogaföllin
+og sama er aÃ° segja um breiÃ°bogafÃ¶llin
 $$
 \cosh z =\dfrac{e^{z}+e^{-z}}2 \qquad \text{ og } \qquad  
 \sinh z =\dfrac{e^{z}-e^{-z}}{2}.
 $$
-Tilsvarandi tangens- og kótangens-föll eru skilgreind şar sem
-nefnararnir eru frábrugğnir $0$
+Tilsvarandi tangens- og kÃ³tangens-fÃ¶ll eru skilgreind Ã¾ar sem
+nefnararnir eru frÃ¡brugÃ°nir $0$
 $$
 \tan z=\dfrac {\sin z}{\cos z}, \quad
 \cot z=\dfrac {\cos z}{\sin z}, \quad
 \tanh z=\dfrac {\sinh z}{\cosh z} \quad \text{ og } \quad
 \coth z=\dfrac {\cosh z}{\sinh z}. \quad
 $$
-Gömlu góğu reglurnar gilda áfram, eins og til dæmis
+GÃ¶mlu gÃ³Ã°u reglurnar gilda Ã¡fram, eins og til dÃ¦mis
 $$
 \cos^2z+\sin^2z=1  \qquad \text{ og } \qquad \cosh^2z-\sinh^2z=1,
 $$
-sem gilda um öll $z\in \C$.  Sama er ağ segja um allar
-samlagningarformúlurnar fyrir hornaföll og breiğbogaföll til dæmis
+sem gilda um Ã¶ll $z\in \C$.  Sama er aÃ° segja um allar
+samlagningarformÃºlurnar fyrir hornafÃ¶ll og breiÃ°bogafÃ¶ll til dÃ¦mis
 $$
 \cos(z-w)=\cos z\cos w+\sin z\sin w, \qquad z,w\in \C.
 $$
-Nú kemur líka í ljós samband milli  hornafallanna og breiğboga 
-fallanna, şví
+NÃº kemur lÃ­ka Ã­ ljÃ³s samband milli  hornafallanna og breiÃ°boga 
+fallanna, Ã¾vÃ­
 $$
 \cosh z=\cos(iz) \qquad \text{  og } \qquad \sinh z=-i \sin(iz)
 $$
-gildir um öll $z\in \Z$.
+gildir um Ã¶ll $z\in \Z$.
 
 
-\subsubsection{Sınidæmi} Sıniğ ağ engar núllstöğvar bætast
-viğ şegar skilgreiningarsvæği $\cos$ er útvíkkağ frá $\R$ yfir á $\C$.
+\subsubsection{SÃ½nidÃ¦mi} SÃ½niÃ° aÃ° engar nÃºllstÃ¶Ã°var bÃ¦tast
+viÃ° Ã¾egar skilgreiningarsvÃ¦Ã°i $\cos$ er ÃºtvÃ­kkaÃ° frÃ¡ $\R$ yfir Ã¡ $\C$.
 
 \smallskip\noindent
-{\it Lausn}:\  Núllstöğvar $\cos$ uppfylla $\tfrac
-12(e^{iz}+e^{-iz})=0$.  Ef viğ margföldum í gegnum şessa jöfnu meğ
-$2e^{iz}$, şá fáum viğ jafngilda jöfnu
+{\it Lausn}:\  NÃºllstÃ¶Ã°var $\cos$ uppfylla $\tfrac
+12(e^{iz}+e^{-iz})=0$.  Ef viÃ° margfÃ¶ldum Ã­ gegnum Ã¾essa jÃ¶fnu meÃ°
+$2e^{iz}$, Ã¾Ã¡ fÃ¡um viÃ° jafngilda jÃ¶fnu
 $$
 e^{2iz}=-1=e^{i\pi}.
 $$
-Lausnir şessarar jöfnu eru
-$2iz=i{\pi}+i2n{\pi}$, $n\in \Z$ og şar meğ fáum viğ ağ
+Lausnir Ã¾essarar jÃ¶fnu eru
+$2iz=i{\pi}+i2n{\pi}$, $n\in \Z$ og Ã¾ar meÃ° fÃ¡um viÃ° aÃ°
 $$
 z=\tfrac 12 {\pi}+n{\pi}, \qquad n\in \Z,
 $$
-eru einu núllstöğvar $\cos$ og ağ şær liggja allar á
-rauntalnalínunni.   Falliğ $\cos$ hefur şví engar núllstöğvar í
+eru einu nÃºllstÃ¶Ã°var $\cos$ og aÃ° Ã¾Ã¦r liggja allar Ã¡
+rauntalnalÃ­nunni.   FalliÃ° $\cos$ hefur Ã¾vÃ­ engar nÃºllstÃ¶Ã°var Ã­
 $\C\setminus \R$. 
 
 
@@ -1738,64 +1761,64 @@ $\C\setminus \R$.
 \bigskip\hrule\bigskip
 
 
-\subsubsection{Sınidæmi}  Sıniğ ağ 
+\subsubsection{SÃ½nidÃ¦mi}  SÃ½niÃ° aÃ° 
 $$
 \cos(x+iy)=\cos x\cosh y-i\sin x\sinh y.
 $$
-gildi um allar rauntölur $x$ og $y$.
+gildi um allar rauntÃ¶lur $x$ og $y$.
 
 \smallskip\noindent
-{\it Lausn}:  Viğ beitum samlagningarformúlu $\cos$,
+{\it Lausn}:  ViÃ° beitum samlagningarformÃºlu $\cos$,
 $$
 \cos(x+iy)=\cos x\cos(iy)-\sin x\sin (iy).
 $$
-Nú er
+NÃº er
 \begin{gather*}
 \cos(iy)=\tfrac 12\big(e^{i(iy)}+e^{-i(iy)}\big)=
 \tfrac 12 \big(e^{-y}+e^y\big)=\cosh y,\\
 \sin(iy)=\tfrac 1{2i}\big(e^{i(iy)}-e^{-i(iy)}\big)=
 \tfrac {-i} 2\big(e^{-y}-e^y\big)=i\sinh y.
 \end{gather*}
-Şar meğ er
+Ãar meÃ° er
 $$
 \cos(x+iy)=\cos x\cosh y-i\sin x\sinh y.
 $$
 
 
 
-\section{Varpanir á tvinntöluplaninu\index{tvinntöluplan}}
+\section{Varpanir Ã¡ tvinntÃ¶luplaninu\index{tvinntÃ¶luplan}}
 
 \noindent
-Í şessum kafla ætlum viğ ağ fjalla um föll $f:X\to \C$, sem skilgreind
-eru á hlutmengi $X$ í $\C$ og taka gildi í $\C$.  Til şess ağ einfalda
-útreikninga okkar, şá skiptum viğ frjálslega milli tvinntalnaritháttar og
-vigurritháttar á punktum $z\in X$.  Şannig skrifum viğ
+Ã Ã¾essum kafla Ã¦tlum viÃ° aÃ° fjalla um fÃ¶ll $f:X\to \C$, sem skilgreind
+eru Ã¡ hlutmengi $X$ Ã­ $\C$ og taka gildi Ã­ $\C$.  Til Ã¾ess aÃ° einfalda
+Ãºtreikninga okkar, Ã¾Ã¡ skiptum viÃ° frjÃ¡lslega milli tvinntalnarithÃ¡ttar og
+vigurrithÃ¡ttar Ã¡ punktum $z\in X$.  Ãannig skrifum viÃ°
 $$
 z=x+iy=re^{i{\theta}}=(x,y)=\left[\begin{matrix} x\\ y\end{matrix}\right]
 $$ 
-og segjum ağ $z$ hafi {\it
+og segjum aÃ° $z$ hafi {\it
 raunhlutann\index{raunhluti}\index{tvinntala!raunhluti}} $x$, {\it
-şverhlutann\index{şverhluti}\index{tvinntala!şverhluti}} $y$,
+Ã¾verhlutann\index{Ã¾verhluti}\index{tvinntala!Ã¾verhluti}} $y$,
 {\it lengdina\index{lengd}\index{tvinntala!lengd}} $r$ og {\it
-horngildiğ\index{horngildi}\index{tvinntala!horngildi}}
-${\theta}$.  Hér er $x+iy$ tvinntöluframsetning\index{lengd!tvinntölu}
-á  $z$ í rétthyrndum hnitum\index{rétthyrnd hnit}, $re^{i{\theta}}$
-framsetning í pólhnitum\index{pólhnit}, $(x,y)$ er
-línu\-vigur\-fram\-setning á $z$  og $\left[\begin{matrix} x\\
-y\end{matrix}\right]$ er dálk\-vigur\-fram\-setning á $z$. Meğ şessu
-erum viğ ağ líta framhjá şeim greinarmun sem gerğur er á 
+horngildiÃ°\index{horngildi}\index{tvinntala!horngildi}}
+${\theta}$.  HÃ©r er $x+iy$ tvinntÃ¶luframsetning\index{lengd!tvinntÃ¶lu}
+Ã¡  $z$ Ã­ rÃ©tthyrndum hnitum\index{rÃ©tthyrnd hnit}, $re^{i{\theta}}$
+framsetning Ã­ pÃ³lhnitum\index{pÃ³lhnit}, $(x,y)$ er
+lÃ­nu\-vigur\-fram\-setning Ã¡ $z$  og $\left[\begin{matrix} x\\
+y\end{matrix}\right]$ er dÃ¡lk\-vigur\-fram\-setning Ã¡ $z$. MeÃ° Ã¾essu
+erum viÃ° aÃ° lÃ­ta framhjÃ¡ Ã¾eim greinarmun sem gerÃ°ur er Ã¡ 
 vigrunum $(1,0)$ og $(0,1)$ annars vegar og
-tvinntölunum\index{tvinntala}  
+tvinntÃ¶lunum\index{tvinntala}  
 $1$ og $i$ hins vegar.
-Fallgildiğ $f(z)$ skrifum viğ ımist sem $f(x+iy)$ eğa $f(x,y)$.
+FallgildiÃ° $f(z)$ skrifum viÃ° Ã½mist sem $f(x+iy)$ eÃ°a $f(x,y)$.
 
 
-Nú skulum viğ líta á fall $f:X\to \C$ sem skilgreint er á einhverju
-hlutmengi $X$ í $\C$ meğ gildi í $\C$.  Viğ getum skrifağ şağ sem
-$f=u+iv$, şar sem $u=\Re f$ er raunhluti $f$ og $v=\Im f$ er şverhluti
-$f$. Viğ horfum oft framhjá şeim greinarmun sem gerğur er á $\R^2$ og
-$\C$ og skrifum şá vigra ımist sem línu- eğa dálkvigra.  Şannig getum
-viğ skrifağ
+NÃº skulum viÃ° lÃ­ta Ã¡ fall $f:X\to \C$ sem skilgreint er Ã¡ einhverju
+hlutmengi $X$ Ã­ $\C$ meÃ° gildi Ã­ $\C$.  ViÃ° getum skrifaÃ° Ã¾aÃ° sem
+$f=u+iv$, Ã¾ar sem $u=\Re f$ er raunhluti $f$ og $v=\Im f$ er Ã¾verhluti
+$f$. ViÃ° horfum oft framhjÃ¡ Ã¾eim greinarmun sem gerÃ°ur er Ã¡ $\R^2$ og
+$\C$ og skrifum Ã¾Ã¡ vigra Ã½mist sem lÃ­nu- eÃ°a dÃ¡lkvigra.  Ãannig getum
+viÃ° skrifaÃ°
 $$
 f(z)=u(z)+iv(z)=(u(x,y), v(x,y))=
 \left[\begin{matrix} u(x,y) \\ v(x,y)\end{matrix}\right], \quad
@@ -1803,11 +1826,11 @@ z=x+iy=(x,y).
 $$
 
 
-\subsection*{Línulegar varpanir}
+\subsection*{LÃ­nulegar varpanir}
 
-Viğ skulum  byrja á şví ağ skoğa {\it  línulegar
-varpanir\index{línuleg vörpun}\index{vörpun}\index{vörpun!línuleg}}, en şağ eru
-föll af gerğinni $L:\C\to \C$ sem uppfylla
+ViÃ° skulum  byrja Ã¡ Ã¾vÃ­ aÃ° skoÃ°a {\it  lÃ­nulegar
+varpanir\index{lÃ­nuleg vÃ¶rpun}\index{vÃ¶rpun}\index{vÃ¶rpun!lÃ­nuleg}}, en Ã¾aÃ° eru
+fÃ¶ll af gerÃ°inni $L:\C\to \C$ sem uppfylla
 $$
 L(z+w)=L(z)+L(w) \qquad z,w\in \C
 $$
@@ -1815,51 +1838,51 @@ og
 $$
 L(cz)=cL(z), \qquad z\in \C, \quad c\in \R.
 $$
-Ef viğ lítum á $L$ sem vörpun $\R^2\to \R^2$, şá vitum viğ ağ hægt er ağ
+Ef viÃ° lÃ­tum Ã¡ $L$ sem vÃ¶rpun $\R^2\to \R^2$, Ã¾Ã¡ vitum viÃ° aÃ° hÃ¦gt er aÃ°
 skrifa hana sem
 \begin{equation*}
 (x,y)\mapsto (ax+by, cx+dy),
 \end{equation*}
-şar sem $a$, $b$,  $c$ og $d$ eru rauntölur.  Viğ getum líka lıst
-vörpuninni $L$ meğ fylkjamargföldun sem 
+Ã¾ar sem $a$, $b$,  $c$ og $d$ eru rauntÃ¶lur.  ViÃ° getum lÃ­ka lÃ½st
+vÃ¶rpuninni $L$ meÃ° fylkjamargfÃ¶ldun sem 
 \begin{equation*}
 \left[\begin{matrix} x\\ y\end{matrix} \right]\mapsto
 \left[\begin{matrix} a & b\\ c & d\end{matrix} \right]
 \left[\begin{matrix} x\\ y\end{matrix} \right].
 \end{equation*}
-Şá nefnist $2\times 2$ fylkiğ sem hér stendur 
-{\it fylki vörpunarinnar $L$ miğağ viğ stağalgrunninn á $\R^2$}
+ÃÃ¡ nefnist $2\times 2$ fylkiÃ° sem hÃ©r stendur 
+{\it fylki vÃ¶rpunarinnar $L$ miÃ°aÃ° viÃ° staÃ°algrunninn Ã¡ $\R^2$}
 
-Nú skulum viğ snúa şessum framsetningum yfir í tvinntalnaframsetningu.
-Eins og viğ höfum áğur rifjağ upp şá svarar
+NÃº skulum viÃ° snÃºa Ã¾essum framsetningum yfir Ã­ tvinntalnaframsetningu.
+Eins og viÃ° hÃ¶fum Ã¡Ã°ur rifjaÃ° upp Ã¾Ã¡ svarar
 tvinntalan $1$ til vigursins  $(1,0)$ og tvinntalan $i$ svarar til
-vigursins $(0,1)$.  Viğ skrifum şví $L(1)$ í stağ $L(1,0)$ og $L(i)$ í
-stağ $L(0,1)$.  Viğ fáum şá $L(1)=(a,c)=a+ic$ og
-$L(i)=(b,d)=b+id$ og şar meğ
+vigursins $(0,1)$.  ViÃ° skrifum Ã¾vÃ­ $L(1)$ Ã­ staÃ° $L(1,0)$ og $L(i)$ Ã­
+staÃ° $L(0,1)$.  ViÃ° fÃ¡um Ã¾Ã¡ $L(1)=(a,c)=a+ic$ og
+$L(i)=(b,d)=b+id$ og Ã¾ar meÃ°
 $$
 L(z)=L(x+iy)=xL(1)+yL(i).
 $$
-Nú notfærum viğ okkur ağ $x=(z+\bar z)/2$ og $y=-i(z-\bar
-z)/2$ og fáum formúluna
+NÃº notfÃ¦rum viÃ° okkur aÃ° $x=(z+\bar z)/2$ og $y=-i(z-\bar
+z)/2$ og fÃ¡um formÃºluna
 \begin{equation*}
 L(z)=Az+B\bar z,
 \end{equation*}
-şar sem
+Ã¾ar sem
 \begin{align*}
 A=\tfrac 12\big(L(1)-iL(i)\big)
 =\tfrac 12\big((a+ic)-i(b+id)\big),\\
 B=\tfrac 12\big(L(1)+iL(i)\big)
 =\tfrac 12\big((a+ic)+i(b+id)\big).
 \end{align*}
-Niğurstağa útreikninga okkar er:
+NiÃ°urstaÃ°a Ãºtreikninga okkar er:
 
-\subsubsection{Setning}  Sérhverja línulega vörpun $L:\C\to\C$
-má setja fram sem $L(z)=Az+B\bar z$, şar sem stuğlarnir
-$A$ og $B$ eru tvinntölur.  Ef 
+\subsubsection{Setning}  SÃ©rhverja lÃ­nulega vÃ¶rpun $L:\C\to\C$
+mÃ¡ setja fram sem $L(z)=Az+B\bar z$, Ã¾ar sem stuÃ°larnir
+$A$ og $B$ eru tvinntÃ¶lur.  Ef 
 $$
 \left[\begin{matrix} a & b\\ c & d\end{matrix} \right]
 $$
-er fylki $L$ miğağ viğ stağalgrunninn á $\R^2$, şá er
+er fylki $L$ miÃ°aÃ° viÃ° staÃ°algrunninn Ã¡ $\R^2$, Ã¾Ã¡ er
 $$
 A=\tfrac 12((a+d)+i(c-b)) \qquad \text{ og } \qquad
 B= \tfrac 12((a-d)+i(c+b))
@@ -1867,180 +1890,180 @@ $$
 
 
 
-Hugsum okkur næst ağ viğ şekkjum stuğlana  $A$ og $B$ og
-ağ viğ viljum ákvarğa stuğlana $a$, $b$, $c$ og $d$ í 
-fylki vörpunarinnar út frá şeim. Sambandiğ şarna á milli er
-einfalt, şví
+Hugsum okkur nÃ¦st aÃ° viÃ° Ã¾ekkjum stuÃ°lana  $A$ og $B$ og
+aÃ° viÃ° viljum Ã¡kvarÃ°a stuÃ°lana $a$, $b$, $c$ og $d$ Ã­ 
+fylki vÃ¶rpunarinnar Ãºt frÃ¡ Ã¾eim. SambandiÃ° Ã¾arna Ã¡ milli er
+einfalt, Ã¾vÃ­
 \begin{align*}
 a&=\Re\big(L(1)\big)=\Re\big(A+B\big), \\
 b&=\Re\big(L(i)\big)=\Re\big(i(A-B)\big)=-\Im\big(A-B\big),\\
 c&=\Im\big(L(1)\big)=\Im\big(A+B\big),\\
 d&=\Im\big(L(i)\big)=\Im\big(i(A-B)\big)=\Re\big(A-B\big).
 \end{align*}
-Í tvinnfallagreiningu şarf oft ağ gera greinarmun á {\it
-$\R$-línulegum\index{vörpun!$\R$-línuleg}\index{$\R$-línuleg vörpun}}
-vörpunum, en şağ eru nákvæmlega şær línulegu varpanir sem viğ höfum
-veriğ ağ fjalla um, og {\it $\C$-línulegum\index{$\C$-línuleg
-vörpun}\index{vörpun!$\C$-línuleg}} vörpunum, en şær uppfylla
+Ã tvinnfallagreiningu Ã¾arf oft aÃ° gera greinarmun Ã¡ {\it
+$\R$-lÃ­nulegum\index{vÃ¶rpun!$\R$-lÃ­nuleg}\index{$\R$-lÃ­nuleg vÃ¶rpun}}
+vÃ¶rpunum, en Ã¾aÃ° eru nÃ¡kvÃ¦mlega Ã¾Ã¦r lÃ­nulegu varpanir sem viÃ° hÃ¶fum
+veriÃ° aÃ° fjalla um, og {\it $\C$-lÃ­nulegum\index{$\C$-lÃ­nuleg
+vÃ¶rpun}\index{vÃ¶rpun!$\C$-lÃ­nuleg}} vÃ¶rpunum, en Ã¾Ã¦r uppfylla
 \begin{equation*}
 L(z+w)=L(z)+L(w) \quad \text{ og } \quad 
 L(cz)=cL(z), \quad z,w\in \C, \quad c\in \C.
 \end{equation*}
 
 
-Şağ er greinilegt ağ sérhver $\C$-línuleg vörpun er $\R$-línuleg, şví ef
-seinna skilyrğiğ gildir um sérhverja tvinntölu, şá gildir şağ sérstaklega um
-sérhverja rauntölu.  Şağ er einnig augljóst ağ sérhver vörpun af
-gerğinni $L(z)=Az$ şar sem $A$ er gefin tvinntala er $\C$-línuleg.
+ÃaÃ° er greinilegt aÃ° sÃ©rhver $\C$-lÃ­nuleg vÃ¶rpun er $\R$-lÃ­nuleg, Ã¾vÃ­ ef
+seinna skilyrÃ°iÃ° gildir um sÃ©rhverja tvinntÃ¶lu, Ã¾Ã¡ gildir Ã¾aÃ° sÃ©rstaklega um
+sÃ©rhverja rauntÃ¶lu.  ÃaÃ° er einnig augljÃ³st aÃ° sÃ©rhver vÃ¶rpun af
+gerÃ°inni $L(z)=Az$ Ã¾ar sem $A$ er gefin tvinntala er $\C$-lÃ­nuleg.
 
 
-Hugsum okkur nú ağ $L$ sé $\C$-línuleg og skrifum
-$L(z)=Az+B\bar z$ eins og lıst er hér ağ framan.  Şá er 
-$L(i)=iL(1)$ og şví er 
+Hugsum okkur nÃº aÃ° $L$ sÃ© $\C$-lÃ­nuleg og skrifum
+$L(z)=Az+B\bar z$ eins og lÃ½st er hÃ©r aÃ° framan.  ÃÃ¡ er 
+$L(i)=iL(1)$ og Ã¾vÃ­ er 
 $$
 B=\tfrac 12\big(L(1)+iL(i)\big)= \tfrac 12\big(L(1)+i^2L(1)\big)=0,
 $$
-svo $L(z)=Az$.  Niğustağan er şví 
+svo $L(z)=Az$.  NiÃ°ustaÃ°an er Ã¾vÃ­ 
 
-\subsubsection{Setning} Sérhver $\C$-línuleg vörpun $L:\C\to \C$ er af gerğinni
+\subsubsection{Setning} SÃ©rhver $\C$-lÃ­nuleg vÃ¶rpun $L:\C\to \C$ er af gerÃ°inni
 $$
 L(z)=Az, \qquad z\in \C,
 $$
-şar sem $A$ er tvinntala.
+Ã¾ar sem $A$ er tvinntala.
 
 
 \bigskip\hrule\bigskip
 
-\subsubsection{Sınidæmi}  Finniğ nauğsynleg og nægjanleg skilyrği, sem tvinntölurnar
-$A$ og $B$ verğa ağ uppfylla til şess ağ línulega vörpunin
-$L:\C\to\C$,  sem skilgreind er meğ $L(z)=Az+B\bar z$, $z\in \C$,
-sé gagntæk.  
+\subsubsection{SÃ½nidÃ¦mi}  FinniÃ° nauÃ°synleg og nÃ¦gjanleg skilyrÃ°i, sem tvinntÃ¶lurnar
+$A$ og $B$ verÃ°a aÃ° uppfylla til Ã¾ess aÃ° lÃ­nulega vÃ¶rpunin
+$L:\C\to\C$,  sem skilgreind er meÃ° $L(z)=Az+B\bar z$, $z\in \C$,
+sÃ© gagntÃ¦k.  
 
 \smallskip\noindent
 {\it Lausn}: \ 
-Viğ skulum skrifa $A={\alpha}+i{\beta}$ og
-$B={\gamma}+i{\delta}$, şar sem ${\alpha}$, ${\beta}$, ${\gamma}$ og
-${\delta}$ eru rauntölur.  Şá er
+ViÃ° skulum skrifa $A={\alpha}+i{\beta}$ og
+$B={\gamma}+i{\delta}$, Ã¾ar sem ${\alpha}$, ${\beta}$, ${\gamma}$ og
+${\delta}$ eru rauntÃ¶lur.  ÃÃ¡ er
 \begin{align*}
 L(z)&=Az+B\overline z= ({\alpha}+i{\beta})(x+iy)+({\gamma}+i{\delta})(x-iy)\\
 &=({\alpha}+{\gamma})x+(-{\beta}+{\delta})y+
 i({\beta}+{\delta})x+i({\alpha}-{\gamma})y.
 \end{align*}
-Fylki vörpunarinnar $L$ miğağ viğ stağalgrunninn
+Fylki vÃ¶rpunarinnar $L$ miÃ°aÃ° viÃ° staÃ°algrunninn
 $\big(\left[\begin{matrix}1 \\ 0\end{matrix}\right],
-\left[\begin{matrix}0 \\ 1\end{matrix}\right]\big)$ í
-$\R^2$ er şví
+\left[\begin{matrix}0 \\ 1\end{matrix}\right]\big)$ Ã­
+$\R^2$ er Ã¾vÃ­
 $$
 \left[\begin{matrix} ({\alpha}+{\gamma}) & (-{\beta}+{\delta})\\
 ({\beta}+{\delta}) & ({\alpha}-{\gamma})\end{matrix}\right],
 $$
-og ákveğa şess er 
+og Ã¡kveÃ°a Ã¾ess er 
 $$
 ({\alpha}+{\gamma})({\alpha}-{\gamma})
       -(-{\beta}+{\delta})({\beta}+{\delta})
 ={\alpha}^2-{\gamma}^2+{\beta}^2-{\delta}^2=|A|^2-|B|^2.
 $$
-Vörpunin $L$ er gagntæk şá og şví ağeins ağ ákveğan sé $\neq 0$, svo svariğ
-verğur:  Vörpunin  $L$ er gagntæk şá og şví ağeins ağ  $|A|\neq |B|$.
+VÃ¶rpunin $L$ er gagntÃ¦k Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° Ã¡kveÃ°an sÃ© $\neq 0$, svo svariÃ°
+verÃ°ur:  VÃ¶rpunin  $L$ er gagntÃ¦k Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ°  $|A|\neq |B|$.
 
 
-\subsection*{Myndræn framsetning á vörpunum}
+\subsection*{MyndrÃ¦n framsetning Ã¡ vÃ¶rpunum}
 
-Til şess ağ lısa hegğun raungildra falla á myndrænan hátt, şá teiknum
-viğ upp gröf şeirra.  Graf tvinngilda fallsins $f:X\to \C$, 
-$X\subseteq \C$, er hlutmengiğ í $\C^2$ sem skilgreint er meğ
+Til Ã¾ess aÃ° lÃ½sa hegÃ°un raungildra falla Ã¡ myndrÃ¦nan hÃ¡tt, Ã¾Ã¡ teiknum
+viÃ° upp grÃ¶f Ã¾eirra.  Graf tvinngilda fallsins $f:X\to \C$, 
+$X\subseteq \C$, er hlutmengiÃ° Ã­ $\C^2$ sem skilgreint er meÃ°
 $$
 \graf f=\set{(z,f(z))\in \C^2; z\in X}.
 $$
-Nú er $\C^2$ fjórvítt rúm yfir $\R$, en rúmskynjun flestra manna
-takmarkast viğ şrjár víddir, svo viğ getum ekki teiknağ upp myndir  af
-gröfum tvinnfalla.  Viğ getum vissulega teiknağ upp gröf raungildu
-fallanna $\Re f$ og $\Im f$ í şrívíğu rúmi og gert okkur hugmynd 
-um $\graf f$ út frá şeim, en şağ hefur takmarkağa şığingu.  
-Til şess ağ lısa tvinnföllum á myndrænan hátt er şví oft brugğiğ á şağ
-ráğ ağ skoğa hvernig şau færa til punktana í $\C$ og lısa á mynd
-afstöğunni millli $z$ og $f(z)$. Vert er ağ geta şess ağ í şessu
-samhengi eru orğin {\it vörpun}, {\it færsla}, {\it ummyndun}
-o.fl.~oft notuğ sem samheiti fyrir orğiğ fall.
-Viğ skulum nú taka nokkur dæmi um şetta
+NÃº er $\C^2$ fjÃ³rvÃ­tt rÃºm yfir $\R$, en rÃºmskynjun flestra manna
+takmarkast viÃ° Ã¾rjÃ¡r vÃ­ddir, svo viÃ° getum ekki teiknaÃ° upp myndir  af
+grÃ¶fum tvinnfalla.  ViÃ° getum vissulega teiknaÃ° upp grÃ¶f raungildu
+fallanna $\Re f$ og $\Im f$ Ã­ Ã¾rÃ­vÃ­Ã°u rÃºmi og gert okkur hugmynd 
+um $\graf f$ Ãºt frÃ¡ Ã¾eim, en Ã¾aÃ° hefur takmarkaÃ°a Ã¾Ã½Ã°ingu.  
+Til Ã¾ess aÃ° lÃ½sa tvinnfÃ¶llum Ã¡ myndrÃ¦nan hÃ¡tt er Ã¾vÃ­ oft brugÃ°iÃ° Ã¡ Ã¾aÃ°
+rÃ¡Ã° aÃ° skoÃ°a hvernig Ã¾au fÃ¦ra til punktana Ã­ $\C$ og lÃ½sa Ã¡ mynd
+afstÃ¶Ã°unni millli $z$ og $f(z)$. Vert er aÃ° geta Ã¾ess aÃ° Ã­ Ã¾essu
+samhengi eru orÃ°in {\it vÃ¶rpun}, {\it fÃ¦rsla}, {\it ummyndun}
+o.fl.~oft notuÃ° sem samheiti fyrir orÃ°iÃ° fall.
+ViÃ° skulum nÃº taka nokkur dÃ¦mi um Ã¾etta
 
 
 
-Vörpun $\C\to \C$ af gerğinni $z\mapsto z+a$, şar sem 
-$a\in \C$ nefnist {\it hliğrun\index{hliğrun}\index{vörpun!hliğrun}}.
-Vörpun af gerğinni $z\mapsto az$, nefnist
-{\it snúningur\index{snúningur}\index{vörpun!snúningur}}, ef $a\in
-\C$ og  $|a|=1$, hún nefnist {\it
-stríkkun\index{stríkun}\index{vörpun!stríkkun}} ef $a\in
-\R$ og $|a|>1$ og {\it herping\index{herping}\index{vörpun!herping}}, ef  
-$a\in \R$ og $|a|<1$, en almennt nefnist hún
-{\it snústríkkun\index{snústríkkun}\index{vörpun!snústríkkun}} ef $a\in \C\setminus\set{0}$.
-Vörpunin $\C\setminus\set 0 \to \C\setminus\set 0$, 
+VÃ¶rpun $\C\to \C$ af gerÃ°inni $z\mapsto z+a$, Ã¾ar sem 
+$a\in \C$ nefnist {\it hliÃ°run\index{hliÃ°run}\index{vÃ¶rpun!hliÃ°run}}.
+VÃ¶rpun af gerÃ°inni $z\mapsto az$, nefnist
+{\it snÃºningur\index{snÃºningur}\index{vÃ¶rpun!snÃºningur}}, ef $a\in
+\C$ og  $|a|=1$, hÃºn nefnist {\it
+strÃ­kkun\index{strÃ­kun}\index{vÃ¶rpun!strÃ­kkun}} ef $a\in
+\R$ og $|a|>1$ og {\it herping\index{herping}\index{vÃ¶rpun!herping}}, ef  
+$a\in \R$ og $|a|<1$, en almennt nefnist hÃºn
+{\it snÃºstrÃ­kkun\index{snÃºstrÃ­kkun}\index{vÃ¶rpun!snÃºstrÃ­kkun}} ef $a\in \C\setminus\set{0}$.
+VÃ¶rpunin $\C\setminus\set 0 \to \C\setminus\set 0$, 
 $z\mapsto 1/z$ nefnist {\it
-umhverfing\index{umhverfing}\index{vörpun!umhverfing}}.
+umhverfing\index{umhverfing}\index{vÃ¶rpun!umhverfing}}.
 
 \bigskip
-MYND VANTAR HÉR!!! {fig0312}{}
+MYND VANTAR HÃ‰R!!! {fig0312}{}
 
 
-\subsection*{Brotnar línulegar varpanir}
+\subsection*{Brotnar lÃ­nulegar varpanir}
 
-Hliğranir, snústríkkanir og umhverfing eru hluti af almennum flokki
-varpana, en fall af gerğinni 
+HliÃ°ranir, snÃºstrÃ­kkanir og umhverfing eru hluti af almennum flokki
+varpana, en fall af gerÃ°inni 
  $$f(z)=\dfrac{az+b}{cz+d}, \qquad ad-bc\neq 0, \quad a,b,c,d\in \C,
  $$
-kallast {\it brotin línuleg vörpun\index{brotin línuleg
-vörpun}\index{vörpun!brotin línuleg}},
-{\it brotin línuleg færsla\index{brotin línuleg færsla}}
-eğa {\it Möbiusarvörpun\index{Möbiusarvörpun}}.  Viğ
-sjáum ağ $f(z)$  er skilgreint fyrir öll $z\in \C$,  ef $c=0$, en fyrir
-öll $z\neq -d/c$, ef $c\neq 0$.  
-Eğlilegt er ağ útvíkka
-skilgreningarsvæği meğ şví ağ bæta einum punkti, {\it
-óendanleikapunkti\index{óendanleikapunktur}}   $\infty$, 
-viğ planiğ $\C$ og skilgreina şannig {\it útvíkkağa talnaplaniğ}
+kallast {\it brotin lÃ­nuleg vÃ¶rpun\index{brotin lÃ­nuleg
+vÃ¶rpun}\index{vÃ¶rpun!brotin lÃ­nuleg}},
+{\it brotin lÃ­nuleg fÃ¦rsla\index{brotin lÃ­nuleg fÃ¦rsla}}
+eÃ°a {\it MÃ¶biusarvÃ¶rpun\index{MÃ¶biusarvÃ¶rpun}}.  ViÃ°
+sjÃ¡um aÃ° $f(z)$  er skilgreint fyrir Ã¶ll $z\in \C$,  ef $c=0$, en fyrir
+Ã¶ll $z\neq -d/c$, ef $c\neq 0$.  
+EÃ°lilegt er aÃ° ÃºtvÃ­kka
+skilgreningarsvÃ¦Ã°i meÃ° Ã¾vÃ­ aÃ° bÃ¦ta einum punkti, {\it
+Ã³endanleikapunkti\index{Ã³endanleikapunktur}}   $\infty$, 
+viÃ° planiÃ° $\C$ og skilgreina Ã¾annig {\it ÃºtvÃ­kkaÃ°a talnaplaniÃ°}
 $$
 \widehat \C=\C\cup \{\infty\}.
 $$
-Şá getum viğ litiğ á $f$ sem vörpun
+ÃÃ¡ getum viÃ° litiÃ° Ã¡ $f$ sem vÃ¶rpun
  $$f:\widehat \C \to \widehat \C
  $$
-meğ şví ağ setja
+meÃ° Ã¾vÃ­ aÃ° setja
 \begin{gather*}
 f(\infty)=\infty, \qquad \text{ ef } \quad c=0, \qquad \text{ en }\\
 f(-d/c)=\infty \quad \text{ og } \quad f(\infty)=\lim_{|z|\to+\infty}f(z)=a/c, \qquad
 \text{ ef } \quad c\neq 0.
 \end{gather*}
-Meğ şessari viğbót verğur $f$ gagntæk vörpun.  
-Andhverfuna $f^{[-1]}$ er létt ağ
-reikna út, şví
+MeÃ° Ã¾essari viÃ°bÃ³t verÃ°ur $f$ gagntÃ¦k vÃ¶rpun.  
+Andhverfuna $f^{[-1]}$ er lÃ©tt aÃ°
+reikna Ãºt, Ã¾vÃ­
  $$w=\dfrac{az+b}{cz+d} \qquad \Leftrightarrow \qquad
 z=\dfrac{dw-b}{-cw+a}
  $$
-og şağ  segir okkur ağ varpanirnar 
+og Ã¾aÃ°  segir okkur aÃ° varpanirnar 
 $$
 f^{[-1]}(w)=\dfrac{dw-b}{-cw+a}.
 $$
-Ef viğ stillum stuğlum vörpunarinnar $f$ upp í fylkiğ
+Ef viÃ° stillum stuÃ°lum vÃ¶rpunarinnar $f$ upp Ã­ fylkiÃ°
 $$
 \left[\begin{matrix} a&b\\c&d\end{matrix}\right]
 $$
-şá eru stuğlar andhverfunnar $f^{[-1]}$ lesnir út úr andhverfa fylkinu 
+Ã¾Ã¡ eru stuÃ°lar andhverfunnar $f^{[-1]}$ lesnir Ãºt Ãºr andhverfa fylkinu 
  $$\left[\begin{matrix} a&b\\c&d\end{matrix}\right]^{-1}=
 \dfrac 1{ad-bc}\left[\begin{matrix} d&-b\\-c&a\end{matrix}\right].
  $$
-Athugiğ ağ ákveğan $ad-bc$ styttist şegar brotiğ er myndağ.
+AthugiÃ° aÃ° Ã¡kveÃ°an $ad-bc$ styttist Ã¾egar brotiÃ° er myndaÃ°.
 
-Ef $f_1$ og $f_2$ eru tvær brotnar línulegar varpanir, şá er 
-samskeyting şeirra $f_3$, $f_1\circ f_2=f_3$,
-einnig brotin línuleg vörpun.  Ef
+Ef $f_1$ og $f_2$ eru tvÃ¦r brotnar lÃ­nulegar varpanir, Ã¾Ã¡ er 
+samskeyting Ã¾eirra $f_3$, $f_1\circ f_2=f_3$,
+einnig brotin lÃ­nuleg vÃ¶rpun.  Ef
 $$
 f_1(z)=\dfrac{a_1z+b_1}{c_1z+d_1} \quad \text{ og } \quad
 f_2(z)=\dfrac{a_2z+b_2}{c_2z+d_2},
-\quad \text{ şá er  } \quad 
+\quad \text{ Ã¾Ã¡ er  } \quad 
 f_3(z)=\dfrac{a_3z+b_3}{c_3z+d_3},
 $$
-şar sem stuğlarnir $a_3,b_3,c_3$ og $d_3$ fást meğ fylkjamargföldun,
+Ã¾ar sem stuÃ°larnir $a_3,b_3,c_3$ og $d_3$ fÃ¡st meÃ° fylkjamargfÃ¶ldun,
 $$
 \left[\begin{matrix} a_1&b_1\\c_1&d_1\end{matrix}\right]
 \left[\begin{matrix} a_2&b_2\\c_2&d_2\end{matrix}\right]
@@ -2048,39 +2071,39 @@ $$
 \left[\begin{matrix} a_3&b_3\\c_3&d_3\end{matrix}\right].
 $$
 
-Şağ er ljóst ağ hliğranir, snústríkkanir og umhvernig eru brotnar
-línulegar varpanir og şar af leiğandi eru allar samskeytingar af 
-vörpunum af şessum şremur mismunandi gerğum einnig brotnar
-línulegar varpanir. 
+ÃaÃ° er ljÃ³st aÃ° hliÃ°ranir, snÃºstrÃ­kkanir og umhvernig eru brotnar
+lÃ­nulegar varpanir og Ã¾ar af leiÃ°andi eru allar samskeytingar af 
+vÃ¶rpunum af Ã¾essum Ã¾remur mismunandi gerÃ°um einnig brotnar
+lÃ­nulegar varpanir. 
 
-Í ljós kemur ağ 
-  sérhver brotin línuleg vörpun er samskeyting af
-hliğrunum\index{vörpun!hliğrun}\index{hliğrun}, snústríkkunum
-og umhverfingu.  Til şess ağ sjá şetta athugum viğ fyrst tilfelliğ
-$c=0$, en şá er
+Ã ljÃ³s kemur aÃ° 
+  sÃ©rhver brotin lÃ­nuleg vÃ¶rpun er samskeyting af
+hliÃ°runum\index{vÃ¶rpun!hliÃ°run}\index{hliÃ°run}, snÃºstrÃ­kkunum
+og umhverfingu.  Til Ã¾ess aÃ° sjÃ¡ Ã¾etta athugum viÃ° fyrst tilfelliÃ°
+$c=0$, en Ã¾Ã¡ er
  $$f(z)=\frac adz+\frac bd,
  $$
-samsett  úr snústríkkun og hliğrun.  Ef $c\neq 0$, şá getum viğ
-skrifağ
+samsett  Ãºr snÃºstrÃ­kkun og hliÃ°run.  Ef $c\neq 0$, Ã¾Ã¡ getum viÃ°
+skrifaÃ°
  $$f(z)= \dfrac{az+b}{cz+d}=\dfrac 1c\cdot \dfrac{az+b}{z+d/c}=
 \dfrac 1c\cdot \dfrac{a(z+d/c)-ad/c+b}{z+d/c}=
 \dfrac ac+\dfrac{-ad/c+b}{cz+d}, 
  $$
-og sjáum ağ $f$ er samsett  úr snústríkkun, 
+og sjÃ¡um aÃ° $f$ er samsett  Ãºr snÃºstrÃ­kkun, 
 $$
 z\mapsto cz=z_1,
 $$
-hliğrun 
+hliÃ°run 
 $$z_1\mapsto z_1+d=cz+d=z_2,
 $$ 
 umhverfingu 
 $$z_2\mapsto 1/z_2 = \dfrac 1{cz+d}=z_3,
 $$
-snústríkkun 
+snÃºstrÃ­kkun 
 $$
 z_3\mapsto (-ad/c+b)z_3=\dfrac{-ad/c+b}{cz+d}=z_4
 $$ 
-og hliğrun
+og hliÃ°run
 $$
 z_4\mapsto z_4+a/c=a/c+\dfrac{-ad/c+b}{cz+d}.
 $$
@@ -2088,19 +2111,19 @@ $$
 
 \subsection*{Fastapunktar}
 
-Ef $F:M\to M$ er vörpun á einhverju mengi $M$, şá nefnist 
-$p\in M$ {\it fastapunktur} vörpunarinnar $F$ ef $F(p)=p$.
-Allir punktar í $M$ eru fastapunktar {\it samsemdarvörpunarinnar}
+Ef $F:M\to M$ er vÃ¶rpun Ã¡ einhverju mengi $M$, Ã¾Ã¡ nefnist 
+$p\in M$ {\it fastapunktur} vÃ¶rpunarinnar $F$ ef $F(p)=p$.
+Allir punktar Ã­ $M$ eru fastapunktar {\it samsemdarvÃ¶rpunarinnar}
 $x\mapsto x$.
 
-Nú látum viğ $M$ vera útvíkkağa talnaplaniğ $\widehat \C$ og $f$ vera
-brotna línulega vörpun á $\widehat \C$, sem gefin er meğ
+NÃº lÃ¡tum viÃ° $M$ vera ÃºtvÃ­kkaÃ°a talnaplaniÃ° $\widehat \C$ og $f$ vera
+brotna lÃ­nulega vÃ¶rpun Ã¡ $\widehat \C$, sem gefin er meÃ°
 $$
 f(z)=\dfrac{az+b}{cz+d}, \qquad ad-bc\neq 0, \qquad z\in \C.
 $$
-Ef $c=0$, şá er $f(\infty)=\infty$ svo punkturinn $\infty$ er
-fastapunktur í şessu tilfelli.  Gerum nú ráğ fyrir ağ $p\in \C$ sé
-fastapunktur. Şá fullnægir $p$ jöfnunni
+Ef $c=0$, Ã¾Ã¡ er $f(\infty)=\infty$ svo punkturinn $\infty$ er
+fastapunktur Ã­ Ã¾essu tilfelli.  Gerum nÃº rÃ¡Ã° fyrir aÃ° $p\in \C$ sÃ©
+fastapunktur. ÃÃ¡ fullnÃ¦gir $p$ jÃ¶fnunni
 $$
 \dfrac ad p+\dfrac bd=p 
 $$
@@ -2108,266 +2131,274 @@ sem jafngildir
 $$
 (a-d)p=-b.
 $$
-Ef $a=d$, şá er $f$ vörpunin $z\mapsto z+b/d$, en şessi vörpun hefur
-fastapunkt ağeins ef $b=0$ og  şá er hún samsemdarvörpunin.
-Ef $a\neq d$, şá fæst nákvæmlega einn fastapunktur til viğbótar viğ
-$\infty$ og hann er gefinn meğ
+Ef $a=d$, Ã¾Ã¡ er $f$ vÃ¶rpunin $z\mapsto z+b/d$, en Ã¾essi vÃ¶rpun hefur
+fastapunkt aÃ°eins ef $b=0$ og  Ã¾Ã¡ er hÃºn samsemdarvÃ¶rpunin.
+Ef $a\neq d$, Ã¾Ã¡ fÃ¦st nÃ¡kvÃ¦mlega einn fastapunktur til viÃ°bÃ³tar viÃ°
+$\infty$ og hann er gefinn meÃ°
 $$
 p=\dfrac {-b}{a-d}.
 $$
-Şá höfum viğ afgreitt tilfelliğ $c=0$.  Gerum şví ráğ fyrir ağ $c\neq
-0$.  Şá eru $\infty$ og $-d/c$ ekki fastapunktar, svo fastapunktarnir
+ÃÃ¡ hÃ¶fum viÃ° afgreitt tilfelliÃ° $c=0$.  Gerum Ã¾vÃ­ rÃ¡Ã° fyrir aÃ° $c\neq
+0$.  ÃÃ¡ eru $\infty$ og $-d/c$ ekki fastapunktar, svo fastapunktarnir
 $p$ uppfylla 
 $$
 \dfrac{ap+b}{cp+d}=p,
 $$
-sem jafngildir şví ağ $p$ uppfylli annars stigs jöfnu,
+sem jafngildir Ã¾vÃ­ aÃ° $p$ uppfylli annars stigs jÃ¶fnu,
 $$
 cp^2+(d-a)p-b=0.
 $$
-Hún hefur í mesta lagi tvær lausnir.  Niğurstağa okkar er şví:
-.. _se:fastapunktar
+HÃºn hefur Ã­ mesta lagi tvÃ¦r lausnir.  NiÃ°urstaÃ°a okkar er Ã¾vÃ­:
+
+
+.. _se:fastapunktar:
 
 \subsubsection{Setning}
-Brotin línuleg vörpun, sem er ekki samsemdarvörpunin $z\mapsto z$,
-hefur í mesta lagi tvo fastapunkta. 
+Brotin lÃ­nuleg vÃ¶rpun, sem er ekki samsemdarvÃ¶rpunin $z\mapsto z$,
+hefur Ã­ mesta lagi tvo fastapunkta. 
 
 
-\subsection*{Şriggja punkta reglan}
+\subsection*{Ãriggja punkta reglan}
 
-Látum nú $z_1$, $z_2$ og $z_3$ vera şrjá ólíka punkta í $\C$ og lítum
-á brotnu línulegu vörpunina
+LÃ¡tum nÃº $z_1$, $z_2$ og $z_3$ vera Ã¾rjÃ¡ Ã³lÃ­ka punkta Ã­ $\C$ og lÃ­tum
+Ã¡ brotnu lÃ­nulegu vÃ¶rpunina
 $$
 f(z)=\dfrac{(z-z_1)}{(z-z_3)}\cdot \dfrac{(z_2-z_3)}{(z_2-z_1)}.
 $$
-Viğ fáum şá ağ $f(z_1)=0$, $f(z_2)=1$ og $f(z_3)=\infty$.   Şağ er
-hægt ağ alhæfa skilgreininguna şannig ağ einn punktanna $z_1$, $z_2$
-eğa $z_3$ megi vera $\infty$.  Şá tökum viğ bara markgildi $|z_j|\to
-+\infty$ í hægri hliğinni.    
+ViÃ° fÃ¡um Ã¾Ã¡ aÃ° $f(z_1)=0$, $f(z_2)=1$ og $f(z_3)=\infty$.   ÃaÃ° er
+hÃ¦gt aÃ° alhÃ¦fa skilgreininguna Ã¾annig aÃ° einn punktanna $z_1$, $z_2$
+eÃ°a $z_3$ megi vera $\infty$.  ÃÃ¡ tÃ¶kum viÃ° bara markgildi $|z_j|\to
++\infty$ Ã­ hÃ¦gri hliÃ°inni.    
 
-Ef $z_1=\infty$, şá skilgreinum viğ
+Ef $z_1=\infty$, Ã¾Ã¡ skilgreinum viÃ°
 $$
 f(z)=\lim_{|\tilde z_1|\to+\infty}
 \dfrac{(z-\tilde z_1)}{(z-z_3)}\cdot \dfrac{(z_2-z_3)}{(z_2-\tilde
 z_1)}
 =\dfrac {(z_2-z_3)}{(z-z_3)}.
 $$
-Şağ er ljóst ağ hægri hliğin skilgreinir vörpun meğ
+ÃaÃ° er ljÃ³st aÃ° hÃ¦gri hliÃ°in skilgreinir vÃ¶rpun meÃ°
 $f(\infty)=0$, $f(z_2)=1$ og $f(z_3)=\infty$.
-Ef $z_2=\infty$, şá setjum viğ 
+Ef $z_2=\infty$, Ã¾Ã¡ setjum viÃ° 
 $$
 f(z)=\lim_{|\tilde z_2|\to+\infty}
 \dfrac{(z-z_1)}{(z-z_3)}\cdot \dfrac{(\tilde z_2-z_3)}{(\tilde z_2-
 z_1)}
 =\dfrac {(z-z_1)}{(z-z_3)}.
 $$
-og út kemur vörpun sem uppfyllir $f(z_1)=0$, $f(\infty)=1$ og
-$f(z_3)=\infty$.  Ef viğ viljum ağ $z_3=\infty$, şá setjum viğ
+og Ãºt kemur vÃ¶rpun sem uppfyllir $f(z_1)=0$, $f(\infty)=1$ og
+$f(z_3)=\infty$.  Ef viÃ° viljum aÃ° $z_3=\infty$, Ã¾Ã¡ setjum viÃ°
 $$
 f(z)=\lim_{|\tilde z_3|\to+\infty}
 \dfrac{(z-z_1)}{(z-\tilde z_3)}\cdot \dfrac{( z_2-\tilde z_3)}{(z_2-
 z_1)}
 =\dfrac {(z-z_1)}{(z_2-z_1)}.
 $$
-og viğ höfum $f(z_1)=0$, $f(z_2)=1$ og $f(\infty)=\infty$.
+og viÃ° hÃ¶fum $f(z_1)=0$, $f(z_2)=1$ og $f(\infty)=\infty$.
 
 
-Látum nú $z_1$, $z_2$ og $z_3$ vera ólíka punkta í $\widehat \C$ og
+LÃ¡tum nÃº $z_1$, $z_2$ og $z_3$ vera Ã³lÃ­ka punkta Ã­ $\widehat \C$ og
 setjum
 $$
 f(z)=\dfrac{(z-z_1)}{(z-z_3)}\cdot \dfrac{(z_2-z_3)}{(z_2-z_1)}.
 $$
-Niğurstağan af şví ağ taka markgildin şrjú hér ağ framan er sú ağ viğ
-eigum ağ skipta  út svigum sem innihalda $z_j$ og tölunni $1$,
-ef $z_j=\infty$.  Í öllum tilfellum varpast $z_1$ á $0$, $z_2$ á 
-$1$ og $z_3$ á $\infty$.
+NiÃ°urstaÃ°an af Ã¾vÃ­ aÃ° taka markgildin Ã¾rjÃº hÃ©r aÃ° framan er sÃº aÃ° viÃ°
+eigum aÃ° skipta  Ãºt svigum sem innihalda $z_j$ og tÃ¶lunni $1$,
+ef $z_j=\infty$.  Ã Ã¶llum tilfellum varpast $z_1$ Ã¡ $0$, $z_2$ Ã¡ 
+$1$ og $z_3$ Ã¡ $\infty$.
 
-Nú skulum viğ breyta til og taka einhverja şrjá ólíka punkta $w_1$,
-$w_2$ og $w_3$ í $\widehat \C$  í stağinn fyrir punktana $0$, $1$ 
-og $\infty$ og spyrja okkur hvernig viğ finnum brotna línulega vörpun
+NÃº skulum viÃ° breyta til og taka einhverja Ã¾rjÃ¡ Ã³lÃ­ka punkta $w_1$,
+$w_2$ og $w_3$ Ã­ $\widehat \C$  Ã­ staÃ°inn fyrir punktana $0$, $1$ 
+og $\infty$ og spyrja okkur hvernig viÃ° finnum brotna lÃ­nulega vÃ¶rpun
 sem uppfyllir $f(z_1)=w_1$, $f(z_2)=w_2$ og $f(z_3)=w_3$.  
 
-Şetta er leyst şannig ağ viğ finnum fyrst tvær brotnar línulegar
-varpanir $F$ og $G$ meğ forskriftinni hér ağ framan sem uppfylla
+Ãetta er leyst Ã¾annig aÃ° viÃ° finnum fyrst tvÃ¦r brotnar lÃ­nulegar
+varpanir $F$ og $G$ meÃ° forskriftinni hÃ©r aÃ° framan sem uppfylla
 $F(w_1)=0$, $F(w_2)=1$, $F(w_3)=\infty$, $G(z_1)=0$, $G(z_2)=1$ og 
-$G(z_3)=\infty$.  Şá uppfyllir samskeytingin
+$G(z_3)=\infty$.  ÃÃ¡ uppfyllir samskeytingin
 $$
 f(z)=F^{-1}\circ G(z)
 $$
-skilyrğin $f(z_1)=w_1$, $f(z_2)=w_2$ og $f(z_3)=w_3$.  
+skilyrÃ°in $f(z_1)=w_1$, $f(z_2)=w_2$ og $f(z_3)=w_3$.  
 
-Hugsum okkur nú ağ $g$ sé önnur brotin línuleg vörpun 
+Hugsum okkur nÃº aÃ° $g$ sÃ© Ã¶nnur brotin lÃ­nuleg vÃ¶rpun 
 sem uppfyllir $g(z_1)=w_1$, $g(z_2)=w_2$ og $g(z_3)=w_3$.
-Şá hefur vörpunin $f^{-1}\circ g(z)$ şrjá fastapunkta
-$z_1$, $z_2$ og $z_3$.   Setning :ref:`se:fastapunktar` segir nú ağ 
-$f^{-1}\circ g(z)=z$ fyrir öll $z\in \widehat \C$ og şar meğ
-er $f(z)=g(z)$ fyrir öll $z\in \widehat \C$.  Niğurstağan er şví:
-.. _se:thrir_punktar
+ÃÃ¡ hefur vÃ¶rpunin $f^{-1}\circ g(z)$ Ã¾rjÃ¡ fastapunkta
+$z_1$, $z_2$ og $z_3$.   Setning :ref:`se:fastapunktar` segir nÃº aÃ° 
+$f^{-1}\circ g(z)=z$ fyrir Ã¶ll $z\in \widehat \C$ og Ã¾ar meÃ°
+er $f(z)=g(z)$ fyrir Ã¶ll $z\in \widehat \C$.  NiÃ°urstaÃ°an er Ã¾vÃ­:
 
-\subsubsection{Setning} {\rm ({\it Şriggja punkta reglan})} 
-\  Ef gefnir eru şrír ólíkir punktar $z_1$, $z_2$ og $z_3$ í $\widehat
-\C$ og şrír ólíkir punktar $w_1$, $w_2$ og $w_3$ í $\widehat \C$,
-şá er til nákvæmlega ein brotin línuleg vörpun $f$ sem varpar
-$z_1$ á $w_1$, $z_2$ á $w_2$ og $z_3$ á $w_3$.  Hún er gefin meğ
-formúlunni $f=F^{-1}\circ G$ şar sem 
+
+.. _se:thrir_punktar:
+
+\subsubsection{Setning} {\rm ({\it Ãriggja punkta reglan})} 
+\  Ef gefnir eru Ã¾rÃ­r Ã³lÃ­kir punktar $z_1$, $z_2$ og $z_3$ Ã­ $\widehat
+\C$ og Ã¾rÃ­r Ã³lÃ­kir punktar $w_1$, $w_2$ og $w_3$ Ã­ $\widehat \C$,
+Ã¾Ã¡ er til nÃ¡kvÃ¦mlega ein brotin lÃ­nuleg vÃ¶rpun $f$ sem varpar
+$z_1$ Ã¡ $w_1$, $z_2$ Ã¡ $w_2$ og $z_3$ Ã¡ $w_3$.  HÃºn er gefin meÃ°
+formÃºlunni $f=F^{-1}\circ G$ Ã¾ar sem 
 $$
 F(w)=\dfrac{(w-w_1)}{(w-w_3)}\cdot \dfrac{(w_2-w_3)}{(w_2-w_1)}
 \quad \text{ og } \quad 
 G(z)=\dfrac{(z-z_1)}{(z-z_3)}\cdot \dfrac{(z_2-z_3)}{(z_2-z_1)}.
 $$
-Şetta má einnig orğa şannig ağ fallgildin $w=f(z)$ eru leyst úr úr
-jöfnunni
+Ãetta mÃ¡ einnig orÃ°a Ã¾annig aÃ° fallgildin $w=f(z)$ eru leyst Ãºr Ãºr
+jÃ¶fnunni
 $$
 \dfrac{(w-w_1)}{(w-w_3)}\cdot \dfrac{(w_2-w_3)}{(w_2-w_1)}
 =
 \dfrac{(z-z_1)}{(z-z_3)}\cdot \dfrac{(z_2-z_3)}{(z_2-z_1)}.
 $$
-Şessi stærğtákn á ağ túlka şannig ağ ef $z_j=\infty$ eğa
-$w_k=\infty$ kemur fyrir innan einhverra sviga, şá á ağ skipta
-şættinum sem inniheldur $z_j$ eğa $w_k$ út
-fyrir töluna $1$.
+Ãessi stÃ¦rÃ°tÃ¡kn Ã¡ aÃ° tÃºlka Ã¾annig aÃ° ef $z_j=\infty$ eÃ°a
+$w_k=\infty$ kemur fyrir innan einhverra sviga, Ã¾Ã¡ Ã¡ aÃ° skipta
+Ã¾Ã¦ttinum sem inniheldur $z_j$ eÃ°a $w_k$ Ãºt
+fyrir tÃ¶luna $1$.
 
 
-\subsection*{Myndir af línum og hringum}
+\subsection*{Myndir af lÃ­num og hringum}
 
-Ein  leiğ til şess ağ setja tvinngild föll
-$f:X\to \C$ fram á myndrænan hátt
-er ağ líta á şau sem varpanir sem taka punkta í einu afriti af
-tvinntöluplaninu $\C$ yfir í annağ afrit.  Şá er $X$ teiknağ upp í
-$z$-plani og myndmengiğ $Y=\set{w=f(z); z\in X}$ 
-teiknağ upp í $w$-plani og síğan er sınt
-hvernig $f$ varpar punktum $z\in X$ á punkta $w=f(z)\in Y$.
-Oft er litiğ á einhverja fjölskyldu af ferlum í $X$ og sınt hvernig hún
-varpast yfir í $Y$. 
+Ein  leiÃ° til Ã¾ess aÃ° setja tvinngild fÃ¶ll
+$f:X\to \C$ fram Ã¡ myndrÃ¦nan hÃ¡tt
+er aÃ° lÃ­ta Ã¡ Ã¾au sem varpanir sem taka punkta Ã­ einu afriti af
+tvinntÃ¶luplaninu $\C$ yfir Ã­ annaÃ° afrit.  ÃÃ¡ er $X$ teiknaÃ° upp Ã­
+$z$-plani og myndmengiÃ° $Y=\set{w=f(z); z\in X}$ 
+teiknaÃ° upp Ã­ $w$-plani og sÃ­Ã°an er sÃ½nt
+hvernig $f$ varpar punktum $z\in X$ Ã¡ punkta $w=f(z)\in Y$.
+Oft er litiÃ° Ã¡ einhverja fjÃ¶lskyldu af ferlum Ã­ $X$ og sÃ½nt hvernig hÃºn
+varpast yfir Ã­ $Y$. 
 
 
-MYND VANTAR HÉR!!! {fig0313}{Mynd: Varpanir}
+MYND VANTAR HÃ‰R!!! {fig0313}{Mynd: Varpanir}
 
 
 \smallskip\noindent
-{\it Hliğrun\index{hliğrun}}  $z\mapsto z+a$ varpar línu gegnum punktinn $m$ meğ
-şvervigur ${\beta}$  á línuna gegnum $m+a$ meğ şvervigur ${\beta}$ og
-hún varpar hring meğ miğju $m$ og geislann $r$ á hring meğ miğju $m+a$
+{\it HliÃ°run\index{hliÃ°run}}  $z\mapsto z+a$ varpar lÃ­nu gegnum punktinn $m$ meÃ°
+Ã¾vervigur ${\beta}$  Ã¡ lÃ­nuna gegnum $m+a$ meÃ° Ã¾vervigur ${\beta}$ og
+hÃºn varpar hring meÃ° miÃ°ju $m$ og geislann $r$ Ã¡ hring meÃ° miÃ°ju $m+a$
 og geislann $r$.
 
 
 
-MYND VANTAR HÉR!!! {fig0314}{Mynd: Hliğrun}
+MYND VANTAR HÃ‰R!!! {fig0314}{Mynd: HliÃ°run}
 
 
 \smallskip\noindent
-{\it Snústríkkun\index{snústríkkun}\index{vörpun!snústríkkun}}
-$z\mapsto az$, $a\in \C\setminus \set 0$, varpar línu gegnum
-punktinn $m$ meğ şvervigur ${\beta}$  á línuna gegnum $am$ meğ
-şvervigur $a{\beta}$. Til şess ağ sjá şetta athugum viğ ağ jafna
-línunnar er af gerğinni $\bar {\beta} z+{\beta}\bar z+c=0$ og ef viğ
-stingum $z=w/a$, şar sem $w=az$ er myndpunktur $z$, inn í şessa
-jöfnu, şá sjáum viğ ağ $w$ verğur ağ uppfylla
-$(\bar {\beta}/a) w+({\beta}/\bar a)\bar w+c=0$ og şar meğ
+{\it SnÃºstrÃ­kkun\index{snÃºstrÃ­kkun}\index{vÃ¶rpun!snÃºstrÃ­kkun}}
+$z\mapsto az$, $a\in \C\setminus \set 0$, varpar lÃ­nu gegnum
+punktinn $m$ meÃ° Ã¾vervigur ${\beta}$  Ã¡ lÃ­nuna gegnum $am$ meÃ°
+Ã¾vervigur $a{\beta}$. Til Ã¾ess aÃ° sjÃ¡ Ã¾etta athugum viÃ° aÃ° jafna
+lÃ­nunnar er af gerÃ°inni $\bar {\beta} z+{\beta}\bar z+c=0$ og ef viÃ°
+stingum $z=w/a$, Ã¾ar sem $w=az$ er myndpunktur $z$, inn Ã­ Ã¾essa
+jÃ¶fnu, Ã¾Ã¡ sjÃ¡um viÃ° aÃ° $w$ verÃ°ur aÃ° uppfylla
+$(\bar {\beta}/a) w+({\beta}/\bar a)\bar w+c=0$ og Ã¾ar meÃ°
 $\bar a\bar {\beta} w+a{\beta}\bar w+c|a|^2=0$.  
-Snústríkkun varpar hring meğ miğju í $m$ og geislann $r$ á hring meğ
-miğju í $am$ og geislann $|a|r$.
+SnÃºstrÃ­kkun varpar hring meÃ° miÃ°ju Ã­ $m$ og geislann $r$ Ã¡ hring meÃ°
+miÃ°ju Ã­ $am$ og geislann $|a|r$.
 
 
-MYND VANTAR HÉR!!! {fig0315}{Mynd: Snústríkkun}
+MYND VANTAR HÃ‰R!!! {fig0315}{Mynd: SnÃºstrÃ­kkun}
 
 
 \smallskip\noindent
-{\it Umhverfing\index{umhverfing}\index{vörpun!umhverfing}} er gefin
-meğ $z\mapsto 1/z$, $0\to {\infty}$, ${\infty}\to 0$.  Til şess ağ
-sjá hvernig hún varpar hringum og línum, şá lítum viğ á mengi allra
-punkta $z$ sem gefnir eru meğ formúlunni
+{\it Umhverfing\index{umhverfing}\index{vÃ¶rpun!umhverfing}} er gefin
+meÃ° $z\mapsto 1/z$, $0\to {\infty}$, ${\infty}\to 0$.  Til Ã¾ess aÃ°
+sjÃ¡ hvernig hÃºn varpar hringum og lÃ­num, Ã¾Ã¡ lÃ­tum viÃ° Ã¡ mengi allra
+punkta $z$ sem gefnir eru meÃ° formÃºlunni
 \begin{equation}
 {\alpha}|z|^2+\bar {\beta} z+{\beta}\bar z +{\gamma}=0,
-.. _4.1.11
+
+
+.. _4.1.11:
 
 \end{equation}
-en viğ höfum lıst öllum şeim mengjum sem svona jafna skilgreinir.
-Viğ stingum myndpunktinum  $w$, en hann uppfyllir $z=1/w$, inn 
-í şessa jöfnu og fáum ağ hann verğur ağ uppfylla
+en viÃ° hÃ¶fum lÃ½st Ã¶llum Ã¾eim mengjum sem svona jafna skilgreinir.
+ViÃ° stingum myndpunktinum  $w$, en hann uppfyllir $z=1/w$, inn 
+Ã­ Ã¾essa jÃ¶fnu og fÃ¡um aÃ° hann verÃ°ur aÃ° uppfylla
 \begin{equation}
 {\gamma}|w|^2+{\beta}w+\bar {\beta}\bar w +{\alpha}=0.
-.. _4.1.12
+
+
+.. _4.1.12:
 
 \end{equation}
-Ef (:ref:`4.1.11`) er jafna línu gegnum $0$ meğ şvervigur ${\beta}$, şá er
-${\alpha}={\gamma}=0$ og viğ fáum ağ $w$ liggur á línu gegnum $0$ meğ
-şvervigur $\bar {\beta}$.  Ef (:ref:`4.1.11`) er jafna línu sem fer ekki gegnum
-$0$ og hefur şvervigur ${\beta}$, şá er ${\alpha}=0$ og ${\gamma}\neq
-0$.  Viğ fáum şví ağ myndmengiğ er hringur meğ miğju $m=-\bar
+Ef (:ref:`4.1.11`) er jafna lÃ­nu gegnum $0$ meÃ° Ã¾vervigur ${\beta}$, Ã¾Ã¡ er
+${\alpha}={\gamma}=0$ og viÃ° fÃ¡um aÃ° $w$ liggur Ã¡ lÃ­nu gegnum $0$ meÃ°
+Ã¾vervigur $\bar {\beta}$.  Ef (:ref:`4.1.11`) er jafna lÃ­nu sem fer ekki gegnum
+$0$ og hefur Ã¾vervigur ${\beta}$, Ã¾Ã¡ er ${\alpha}=0$ og ${\gamma}\neq
+0$.  ViÃ° fÃ¡um Ã¾vÃ­ aÃ° myndmengiÃ° er hringur meÃ° miÃ°ju $m=-\bar
 {\beta}/{\gamma}$  og geislann $r=|{\beta}|/|{\gamma}|$.
 
 
 
 
-MYND VANTAR HÉR!!! {fig0316}{Mynd: Umhverfing af línu.}
+MYND VANTAR HÃ‰R!!! {fig0316}{Mynd: Umhverfing af lÃ­nu.}
 
 
-MYND VANTAR HÉR!!! {fig0316a}{Mynd: Umhverfing af línu.}
+MYND VANTAR HÃ‰R!!! {fig0316a}{Mynd: Umhverfing af lÃ­nu.}
 
 \noindent
-Ef (:ref:`4.1.11`) er jafna hrings gegnum $0$, şá er ${\alpha}\neq 0$,
-${\gamma}=0$, miğjan er $m=-{\beta}/{\alpha}$ og geislinn 
-er $r=|{\beta}|/|{\alpha}|$.  Athugum ağ punkturinn $-2{\beta}/{\alpha}$
-er á hringnum og şví er myndmengi hans línan meğ şvervigur
+Ef (:ref:`4.1.11`) er jafna hrings gegnum $0$, Ã¾Ã¡ er ${\alpha}\neq 0$,
+${\gamma}=0$, miÃ°jan er $m=-{\beta}/{\alpha}$ og geislinn 
+er $r=|{\beta}|/|{\alpha}|$.  Athugum aÃ° punkturinn $-2{\beta}/{\alpha}$
+er Ã¡ hringnum og Ã¾vÃ­ er myndmengi hans lÃ­nan meÃ° Ã¾vervigur
 $\bar {\beta}$ gegnum punktinn
 $-{\alpha}/2{\beta}=-{\alpha}\bar{\beta}/2|{\beta}|^2$.
-Ef (:ref:`4.1.11`) er jafna hrings, sem inniheldur ekki $0$, şá er
-${\alpha}\neq 0$, ${\gamma}\neq 0$, miğjan er
+Ef (:ref:`4.1.11`) er jafna hrings, sem inniheldur ekki $0$, Ã¾Ã¡ er
+${\alpha}\neq 0$, ${\gamma}\neq 0$, miÃ°jan er
 $m=-{\beta}/{\alpha}$ og geislinn er
-$r=\sqrt{|{\beta}|^2-{\alpha}{\gamma}}\, /|{\alpha}|$.  Myndmengiğ er hringur
-meğ miğju $-\bar {\beta}/{\gamma}$ og  geislann
+$r=\sqrt{|{\beta}|^2-{\alpha}{\gamma}}\, /|{\alpha}|$.  MyndmengiÃ° er hringur
+meÃ° miÃ°ju $-\bar {\beta}/{\gamma}$ og  geislann
 $\sqrt{|{\beta}|^2-{\alpha}{\gamma}}\, /|{\gamma}|$.
  
 \vskip 0.5truecm
 
-MYND VANTAR HÉR!!! {fig0317}{Mynd: Umhverfing af hring.}
+MYND VANTAR HÃ‰R!!! {fig0317}{Mynd: Umhverfing af hring.}
 
-MYND VANTAR HÉR!!! {fig0317a}{Mynd: Umhverfing af hring.}
+MYND VANTAR HÃ‰R!!! {fig0317a}{Mynd: Umhverfing af hring.}
 
 
-Eins og viğ höfum séğ, şá er sérhver brotin línuleg vörpun samsett úr
-hliğrunum, snústríkkunum og umhverfingu, svo niğurstağa útreikninga
+Eins og viÃ° hÃ¶fum sÃ©Ã°, Ã¾Ã¡ er sÃ©rhver brotin lÃ­nuleg vÃ¶rpun samsett Ãºr
+hliÃ°runum, snÃºstrÃ­kkunum og umhverfingu, svo niÃ°urstaÃ°a Ãºtreikninga
 okkar er:
  
 
-\subsubsection{Setning}  Sérhver brotin línuleg vörpun\index{brotin línuleg vörpun}
-\index{brotin línuleg færsla} varpar hring í $\C$ á hring eğa
-línu og hún varpar línu á hring eğa línu.
+\subsubsection{Setning}  SÃ©rhver brotin lÃ­nuleg vÃ¶rpun\index{brotin lÃ­nuleg vÃ¶rpun}
+\index{brotin lÃ­nuleg fÃ¦rsla} varpar hring Ã­ $\C$ Ã¡ hring eÃ°a
+lÃ­nu og hÃºn varpar lÃ­nu Ã¡ hring eÃ°a lÃ­nu.
 
 
 
 \bigskip\hrule \bigskip
 
-\subsubsection{Sınidæmi}  \ Sıniğ ağ sérhver brotin línuleg vörpun af gerğinni
+\subsubsection{SÃ½nidÃ¦mi}  \ SÃ½niÃ° aÃ° sÃ©rhver brotin lÃ­nuleg vÃ¶rpun af gerÃ°inni
 $$
 z\mapsto u\dfrac{z-a}{1-\bar az}, \qquad |u|=1,\quad |a|<1,
 $$
-varpi einingarhringnum $\T$ á sjálfan sig og einingarskífunni $\D$
-á sjálfa sig.
+varpi einingarhringnum $\T$ Ã¡ sjÃ¡lfan sig og einingarskÃ­funni $\D$
+Ã¡ sjÃ¡lfa sig.
 
 \bigskip\noindent
-{\it Lausn:} \   Ef $z$ er á einingarhringnum şá er $|z|=|\bar z|=z\bar
-z=1$ og viğ fáum şví
+{\it Lausn:} \   Ef $z$ er Ã¡ einingarhringnum Ã¾Ã¡ er $|z|=|\bar z|=z\bar
+z=1$ og viÃ° fÃ¡um Ã¾vÃ­
 $$
 |w|=\dfrac{|z-a|}{|z\bar z-\bar az|}=\dfrac{|z-a|}{|z(\bar z-\bar a)|}
 =\dfrac{|z-a|}{|z||(\bar z-\bar a)|}
 =\dfrac{|z-a|}{|z-a|}=1
 $$
-Vörpunin varpar punktinum $a\in \D$ á  $0\in \D$ og af şví leiğir ağ 
-allir punktar í einingarskífunni lendi í $\D$. 
+VÃ¶rpunin varpar punktinum $a\in \D$ Ã¡  $0\in \D$ og af Ã¾vÃ­ leiÃ°ir aÃ° 
+allir punktar Ã­ einingarskÃ­funni lendi Ã­ $\D$. 
 
 
 
-\subsubsection{Sınidæmi}   Sıniğ ağ sérhver brotin línuleg vörpun
-sem varpar efra hálfplaninu $\{z\in \C\,;\, \Im z>0\}$ á sjálft sig,
-sé af gerğinni
+\subsubsection{SÃ½nidÃ¦mi}   SÃ½niÃ° aÃ° sÃ©rhver brotin lÃ­nuleg vÃ¶rpun
+sem varpar efra hÃ¡lfplaninu $\{z\in \C\,;\, \Im z>0\}$ Ã¡ sjÃ¡lft sig,
+sÃ© af gerÃ°inni
 $$
 z\mapsto w=\dfrac{az+b}{cz+d}, \qquad a,b,c,d\in \R, \quad ad-bc>0.
 $$
-{\it Lausn:} \ Gerum fyrst ráğ fyrir ağ $f$ sé vörpun af şessari gerğ
-og sınum ağ hún varpi efra hálfplaninu á sjálft sig.  Fyrst allir
-stuğlarnir eru rauntölur, şá gildir
+{\it Lausn:} \ Gerum fyrst rÃ¡Ã° fyrir aÃ° $f$ sÃ© vÃ¶rpun af Ã¾essari gerÃ°
+og sÃ½num aÃ° hÃºn varpi efra hÃ¡lfplaninu Ã¡ sjÃ¡lft sig.  Fyrst allir
+stuÃ°larnir eru rauntÃ¶lur, Ã¾Ã¡ gildir
 \begin{align*}
 \Im w&=\dfrac 1{2i}(w-\bar w)=
 \dfrac 1{2i}\bigg(\dfrac{az+b}{cz+d}-\dfrac{a\bar z+b}{c\bar z+d}\bigg)\\
@@ -2380,47 +2411,47 @@ stuğlarnir eru rauntölur, şá gildir
 {|c\bar z+d|^2}\bigg)=\dfrac{\Im z(ad-bc)}
 {|c\bar z+d|^2}.
 \end{align*}
-Fyrst $ad-bc>0$, şá er $\Im w>0$ ef og ağeins ef $\Im z>0$.  Şar meğ
-varpar $f$ efra hálfplaninu á sjálft sig.
+Fyrst $ad-bc>0$, Ã¾Ã¡ er $\Im w>0$ ef og aÃ°eins ef $\Im z>0$.  Ãar meÃ°
+varpar $f$ efra hÃ¡lfplaninu Ã¡ sjÃ¡lft sig.
 
 \smallskip
-Gerum nú ráğ fyrir ağ $f(z)=(az+b)/(cz+d)$ sé brotin línuleg vörpun,
-şar sem $a,b,c,d\in \C$, $ad-bc\neq 0$, og ağ $f$ varpi efra
-hálfplaninu á sjálft sig. Viğ şurfum ağ sanna ağ  alltaf sé
-hægt ağ velja alla stuğlana í $\R$ og ağ  $ad-bc>0$.
+Gerum nÃº rÃ¡Ã° fyrir aÃ° $f(z)=(az+b)/(cz+d)$ sÃ© brotin lÃ­nuleg vÃ¶rpun,
+Ã¾ar sem $a,b,c,d\in \C$, $ad-bc\neq 0$, og aÃ° $f$ varpi efra
+hÃ¡lfplaninu Ã¡ sjÃ¡lft sig. ViÃ° Ã¾urfum aÃ° sanna aÃ°  alltaf sÃ©
+hÃ¦gt aÃ° velja alla stuÃ°lana Ã­ $\R$ og aÃ°  $ad-bc>0$.
 
 \smallskip
-Fyrst $f$ varpar efra hálfplaninu á sjálft sig, şá er
+Fyrst $f$ varpar efra hÃ¡lfplaninu Ã¡ sjÃ¡lft sig, Ã¾Ã¡ er
 $$
 \Im f(x)=\lim_{y\to 0+}f(x+iy)\geq 0, \qquad \text{ ef } x\in \R
 \ \text{og } \ cx+d\neq 0.
 $$ 
-Fyrst $f$ er gagntæk og  varpar efra hálfplaninu á sjálft sig,
-şá getur $\Im f(x)>0$ ekki gilt og şví er
-$f(x)\in \R$ şá og şví ağeins ağ $x\in \R$ og $cx+d\neq 0$.  
-Nú şurfum viğ ağ sanna ağ
-af şessu leiği ağ alltaf megi velja $a,b,c$ og $d$ í $\R$.
+Fyrst $f$ er gagntÃ¦k og  varpar efra hÃ¡lfplaninu Ã¡ sjÃ¡lft sig,
+Ã¾Ã¡ getur $\Im f(x)>0$ ekki gilt og Ã¾vÃ­ er
+$f(x)\in \R$ Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° $x\in \R$ og $cx+d\neq 0$.  
+NÃº Ã¾urfum viÃ° aÃ° sanna aÃ°
+af Ã¾essu leiÃ°i aÃ° alltaf megi velja $a,b,c$ og $d$ Ã­ $\R$.
 
-Ef $c=0$, şá getum viğ sett $a/d$ og $b/d$ í stağ $a$ og $b$ og şar
-meğ  valiğ $d=1$.  Şá er $b=f(0)\in \R$ og $a=f(1)-b\in \R$.  Ef hins vegar
-$c\neq 0$, şá getum viğ sett $a/c$, $b/c$ og $d/c$ í stağ $a$, $b$ og
-$d$ og şar meğ gert ráğ fyrir ağ $c=1$.  Şá er 
+Ef $c=0$, Ã¾Ã¡ getum viÃ° sett $a/d$ og $b/d$ Ã­ staÃ° $a$ og $b$ og Ã¾ar
+meÃ°  valiÃ° $d=1$.  ÃÃ¡ er $b=f(0)\in \R$ og $a=f(1)-b\in \R$.  Ef hins vegar
+$c\neq 0$, Ã¾Ã¡ getum viÃ° sett $a/c$, $b/c$ og $d/c$ Ã­ staÃ° $a$, $b$ og
+$d$ og Ã¾ar meÃ° gert rÃ¡Ã° fyrir aÃ° $c=1$.  ÃÃ¡ er 
 $$
 a=\lim_{x\to +\infty}\dfrac{ax+b}{x+d}=\lim_{x\to
 +\infty}\dfrac{a+b/x}{1+d/x}\in \R.
 $$
-Nú veljum viğ tvær tölur $t_1,t_2\in \R\setminus\{a\}$ şannig ağ 
-$t_2=t_1+1$.  Látum $x_1,x_2\in \R$ vera şannig ağ
-$f(x_1)=t_1$ og $f(x_2)=t_2$.  Şá gilda jöfnurnar
-$ax_1+b=t_1(x_1+d)$ og $ax_2+b=t_2(x_2+d)$ og af şeim leiğir
-ağ $d=a(x_2-x_1)+t_1x_1-t_2x_2\in \R$.  Ağ lokum fáum viğ ağ
+NÃº veljum viÃ° tvÃ¦r tÃ¶lur $t_1,t_2\in \R\setminus\{a\}$ Ã¾annig aÃ° 
+$t_2=t_1+1$.  LÃ¡tum $x_1,x_2\in \R$ vera Ã¾annig aÃ°
+$f(x_1)=t_1$ og $f(x_2)=t_2$.  ÃÃ¡ gilda jÃ¶fnurnar
+$ax_1+b=t_1(x_1+d)$ og $ax_2+b=t_2(x_2+d)$ og af Ã¾eim leiÃ°ir
+aÃ° $d=a(x_2-x_1)+t_1x_1-t_2x_2\in \R$.  AÃ° lokum fÃ¡um viÃ° aÃ°
 $b=t_1(x_1+d)-ax_1 \in \R$.
 
-Í útreikningi okkar hér í byrjun sönnuğum  viğ ağ
-$a,b,c,d\in \R$ hefur í för meğ sér jöfnuna
-$\Im w = \Im f(z)=\Im z(ad-bc)/|cz+d|^2$. Nú varpar 
-$f$ efra hálfplaninu  á sjálft sig og af şví drögum viğ 
-şá ályktun ağ  $ad-bc>0$.
+Ã Ãºtreikningi okkar hÃ©r Ã­ byrjun sÃ¶nnuÃ°um  viÃ° aÃ°
+$a,b,c,d\in \R$ hefur Ã­ fÃ¶r meÃ° sÃ©r jÃ¶fnuna
+$\Im w = \Im f(z)=\Im z(ad-bc)/|cz+d|^2$. NÃº varpar 
+$f$ efra hÃ¡lfplaninu  Ã¡ sjÃ¡lft sig og af Ã¾vÃ­ drÃ¶gum viÃ° 
+Ã¾Ã¡ Ã¡lyktun aÃ°  $ad-bc>0$.
 
 
 
@@ -2428,14 +2459,14 @@ $f$ efra hálfplaninu  á sjálft sig og af şví drögum viğ
 
 \aefing
 
-\daemi Finniğ allar lausnir jöfnunnar $(3+4i)^2 - 2(x-iy) = x+iy$
-meğ $x,y\in \R$.
+\daemi FinniÃ° allar lausnir jÃ¶fnunnar $(3+4i)^2 - 2(x-iy) = x+iy$
+meÃ° $x,y\in \R$.
 
-\daemi Finniğ allar lausnir jöfnunanr 
+\daemi FinniÃ° allar lausnir jÃ¶fnunanr 
 $\big(\frac{1+i}{1-i}\big)^2 + \frac{1}{x+iy} = 1+i$
-meğ $x,y\in \R$.
+meÃ° $x,y\in \R$.
 
-\daemi Teikniğ alla punkta $z=x+iy$ sem uppfylla eftirfarandi skilyrği.
+\daemi TeikniÃ° alla punkta $z=x+iy$ sem uppfylla eftirfarandi skilyrÃ°i.
 
 
 \begin{tabular}{lll}
@@ -2443,21 +2474,21 @@ a) \ \  $|z|<2$ & b) \ \ $|z-3|=2$ &c) \ \  $|z-2+i|<1$ \\
 d) \ \  $|z+1|\geq |z|$ & e) \ \  $|z+1| = |z-i|$
 \end{tabular}
 
-\daemi Sanniğ ağ 
+\daemi SanniÃ° aÃ° 
 $$
 \binom nk=\binom{n-1}{k-1}+\binom{n-1}k, 
 $$
 fyrir $n=2,3,4,\dots$ og $k=1,2,\dots,n-1$.
 
 
-\daemi Notiğ reiknivél til şess ağ finna horngildi talnanna
-$-1+2i$, $-1-3i$ og  $3-4i$ í radíönum og í gráğum.
+\daemi NotiÃ° reiknivÃ©l til Ã¾ess aÃ° finna horngildi talnanna
+$-1+2i$, $-1-3i$ og  $3-4i$ Ã­ radÃ­Ã¶num og Ã­ grÃ¡Ã°um.
 
-\daemi Hvert er mengi allra punkta $z=x+iy$ í $\C$ meğ $x,y\in \R$
+\daemi Hvert er mengi allra punkta $z=x+iy$ Ã­ $\C$ meÃ° $x,y\in \R$
 sem uppfylla $|z|+x=0$?
 
 
-\daemi Skrifiğ eftirfarandi tölur á pólformi $r(\cos \theta+i\sin
+\daemi SkrifiÃ° eftirfarandi tÃ¶lur Ã¡ pÃ³lformi $r(\cos \theta+i\sin
 \theta)$. 
 
 \smallskip
@@ -2467,14 +2498,14 @@ b) \ \  $\frac{1+i}{1-i}$ &
 c) \ \ $(2+3i)(1-2i)$ \\
 \end{tabular}
 
-\daemi Sıniğ ağ $\overline {z+w}=\bar z+\bar w$ og
+\daemi SÃ½niÃ° aÃ° $\overline {z+w}=\bar z+\bar w$ og
 $\overline{zw}=\bar z\cdot \bar w$.
 
-\daemi Sıniğ ağ $z + \overline z = 2\Re(z)$.
+\daemi SÃ½niÃ° aÃ° $z + \overline z = 2\Re(z)$.
 
-\daemi Sıniğ ağ $|\Re\, z|\leq|z|$ og $|\Im\, z|\leq|z|$.
+\daemi SÃ½niÃ° aÃ° $|\Re\, z|\leq|z|$ og $|\Im\, z|\leq|z|$.
 
-\daemi Teikniğ upp mengi allra punkta $z=x+iy$ í $\C$ sem uppfylla:
+\daemi TeikniÃ° upp mengi allra punkta $z=x+iy$ Ã­ $\C$ sem uppfylla:
 
 \smallskip
 \begin{tabular}{ll}
@@ -2484,111 +2515,111 @@ c) $\Re\big(z+1/z\big)={\alpha}x$, ${\alpha}>1$,
 &d) $\Im\big(z+1/z\big)={\alpha} y$, ${\alpha}<1$.\\ 
 \end{tabular}
 
-\daemi Notiğ tvinntalnareikning til şess ağ reikna út flatarmál 
-şríhyrningsins meğ hornpunkta $1+i$, $3+4i$ og $-2-2i$.
+\daemi NotiÃ° tvinntalnareikning til Ã¾ess aÃ° reikna Ãºt flatarmÃ¡l 
+Ã¾rÃ­hyrningsins meÃ° hornpunkta $1+i$, $3+4i$ og $-2-2i$.
 
-\daemi Hvağa línur eru gefnar meğ jöfnunum: 
+\daemi HvaÃ°a lÃ­nur eru gefnar meÃ° jÃ¶fnunum: 
 
 a) \ \ $z-\bar z=0$ og   b)\ \ $z+\bar z=0$?
 
-\daemi  Hvağa línur eru gefnar meğ jöfnunum:
+\daemi  HvaÃ°a lÃ­nur eru gefnar meÃ° jÃ¶fnunum:
 \\
 a)\ \ $(1+i)z+(1-i)\bar z=0$  og \ b) \ $(1-i)z+(1+i)\bar z=0$?  
 \\
-Teikniğ şær í tvinntalnaplaninu
+TeikniÃ° Ã¾Ã¦r Ã­ tvinntalnaplaninu
 
-\daemi   Hvağa hringur er gefinn meğ jöfnunni 
-$|z|^2+(1-i)z+(1+i)\bar z=0$? \\ Teikniğ hann í tvinntalnaplaninu.
+\daemi   HvaÃ°a hringur er gefinn meÃ° jÃ¶fnunni 
+$|z|^2+(1-i)z+(1+i)\bar z=0$? \\ TeikniÃ° hann Ã­ tvinntalnaplaninu.
 
-\daemi Finniğ jöfnu línunnar sem gengur gegnum punktana $1+2i$ 
-og  $3-4i$ skrifiğ hana á forminu $\bar \beta z+\beta\bar z+\gamma=0$.
+\daemi FinniÃ° jÃ¶fnu lÃ­nunnar sem gengur gegnum punktana $1+2i$ 
+og  $3-4i$ skrifiÃ° hana Ã¡ forminu $\bar \beta z+\beta\bar z+\gamma=0$.
 
-\daemi Sıniğ ağ mengi allra punkta sem uppfylla jöfnuna
+\daemi SÃ½niÃ° aÃ° mengi allra punkta sem uppfylla jÃ¶fnuna
  \begin{equation*}\alpha|z|^2+\overline \beta z+\beta\overline z +\gamma=0,
  \end{equation*}
-şar sem $\alpha$ og $\gamma$ eru rauntölur og $\beta$ er tvinntala,
-sé hringur şá og şví ağeins ağ $\alpha\neq 0$ og 
-$|\beta|^2-{\alpha}\gamma>0$.   Sıniğ jafnframt ağ miğja hringsins
+Ã¾ar sem $\alpha$ og $\gamma$ eru rauntÃ¶lur og $\beta$ er tvinntala,
+sÃ© hringur Ã¾Ã¡ og Ã¾vÃ­ aÃ°eins aÃ° $\alpha\neq 0$ og 
+$|\beta|^2-{\alpha}\gamma>0$.   SÃ½niÃ° jafnframt aÃ° miÃ°ja hringsins
 $m$ og 
-geislinn  $r$ séu gefin meğ
+geislinn  $r$ sÃ©u gefin meÃ°
 $$m=-\beta/\alpha\qquad \text{ og } \qquad
 r=\sqrt{|\beta|^2-\alpha\gamma}\, /|\alpha|.
 $$
 
-\daemi ({\it Speglun í línu}) \ Látum $\ell=\set
+\daemi ({\it Speglun Ã­ lÃ­nu}) \ LÃ¡tum $\ell=\set
 {z\in \C;  \bar {\beta}z+{\beta}\bar
-z+c=0}$ vera beina línu í $\C$ og gerum ráğ fyrir ağ $z_1$ og
-$z_2$ séu tveir punktar í $\C$, sem uppfylla 
+z+c=0}$ vera beina lÃ­nu Ã­ $\C$ og gerum rÃ¡Ã° fyrir aÃ° $z_1$ og
+$z_2$ sÃ©u tveir punktar Ã­ $\C$, sem uppfylla 
 $$
 \bar {\beta} z_1+{\beta}\bar z_2+c=0.
 $$
-Sıniğ ağ $z_1$ og $z_2$ séu spegilmyndir hvor annars í línunni $\ell$.
+SÃ½niÃ° aÃ° $z_1$ og $z_2$ sÃ©u spegilmyndir hvor annars Ã­ lÃ­nunni $\ell$.
 
-\daemi ({\it Speglun í hring}) \ Látum $H=\set{z\in \C; |z-a|=r}$ vera hringinn meğ miğju í
-$a$ og geislann $r$.  Viğ segjum ağ tveir punktar $z_1$ og $z_2$ séu
-spegilmyndir hvor annars í hringnum $H$, ef şeir liggja á sömu
-hálflínunni út frá punktinum $a$ og margfeldi fjarlægğa şeirra frá $a$
-er $r^2$.  Sıniğ ağ $z_1$ og $z_2$ uppfylli jöfnuna
+\daemi ({\it Speglun Ã­ hring}) \ LÃ¡tum $H=\set{z\in \C; |z-a|=r}$ vera hringinn meÃ° miÃ°ju Ã­
+$a$ og geislann $r$.  ViÃ° segjum aÃ° tveir punktar $z_1$ og $z_2$ sÃ©u
+spegilmyndir hvor annars Ã­ hringnum $H$, ef Ã¾eir liggja Ã¡ sÃ¶mu
+hÃ¡lflÃ­nunni Ãºt frÃ¡ punktinum $a$ og margfeldi fjarlÃ¦gÃ°a Ã¾eirra frÃ¡ $a$
+er $r^2$.  SÃ½niÃ° aÃ° $z_1$ og $z_2$ uppfylli jÃ¶fnuna
 $$
 (z_1-a)\overline{(z_2-a)}=z_1\overline z_2-\overline a z_1+a\overline
 z_2 +|a|^2=r^2.
 $$
 
-\daemi Notiğ reglu De Moivre og tvíliğuregluna 
-til şess ağ tákna:
+\daemi NotiÃ° reglu De Moivre og tvÃ­liÃ°uregluna 
+til Ã¾ess aÃ° tÃ¡kna:
 
 \smallskip\noindent
 (a) \ 
 $\cos(3\theta)$  
-og $\sin (3\theta)$ meğ  $\cos\theta$ og $\sin \theta$.
+og $\sin (3\theta)$ meÃ°  $\cos\theta$ og $\sin \theta$.
 
 
 \smallskip\noindent
 (b) \ $\cos(4\theta)$  
-og $\sin (4\theta)$ meğ  $\cos\theta$ og $\sin \theta$.
+og $\sin (4\theta)$ meÃ°  $\cos\theta$ og $\sin \theta$.
 
 \smallskip\noindent
 (c) \ $\cos(5\theta)$  
-og $\sin (5\theta)$ meğ  $\cos\theta$ og $\sin \theta$.
+og $\sin (5\theta)$ meÃ°  $\cos\theta$ og $\sin \theta$.
 
 
 
-\daemi Hvenær gilda jafnağarmerki í şríhyrningsójöfnunum  
+\daemi HvenÃ¦r gilda jafnaÃ°armerki Ã­ Ã¾rÃ­hyrningsÃ³jÃ¶fnunum  
 $|z+w| \leq  |z| + |w|$
 og $||z|-|w||\leq |z-w|$?
 
 
-\daemi Finniğ allar şriğju rætur af $-1$.
+\daemi FinniÃ° allar Ã¾riÃ°ju rÃ¦tur af $-1$.
 
-\daemi Finniğ allar şriğju rætur af $i$.
+\daemi FinniÃ° allar Ã¾riÃ°ju rÃ¦tur af $i$.
 
-\daemi Finniğ allar şriğju rætur af tölunni $-2-2i$.
+\daemi FinniÃ° allar Ã¾riÃ°ju rÃ¦tur af tÃ¶lunni $-2-2i$.
 
-\daemi Finniğ allar fjórğu rætur af $i$.
+\daemi FinniÃ° allar fjÃ³rÃ°u rÃ¦tur af $i$.
 
-\daemi Finniğ allar fimmtu rætur af $-32$.
+\daemi FinniÃ° allar fimmtu rÃ¦tur af $-32$.
 
 
-\daemi Sıniğ meğ útreikningi ağ formúlan
+\daemi SÃ½niÃ° meÃ° Ãºtreikningi aÃ° formÃºlan
 $$
 z=\sqrt{\tfrac 12(|w|+\Re w)}+i\, \sign(\Im w)\, \sqrt{\tfrac
 12(|w|-\Re w)}
 $$
-gefi ferningsrót af tvinntölunni $w$, ef gert er ráğ fyrir ağ 
-$w$ liggi ekki á neikvæğa raunásnum.
+gefi ferningsrÃ³t af tvinntÃ¶lunni $w$, ef gert er rÃ¡Ã° fyrir aÃ° 
+$w$ liggi ekki Ã¡ neikvÃ¦Ã°a raunÃ¡snum.
 
 
-\daemi Notiğ formúluna í sınidæmi :ref:`sy:raetur`
-til şess ağ reikna út $\cos(\pi/16)$ og $\sin( \pi/16)$.
-Finniğ formúlu fyrir $\cos(\pi/2^n)$ fyrir $n\geq 2$ og sanniğ hana meğ
-şrepun.
+\daemi NotiÃ° formÃºluna Ã­ sÃ½nidÃ¦mi :ref:`sy:raetur`
+til Ã¾ess aÃ° reikna Ãºt $\cos(\pi/16)$ og $\sin( \pi/16)$.
+FinniÃ° formÃºlu fyrir $\cos(\pi/2^n)$ fyrir $n\geq 2$ og sanniÃ° hana meÃ°
+Ã¾repun.
 
-\daemi Notiğ şá stağreynd ağ $\cos(\pi/6)=\sqrt 3/2$ og formúluna fyrir ferningsrót
-til şess ağ finna formúlu fyrir $\cos(\pi/12)$ og $\sin( \pi/12)$.
-Hver verğur síğan formúlan fyrir $\cos(\pi/(3\cdot 2^n))$ fyrir
+\daemi NotiÃ° Ã¾Ã¡ staÃ°reynd aÃ° $\cos(\pi/6)=\sqrt 3/2$ og formÃºluna fyrir ferningsrÃ³t
+til Ã¾ess aÃ° finna formÃºlu fyrir $\cos(\pi/12)$ og $\sin( \pi/12)$.
+Hver verÃ°ur sÃ­Ã°an formÃºlan fyrir $\cos(\pi/(3\cdot 2^n))$ fyrir
 $n=1,2,3,\dots$? 
 
-\daemi Finniğ allar núllstöğvar margliğanna 
+\daemi FinniÃ° allar nÃºllstÃ¶Ã°var margliÃ°anna 
 
 
 
@@ -2600,7 +2631,7 @@ c) $z^2-4z+3+iz-i$,
 \end{tabular}
 
 
-\daemi Finniğ stofnbrotaliğun á ræğu föllunum:
+\daemi FinniÃ° stofnbrotaliÃ°un Ã¡ rÃ¦Ã°u fÃ¶llunum:
 
 \begin{tabular}{lll}
 a) $\dfrac{5z+1}{z^3+z^2-2z}$, 
@@ -2612,21 +2643,21 @@ d) $\dfrac{z^2}{(z^2+1)^2}$,
 g) $\dfrac{2z^6}{(z^3+1)(z^2-1)}$.\\
 \end{tabular}
 
-\daemi Ákvarğiğ allar fjórğu rætur af $-1$.  Notiğ síğan ræturnar til
-şess ağ fullşátta  margliğuna $z^4+1$  og liğiğ ağ lokum
- ræğa falliğ $z^2/(z^4+1)$ í stofnbrot.
+\daemi ÃkvarÃ°iÃ° allar fjÃ³rÃ°u rÃ¦tur af $-1$.  NotiÃ° sÃ­Ã°an rÃ¦turnar til
+Ã¾ess aÃ° fullÃ¾Ã¡tta  margliÃ°una $z^4+1$  og liÃ°iÃ° aÃ° lokum
+ rÃ¦Ã°a falliÃ° $z^2/(z^4+1)$ Ã­ stofnbrot.
 
 
-\daemi Ákvarğiğ allar sjöttu  rætur af $-1$.  Notiğ síğan ræturnar til
-şess ağ fullşátta  margliğuna $z^6+1$ og  liğiğ ağ lokum  ræğa falliğ
-$z^4/(z^6+1)$ í stofnbrot.
+\daemi ÃkvarÃ°iÃ° allar sjÃ¶ttu  rÃ¦tur af $-1$.  NotiÃ° sÃ­Ã°an rÃ¦turnar til
+Ã¾ess aÃ° fullÃ¾Ã¡tta  margliÃ°una $z^6+1$ og  liÃ°iÃ° aÃ° lokum  rÃ¦Ã°a falliÃ°
+$z^4/(z^6+1)$ Ã­ stofnbrot.
 
-\daemi Finniğ allar sjöttu rætur af $64$, finniğ fullkomna şáttun á
-margliğunni $z^6-64$ í fyrsta stigs liği og notiğ şáttunina til şess
-ağ finna stofnbrotaliğun á ræğa fallinu $z^3/(z^6-64)$.
+\daemi FinniÃ° allar sjÃ¶ttu rÃ¦tur af $64$, finniÃ° fullkomna Ã¾Ã¡ttun Ã¡
+margliÃ°unni $z^6-64$ Ã­ fyrsta stigs liÃ°i og notiÃ° Ã¾Ã¡ttunina til Ã¾ess
+aÃ° finna stofnbrotaliÃ°un Ã¡ rÃ¦Ã°a fallinu $z^3/(z^6-64)$.
 
 
-\daemi Skrifiğ $e^z=u+iv$, şar sem:
+\daemi SkrifiÃ° $e^z=u+iv$, Ã¾ar sem:
 
 
 \smallskip\noindent
@@ -2636,8 +2667,8 @@ ağ finna stofnbrotaliğun á ræğa fallinu $z^3/(z^6-64)$.
 &c) $\tfrac16(1-i)\pi$.
 \end{tabular}
 
-\daemi Látum $z=x+iy$. Finniğ raunhluta og şverhluta eftirtalinna
-stærğa sem fall af $x$ og $y$:
+\daemi LÃ¡tum $z=x+iy$. FinniÃ° raunhluta og Ã¾verhluta eftirtalinna
+stÃ¦rÃ°a sem fall af $x$ og $y$:
 
 \smallskip\noindent
 \begin{tabular}{llllll}
@@ -2650,14 +2681,14 @@ stærğa sem fall af $x$ og $y$:
 \end{tabular}
 
 
-\daemi Notiğ skilgreininguna á framlengingu hornafallanna $\cos $ og $\sin $ til
-şess ağ sına ağ jafnan $\cos^2z+\sin^2z=1$ gildir fyrir öll $z\in \C$. 
+\daemi NotiÃ° skilgreininguna Ã¡ framlengingu hornafallanna $\cos $ og $\sin $ til
+Ã¾ess aÃ° sÃ½na aÃ° jafnan $\cos^2z+\sin^2z=1$ gildir fyrir Ã¶ll $z\in \C$. 
 
-\daemi Notiğ skilgreininguna á breiğbogaföllunum til şess ağ sına
-ağ  jafnan $\cosh^2 z-\sinh^2 z=1$ gildir fyrir öll $z\in \C$.
+\daemi NotiÃ° skilgreininguna Ã¡ breiÃ°bogafÃ¶llunum til Ã¾ess aÃ° sÃ½na
+aÃ°  jafnan $\cosh^2 z-\sinh^2 z=1$ gildir fyrir Ã¶ll $z\in \C$.
 
 
-\daemi Finniğ núllstöğvar og lotur\index{lota} fallanna
+\daemi FinniÃ° nÃºllstÃ¶Ã°var og lotur\index{lota} fallanna
 
 \smallskip\noindent
 \begin{tabular}{llllll}
@@ -2669,7 +2700,7 @@ ağ  jafnan $\cosh^2 z-\sinh^2 z=1$ gildir fyrir öll $z\in \C$.
 &f) $\tanh z$.\\
 \end{tabular}
 
-\daemi Látum $z=x+iy\in \C$.  Sıniğ  ağ
+\daemi LÃ¡tum $z=x+iy\in \C$.  SÃ½niÃ°  aÃ°
 
 \smallskip\noindent
 a)  \ $\sin z=\sin x\cosh y+i\cos x \sinh y$,\\
@@ -2678,7 +2709,7 @@ c)  $|\sin z|^2=\cosh^2y-\cos^2 x$.\\
 
 
 
-\daemi Sıniğ ağ fyrir allar tvinntölur $z$ og $w$ gildi:
+\daemi SÃ½niÃ° aÃ° fyrir allar tvinntÃ¶lur $z$ og $w$ gildi:
 
 \smallskip\noindent
 a)  $\cos(z-w)=\cos z\cos w+\sin z \sin w$,\\
@@ -2687,7 +2718,7 @@ c)  $\sin(z+w)=\sin z\cos w+\cos z \sin w$,\\
 d)  $\sinh(z+w)=\sinh z\cosh w+\cosh z \sinh w$,\\
 
 
-\daemi Ákvarğiğ fastapunkta varpananna:
+\daemi ÃkvarÃ°iÃ° fastapunkta varpananna:
 
 \smallskip
 \begin{tabular}{lll}
@@ -2700,14 +2731,14 @@ f)\ $f(z)=\dfrac{z}{z+i}$
 \end{tabular}
 
 
-\daemi Ákvarğiğ allar brotnar línulega varpanir $f$ sem hafa eftirtalda
+\daemi ÃkvarÃ°iÃ° allar brotnar lÃ­nulega varpanir $f$ sem hafa eftirtalda
 eiginleika:
 
 \smallskip
-a) \ $f$ hefur ağeins einn fastapunkt $0$.
+a) \ $f$ hefur aÃ°eins einn fastapunkt $0$.
 
 \smallskip
-b) \ $f$ hefur ağeins einn fastapunkt $\infty$.
+b) \ $f$ hefur aÃ°eins einn fastapunkt $\infty$.
 
 \smallskip
 c) \ $f$ hefur tvo fastapunkta $1$ og $-1$
@@ -2718,24 +2749,24 @@ d) \ $f$ hefur tvo fastapunkta $0$ og $1$
 \smallskip
 e) \ $f$ hefur tvo fastapunkta $0$ og $\infty$.
 
-\daemi  Ákvarğiğ brotna línulega vörpun  sem varpar $1$ á $0$,
-$i$ á $1$ og $-1$ á $\infty$.  Punktarnir $1$, $i$ og $-1$ eru allir á
+\daemi  ÃkvarÃ°iÃ° brotna lÃ­nulega vÃ¶rpun  sem varpar $1$ Ã¡ $0$,
+$i$ Ã¡ $1$ og $-1$ Ã¡ $\infty$.  Punktarnir $1$, $i$ og $-1$ eru allir Ã¡
 einingarhringnum $\T$.  Hvert er myndmengi hans?  Hvert er myndmengi 
-einingarskífunnar $\D=\{z\in \C\,;\, |z|<1\}$?
+einingarskÃ­funnar $\D=\{z\in \C\,;\, |z|<1\}$?
 
-\daemi  Ákvarğiğ brotna línulega vörpun  sem varpar $i$ á $-i$,
-$-1$ á $0$ og $-i$ á $i$.  Punktarnir $i$, $-1$ og $-i$ eru allir á
+\daemi  ÃkvarÃ°iÃ° brotna lÃ­nulega vÃ¶rpun  sem varpar $i$ Ã¡ $-i$,
+$-1$ Ã¡ $0$ og $-i$ Ã¡ $i$.  Punktarnir $i$, $-1$ og $-i$ eru allir Ã¡
 einingarhringnum $\T$.  Hvert er myndmengi hans?  Hvert er myndmengi 
-einingarskífunnar $\D=\{z\in \C\,;\, |z|<1\}$?
+einingarskÃ­funnar $\D=\{z\in \C\,;\, |z|<1\}$?
 
 
-\daemi  Ákvarğiğ brotna línulega vörpun  sem varpar $-i$ á $0$,
-$1$ á $i$ og $i$ á $\infty$.  Punktarnir $-i$, $1$ og $i$ eru allir á
+\daemi  ÃkvarÃ°iÃ° brotna lÃ­nulega vÃ¶rpun  sem varpar $-i$ Ã¡ $0$,
+$1$ Ã¡ $i$ og $i$ Ã¡ $\infty$.  Punktarnir $-i$, $1$ og $i$ eru allir Ã¡
 einingarhringnum $\T$.  Hvert er myndmengi hans?  Hvert er myndmengi 
-einingarskífunnar $\D=\{z\in \C\,;\, |z|<1\}$?
+einingarskÃ­funnar $\D=\{z\in \C\,;\, |z|<1\}$?
 
-\daemi Ákvarğiğ myndir eftirtalinna varpana af einingarhringnum $\T=\set{z\in \C; 
-|z|=1}$ og einingarskífunni $\D=\set{z\in \C;  |z|<1}$:
+\daemi ÃkvarÃ°iÃ° myndir eftirtalinna varpana af einingarhringnum $\T=\set{z\in \C; 
+|z|=1}$ og einingarskÃ­funni $\D=\set{z\in \C;  |z|<1}$:
 
 \smallskip
 \begin{tabular}{lll}
@@ -2744,10 +2775,10 @@ b)\ $z\mapsto \dfrac{z-1}{z+1}$,  &
 c)\ $z\mapsto \dfrac{z-1/2}{z+2}$.
 \end{tabular}
 
-\daemi Finniğ allar brotnar línulegar varpanir sem varpa jákvæğa
-raunásnum $\R_+=\{x\in \R\,;\, x\geq 0\}$ á sjálfan sig.
+\daemi FinniÃ° allar brotnar lÃ­nulegar varpanir sem varpa jÃ¡kvÃ¦Ã°a
+raunÃ¡snum $\R_+=\{x\in \R\,;\, x\geq 0\}$ Ã¡ sjÃ¡lfan sig.
 
-\daemi Finniğ allar brotnar línulegar varpanir sem varpa opna jákvæğa 
-raunásnum $\R_+^*=\{x\in \R\,;\, x>0\}$ á sjálfan sig.
+\daemi FinniÃ° allar brotnar lÃ­nulegar varpanir sem varpa opna jÃ¡kvÃ¦Ã°a 
+raunÃ¡snum $\R_+^*=\{x\in \R\,;\, x>0\}$ Ã¡ sjÃ¡lfan sig.
 
 

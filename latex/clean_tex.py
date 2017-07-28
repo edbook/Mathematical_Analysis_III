@@ -43,7 +43,7 @@ reps = {
     '\\dæmi': '\subsubsection',
     '\\vfigura': 'MYND VANTAR HÉR!!!',
     '\\figura': 'MYND VANTAR HÉR!!!',
-    re.compile(r'((?:\n\\.+)*)\\label\{(.*?)\}'): '\n.. _\\2\n\\1',
+    re.compile(r'((?:\n\\.+)*)\\label\{(.*?)\}'): '\n\n.. _\\2:\n\\1',
     # re.compile(r'\\label\{(.*?)\}'): '.. _\\1: ',
     re.compile(r'\\ref\{(.*?)\}'): ':ref:`\\1`',
     # 'sub': 'dub'
@@ -54,9 +54,12 @@ f = open(sys.argv[1], encoding='utf8')
 filedata = f.read()
 f.close()
 
+#newdata = filedata.replace("frame","cra")
+#newdata = filedata.replace(filedata,reps)
 lines = filedata.split('\n')
-# newdata = filedata.replace("frame","cra")
-newdata = replace_all('\n'.join(lines[11:]), reps)
+newdata = replace_all('\n'.join(lines), reps)
+
+
 
 f = open(sys.argv[2], 'w')
 f.write(newdata)
