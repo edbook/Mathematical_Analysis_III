@@ -696,7 +696,7 @@ jafngildar jöfnur:
 Innfeldi og krossfeldi
 ~~~~~~~~~~~~~~~~~~~~~~
 
-*Innfeldi* tveggja vigra :math:`z=(x,y)` og :math:`w=(u,v)` er
+:hover:`Innfeldi` tveggja vigra :math:`z=(x,y)` og :math:`w=(u,v)` er
 skilgreint sem rauntalan :math:`z{{\mathbb \cdot}}w=xu+yv`. Ef við lítum
 á :math:`z` og :math:`w` sem tvinntölur og skrifum
 :math:`z=x+iy=r(\cos\alpha+i\sin \alpha)` og
