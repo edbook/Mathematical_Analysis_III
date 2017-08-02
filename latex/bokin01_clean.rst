@@ -1932,7 +1932,7 @@ við upp gröf þeirra. Graf tvinngilda fallsins
 :math:`f:X\to {{\mathbb  C}}`, :math:`X\subseteq {{\mathbb  C}}`, er
 hlutmengið í :math:`{{\mathbb  C}}^2` sem skilgreint er með
 
-.. math:: {{\operatorname{graf}}}f=\set{(z,f(z))\in {{\mathbb  C}}^2; z\in X}.
+.. math:: {{\operatorname{graf}}}f=\{(z,f(z))\in {{\mathbb  C}}^2; z\in X\}.
 
  Nú er :math:`{{\mathbb  C}}^2` fjórvítt rúm yfir
 :math:`{{\mathbb  R}}`, en rúmskynjun flestra manna takmarkast við þrjár
@@ -1954,7 +1954,7 @@ ef :math:`a\in
 {{\mathbb  C}}` og :math:`|a|=1`, hún nefnist *stríkkun* ef :math:`a\in
 {{\mathbb  R}}` og :math:`|a|>1` og *herping*, ef
 :math:`a\in {{\mathbb  R}}` og :math:`|a|<1`, en almennt nefnist hún
-*snústríkkun* ef :math:`a\in {{\mathbb  C}}\setminus\set{0}`. Vörpunin
+*snústríkkun* ef :math:`a\in {{\mathbb  C}}\setminus\{0\}`. Vörpunin
 :math:`{{\mathbb  C}}\setminus{{\{0\}}} \to {{\mathbb  C}}\setminus{{\{0\}}}`,
 :math:`z\mapsto 1/z` nefnist *umhverfing*.
 
@@ -2254,7 +2254,7 @@ Ein leið til þess að setja tvinngild föll :math:`f:X\to {{\mathbb  C}}`
 fram á myndrænan hátt er að líta á þau sem varpanir sem taka punkta í
 einu afriti af tvinntöluplaninu :math:`{{\mathbb  C}}` yfir í annað
 afrit. Þá er :math:`X` teiknað upp í :math:`z`-plani og myndmengið
-:math:`Y=\set{w=f(z); z\in X}` teiknað upp í :math:`w`-plani og síðan er
+:math:`Y=\{w=f(z); z\in X\}` teiknað upp í :math:`w`-plani og síðan er
 sýnt hvernig :math:`f` varpar punktum :math:`z\in X` á punkta
 :math:`w=f(z)\in Y`. Oft er litið á einhverja fjölskyldu af ferlum í
 :math:`X` og sýnt hvernig hún varpast yfir í :math:`Y`.
@@ -2586,7 +2586,7 @@ línunni :math:`\ell`.
 
 **.**
 
-(*Speglun í hring*)  Látum :math:`H=\set{z\in {{\mathbb  C}}; |z-a|=r}`
+(*Speglun í hring*)  Látum :math:`H=\{z\in {{\mathbb  C}}; |z-a|=r\}`
 vera hringinn með miðju í :math:`a` og geislann :math:`r`. Við segjum að
 tveir punktar :math:`z_1` og :math:`z_2` séu spegilmyndir hvor annars í
 hringnum :math:`H`, ef þeir liggja á sömu hálflínunni út frá punktinum
@@ -2810,9 +2810,9 @@ einingarskífunnar
 **.**
 
 Ákvarðið myndir eftirtalinna varpana af einingarhringnum
-:math:`{{\mathbb  T}}=\set{z\in {{\mathbb  C}}; 
-|z|=1}` og einingarskífunni
-:math:`{{\mathbb  D}}=\set{z\in {{\mathbb  C}};  |z|<1}`:
+:math:`{{\mathbb  T}}=\{z\in {{\mathbb  C}}; 
+|z|=1\}` og einingarskífunni
+:math:`{{\mathbb  D}}=\{z\in {{\mathbb  C}};  |z|<1\}`:
 
 +-------------------------------------------+-------------------------------------------+---------------------------------------------+
 | a) \ :math:`z\mapsto \dfrac{z-i}{z+i}`,   | b) \ :math:`z\mapsto \dfrac{z-1}{z+1}`,   | c) \ :math:`z\mapsto \dfrac{z-1/2}{z+2}`.   |

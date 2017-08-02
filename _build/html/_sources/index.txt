@@ -15,6 +15,7 @@ Contents:
    
    bokin*
    chapter*
+   ordaskra
 
 Indices and tables
 ==================

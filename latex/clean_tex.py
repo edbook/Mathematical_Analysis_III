@@ -60,7 +60,31 @@ lines = filedata.split('\n')
 newdata = replace_all('\n'.join(lines), reps)
 
 
+working_data = list(newdata)
+length_of_opening_tag = len('\set{')
+length_of_closing_tag = len('}')
+maximum_index = len(working_data) - length_of_opening_tag - length_of_closing_tag
+index = 0
+depth = 0
+while index < maximum_index:
+    #if working_data[index:index+length_of_opening_tag] == list('\set{'):
+    #    print(working_data[index:index+length_of_opening_tag], "found!")
+        del working_data[index+1:index+4]
+        maximum_index -= 3
+        index += 2
+        depth = 1
+        while depth > 0:
+            if working_data[index] == '{':
+                depth += 1
+            if working_data[index] == '}':
+                depth -= 1
+            index += 1
+        working_data.insert(index-1, '\\')
+        maximum_index += 1
+        index += 1
+    index += 1      
+
 
 f = open(sys.argv[2], 'w')
-f.write(newdata)
+f.write(''.join(working_data))
 f.close()

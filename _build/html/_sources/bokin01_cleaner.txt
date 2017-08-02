@@ -27,19 +27,19 @@ og :math:`b` og annarri tölu :math:`ab` sem nefnist *margfeldi*
 +---------------------------+----------------------------------------+
 | :math:`a(b+c)=ab+ac`      | *dreifiregla*                          |
 +---------------------------+----------------------------------------+
-| :math:`1a=a`              | *:math:`1` er margföldunarhlutleysa*   |
+| :math:`1a=a`              | :math:`1` *er margföldunarhlutleysa*   |
 +---------------------------+----------------------------------------+
 
 Við höfum *röðun* þannig að um sérhverjar tvær tölur :math:`a` og
-:math:`b` gildir eitt af þrennu: *:math:`a` er minni en :math:`b`*,
-táknað :math:`a<b`, *:math:`a` er jafnt og :math:`b`*, táknað
-:math:`a=b` eða *:math:`a` er stærra en :math:`b`*, táknað :math:`a>b`.
+:math:`b` gildir eitt af þrennu: :math:`a` *er minni en* :math:`b`,
+táknað :math:`a<b`, :math:`a` *er jafnt og* :math:`b`, táknað
+:math:`a=b` eða :math:`a` *er stærra en* :math:`b`, táknað :math:`a>b`.
 Þetta er skilgreint þannig að :math:`a` er sagt vera *minna en*
 :math:`b`, ef til er náttúrleg tala :math:`c` þannig að :math:`a+c=b`,
 og :math:`a` er sagt vera *stærra en* :math:`b`, ef :math:`b` er minni
 en :math:`a`.
 
-Um röðun *náttúrlegra talna* gilda tvær mikilvægar reglur
+Um röðun náttúrlegra talna* gilda tvær mikilvægar reglur
 
 +----------------------------------------+--------------------------------------+
 | ef :math:`a<b` þá er :math:`a+c<b+c`   | *röðun er óbreytt við samlagningu*   |
@@ -84,7 +84,7 @@ reikniaðgerðirnar. Allar reiknireglurnar gilda áfram og við fáum eina
 reglu til viðbótar:
 
 +---------------------+----------------------------------------+
-| :math:`0+a=a+0=a`   | *:math:`0` er samlagningarhlutleysa*   |
+| :math:`0+a=a+0=a`   | :math:`0` *er samlagningarhlutleysa*   |
 +---------------------+----------------------------------------+
 
 Fyrri röðurnareglan gildir áfram en sú síðari aðeins ef :math:`c\neq 0`.
@@ -113,7 +113,7 @@ ef :math:`a>b`. Talan :math:`x` nefnist þá mismunur :math:`a` og
 :math:`b` og er táknuð með :math:`a-b`.
 
 Til þess að ráða bót á þessu er talnakerfið stækkað þannig að bætt er
-við tölunni :math:`0`, sem nefnist *núll*, og síðan er bætt við tölunum
+við tölunni :math:`0`, sem nefnist núll*, og síðan er bætt við tölunum
 :math:`-1,-2,-3,-4,\dots`. Þetta stækkaða kerfi nefnist *heilar tölur*
 og er táknað með :math:`{{\mathbb  Z}}`.
 
@@ -228,9 +228,9 @@ fyrir rauntölur :math:`a`, :math:`b` og :math:`c` höfum við
 +---------------------------+----------------------------------------+
 | :math:`a(b+c)=ab+ac`      | *dreifiregla*                          |
 +---------------------------+----------------------------------------+
-| :math:`a+0=a`             | *:math:`0` er samlagningarhlutleysa*   |
+| :math:`a+0=a`             | :math:`0` *er samlagningarhlutleysa*   |
 +---------------------------+----------------------------------------+
-| :math:`1a=a`              | *:math:`1` er margföldunarhlutleysa*   |
+| :math:`1a=a`              | :math:`1` *er margföldunarhlutleysa*   |
 +---------------------------+----------------------------------------+
 
 Sérhver rauntala :math:`a` á sér samlagningarandhverfu sem er ótvírætt
@@ -257,10 +257,10 @@ ef :math:`b<a`. Við höfum eftirtaldar reglur um röðun rauntalna
 |                                                      | *með neikvæðri tölu*                 |
 +------------------------------------------------------+--------------------------------------+
 
-Við höfum líka *hlutröðun :math:` \leq `* á :math:`{{\mathbb  R}}`. Við
+Við höfum líka hlutröðun* :math:` \leq ` á :math:`{{\mathbb  R}}`. Við
 skrifum :math:`a\leq b` og segjum að :math:`a` *sé minni eða jafnt*
 :math:`b`, ef :math:`a<b` eða :math:`a=b`. Eins skrifum við
-:math:`a\geq b` og segjum að *:math:`a` sé stærri eða jafnt :math:`b`*
+:math:`a\geq b` og segjum að :math:`a` *sé stærri eða jafnt* :math:`b`
 ef :math:`a>b` eða :math:`a=b`.
 
 Ef :math:`a,b\in {{\mathbb  R}}` og :math:`a<b`, þá skilgreinum við
@@ -406,9 +406,9 @@ tengi- og dreifireglur gildi um þessa margföldun
 +-------------------------------------------------------------------+--------------------------------------------+
 | :math:`(a,b)\big((c,d)+(e,f)\big) =(a,b)(c,d)+(a,b)(e,f)`         | *dreifiregla*                              |
 +-------------------------------------------------------------------+--------------------------------------------+
-| :math:`(a,b)+(0,0)=(a,b)`                                         | *:math:`(0,0)` er samlagningarhlutleysa*   |
+| :math:`(a,b)+(0,0)=(a,b)`                                         | :math:`(0,0)` *er samlagningarhlutleysa*   |
 +-------------------------------------------------------------------+--------------------------------------------+
-| :math:`(1,0)(a,b)=(a,b)`                                          | *:math:`(1,0)` er margföldunarhlutleysa*   |
+| :math:`(1,0)(a,b)=(a,b)`                                          | :math:`(1,0)` *er margföldunarhlutleysa*   |
 +-------------------------------------------------------------------+--------------------------------------------+
 
 Ljóst er að :math:`(-a,-b)` er samlagningarandhverfa :math:`(a,b)`. Við
@@ -479,7 +479,7 @@ rauntölur,
 .. math:: \binom nk=\dfrac{n(n-1)\cdots(n-k+1)}{k!}=\dfrac{n!}{(n-k)!k!},
 
 fyrir :math:`n=0,1,2,3,\dots` og :math:`k=0,\dots,n`. Við köllum þennan
-stuðul :math:`n` *yfir* :math:`k` og sjáum beint frá formúlunni að
+stuðul :math:`n` yfir* :math:`k` og sjáum beint frá formúlunni að
 tvíliðustuðlarnir eru samhverfir í þeim skilningi að
 
 .. math:: \binom nk=\binom n{n-k}.
@@ -509,7 +509,7 @@ Raunhluti, þverhluti og samok
 
 Sérhverja tvinntölu :math:`z` má rita sem :math:`z=x+iy` þar sem
 :math:`x` og :math:`y` eru rauntölur. Talan :math:`x` nefnist þá
-*raunhluti* tölunnar :math:`z` og talan :math:`y` nefnist *þverhluti*
+raunhluti* tölunnar :math:`z` og talan :math:`y` nefnist þverhluti*
 hennar. Við táknum raunhlutann með :math:`{{\operatorname{Re\, }}}z` og
 þverhlutann með :math:`{{\operatorname{Im\, }}}z`.
 
@@ -555,11 +555,11 @@ MYND VANTAR HÉR!!!siiibmynd0102 Ef :math:`z\in {{\mathbb  C}}`,
 
 þá nefnist talan :math:`\theta` *stefnuhorn* eða *horngildi*
 tvinntölunnar :math:`z` og stærðtáknið í hægri hliðinni nefnist *pólform
-tvinntölunnar :math:`z`*. Hornaföllin :math:`\cos` og :math:`\sin` eru
+tvinntölunnar* :math:`z`. Hornaföllin :math:`\cos` og :math:`\sin` eru
 lotubundin með lotuna :math:`2\pi` og því eru allar tölur af gerðinni
 :math:`\theta+2\pi k` með :math:`k\in {{\mathbb  Z}}` einnig stefnuhorn
 fyrir :math:`z`. Raðtvenndin :math:`(|z|,\theta)` er nefnd *pólhnit* eða
-*skauthnit* tölunnar :math:`z`.
+skauthnit* tölunnar :math:`z`.
 
 Við höfum að
 
@@ -752,7 +752,7 @@ gerðinni
 þar sem :math:`\alpha` og :math:`\gamma` eru rauntölur og :math:`\beta`
 er tvinntala. Tilfellin eru:
 
-(i) *Lína*: :math:`\alpha=0`, :math:`\beta\neq 0`.
+(i) Lína*: :math:`\alpha=0`, :math:`\beta\neq 0`.
 
 (ii) *Hringur*: :math:`\alpha\neq 0`,
 :math:`|\beta|^2-{\alpha}\gamma>0`. Ef miðjan er :math:`m` og geislinn
@@ -770,7 +770,7 @@ er tvinntala. Tilfellin eru:
 :math:`|\beta|^2-\alpha\gamma<0` eða :math:`\alpha=0`, :math:`\beta=0`,
 :math:`\gamma\neq 0`.
 
-(v) *Allt planið :math:`{{\mathbb  C}}`*: :math:`\alpha=\beta=\gamma=0`.
+(v) Allt planið* :math:`{{\mathbb  C}}`: :math:`\alpha=\beta=\gamma=0`.
 
 Einingarhringurinn
 ~~~~~~~~~~~~~~~~~~
@@ -865,15 +865,15 @@ Rætur
 -----
 
 Látum nú :math:`w` vera gefna tvinntölu og :math:`n\geq 2` vera
-náttúrlega tölu. Tvinntalan :math:`z` kallast þá *:math:`n`-ta rót*
+náttúrlega tölu. Tvinntalan :math:`z` kallast þá :math:`n`-ta rót*
 tvinntölunnar :math:`w` ef hún uppfyllir jöfnuna :math:`z^n=w`
 
 Einingarrætur
 ~~~~~~~~~~~~~
 
 Lítum á jöfnuna :math:`z^n=1`, þar sem :math:`n\geq 2` er náttúrleg
-tala. Lausnir hennar nefnast *:math:`n`-tu einingarrætur* eða
-*:math:`n`-tu rætur af einum*. Ef :math:`z` er lausn, þá er
+tala. Lausnir hennar nefnast :math:`n`-tu einingarrætur* eða
+:math:`n`-tu rætur af einum*. Ef :math:`z` er lausn, þá er
 :math:`1=|z^n|=|z|^n` sem segir okkur að :math:`|z|=1` og að við getum
 skrifað :math:`z=\cos \theta+i\sin \theta`. Regla de Moivres segir nú að
 
@@ -891,7 +891,7 @@ heiltöludeilingu með :math:`n`, þá er
 :math:`\cos(2\pi k_1/n)=\cos(2\pi k_2/n)` og
 :math:`\sin(2\pi k_1/n)=\sin(2\pi k_2/n)`. Þetta gefur okkur að jafnan
 :math:`z^n=1` hefur :math:`n` ólíkar lausnir :math:`u_0,\dots,u_{n-1}`,
-sem nefnast *:math:`n`-tu rætur af :math:`1`* og eru gefnar með
+sem nefnast :math:`n`-tu rætur af* :math:`1` og eru gefnar með
 formúlunni
 
 .. math:: u_k=\cos(2\pi k/n)+i\sin(2\pi k/n), \qquad k=0,1,2,\dots,n-1.
@@ -946,7 +946,7 @@ Ferningsrætur
 ~~~~~~~~~~~~~
 
 Ef :math:`w` er tvinntala og :math:`z` uppfyllir :math:`z^2=w`, þá er
-:math:`z` sögð vera *ferningsrót* eða *kvaðratrót* tölunnar :math:`w`.
+:math:`z` sögð vera *ferningsrót* eða kvaðratrót* tölunnar :math:`w`.
 Munið að ef :math:`w` er jákvæð rauntala, þá táknar :math:`\sqrt w`
 alltaf jákvæðu rauntöluna töluna sem uppfyllir
 :math:`(\sqrt w)^2=\alpha`. Að sjálfsögðu er :math:`\sqrt 0=0`.
@@ -1062,10 +1062,10 @@ minna en :math:`m` og margliða :math:`S`, þannig að
 
 .. math:: P(z)=Q(z)S(z)+R(z)
 
-Margliðan :math:`R` nefnist þá *leif* eða *afgangur við deilingu á
-:math:`P` með :math:`Q`* og :math:`S` nefnist *kvóti :math:`P` og
-:math:`Q`*. Við segjum að *:math:`Q` deili :math:`P`* eða að *:math:`Q`
-gangi upp í :math:`P`* ef :math:`R` er núllmargliðan.
+Margliðan :math:`R` nefnist þá leif* eða *afgangur við deilingu á
+:math:`P` með* :math:`Q` og :math:`S` nefnist kvóti* :math:`P` *og
+:math:`Q`. Við segjum að :math:`Q` *deili* :math:`P` eða að :math:`Q`
+gangi upp í* :math:`P` ef :math:`R` er núllmargliðan.
 
 Ef :math:`\alpha\in {{\mathbb  C}}`, þá er :math:`z-\alpha` fyrsta stigs
 margliða og við fáum að leifin við deilingu á :math:`P(z)` með
@@ -1073,9 +1073,9 @@ margliða og við fáum að leifin við deilingu á :math:`P(z)` með
 
 .. math:: P(z)=(z-\alpha)S(z)+P(\alpha).
 
-Tvinntalan :math:`\alpha` er sögð vera *núllstöð* eða *rót*
+Tvinntalan :math:`\alpha` er sögð vera *núllstöð* eða rót*
 margliðunnar :math:`P` ef :math:`P(\alpha)=0`. Við höfum nú
-*þáttaregluna*.
+þáttaregluna*.
 
 Setning
 ^^^^^^^
@@ -1175,8 +1175,8 @@ er stuðullinn í veldið :math:`z^m` í margliðunni :math:`P`.
 Ef :math:`\alpha` er núllstöð margliðu :math:`P` og hægt er að þátta
 :math:`P` í :math:`P(z)=(z-\alpha)^jQ(z)` þar sem :math:`Q` er margliða
 og :math:`Q(\alpha)\neq 0` þá segjum við að :math:`\alpha` sé
-*:math:`j`-föld núllstöð :math:`P`* og köllum töluna :math:`j`
-*margfeldni núllstöðvarinnar :math:`\alpha` í :math:`P`*. Ef :math:`P`
+:math:`j`-föld núllstöð* :math:`P` og köllum töluna :math:`j`
+*margfeldni núllstöðvarinnar** :math:`\alpha` *í :math:`P`. Ef :math:`P`
 er af stigi :math:`m` og :math:`\beta_1,\dots,\beta_k` er upptalning á
 ólíkum núllstöðvum margliðunnar :math:`P` og þær hafa margfeldni
 :math:`m_1,\dots,m_k`, þá getum við skrifað
@@ -1256,7 +1256,7 @@ og
 Ræð föll
 --------
 
-*Rætt fall* er kvóti tveggja margliða :math:`R=P/Q`. Það er skilgreint í
+Rætt fall* er kvóti tveggja margliða :math:`R=P/Q`. Það er skilgreint í
 öllum punktum :math:`z\in {{\mathbb  C}}` þar sem :math:`Q(z)\neq 0`.
 Við skilgreinum afleiðuna af :math:`R` með hliðstæðum hætti og fyrir
 margliður og fáum venjulega reiknireglu
@@ -1317,14 +1317,14 @@ Við munum sanna þessa formúlu í kafla 4. Nú þarf að reikna stuðlana
   \lim\limits_{z\to\alpha_1}(z-\alpha_1)R(z) =
    \lim\limits_{z\to
    \alpha_1}\dfrac{(z-\alpha_1)P(z)}{Q(z)-Q(\alpha_1)}=
-   \dfrac{P(\alpha_1)}{Q{{\sp{\prime}}}(\alpha_1)}.
+   \dfrac{P(\alpha_1)}{Q{{^{\prime}}}(\alpha_1)}.
 
 Ef við meðhöndlum hinar núllstöðvarnar með sama hætti, þá fáum við
 formúluna
 
 .. math::
 
-  A_j=\dfrac{P(\alpha_j)}{Q{{\sp{\prime}}}(\alpha_j)}.
+  A_j=\dfrac{P(\alpha_j)}{Q{{^{\prime}}}(\alpha_j)}.
 .. _4.4.3:
 
 Við notum nú þáttunina á :math:`Q` í fyrsta stigs liði til þess að
@@ -1332,7 +1332,7 @@ reikna út afleiðuna af :math:`Q` í :math:`{\alpha}_j`,
 
 .. math::
 
-  Q{{\sp{\prime}}}(\alpha_j)=a\prod_{\substack{k=1\\ k\neq
+  Q{{^{\prime}}}(\alpha_j)=a\prod_{\substack{k=1\\ k\neq
     j}}^m
    (\alpha_j-\alpha_k).
 .. _4.4.4:
@@ -1713,7 +1713,7 @@ skrifum við
 
 .. math:: z=x+iy=re^{i{\theta}}=(x,y)=\left[\begin{matrix} x\\ y\end{matrix}\right]
 
-og segjum að :math:`z` hafi *raunhlutann* :math:`x`, *þverhlutann*
+og segjum að :math:`z` hafi raunhlutann* :math:`x`, þverhlutann*
 :math:`y`, *lengdina* :math:`r` og *horngildið* :math:`{\theta}`. Hér er
 :math:`x+iy` tvinntöluframsetning á :math:`z` í rétthyrndum hnitum,
 :math:`re^{i{\theta}}` framsetning í pólhnitum, :math:`(x,y)` er
@@ -1767,8 +1767,8 @@ getum líka lýst vörpuninni :math:`L` með fylkjamargföldun sem
    \left[\begin{matrix} x\\ y\end{matrix} \right].
 
 Þá nefnist :math:`2\times 2` fylkið sem hér stendur *fylki
-vörpunarinnar :math:`L` miðað við staðalgrunninn á
-:math:`{{\mathbb  R}}^2`*
+vörpunarinnar* :math:`L` *miðað við staðalgrunninn á
+:math:`{{\mathbb  R}}^2`
 
 Nú skulum við snúa þessum framsetningum yfir í tvinntalnaframsetningu.
 Eins og við höfum áður rifjað upp þá svarar tvinntalan :math:`1` til
@@ -1827,9 +1827,9 @@ við viljum ákvarða stuðlana :math:`a`, :math:`b`, :math:`c` og :math:`d`
    d&={{\operatorname{Im\, }}}\big(L(i)\big)={{\operatorname{Im\, }}}\big(i(A-B)\big)={{\operatorname{Re\, }}}\big(A-B\big).\end{aligned}
 
 Í tvinnfallagreiningu þarf oft að gera greinarmun á
-*:math:`{{\mathbb  R}}`-línulegum* vörpunum, en það eru nákvæmlega þær
+:math:`{{\mathbb  R}}`-línulegum* vörpunum, en það eru nákvæmlega þær
 línulegu varpanir sem við höfum verið að fjalla um, og
-*:math:`{{\mathbb  C}}`-línulegum* vörpunum, en þær uppfylla
+:math:`{{\mathbb  C}}`-línulegum* vörpunum, en þær uppfylla
 
 .. math::
 
@@ -1911,7 +1911,7 @@ við upp gröf þeirra. Graf tvinngilda fallsins
 :math:`f:X\to {{\mathbb  C}}`, :math:`X\subseteq {{\mathbb  C}}`, er
 hlutmengið í :math:`{{\mathbb  C}}^2` sem skilgreint er með
 
-.. math:: {{\operatorname{graf}}}f=\set{(z,f(z))\in {{\mathbb  C}}^2; z\in X}.
+.. math:: {{\operatorname{graf}}}f=\{(z,f(z))\in {{\mathbb  C}}^2; z\in X\}.
 
 Nú er :math:`{{\mathbb  C}}^2` fjórvítt rúm yfir
 :math:`{{\mathbb  R}}`, en rúmskynjun flestra manna takmarkast við þrjár
@@ -1923,7 +1923,7 @@ getum vissulega teiknað upp gröf raungildu fallanna
 tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða
 hvernig þau færa til punktana í :math:`{{\mathbb  C}}` og lýsa á mynd
 afstöðunni millli :math:`z` og :math:`f(z)`. Vert er að geta þess að í
-þessu samhengi eru orðin *vörpun*, *færsla*, *ummyndun* o.fl. oft notuð
+þessu samhengi eru orðin *vörpun*, *færsla*, ummyndun* o.fl. oft notuð
 sem samheiti fyrir orðið fall. Við skulum nú taka nokkur dæmi um þetta
 
 Vörpun :math:`{{\mathbb  C}}\to {{\mathbb  C}}` af gerðinni
@@ -1933,9 +1933,9 @@ ef :math:`a\in
 {{\mathbb  C}}` og :math:`|a|=1`, hún nefnist *stríkkun* ef :math:`a\in
 {{\mathbb  R}}` og :math:`|a|>1` og *herping*, ef
 :math:`a\in {{\mathbb  R}}` og :math:`|a|<1`, en almennt nefnist hún
-*snústríkkun* ef :math:`a\in {{\mathbb  C}}\setminus\set{0}`. Vörpunin
+*snústríkkun* ef :math:`a\in {{\mathbb  C}}\setminus\{0\}`. Vörpunin
 :math:`{{\mathbb  C}}\setminus{{\{0\}}} \to {{\mathbb  C}}\setminus{{\{0\}}}`,
-:math:`z\mapsto 1/z` nefnist *umhverfing*.
+:math:`z\mapsto 1/z` nefnist umhverfing*.
 
 MYND VANTAR HÉR!!! fig0312
 
@@ -1947,7 +1947,7 @@ varpana, en fall af gerðinni
 
 .. math:: f(z)=\dfrac{az+b}{cz+d}, \qquad ad-bc\neq 0, \quad a,b,c,d\in {{\mathbb  C}},
 
-kallast *brotin línuleg vörpun*, *brotin línuleg færsla* eða
+kallast brotin línuleg vörpun*, brotin línuleg færsla* eða
 *Möbiusarvörpun*. Við sjáum að :math:`f(z)` er skilgreint fyrir öll
 :math:`z\in {{\mathbb  C}}`, ef :math:`c=0`, en fyrir öll
 :math:`z\neq -d/c`, ef :math:`c\neq 0`. Eðlilegt er að útvíkka
@@ -2061,7 +2061,7 @@ Fastapunktar
 ~~~~~~~~~~~~
 
 Ef :math:`F:M\to M` er vörpun á einhverju mengi :math:`M`, þá nefnist
-:math:`p\in M` *fastapunktur* vörpunarinnar :math:`F` ef :math:`F(p)=p`.
+:math:`p\in M` fastapunktur* vörpunarinnar :math:`F` ef :math:`F(p)=p`.
 Allir punktar í :math:`M` eru fastapunktar *samsemdarvörpunarinnar*
 :math:`x\mapsto x`.
 
@@ -2233,7 +2233,7 @@ Ein leið til þess að setja tvinngild föll :math:`f:X\to {{\mathbb  C}}`
 fram á myndrænan hátt er að líta á þau sem varpanir sem taka punkta í
 einu afriti af tvinntöluplaninu :math:`{{\mathbb  C}}` yfir í annað
 afrit. Þá er :math:`X` teiknað upp í :math:`z`-plani og myndmengið
-:math:`Y=\set{w=f(z); z\in X}` teiknað upp í :math:`w`-plani og síðan er
+:math:`Y=\{w=f(z); z\in X\}` teiknað upp í :math:`w`-plani og síðan er
 sýnt hvernig :math:`f` varpar punktum :math:`z\in X` á punkta
 :math:`w=f(z)\in Y`. Oft er litið á einhverja fjölskyldu af ferlum í
 :math:`X` og sýnt hvernig hún varpast yfir í :math:`Y`.
@@ -2262,7 +2262,7 @@ hring með miðju í :math:`m` og geislann :math:`r` á hring með miðju í
 
 MYND VANTAR HÉR!!! fig0315Mynd: Snústríkkun
 
-*Umhverfing* er gefin með :math:`z\mapsto 1/z`, :math:`0\to {\infty}`,
+Umhverfing* er gefin með :math:`z\mapsto 1/z`, :math:`0\to {\infty}`,
 :math:`{\infty}\to 0`. Til þess að sjá hvernig hún varpar hringum og
 línum, þá lítum við á mengi allra punkta :math:`z` sem gefnir eru með
 formúlunni
@@ -2336,7 +2336,7 @@ Sýnidæmi
 varpi einingarhringnum :math:`{{\mathbb  T}}` á sjálfan sig og
 einingarskífunni :math:`{{\mathbb  D}}` á sjálfa sig.
 
-*Lausn:*   Ef :math:`z` er á einingarhringnum þá er
+Lausn:*   Ef :math:`z` er á einingarhringnum þá er
 :math:`|z|=|\bar z|=z\bar
 z=1` og við fáum því
 
@@ -2359,7 +2359,7 @@ sjálft sig, sé af gerðinni
 
 .. math:: z\mapsto w=\dfrac{az+b}{cz+d}, \qquad a,b,c,d\in {{\mathbb  R}}, \quad ad-bc>0.
 
-*Lausn:*  Gerum fyrst ráð fyrir að :math:`f` sé vörpun af þessari gerð
+Lausn:*  Gerum fyrst ráð fyrir að :math:`f` sé vörpun af þessari gerð
 og sýnum að hún varpi efra hálfplaninu á sjálft sig. Fyrst allir
 stuðlarnir eru rauntölur, þá gildir
 
@@ -2427,18 +2427,18 @@ Nú varpar :math:`f` efra hálfplaninu á sjálft sig og af því drögum við
 Æfingardæmi
 -----------
 
-**.**
+*.*
 
 Finnið allar lausnir jöfnunnar :math:`(3+4i)^2 - 2(x-iy) = x+iy` með
 :math:`x,y\in {{\mathbb  R}}`.
 
-**.**
+*.*
 
 Finnið allar lausnir jöfnunanr
 :math:`\big(\frac{1+i}{1-i}\big)^2 + \frac{1}{x+iy} = 1+i` með
 :math:`x,y\in {{\mathbb  R}}`.
 
-**.**
+*.*
 
 Teiknið alla punkta :math:`z=x+iy` sem uppfylla eftirfarandi skilyrði.
 
@@ -2448,7 +2448,7 @@ Teiknið alla punkta :math:`z=x+iy` sem uppfylla eftirfarandi skilyrði.
 | d)    :math:`|z+1|\geq |z|`   | e)    :math:`|z+1| = |z-i|`   |                           |
 +-------------------------------+-------------------------------+---------------------------+
 
-**.**
+*.*
 
 Sannið að
 
@@ -2456,17 +2456,17 @@ Sannið að
 
 fyrir :math:`n=2,3,4,\dots` og :math:`k=1,2,\dots,n-1`.
 
-**.**
+*.*
 
 Notið reiknivél til þess að finna horngildi talnanna :math:`-1+2i`,
 :math:`-1-3i` og :math:`3-4i` í radíönum og í gráðum.
 
-**.**
+*.*
 
 Hvert er mengi allra punkta :math:`z=x+iy` í :math:`{{\mathbb  C}}` með
 :math:`x,y\in {{\mathbb  R}}` sem uppfylla :math:`|z|+x=0`?
 
-**.**
+*.*
 
 Skrifið eftirfarandi tölur á pólformi :math:`r(\cos \theta+i\sin
 \theta)`.
@@ -2475,21 +2475,21 @@ Skrifið eftirfarandi tölur á pólformi :math:`r(\cos \theta+i\sin
 | a)    :math:`(1+\sqrt{3}\cdot i)^2`   | b)    :math:`\frac{1+i}{1-i}`   | c)   :math:`(2+3i)(1-2i)`   |
 +---------------------------------------+---------------------------------+-----------------------------+
 
-**.**
+*.*
 
 Sýnið að :math:`\overline {z+w}=\bar z+\bar w` og
 :math:`\overline{zw}=\bar z\cdot \bar w`.
 
-**.**
+*.*
 
 Sýnið að :math:`z + \overline z = 2{{\operatorname{Re\, }}}(z)`.
 
-**.**
+*.*
 
 Sýnið að :math:`|{{\operatorname{Re\, }}}\, z|\leq|z|` og
 :math:`|{{\operatorname{Im\, }}}\, z|\leq|z|`.
 
-**.**
+*.*
 
 Teiknið upp mengi allra punkta :math:`z=x+iy` í :math:`{{\mathbb  C}}`
 sem uppfylla:
@@ -2500,37 +2500,37 @@ sem uppfylla:
 | c) :math:`{{\operatorname{Re\, }}}\big(z+1/z\big)={\alpha}x`, :math:`{\alpha}>1`,   | d) :math:`{{\operatorname{Im\, }}}\big(z+1/z\big)={\alpha} y`, :math:`{\alpha}<1`.   |
 +-------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
-**.**
+*.*
 
 Notið tvinntalnareikning til þess að reikna út flatarmál þríhyrningsins
 með hornpunkta :math:`1+i`, :math:`3+4i` og :math:`-2-2i`.
 
-**.**
+*.*
 
 Hvaða línur eru gefnar með jöfnunum:
 
 a)   :math:`z-\bar z=0` og b)  \ :math:`z+\bar z=0`?
 
-**.**
+*.*
 
 | Hvaða línur eru gefnar með jöfnunum:
 | a)  \ :math:`(1+i)z+(1-i)\bar z=0` og  b)
    :math:`(1-i)z+(1+i)\bar z=0`?
 | Teiknið þær í tvinntalnaplaninu
 
-**.**
+*.*
 
 | Hvaða hringur er gefinn með jöfnunni
   :math:`|z|^2+(1-i)z+(1+i)\bar z=0`?
 | Teiknið hann í tvinntalnaplaninu.
 
-**.**
+*.*
 
 Finnið jöfnu línunnar sem gengur gegnum punktana :math:`1+2i` og
 :math:`3-4i` skrifið hana á forminu
 :math:`\bar \beta z+\beta\bar z+\gamma=0`.
 
-**.**
+*.*
 
 Sýnið að mengi allra punkta sem uppfylla jöfnuna
 
@@ -2546,7 +2546,7 @@ er tvinntala, sé hringur þá og því aðeins að :math:`\alpha\neq 0` og
   m=-\beta/\alpha\qquad \text{ og } \qquad
    r=\sqrt{|\beta|^2-\alpha\gamma}\, /|\alpha|.
 
-**.**
+*.*
 
 (*Speglun í línu*)  Látum :math:`\ell=\set
 {z\in {{\mathbb  C}};  \bar {\beta}z+{\beta}\bar
@@ -2559,9 +2559,9 @@ sem uppfylla
 Sýnið að :math:`z_1` og :math:`z_2` séu spegilmyndir hvor annars í
 línunni :math:`\ell`.
 
-**.**
+*.*
 
-(*Speglun í hring*)  Látum :math:`H=\set{z\in {{\mathbb  C}}; |z-a|=r}`
+(*Speglun í hring*)  Látum :math:`H=\{z\in {{\mathbb  C}}; |z-a|=r\}`
 vera hringinn með miðju í :math:`a` og geislann :math:`r`. Við segjum að
 tveir punktar :math:`z_1` og :math:`z_2` séu spegilmyndir hvor annars í
 hringnum :math:`H`, ef þeir liggja á sömu hálflínunni út frá punktinum
@@ -2573,7 +2573,7 @@ Sýnið að :math:`z_1` og :math:`z_2` uppfylli jöfnuna
   (z_1-a)\overline{(z_2-a)}=z_1\overline z_2-\overline a z_1+a\overline
    z_2 +|a|^2=r^2.
 
-**.**
+*.*
 
 Notið reglu De Moivre og tvíliðuregluna til þess að tákna:
 
@@ -2586,32 +2586,32 @@ Notið reglu De Moivre og tvíliðuregluna til þess að tákna:
 (c)  :math:`\cos(5\theta)` og :math:`\sin (5\theta)` með
 :math:`\cos\theta` og :math:`\sin \theta`.
 
-**.**
+*.*
 
 Hvenær gilda jafnaðarmerki í þríhyrningsójöfnunum
 :math:`|z+w| \leq  |z| + |w|` og :math:`||z|-|w||\leq |z-w|`?
 
-**.**
+*.*
 
 Finnið allar þriðju rætur af :math:`-1`.
 
-**.**
+*.*
 
 Finnið allar þriðju rætur af :math:`i`.
 
-**.**
+*.*
 
 Finnið allar þriðju rætur af tölunni :math:`-2-2i`.
 
-**.**
+*.*
 
 Finnið allar fjórðu rætur af :math:`i`.
 
-**.**
+*.*
 
 Finnið allar fimmtu rætur af :math:`-32`.
 
-**.**
+*.*
 
 Sýnið með útreikningi að formúlan
 
@@ -2623,20 +2623,20 @@ Sýnið með útreikningi að formúlan
 gefi ferningsrót af tvinntölunni :math:`w`, ef gert er ráð fyrir að
 :math:`w` liggi ekki á neikvæða raunásnum.
 
-**.**
+*.*
 
 Notið formúluna í sýnidæmi :ref:`Link title <sy:raetur>` til þess að reikna út
 :math:`\cos(\pi/16)` og :math:`\sin( \pi/16)`. Finnið formúlu fyrir
 :math:`\cos(\pi/2^n)` fyrir :math:`n\geq 2` og sannið hana með þrepun.
 
-**.**
+*.*
 
 Notið þá staðreynd að :math:`\cos(\pi/6)=\sqrt 3/2` og formúluna fyrir
 ferningsrót til þess að finna formúlu fyrir :math:`\cos(\pi/12)` og
 :math:`\sin( \pi/12)`. Hver verður síðan formúlan fyrir
 :math:`\cos(\pi/(3\cdot 2^n))` fyrir :math:`n=1,2,3,\dots`?
 
-**.**
+*.*
 
 Finnið allar núllstöðvar margliðanna
 
@@ -2646,7 +2646,7 @@ Finnið allar núllstöðvar margliðanna
 | c) :math:`z^2-4z+3+iz-i`,   | d) :math:`z^4 - 2z^2 + 4=0`.   |
 +-----------------------------+--------------------------------+
 
-**.**
+*.*
 
 Finnið stofnbrotaliðun á ræðu föllunum:
 
@@ -2658,25 +2658,25 @@ Finnið stofnbrotaliðun á ræðu föllunum:
 | g) :math:`\dfrac{2z^6}{(z^3+1)(z^2-1)}`.   |                                                |                                        |
 +--------------------------------------------+------------------------------------------------+----------------------------------------+
 
-**.**
+*.*
 
 Ákvarðið allar fjórðu rætur af :math:`-1`. Notið síðan ræturnar til þess
 að fullþátta margliðuna :math:`z^4+1` og liðið að lokum ræða fallið
 :math:`z^2/(z^4+1)` í stofnbrot.
 
-**.**
+*.*
 
 Ákvarðið allar sjöttu rætur af :math:`-1`. Notið síðan ræturnar til þess
 að fullþátta margliðuna :math:`z^6+1` og liðið að lokum ræða fallið
 :math:`z^4/(z^6+1)` í stofnbrot.
 
-**.**
+*.*
 
 Finnið allar sjöttu rætur af :math:`64`, finnið fullkomna þáttun á
 margliðunni :math:`z^6-64` í fyrsta stigs liði og notið þáttunina til
 þess að finna stofnbrotaliðun á ræða fallinu :math:`z^3/(z^6-64)`.
 
-**.**
+*.*
 
 Skrifið :math:`e^z=u+iv`, þar sem:
 
@@ -2684,7 +2684,7 @@ Skrifið :math:`e^z=u+iv`, þar sem:
 | a)\ :math:`z=1+\tfrac 14i\pi`,   | b) :math:`z=2+i\pi`,   | c) :math:`\tfrac16(1-i)\pi`.   |    |    |    |
 +----------------------------------+------------------------+--------------------------------+----+----+----+
 
-**.**
+*.*
 
 Látum :math:`z=x+iy`. Finnið raunhluta og þverhluta eftirtalinna stærða
 sem fall af :math:`x` og :math:`y`:
@@ -2693,19 +2693,19 @@ sem fall af :math:`x` og :math:`y`:
 | a)\ :math:`e^{z^2}`,   | b) :math:`e^{1/z}`,   | c) :math:`\cos z^2`,   | d) :math:`\tan z`,   | e) :math:`\sinh z^2`,   | f) :math:`\tanh z`.   |
 +------------------------+-----------------------+------------------------+----------------------+-------------------------+-----------------------+
 
-**.**
+*.*
 
 Notið skilgreininguna á framlengingu hornafallanna :math:`\cos ` og
 :math:`\sin ` til þess að sýna að jafnan :math:`\cos^2z+\sin^2z=1`
 gildir fyrir öll :math:`z\in {{\mathbb  C}}`.
 
-**.**
+*.*
 
 Notið skilgreininguna á breiðbogaföllunum til þess að sýna að jafnan
 :math:`\cosh^2 z-\sinh^2 z=1` gildir fyrir öll
 :math:`z\in {{\mathbb  C}}`.
 
-**.**
+*.*
 
 Finnið núllstöðvar og lotur fallanna
 
@@ -2713,7 +2713,7 @@ Finnið núllstöðvar og lotur fallanna
 | a) :math:`\cos z`,   | b) :math:`\sin z`,   | c) :math:`\tan z`,   | d) :math:`\cosh z`,   | e) :math:`\sinh z`,   | f) :math:`\tanh z`.   |
 +----------------------+----------------------+----------------------+-----------------------+-----------------------+-----------------------+
 
-**.**
+*.*
 
 Látum :math:`z=x+iy\in {{\mathbb  C}}`. Sýnið að
 
@@ -2721,7 +2721,7 @@ Látum :math:`z=x+iy\in {{\mathbb  C}}`. Sýnið að
 | b) :math:`|\cos z|^2=\cosh^2y-\sin^2 x`,
 | c) :math:`|\sin z|^2=\cosh^2y-\cos^2 x`.
 
-**.**
+*.*
 
 Sýnið að fyrir allar tvinntölur :math:`z` og :math:`w` gildi:
 
@@ -2730,7 +2730,7 @@ Sýnið að fyrir allar tvinntölur :math:`z` og :math:`w` gildi:
 | c) :math:`\sin(z+w)=\sin z\cos w+\cos z \sin w`,
 | d) :math:`\sinh(z+w)=\sinh z\cosh w+\cosh z \sinh w`,
 
-**.**
+*.*
 
 Ákvarðið fastapunkta varpananna:
 
@@ -2740,7 +2740,7 @@ Sýnið að fyrir allar tvinntölur :math:`z` og :math:`w` gildi:
 | d) \ :math:`f(z)=z^2-1`              | e) \ :math:`f(z)=\dfrac{z+1}{z}`       | f) \ :math:`f(z)=\dfrac{z}{z+i}`   |
 +--------------------------------------+----------------------------------------+------------------------------------+
 
-**.**
+*.*
 
 Ákvarðið allar brotnar línulega varpanir :math:`f` sem hafa eftirtalda
 eiginleika:
@@ -2755,7 +2755,7 @@ d)  :math:`f` hefur tvo fastapunkta :math:`0` og :math:`1`
 
 e)  :math:`f` hefur tvo fastapunkta :math:`0` og :math:`\infty`.
 
-**.**
+*.*
 
 Ákvarðið brotna línulega vörpun sem varpar :math:`1` á :math:`0`,
 :math:`i` á :math:`1` og :math:`-1` á :math:`\infty`. Punktarnir
@@ -2764,7 +2764,7 @@ e)  :math:`f` hefur tvo fastapunkta :math:`0` og :math:`\infty`.
 einingarskífunnar
 :math:`{{\mathbb  D}}=\{z\in {{\mathbb  C}}\,;\, |z|<1\}`?
 
-**.**
+*.*
 
 Ákvarðið brotna línulega vörpun sem varpar :math:`i` á :math:`-i`,
 :math:`-1` á :math:`0` og :math:`-i` á :math:`i`. Punktarnir :math:`i`,
@@ -2773,7 +2773,7 @@ einingarskífunnar
 einingarskífunnar
 :math:`{{\mathbb  D}}=\{z\in {{\mathbb  C}}\,;\, |z|<1\}`?
 
-**.**
+*.*
 
 Ákvarðið brotna línulega vörpun sem varpar :math:`-i` á :math:`0`,
 :math:`1` á :math:`i` og :math:`i` á :math:`\infty`. Punktarnir
@@ -2782,25 +2782,26 @@ einingarskífunnar
 einingarskífunnar
 :math:`{{\mathbb  D}}=\{z\in {{\mathbb  C}}\,;\, |z|<1\}`?
 
-**.**
+*.*
 
 Ákvarðið myndir eftirtalinna varpana af einingarhringnum
-:math:`{{\mathbb  T}}=\set{z\in {{\mathbb  C}}; 
-|z|=1}` og einingarskífunni
-:math:`{{\mathbb  D}}=\set{z\in {{\mathbb  C}};  |z|<1}`:
+:math:`{{\mathbb  T}}=\{z\in {{\mathbb  C}}; 
+|z|=1\}` og einingarskífunni
+:math:`{{\mathbb  D}}=\{z\in {{\mathbb  C}};  |z|<1\}`:
 
 +-------------------------------------------+-------------------------------------------+---------------------------------------------+
 | a) \ :math:`z\mapsto \dfrac{z-i}{z+i}`,   | b) \ :math:`z\mapsto \dfrac{z-1}{z+1}`,   | c) \ :math:`z\mapsto \dfrac{z-1/2}{z+2}`.   |
 +-------------------------------------------+-------------------------------------------+---------------------------------------------+
 
-**.**
+*.*
 
 Finnið allar brotnar línulegar varpanir sem varpa jákvæða raunásnum
 :math:`{{\mathbb  R}}_+=\{x\in {{\mathbb  R}}\,;\, x\geq 0\}` á sjálfan
 sig.
 
-**.**
+*.*
 
 Finnið allar brotnar línulegar varpanir sem varpa opna jákvæða raunásnum
 :math:`{{\mathbb  R}}_+^*=\{x\in {{\mathbb  R}}\,;\, x>0\}` á sjálfan
-sig.
+sig.*
+*

@@ -17,6 +17,7 @@ def replace_all(text, dic):
  
 # Dictionary with our find:replace values.
 reps = {
+    '\\sp': '^',
 	'\n\n ':'\n\n',
 	'.. \\_': '.. _',
     re.compile(r'\n\s+.. _'): '\n.. _',
@@ -35,6 +36,27 @@ f.close()
 lines = filedata.split('\n')
 newdata = replace_all('\n'.join(lines[11:]), reps)
 
+
+italics_replacement_rules = {
+    re.compile(r'^([^:][^m][^a][^t][^h][^:])'): r'*\1',
+    re.compile(r'^:math:`(.*?)` '): r':math:`\1` *',
+    re.compile(r'( :math:`.*?` )'): r'*\1*',
+    re.compile(r'(?<!`)$'): r'*',
+    re.compile(r' :math:`(.*?)`$'): r'* :math:`\1`',
+}
+    
+
+split_by_star = newdata.split('*')
+for index, _ in enumerate(split_by_star):
+    if index % 2 == 1:
+        split_by_star[index] = replace_all(split_by_star[index], italics_replacement_rules)
+
+fixed_italics = ''.join(split_by_star)
+
+
+
+
+
 f = open(sys.argv[2],'w')
-f.write(newdata)
+f.write(fixed_italics)
 f.close()
