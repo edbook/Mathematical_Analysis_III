@@ -112,13 +112,13 @@
 %
 %  Innsetning á myndum.
 %
-\defMYND VANTAR HÉR!!!#1#2{
+\def\figura#1#2{
 \vbox{\centerline{
 \input #1
 }
 \centerline{#2}
 }\medskip}
-\defMYND VANTAR HÉR!!!#1#2{
+\def\vfigura#1#2{
 \setbox0\vbox{{
 \input #1
 }}
@@ -256,6 +256,7 @@ Fyrri röðurnareglan gildir áfram en sú síðari aðeins ef $c\neq 0$.
 
 \setlength{\unitlength}{1cm}
 \begin{center}
+MYND VANTAR HÉR!!!
 \begin{picture}(12,1)
         \thicklines
         \put(0,0){\vector(1,0){11}}
@@ -306,6 +307,7 @@ talnalínu.
 
 \setlength{\unitlength}{1cm}
 \begin{center}
+MYND VANTAR HÉR!!!
 \begin{picture}(12,1)
         \thicklines
         \put(0,0){\vector(1,0){12}}
@@ -388,6 +390,7 @@ smáatriðum.
 
 \setlength{\unitlength}{1cm}
 \begin{center}
+MYND VANTAR HÉR!!!
 \begin{picture}(12,1)
         \thicklines
         \put(0,0){\vector(1,0){12}}
@@ -549,7 +552,12 @@ skrifa sem $a+ib$ þar sem $a$ og $b$ eru rauntölur.
 \subsection*{Skilgreining á tvinntölum}
 
 
-MYND VANTAR HÉR!!!{siiibmynd0101}{{\small Mynd: Hnit punkts í plani}}  
+.. figure:: ./myndir/siiibmynd0101.svg
+    :align: center
+
+    Mynd: Hnit punkts í plani
+
+  
 Lítum nú á mengi allra vigra í plani.  Sérhver vigur hefur hnit
 $(a,b)\in \R^2$ sem segja okkur hvar lokapunktur vigurs er staðsettur ef
 upphafspunktur hans er settur í upphafspunkt hnitakerfisins.
@@ -725,7 +733,12 @@ er hrein þvertala þá og því aðeins að $z=-\bar z$.
 \subsection*{Lengd og stefnuhorn}
 
 
-MYND VANTAR HÉR!!!{siiibmynd0102}{}  
+.. figure:: ./myndir/siiibmynd0102.svg
+    :align: center
+
+    
+
+  
 Ef $z\in \C$, $x=\Re z$ og $y=\Im z$, þá nefnist talan
 $$
 |z|=\sqrt{x^ 2+y^2},
@@ -862,7 +875,7 @@ $y=-x$.
 
 \subsection*{Innfeldi og krossfeldi}
 
-{\it Innfeldi\index{innfeldi}} tveggja vigra\index{innfeldi!vigra}
+{\it Innfeldi:hover:`innfeldi`} tveggja vigra:hover:`innfeldi!vigra`
 $z=(x,y)$ og $w=(u,v)$ er 
 skilgreint sem rauntalan $z\boldcdot w=xu+yv$.
 Ef við lítum á $z$ og $w$ sem tvinntölur og skrifum
@@ -872,21 +885,21 @@ $$
 \Re\big(z\bar w\big)=\Re\big(\bar z w\big)
 =\tfrac 12\big(z\bar w+\bar z w\big)=xu+yv=(x,y)\cdot(u,v)=rs\cos(\alpha-\beta).
 $$
-Þverhluti þessarar stærðar er {\it krossfeldi\index{krossfeldi}} $z$ og $w$, 
+Þverhluti þessarar stærðar er {\it krossfeldi:hover:`krossfeldi`} $z$ og $w$, 
 $$
 \Im(\bar z w\big)=-\Im\big(z\bar w)=xv-yu=\left|\begin{matrix}
  x&u  \\
  y&v 
 \end{matrix}\right|=-rs\sin(\alpha-\beta)
 $$
-en tölugildi\index{tvinntala!tölugildi}\index{tölugildi}
-\index{tölugildi!tvinntölu} þess $|\Im\big(z\bar w)|$ er flatarmál
+en tölugildi:hover:`tvinntala!tölugildi`:hover:`tölugildi`
+:hover:`tölugildi!tvinntölu` þess $|\Im\big(z\bar w)|$ er flatarmál
 samsíðungsins, sem tölurnar $z$ og $w$ spanna.  
 
 
 \subsection*{Jafna línu og jafna hrings}
 
-{\it Bein lína} í $\C$\index{bein lína í $\C$} er gefin sem mengi allra punkta $(x,y)$
+{\it Bein lína} í $\C$:hover:`bein lína í $\C$` er gefin sem mengi allra punkta $(x,y)$
 sem uppfylla jöfnu af gerðinni
 $$
 ax+by+c=0.
@@ -899,7 +912,7 @@ $$
 línuna og $i{\beta}$ er í stefnu hennar. 
 
 
-{\it Hringur } í $\C$ \index{hringur í $\C$}með miðju $m$ og geisla $r$ er mengi allra
+{\it Hringur } í $\C$ :hover:`hringur í $\C$`með miðju $m$ og geisla $r$ er mengi allra
 punkta $z$ sem eru í fjarlægðinni $r$ frá $m$,
 $|z-m|=r$. Við getum greinilega tjáð þessa jöfnu með jafngildum hætti,
  $$|z-m|^2-r^2=(z-m)(\bar z-\bar m)-r^2=|z|^2-\bar
@@ -1053,7 +1066,12 @@ að $u_0=1$,  $u_k=u_1^k$ fyrir $k=0,\dots,n-1$,  og að
 þær raða sér í hornin á reglulegum $n$-hyrningi, þar sem tvíhyrningur 
 er strikið $[-1,1]$.
 \begin{center}
-MYND VANTAR HÉR!!!{siiibmynd0103}{Mynd: Einingarrætur}
+.. figure:: ./myndir/siiibmynd0103.svg
+    :align: center
+
+    Mynd: Einingarrætur
+
+
 \end{center}
 
 
@@ -1397,7 +1415,7 @@ R'(z)=\lim_{h\to
 $$
 
 
-\subsection*{Stofnbrotaliðun\index{stofnbrotaliðun}}
+\subsection*{Stofnbrotaliðun:hover:`stofnbrotaliðun`}
 
 \noindent
 Ef $P$ og $Q$ eru margliður, $Q\neq 0$ og $\stig P\geq \stig Q$, 
@@ -1412,7 +1430,7 @@ og $\stig P_2<\stig Q$.
 Nú ætlum við að líta á rætt fall  $R=P/Q$ þar sem  $P$ og $Q$ 
 eru margliður og $\stig P < \stig Q$.  Þá er 
 alltaf hægt að liða ræða fallið
-í stofnbrot\index{stofnbrot}.  Við gerum fyrst ráð fyrir því að
+í stofnbrot:hover:`stofnbrot`.  Við gerum fyrst ráð fyrir því að
 að allar núllstöðvar $Q$ séu einfaldar.  Þá getum við
 skrifað
  \begin{equation*}Q(z)= a(z-\alpha_1)\cdots(z-\alpha_m), \qquad z\in \C,
@@ -1685,7 +1703,7 @@ $$
 |e^{iy}|=1, \qquad y\in \R.
 $$
 Af þessu leiðir  að veldisvísisfallið hefur enga
-núllstöð\index{veldisvísisfallið!núllstöð}
+núllstöð:hover:`veldisvísisfallið!núllstöð`
 $e^z=e^xe^{iy}$ og  hvorugur þátturinn í hægri hliðinni getur verið
 núll.  Við sjáum einnig að veldisvísisfallið varpar lóðréttu línunni
 sem gefin er með jöfnunni 
@@ -1694,7 +1712,12 @@ $|w|=e^a$ í $w$-plani og það varpar
 láréttu línunni sem gefin er með jöfnunni  $y=\Im z=b$ á hálflínuna
 út frá $0$ með stefnuvigur $e^{ib}$.  
 
-MYND VANTAR HÉR!!! {fig0318}{Mynd: Veldisvísisfallið}
+.. figure:: ./myndir/fig0318.svg
+    :align: center
+
+    Mynd: Veldisvísisfallið
+
+
 
 
 
@@ -1786,7 +1809,7 @@ $$
 
 
 
-\section{Varpanir á tvinntöluplaninu\index{tvinntöluplan}}
+\section{Varpanir á tvinntöluplaninu:hover:`tvinntöluplan`}
 
 \noindent
 Í þessum kafla ætlum við að fjalla um föll $f:X\to \C$, sem skilgreind
@@ -1797,18 +1820,18 @@ $$
 z=x+iy=re^{i{\theta}}=(x,y)=\left[\begin{matrix} x\\ y\end{matrix}\right]
 $$ 
 og segjum að $z$ hafi {\it
-raunhlutann\index{raunhluti}\index{tvinntala!raunhluti}} $x$, {\it
-þverhlutann\index{þverhluti}\index{tvinntala!þverhluti}} $y$,
-{\it lengdina\index{lengd}\index{tvinntala!lengd}} $r$ og {\it
-horngildið\index{horngildi}\index{tvinntala!horngildi}}
-${\theta}$.  Hér er $x+iy$ tvinntöluframsetning\index{lengd!tvinntölu}
-á  $z$ í rétthyrndum hnitum\index{rétthyrnd hnit}, $re^{i{\theta}}$
-framsetning í pólhnitum\index{pólhnit}, $(x,y)$ er
+raunhlutann:hover:`raunhluti`:hover:`tvinntala!raunhluti`} $x$, {\it
+þverhlutann:hover:`þverhluti`:hover:`tvinntala!þverhluti`} $y$,
+{\it lengdina:hover:`lengd`:hover:`tvinntala!lengd`} $r$ og {\it
+horngildið:hover:`horngildi`:hover:`tvinntala!horngildi`}
+${\theta}$.  Hér er $x+iy$ tvinntöluframsetning:hover:`lengd!tvinntölu`
+á  $z$ í rétthyrndum hnitum:hover:`rétthyrnd hnit`, $re^{i{\theta}}$
+framsetning í pólhnitum:hover:`pólhnit`, $(x,y)$ er
 línu\-vigur\-fram\-setning á $z$  og $\left[\begin{matrix} x\\
 y\end{matrix}\right]$ er dálk\-vigur\-fram\-setning á $z$. Með þessu
 erum við að líta framhjá þeim greinarmun sem gerður er á 
 vigrunum $(1,0)$ og $(0,1)$ annars vegar og
-tvinntölunum\index{tvinntala}  
+tvinntölunum:hover:`tvinntala`  
 $1$ og $i$ hins vegar.
 Fallgildið $f(z)$ skrifum við ýmist sem $f(x+iy)$ eða $f(x,y)$.
 
@@ -1829,7 +1852,7 @@ $$
 \subsection*{Línulegar varpanir}
 
 Við skulum  byrja á því að skoða {\it  línulegar
-varpanir\index{línuleg vörpun}\index{vörpun}\index{vörpun!línuleg}}, en það eru
+varpanir:hover:`línuleg vörpun`:hover:`vörpun`:hover:`vörpun!línuleg`}, en það eru
 föll af gerðinni $L:\C\to \C$ sem uppfylla
 $$
 L(z+w)=L(z)+L(w) \qquad z,w\in \C
@@ -1901,10 +1924,10 @@ c&=\Im\big(L(1)\big)=\Im\big(A+B\big),\\
 d&=\Im\big(L(i)\big)=\Im\big(i(A-B)\big)=\Re\big(A-B\big).
 \end{align*}
 Í tvinnfallagreiningu þarf oft að gera greinarmun á {\it
-$\R$-línulegum\index{vörpun!$\R$-línuleg}\index{$\R$-línuleg vörpun}}
+$\R$-línulegum:hover:`vörpun!$\R$-línuleg`:hover:`$\R$-línuleg vörpun`}
 vörpunum, en það eru nákvæmlega þær línulegu varpanir sem við höfum
 verið að fjalla um, og {\it $\C$-línulegum\index{$\C$-línuleg
-vörpun}\index{vörpun!$\C$-línuleg}} vörpunum, en þær uppfylla
+vörpun}:hover:`vörpun!$\C$-línuleg`} vörpunum, en þær uppfylla
 \begin{equation*}
 L(z+w)=L(z)+L(w) \quad \text{ og } \quad 
 L(cz)=cL(z), \quad z,w\in \C, \quad c\in \C.
@@ -1990,20 +2013,25 @@ Við skulum nú taka nokkur dæmi um þetta
 
 
 Vörpun $\C\to \C$ af gerðinni $z\mapsto z+a$, þar sem 
-$a\in \C$ nefnist {\it hliðrun\index{hliðrun}\index{vörpun!hliðrun}}.
+$a\in \C$ nefnist {\it hliðrun:hover:`hliðrun`:hover:`vörpun!hliðrun`}.
 Vörpun af gerðinni $z\mapsto az$, nefnist
-{\it snúningur\index{snúningur}\index{vörpun!snúningur}}, ef $a\in
+{\it snúningur:hover:`snúningur`:hover:`vörpun!snúningur`}, ef $a\in
 \C$ og  $|a|=1$, hún nefnist {\it
-stríkkun\index{stríkun}\index{vörpun!stríkkun}} ef $a\in
-\R$ og $|a|>1$ og {\it herping\index{herping}\index{vörpun!herping}}, ef  
+stríkkun:hover:`stríkun`:hover:`vörpun!stríkkun`} ef $a\in
+\R$ og $|a|>1$ og {\it herping:hover:`herping`:hover:`vörpun!herping`}, ef  
 $a\in \R$ og $|a|<1$, en almennt nefnist hún
-{\it snústríkkun\index{snústríkkun}\index{vörpun!snústríkkun}} ef $a\in \C\setminus\{0\}$.
+{\it snústríkkun:hover:`snústríkkun`:hover:`vörpun!snústríkkun`} ef $a\in \C\setminus\{0\}$.
 Vörpunin $\C\setminus\set 0 \to \C\setminus\set 0$, 
 $z\mapsto 1/z$ nefnist {\it
-umhverfing\index{umhverfing}\index{vörpun!umhverfing}}.
+umhverfing:hover:`umhverfing`:hover:`vörpun!umhverfing`}.
 
 \bigskip
-MYND VANTAR HÉR!!! {fig0312}{}
+.. figure:: ./myndir/fig0312.svg
+    :align: center
+
+    
+
+
 
 
 \subsection*{Brotnar línulegar varpanir}
@@ -2013,14 +2041,14 @@ varpana, en fall af gerðinni
  $$f(z)=\dfrac{az+b}{cz+d}, \qquad ad-bc\neq 0, \quad a,b,c,d\in \C,
  $$
 kallast {\it brotin línuleg vörpun\index{brotin línuleg
-vörpun}\index{vörpun!brotin línuleg}},
-{\it brotin línuleg færsla\index{brotin línuleg færsla}}
-eða {\it Möbiusarvörpun\index{Möbiusarvörpun}}.  Við
+vörpun}:hover:`vörpun!brotin línuleg`},
+{\it brotin línuleg færsla:hover:`brotin línuleg færsla`}
+eða {\it Möbiusarvörpun:hover:`Möbiusarvörpun`}.  Við
 sjáum að $f(z)$  er skilgreint fyrir öll $z\in \C$,  ef $c=0$, en fyrir
 öll $z\neq -d/c$, ef $c\neq 0$.  
 Eðlilegt er að útvíkka
 skilgreningarsvæði með því að bæta einum punkti, {\it
-óendanleikapunkti\index{óendanleikapunktur}}   $\infty$, 
+óendanleikapunkti:hover:`óendanleikapunktur`}   $\infty$, 
 við planið $\C$ og skilgreina þannig {\it útvíkkaða talnaplanið}
 $$
 \widehat \C=\C\cup \{\infty\}.
@@ -2078,7 +2106,7 @@ línulegar varpanir.
 
 Í ljós kemur að 
   sérhver brotin línuleg vörpun er samskeyting af
-hliðrunum\index{vörpun!hliðrun}\index{hliðrun}, snústríkkunum
+hliðrunum:hover:`vörpun!hliðrun`:hover:`hliðrun`, snústríkkunum
 og umhverfingu.  Til þess að sjá þetta athugum við fyrst tilfellið
 $c=0$, en þá er
  $$f(z)=\frac adz+\frac bd,
@@ -2268,22 +2296,32 @@ Oft er litið á einhverja fjölskyldu af ferlum í $X$ og sýnt hvernig hún
 varpast yfir í $Y$. 
 
 
-MYND VANTAR HÉR!!! {fig0313}{Mynd: Varpanir}
+.. figure:: ./myndir/fig0313.svg
+    :align: center
+
+    Mynd: Varpanir
+
+
 
 
 \smallskip\noindent
-{\it Hliðrun\index{hliðrun}}  $z\mapsto z+a$ varpar línu gegnum punktinn $m$ með
+{\it Hliðrun:hover:`hliðrun`}  $z\mapsto z+a$ varpar línu gegnum punktinn $m$ með
 þvervigur ${\beta}$  á línuna gegnum $m+a$ með þvervigur ${\beta}$ og
 hún varpar hring með miðju $m$ og geislann $r$ á hring með miðju $m+a$
 og geislann $r$.
 
 
 
-MYND VANTAR HÉR!!! {fig0314}{Mynd: Hliðrun}
+.. figure:: ./myndir/fig0314.svg
+    :align: center
+
+    Mynd: Hliðrun
+
+
 
 
 \smallskip\noindent
-{\it Snústríkkun\index{snústríkkun}\index{vörpun!snústríkkun}}
+{\it Snústríkkun:hover:`snústríkkun`:hover:`vörpun!snústríkkun`}
 $z\mapsto az$, $a\in \C\setminus \set 0$, varpar línu gegnum
 punktinn $m$ með þvervigur ${\beta}$  á línuna gegnum $am$ með
 þvervigur $a{\beta}$. Til þess að sjá þetta athugum við að jafna
@@ -2296,11 +2334,16 @@ Snústríkkun varpar hring með miðju í $m$ og geislann $r$ á hring með
 miðju í $am$ og geislann $|a|r$.
 
 
-MYND VANTAR HÉR!!! {fig0315}{Mynd: Snústríkkun}
+.. figure:: ./myndir/fig0315.svg
+    :align: center
+
+    Mynd: Snústríkkun
+
+
 
 
 \smallskip\noindent
-{\it Umhverfing\index{umhverfing}\index{vörpun!umhverfing}} er gefin
+{\it Umhverfing:hover:`umhverfing`:hover:`vörpun!umhverfing`} er gefin
 með $z\mapsto 1/z$, $0\to {\infty}$, ${\infty}\to 0$.  Til þess að
 sjá hvernig hún varpar hringum og línum, þá lítum við á mengi allra
 punkta $z$ sem gefnir eru með formúlunni
@@ -2331,10 +2374,20 @@ $0$ og hefur þvervigur ${\beta}$, þá er ${\alpha}=0$ og ${\gamma}\neq
 
 
 
-MYND VANTAR HÉR!!! {fig0316}{Mynd: Umhverfing af línu.}
+.. figure:: ./myndir/fig0316.svg
+    :align: center
+
+    Mynd: Umhverfing af línu.
 
 
-MYND VANTAR HÉR!!! {fig0316a}{Mynd: Umhverfing af línu.}
+
+
+.. figure:: ./myndir/fig0316a.svg
+    :align: center
+
+    Mynd: Umhverfing af línu.
+
+
 
 \noindent
 Ef (:ref:`4.1.11`) er jafna hrings gegnum $0$, þá er ${\alpha}\neq 0$,
@@ -2352,9 +2405,19 @@ $\sqrt{|{\beta}|^2-{\alpha}{\gamma}}\, /|{\gamma}|$.
  
 \vskip 0.5truecm
 
-MYND VANTAR HÉR!!! {fig0317}{Mynd: Umhverfing af hring.}
+.. figure:: ./myndir/fig0317.svg
+    :align: center
 
-MYND VANTAR HÉR!!! {fig0317a}{Mynd: Umhverfing af hring.}
+    Mynd: Umhverfing af hring.
+
+
+
+.. figure:: ./myndir/fig0317a.svg
+    :align: center
+
+    Mynd: Umhverfing af hring.
+
+
 
 
 Eins og við höfum séð, þá er sérhver brotin línuleg vörpun samsett úr
@@ -2362,8 +2425,8 @@ hliðrunum, snústríkkunum og umhverfingu, svo niðurstaða útreikninga
 okkar er:
  
 
-\subsubsection{Setning}  Sérhver brotin línuleg vörpun\index{brotin línuleg vörpun}
-\index{brotin línuleg færsla} varpar hring í $\C$ á hring eða
+\subsubsection{Setning}  Sérhver brotin línuleg vörpun:hover:`brotin línuleg vörpun`
+:hover:`brotin línuleg færsla` varpar hring í $\C$ á hring eða
 línu og hún varpar línu á hring eða línu.
 
 
@@ -2688,7 +2751,7 @@ stærða sem fall af $x$ og $y$:
 að  jafnan $\cosh^2 z-\sinh^2 z=1$ gildir fyrir öll $z\in \C$.
 
 
-\daemi Finnið núllstöðvar og lotur\index{lota} fallanna
+\daemi Finnið núllstöðvar og lotur:hover:`lota` fallanna
 
 \smallskip\noindent
 \begin{tabular}{llllll}

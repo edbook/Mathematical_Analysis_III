@@ -41,11 +41,21 @@ reps = {
     '\\end{sotx}': '',
     '\\æfing': '\section{Æfingardæmi}',
     '\\dæmi': '\subsubsection',
-    '\\vfigura': 'MYND VANTAR HÉR!!!',
-    '\\figura': 'MYND VANTAR HÉR!!!',
+
+    # For labels and references:
     re.compile(r'((?:\n\\.+)*)\\label\{(.*?)\}'): '\n\n.. _\\2:\n\\1',
-    # re.compile(r'\\label\{(.*?)\}'): '.. _\\1: ',
     re.compile(r'\\ref\{(.*?)\}'): ':ref:`\\1`',
+    # re.compile(r'\\label\{(.*?)\}'): '.. _\\1: ',
+
+    # For pictures:
+    '\\begin{picture}': 'MYND VANTAR HÉR!!!\n\\begin{picture}',
+    #'\\vfigura': 'MYND VANTAR HÉR!!!',
+    #'\\figura': 'MYND VANTAR HÉR!!!',
+    re.compile(r'\\v?figura ?\{(.*?)\}\{\{.*?Mynd: (.*?)\}\}'): '.. figure:: ./myndir/\\1.svg\n    :align: center\n\n    Mynd: \\2\n\n',
+    re.compile(r'\\v?figura ?\{(.*?)\}\{(.*?)\}'): '.. figure:: ./myndir/\\1.svg\n    :align: center\n\n    \\2\n\n',
+
+    # For indexing: (NOTE: MANUAL WORK STILL NEEDED! This just helps out!)
+    re.compile(r'\\index\{(.*?)\}'): ':hover:`\\1`',
     # 'sub': 'dub'
 }
 
@@ -67,8 +77,8 @@ maximum_index = len(working_data) - length_of_opening_tag - length_of_closing_ta
 index = 0
 depth = 0
 while index < maximum_index:
-    #if working_data[index:index+length_of_opening_tag] == list('\set{'):
-    #    print(working_data[index:index+length_of_opening_tag], "found!")
+    if working_data[index:index+length_of_opening_tag] == list('\set{'):
+    #print(working_data[index:index+length_of_opening_tag], "found!")
         del working_data[index+1:index+4]
         maximum_index -= 3
         index += 2
@@ -82,7 +92,7 @@ while index < maximum_index:
         working_data.insert(index-1, '\\')
         maximum_index += 1
         index += 1
-    index += 1      
+    index += 1
 
 
 f = open(sys.argv[2], 'w')

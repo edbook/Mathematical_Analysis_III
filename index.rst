@@ -15,6 +15,8 @@ Contents:
    
    bokin*
    chapter*
+
+.. toctree::
    ordaskra
 
 Indices and tables
