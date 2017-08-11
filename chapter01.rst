@@ -167,7 +167,7 @@ Skilgreining á tvinntölum
     :align: center
     :alt: Hnit punkts í plani
 
-     Mynd: Hnit punkts í plani
+    Mynd: Hnit punkts í plani
 
 Lítum nú á mengi allra vigra í plani. Sérhver vigur hefur hnit
 :math:`(a,b)\in {{\mathbb  R}}^2` sem segja okkur hvar lokapunktur
@@ -271,7 +271,7 @@ Tvíliðureglan er eins fyrir tvinntölur og rauntölur,
 
 .. math:: (a+b)^n=\sum_{k=0}^n\binom nk a^kb^{n-k}
 
-þar sem :hover`tvíliðustuðlarnir,tvíliðustuðull` #FIX eru gefnir með
+þar sem :hover:`tvíliðustuðlarnir,tvíliðustuðull` eru gefnir með
 
 .. math:: \binom nk=\dfrac{n(n-1)\cdots(n-k+1)}{k!}=\dfrac{n!}{(n-k)!k!},
 
@@ -313,7 +313,7 @@ Raunhluti, þverhluti og samok
 
 Sérhverja tvinntölu :math:`z` má rita sem :math:`z=x+iy` þar sem
 :math:`x` og :math:`y` eru rauntölur. Talan :math:`x` nefnist þá
-*raunhluti* tölunnar :math:`z` og talan :math:`y` nefnist *þverhluti*
+:hover:`raunhluti` tölunnar :math:`z` og talan :math:`y` nefnist :hover:`þverhluti`
 hennar. Við táknum raunhlutann með :math:`{{\operatorname{Re\, }}}z` og
 þverhlutann með :math:`{{\operatorname{Im\, }}}z`.
 
@@ -323,7 +323,7 @@ ef :math:`{{\operatorname{Re\, }}}z=0`.
 
 Ef :math:`z\in {{\mathbb  C}}`, :math:`x={{\operatorname{Re\, }}}z` og
 :math:`y={{\operatorname{Im\, }}}z`, þá nefnist talan
-:math:`\bar z=x-iy` *samok* tölunnar :math:`z`. Athugið að
+:math:`\bar z=x-iy` :hover:`samok` tölunnar :math:`z`. Athugið að
 :math:`\bar z` er spegilmynd :math:`z` í raunásnum og því er
 :math:`\bar{\bar z}=z`. Við höfum nokkrar reiknireglur um samok
 
@@ -356,19 +356,19 @@ Ef :math:`z\in {{\mathbb  C}}`, :math:`x={{\operatorname{Re\, }}}z` og
 
 .. math:: |z|=\sqrt{x^ 2+y^2},
 
-*lengd*, *tölugildi* eða *algildi* tvinntölunnar :math:`z`. Ef
+:hover:`lengd`, :hover:`tölugildi` eða :hover:`algildi` tvinntölunnar :math:`z`. Ef
 :math:`\theta\in {{\mathbb  R}}` og hægt er að skrifa tvinntöluna
 :math:`z` á forminu
 
 .. math:: z=|z|(\cos \theta +i\sin \theta),
 
-þá nefnist talan :math:`\theta` *stefnuhorn* eða *horngildi*
+þá nefnist talan :math:`\theta` :hover:`stefnuhorn` eða *horngildi*
 tvinntölunnar :math:`z` og stærðtáknið í hægri hliðinni nefnist *pólform
 tvinntölunnar* :math:`z`. Hornaföllin :math:`\cos` og :math:`\sin` eru
 lotubundin með lotuna :math:`2\pi` og því eru allar tölur af gerðinni
 :math:`\theta+2\pi k` með :math:`k\in {{\mathbb  Z}}` einnig stefnuhorn
-fyrir :math:`z`. Raðtvenndin :math:`(|z|,\theta)` er nefnd *pólhnit* eða
-*skauthnit* tölunnar :math:`z`.
+fyrir :math:`z`. Raðtvenndin :math:`(|z|,\theta)` er nefnd :hover:`pólhnit` eða
+:hover:`skauthnit` tölunnar :math:`z`.
 
 Við höfum að
 
@@ -405,7 +405,7 @@ Formúlan sem við endum með er
 
 Þetta fall sem gefur okkur horngildið af tvinntölunni
 :math:`z\in {{\mathbb  C}}\setminus {{\mathbb  R}}_-` á bilinu
-:math:`]-\pi,\pi[` nefnist *höfuðgrein hornsins* og er það táknað með
+:math:`]-\pi,\pi[` nefnist :hover:`höfuðgrein hornsins,meginhorn` og er það táknað með
 :math:`{{\operatorname{Arg}}}\, z`
 
 Við höfum nokkrar reiknireglur um lengd tvinntalna,
@@ -474,8 +474,7 @@ samsíðungsins, sem tölurnar :math:`z` og :math:`w` spanna.
 Jafna línu og jafna hrings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Bein lína* í :math:`{{\mathbb  C}}`:hover:‘bein lína í
-:math:`{{\mathbb  C}}`\ ‘ er gefin sem mengi allra punkta :math:`(x,y)`
+:hover:`Bein lína` í :math:`{{\mathbb  C}}` er gefin sem mengi allra punkta :math:`(x,y)`
 sem uppfylla jöfnu af gerðinni
 
 .. math:: ax+by+c=0.
@@ -487,8 +486,7 @@ Við getum greinilega snúið þessu yfir í jöfnuna
 þar sem :math:`{\beta}=\frac 12(a+ib)`. Tvinntalan :math:`{\beta}` er
 hornrétt á línuna og :math:`i{\beta}` er í stefnu hennar.
 
-*Hringur* í :math:`{{\mathbb  C}}` :hover:‘hringur í
-:math:`{{\mathbb  C}}`\ ‘með miðju :math:`m` og geisla :math:`r` er
+:hover:`Hringur` í :math:`{{\mathbb  C}}` með miðju :math:`m` og geisla :math:`r` er
 mengi allra punkta :math:`z` sem eru í fjarlægðinni :math:`r` frá
 :math:`m`, :math:`|z-m|=r`. Við getum greinilega tjáð þessa jöfnu með
 jafngildum hætti,
@@ -583,7 +581,7 @@ hornið :math:`\beta`.
 Þríhyrningsójafnan
 ~~~~~~~~~~~~~~~~~~
 
-Tökum tvær tvinntölur :math:`z` og :math:`w` og reiknum smávegis
+Tökum tvær tvinntölur :math:`z` og :math:`w` og reiknum smávegis 
 
 .. math::
 
@@ -666,7 +664,7 @@ tvíhyrningur er strikið :math:`[-1,1]`.
     :align: center
     :alt: Mynd: Einingarrætur
 
-     Mynd: Einingarrætur
+    Mynd: Einingarrætur
 
 Útreikningur á :math:`n`-tu rótum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -716,7 +714,7 @@ Ferningsrætur
 ~~~~~~~~~~~~~
 
 Ef :math:`w` er tvinntala og :math:`z` uppfyllir :math:`z^2=w`, þá er
-:math:`z` sögð vera *ferningsrót* eða *kvaðratrót* tölunnar :math:`w`.
+:math:`z` sögð vera :hover:`ferningsrót` eða *kvaðratrót* tölunnar :math:`w`.
 
 Munið að ef :math:`w` er jákvæð rauntala, þá táknar :math:`\sqrt w`
 alltaf jákvæðu rauntöluna töluna sem uppfyllir
@@ -812,7 +810,7 @@ Margliðan :math:`R` nefnist þá *leif* eða *afgangur við deilingu á*
 *gangi upp í* :math:`P` ef :math:`R` er núllmargliðan.
 
 Þáttaregla
-^^^^^^^^^^
+~~~~~~~~~~
 
 Ef :math:`\alpha\in {{\mathbb  C}}`, þá er :math:`z-\alpha` fyrsta stigs
 margliða og við fáum að leifin við deilingu á :math:`P(z)` með
@@ -820,7 +818,7 @@ margliða og við fáum að leifin við deilingu á :math:`P(z)` með
 
 .. math:: P(z)=(z-\alpha)S(z)+P(\alpha).
 
-Tvinntalan :math:`\alpha` er sögð vera *núllstöð* eða *rót*
+Tvinntalan :math:`\alpha` er sögð vera :hover:`núllstöð` eða rót
 margliðunnar :math:`P` ef :math:`P(\alpha)=0`.
 
 Setning
@@ -858,7 +856,7 @@ fáum við jafngilda jöfnu
 
 .. math:: \bigg(z+\dfrac {b}{2a}\bigg)^2=\dfrac{b^2}{4a^2}-\dfrac ca=\dfrac{b^2-4ac}{4a^2}.
 
-Tvinntalan :math:`D=b^2-4ac` nefnist *aðgreinir* eða *aðskilja*
+Tvinntalan :math:`D=b^2-4ac` nefnist :hover:`aðgreinir` eða *aðskilja*
 jöfnunnar. Ef :math:`D\neq 0`, þá hefur :math:`D` tvær kvaðratrætur.
 Látum :math:`\sqrt D` tákna aðra þeirra. Þá er hin jöfn :math:`-\sqrt D`
 og við fáum tvær ólíkar lausnir
@@ -1000,7 +998,7 @@ og
 Ræð föll
 --------
 
-*Rætt fall* er kvóti tveggja margliða :math:`R=P/Q`. Það er skilgreint í
+:hover:`Rætt fall` er kvóti tveggja margliða :math:`R=P/Q`. Það er skilgreint í
 öllum punktum :math:`z\in {{\mathbb  C}}` þar sem :math:`Q(z)\neq 0`.
 Við skilgreinum afleiðuna af :math:`R` með hliðstæðum hætti og fyrir
 margliður og fáum venjulega reiknireglu
@@ -1010,8 +1008,8 @@ margliður og fáum venjulega reiknireglu
   R'(z)=\lim_{h\to
    0}\dfrac{R(z+h)-R(z)}h=\dfrac{P'(z)Q(z)-P(z)Q'(z)}{Q(z)^2}.
 
-Stofnbrotaliðun:hover:`stofnbrotaliðun` 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:hover:`Stofnbrotaliðun`
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ef :math:`P` og :math:`Q` eru margliður, :math:`Q\neq 0` og
 :math:`{{\operatorname{stig}}}P\geq {{\operatorname{stig}}}Q`, þá getum
@@ -1026,7 +1024,7 @@ og :math:`{{\operatorname{stig}}}P_2<{{\operatorname{stig}}}Q`.
 Nú ætlum við að líta á rætt fall :math:`R=P/Q` þar sem :math:`P` og
 :math:`Q` eru margliður og
 :math:`{{\operatorname{stig}}}P < {{\operatorname{stig}}}Q`. Þá er
-alltaf hægt að liða ræða fallið í stofnbrot:hover:`stofnbrot` .
+alltaf hægt að liða ræða fallið í :hover:`stofnbrot`.
 
 Einfaldar núllstöðvar
 ^^^^^^^^^^^^^^^^^^^^^
@@ -1210,7 +1208,7 @@ og sérstaklega gildir
 .. math:: |e^{iy}|=1, \qquad y\in {{\mathbb  R}}.
 
 Af þessu leiðir að veldisvísisfallið hefur enga
-núllstöð:hover:`veldisvísisfallið!núllstöð`  :math:`e^z=e^xe^{iy}` og
+núllstöð :math:`e^z=e^xe^{iy}` og
 hvorugur þátturinn í hægri hliðinni getur verið núll. Við sjáum einnig
 að veldisvísisfallið varpar lóðréttu línunni sem gefin er með jöfnunni
 :math:`x={{\operatorname{Re\, }}}z=a` í :math:`z`-plani á hringinn sem
@@ -1223,7 +1221,7 @@ stefnuvigur :math:`e^{ib}`.
     :align: center
     :alt: Mynd: Veldisvísisfallið
 
-     Mynd: Veldisvísisfallið
+    Mynd: Veldisvísisfallið
 
 Framlenging á hornaföllum og breiðbogaföllum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1270,8 +1268,8 @@ Nú kemur líka í ljós samband milli hornafallanna og breiðboga fallanna,
 
 gildir um öll :math:`z\in {{\mathbb  Z}}`.
 
-Varpanir á tvinntöluplaninu:hover:`tvinntöluplan` 
--------------------------------------------------
+Varpanir á tvinntöluplaninu
+---------------------------
 
 Í þessum kafla ætlum við að fjalla um föll
 :math:`f:X\to {{\mathbb  C}}`, sem skilgreind eru á hlutmengi :math:`X`
@@ -1283,21 +1281,20 @@ skrifum við
 .. math:: z=x+iy=re^{i{\theta}}=(x,y)=\left[\begin{matrix} x\\ y\end{matrix}\right]
 
 og segjum að :math:`z` hafi
-*raunhlutann:hover:`raunhluti` :hover:`tvinntala!raunhluti` * :math:`x`,
-*þverhlutann:hover:`þverhluti` :hover:`tvinntala!þverhluti` * :math:`y`,
-*lengdina:hover:`lengd` :hover:`tvinntala!lengd` * :math:`r` og
-*horngildið:hover:`horngildi` :hover:`tvinntala!horngildi` *
-:math:`{\theta}`.
+:hover:`raunhlutann,raunhluti` :math:`x`,
+:hover:`þverhlutann,þverhluti` :math:`y`,
+:hover:`lengdina,lengd` :math:`r` og
+:hover:`horngildið,stefnuhorn` :math:`{\theta}`.
 
-Hér er :math:`x+iy` tvinntöluframsetning:hover:`lengd!tvinntölu`  á
-:math:`z` í rétthyrndum hnitum:hover:`rétthyrnd hnit` ,
-:math:`re^{i{\theta}}` framsetning í pólhnitum:hover:`pólhnit` ,
+Hér er :math:`x+iy` tvinntöluframsetning á
+:math:`z` í :hover:`rétthyrndum hnitum,kartesk hnit` ,
+:math:`re^{i{\theta}}` framsetning í :hover:`pólhnitum,pólhnit`,
 :math:`(x,y)` er línuvigurframsetning á :math:`z` og
 :math:`\left[\begin{matrix} x\\
 y\end{matrix}\right]` er dálkvigurframsetning á :math:`z`. Með þessu
 erum við að líta framhjá þeim greinarmun sem gerður er á vigrunum
 :math:`(1,0)` og :math:`(0,1)` annars vegar og
-tvinntölunum:hover:`tvinntala`  :math:`1` og :math:`i` hins vegar.
+:hover:`tvinntölunum,tvinntala` :math:`1` og :math:`i` hins vegar.
 
 Fallgildið :math:`f(z)` skrifum við ýmist sem :math:`f(x+iy)` eða
 :math:`f(x,y)`.
@@ -1318,8 +1315,7 @@ dálkvigra. Þannig getum við skrifað
 Línulegar varpanir
 ~~~~~~~~~~~~~~~~~~
 
-Við skulum byrja á því að skoða *línulegar varpanir:hover:‘línuleg
-vörpun‘:hover:`vörpun` :hover:`vörpun!línuleg` *, en það eru föll af
+Við skulum byrja á því að skoða :hover:`línulegar varpanir,línulegt fall` , en það eru föll af
 gerðinni :math:`L:{{\mathbb  C}}\to {{\mathbb  C}}` sem uppfylla
 
 .. math:: L(z+w)=L(z)+L(w) \qquad z,w\in {{\mathbb  C}}
@@ -1403,11 +1399,9 @@ við viljum ákvarða stuðlana :math:`a`, :math:`b`, :math:`c` og :math:`d`
    d&={{\operatorname{Im\, }}}\big(L(i)\big)={{\operatorname{Im\, }}}\big(i(A-B)\big)={{\operatorname{Re\, }}}\big(A-B\big).\end{aligned}
 
 Í tvinnfallagreiningu þarf oft að gera greinarmun á
-:math:`{{\mathbb  R}}` *-línulegum:hover:`vörpun!:math:`{{\mathbb  R}}`-línuleg` :hover:‘:math:`{{\mathbb  R}}`-línuleg
-vörpun‘* vörpunum, en það eru nákvæmlega þær línulegu varpanir sem við
+:math:`{{\mathbb  R}}` *-línulegum* vörpunum, en það eru nákvæmlega þær línulegu varpanir sem við
 höfum verið að fjalla um, og
-:math:`{{\mathbb  C}}` *-línulegum:hover:`vörpun!:math:`{{\mathbb  C}}`-línuleg` *
-vörpunum, en þær uppfylla
+:math:`{{\mathbb  C}}` *-línulegum* vörpunum, en þær uppfylla
 
 .. math::
 
@@ -1458,32 +1452,32 @@ getum vissulega teiknað upp gröf raungildu fallanna
 tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða
 hvernig þau færa til punktana í :math:`{{\mathbb  C}}` og lýsa á mynd
 afstöðunni millli :math:`z` og :math:`f(z)`. Vert er að geta þess að í
-þessu samhengi eru orðin *vörpun*, *færsla*, *ummyndun* o.fl. oft notuð
-sem samheiti fyrir orðið fall. Við skulum nú taka nokkur dæmi um þetta
+þessu samhengi eru orðin :hover:`vörpun`, *færsla*, *ummyndun* o.fl. oft notuð
+sem samheiti fyrir orðið :hover:`fall`. Við skulum nú taka nokkur dæmi um þetta
 
 Vörpun :math:`{{\mathbb  C}}\to {{\mathbb  C}}` af gerðinni
 :math:`z\mapsto z+a`, þar sem :math:`a\in {{\mathbb  C}}` nefnist
-*hliðrun:hover:`hliðrun` :hover:`vörpun!hliðrun` *.
+:hover:`hliðrun`.
 
 Vörpun af gerðinni :math:`z\mapsto az`, nefnist
-*snúningur:hover:`snúningur` :hover:`vörpun!snúningur` *, ef :math:`a\in
+:hover:`snúningur`, ef :math:`a\in
 {{\mathbb  C}}` og :math:`|a|=1`,
 
-hún nefnist *stríkkun:hover:`stríkun` :hover:`vörpun!stríkkun` * ef
+hún nefnist :hover:`stríkkun`, ef
 :math:`a\in
 {{\mathbb  R}}` og :math:`|a|>1` og
 
-*herping:hover:`herping` :hover:`vörpun!herping` *, ef
+:hover:`herping,samdráttur`, ef
 :math:`a\in {{\mathbb  R}}` og :math:`|a|<1`,
 
 en almennt nefnist hún
-*snústríkkun:hover:`snústríkkun` :hover:`vörpun!snústríkkun` * ef
+:hover:`snústríkkun` ef
 :math:`a\in {{\mathbb  C}}\setminus\{0\}`.
 
 Vörpunin
 :math:`{{\mathbb  C}}\setminus{{\{0\}}} \to {{\mathbb  C}}\setminus{{\{0\}}}`,
 :math:`z\mapsto 1/z` nefnist
-*umhverfing:hover:`umhverfing` :hover:`vörpun!umhverfing` *.
+:hover:`umhverfing`.
 
 .. figure:: ./myndir/fig0312.svg
     :align: center
@@ -1499,16 +1493,18 @@ varpana, en fall af gerðinni
 
 .. math:: f(z)=\dfrac{az+b}{cz+d}, \qquad ad-bc\neq 0, \quad a,b,c,d\in {{\mathbb  C}},
 
-kallast *brotin línuleg vörpun:hover:`vörpun!brotin línuleg` *, *brotin
-línuleg færsla:hover:`brotin línuleg færsla` * eða
-*Möbiusarvörpun:hover:`Möbiusarvörpun` *.
+kallast :hover:`brotin línuleg vörpun, brotin línuleg færsla`, *brotin
+línuleg færsla* eða
+:hover:`Möbíusarvörpun,Mobíusarfærsla`.
+
+testing :hover:`Möbíusarfærsla` testing
 
 Við sjáum að :math:`f(z)` er skilgreint fyrir öll
 :math:`z\in {{\mathbb  C}}`, ef :math:`c=0`, en fyrir öll
 :math:`z\neq -d/c`, ef :math:`c\neq 0`.
 
 Eðlilegt er að útvíkka skilgreningarsvæði með því að bæta einum punkti,
-*óendanleikapunkti:hover:`óendanleikapunktur` * :math:`\infty`, við
+:hover:`óendanleikapunkti,óendanleikapunktur` :math:`\infty`, við
 planið :math:`{{\mathbb  C}}` og skilgreina þannig *útvíkkaða
 talnaplanið*
 
@@ -1580,7 +1576,7 @@ vörpunum af þessum þremur mismunandi gerðum einnig brotnar línulegar
 varpanir.
 
 Í ljós kemur að sérhver brotin línuleg vörpun er samskeyting af
-hliðrunum:hover:`vörpun!hliðrun` :hover:`hliðrun` , snústríkkunum og
+hliðrunum, snústríkkunum og
 umhverfingu. Til þess að sjá þetta athugum við fyrst tilfellið
 :math:`c=0`, en þá er
 
@@ -1619,8 +1615,8 @@ Fastapunktar
 ~~~~~~~~~~~~
 
 Ef :math:`F:M\to M` er vörpun á einhverju mengi :math:`M`, þá nefnist
-:math:`p\in M` *fastapunktur* vörpunarinnar :math:`F` ef :math:`F(p)=p`.
-Allir punktar í :math:`M` eru fastapunktar *samsemdarvörpunarinnar*
+:math:`p\in M` :hover:`fastapunktur` vörpunarinnar :math:`F` ef :math:`F(p)=p`.
+Allir punktar í :math:`M` eru fastapunktar :hover:`samsemdarvörpunarinnar,samsemdarvörpun`
 :math:`x\mapsto x`.
 
 Nú látum við :math:`M` vera útvíkkaða talnaplanið
@@ -1746,7 +1742,7 @@ skilyrðin :math:`f(z_1)=w_1`, :math:`f(z_2)=w_2` og :math:`f(z_3)=w_3`.
 Hugsum okkur nú að :math:`g` sé önnur brotin línuleg vörpun sem
 uppfyllir :math:`g(z_1)=w_1`, :math:`g(z_2)=w_2` og :math:`g(z_3)=w_3`.
 Þá hefur vörpunin :math:`f^{-1}\circ g(z)` þrjá fastapunkta :math:`z_1`,
-:math:`z_2` og :math:`z_3`. Setning :ref:`Link title <se:fastapunktar>` segir nú að
+:math:`z_2` og :math:`z_3`. Setning :ref:`1.7.4.1 <se:fastapunktar>` segir nú að
 :math:`f^{-1}\circ g(z)=z` fyrir öll
 :math:`z\in \widehat {{\mathbb  C}}` og þar með er :math:`f(z)=g(z)`
 fyrir öll :math:`z\in \widehat {{\mathbb  C}}`. Niðurstaðan er því:
@@ -1800,9 +1796,9 @@ sýnt hvernig :math:`f` varpar punktum :math:`z\in X` á punkta
     :align: center
     :alt: Mynd: Varpanir
 
-     Mynd: Varpanir
+    Mynd: Varpanir
 
-*Hliðrun:hover:`hliðrun` * :math:`z\mapsto z+a` varpar línu gegnum
+:hover:`Hliðrun` :math:`z\mapsto z+a` varpar línu gegnum
 punktinn :math:`m` með þvervigur :math:`{\beta}` á línuna gegnum
 :math:`m+a` með þvervigur :math:`{\beta}` og hún varpar hring með miðju
 :math:`m` og geislann :math:`r` á hring með miðju :math:`m+a` og
@@ -1812,10 +1808,9 @@ geislann :math:`r`.
     :align: center
     :alt: Mynd: Hliðrun
 
-     Mynd: Hliðrun
+    Mynd: Hliðrun
 
-*Snústríkkun:hover:`snústríkkun` :hover:`vörpun!snústríkkun` *
-:math:`z\mapsto az`, :math:`a\in {{\mathbb  C}}\setminus {{\{0\}}}`,
+:hover:`Snústríkkun` :math:`z\mapsto az`, :math:`a\in {{\mathbb  C}}\setminus {{\{0\}}}`,
 varpar línu gegnum punktinn :math:`m` með þvervigur :math:`{\beta}` á
 línuna gegnum :math:`am` með þvervigur :math:`a{\beta}`.
 
@@ -1833,9 +1828,9 @@ hring með miðju í :math:`am` og geislann :math:`|a|r`.
     :align: center
     :alt: Mynd: Snústríkkun
 
-     Mynd: Snústríkkun
+    Mynd: Snústríkkun
 
-*Umhverfing:hover:`umhverfing` :hover:`vörpun!umhverfing` * er gefin með
+:hover:`Umhverfing` er gefin með
 :math:`z\mapsto 1/z`, :math:`0\to {\infty}`, :math:`{\infty}\to 0`. Til
 þess að sjá hvernig hún varpar hringum og línum, þá lítum við á mengi
 allra punkta :math:`z` sem gefnir eru með formúlunni
@@ -1862,13 +1857,13 @@ Ef þetta er jafna línu sem fer ekki gegnum :math:`0` og hefur þvervigur
     :align: center
     :alt: Mynd: Umhverfing af línu.
 
-     Mynd: Umhverfing af línu.
+    Mynd: Umhverfing af línu.
 
 .. figure:: ./myndir/fig0316a.svg
     :align: center
     :alt: Mynd: Umhverfing af línu.
 
-     Mynd: Umhverfing af línu.
+    Mynd: Umhverfing af línu.
 
 Ef við erum með jöfnu hrings gegnum :math:`0`, þá er
 :math:`{\alpha}\neq 0`, :math:`{\gamma}=0`, miðjan er
@@ -1891,13 +1886,13 @@ er hringur með miðju :math:`-\bar {\beta}/{\gamma}` og geislann
     :align: center
     :alt: Mynd: Umhverfing af hring.
 
-     Mynd: Umhverfing af hring.
+    Mynd: Umhverfing af hring.
 
 .. figure:: ./myndir/fig0317a.svg
     :align: center
     :alt: Mynd: Umhverfing af hring.
 
-     Mynd: Umhverfing af hring.
+    Mynd: Umhverfing af hring.
 
 Eins og við höfum séð, þá er sérhver brotin línuleg vörpun samsett úr
 hliðrunum, snústríkkunum og umhverfingu, svo niðurstaða útreikninga
@@ -1906,6 +1901,6 @@ okkar er:
 Setning
 ^^^^^^^
 
-Sérhver brotin línuleg vörpun:hover:`brotin línuleg vörpun` 
-:hover:`brotin línuleg færsla`  varpar hring í :math:`{{\mathbb  C}}` á
+Sérhver brotin línuleg vörpun
+:hover:`brotin línuleg færsla` varpar hring í :math:`{{\mathbb  C}}` á
 hring eða línu og hún varpar línu á hring eða línu.
