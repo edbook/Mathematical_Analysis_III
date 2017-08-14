@@ -1008,7 +1008,7 @@ margliður og fáum venjulega reiknireglu
   R'(z)=\lim_{h\to
    0}\dfrac{R(z+h)-R(z)}h=\dfrac{P'(z)Q(z)-P(z)Q'(z)}{Q(z)^2}.
 
-:hover:`Stofnbrotaliðun`
+Stofnbrotaliðun
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ef :math:`P` og :math:`Q` eru margliður, :math:`Q\neq 0` og
@@ -1035,7 +1035,7 @@ einfaldar. Þá getum við skrifað
 .. math:: Q(z)= a(z-\alpha_1)\cdots(z-\alpha_m), \qquad z\in {{\mathbb  C}},
 
 þar sem :math:`\alpha_1,\dots,\alpha_m` eru hinar ólíku núllstöðvar
-:math:`Q`. Stofnbrotaliðun :math:`R` er
+:math:`Q`. :hover:`Stofnbrotaliðun` :math:`R` er
 
 .. math:: R(z) = \dfrac {A_1}{z-\alpha_1}+\cdots+\dfrac {A_m}{z-\alpha_m}.
 
@@ -1098,7 +1098,7 @@ verður nú af gerðinni
    &+\dfrac{A_{2,0}}{(z-\alpha_2)^{m_2}}+\cdots+\dfrac{A_{2,m_2-1}}{(z-\alpha_2)}
    \nonumber\\
    &\qquad \vdots\qquad\qquad\vdots\qquad \qquad \vdots\nonumber\\
-   &+\dfrac{A_{k,0}}{(z-\alpha_k)}+\cdots+\dfrac{A_{k,m_k-1}}{(z-\alpha_k)^{m_k}}\nonumber\end{aligned}
+   &+\dfrac{A_{k,0}}{(z-\alpha_k)^{m_k}}+\cdots+\dfrac{A_{k,m_k-1}}{(z-\alpha_k)}\nonumber\end{aligned}
 
 þar sem stuðlarnir eru gefnir með formúlunni
 
@@ -1495,9 +1495,7 @@ varpana, en fall af gerðinni
 
 kallast :hover:`brotin línuleg vörpun, brotin línuleg færsla`, *brotin
 línuleg færsla* eða
-:hover:`Möbíusarvörpun,Mobíusarfærsla`.
-
-testing :hover:`Möbíusarfærsla` testing
+*Möbíusarvörpun*.
 
 Við sjáum að :math:`f(z)` er skilgreint fyrir öll
 :math:`z\in {{\mathbb  C}}`, ef :math:`c=0`, en fyrir öll
@@ -1742,7 +1740,7 @@ skilyrðin :math:`f(z_1)=w_1`, :math:`f(z_2)=w_2` og :math:`f(z_3)=w_3`.
 Hugsum okkur nú að :math:`g` sé önnur brotin línuleg vörpun sem
 uppfyllir :math:`g(z_1)=w_1`, :math:`g(z_2)=w_2` og :math:`g(z_3)=w_3`.
 Þá hefur vörpunin :math:`f^{-1}\circ g(z)` þrjá fastapunkta :math:`z_1`,
-:math:`z_2` og :math:`z_3`. Setning :ref:`1.7.4.1 <se:fastapunktar>` segir nú að
+:math:`z_2` og :math:`z_3`. Setning :ref:`1.7.4.1 <se:fastapunktar>`, (1.7.4 í RS), segir nú að
 :math:`f^{-1}\circ g(z)=z` fyrir öll
 :math:`z\in \widehat {{\mathbb  C}}` og þar með er :math:`f(z)=g(z)`
 fyrir öll :math:`z\in \widehat {{\mathbb  C}}`. Niðurstaðan er því:

@@ -13,7 +13,6 @@ Contents:
    :numbered:
    :glob:
    
-   bokin*
    chapter*
 
 .. toctree::
