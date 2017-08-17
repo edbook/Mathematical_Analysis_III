@@ -9,7 +9,7 @@ Stærðfræðigreining III
 Contents:
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :numbered:
    :glob:
    
