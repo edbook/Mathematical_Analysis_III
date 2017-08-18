@@ -60,15 +60,13 @@ Lengd vega
 Ef :math:`\gamma` er vegur, þá er unnt að skilgreina lengd
 hans sem
 
-.. math::
-   L(\gamma)=\lim \sum_{j=1}^ N |\gamma(\tau_j)-\gamma(\tau_{j-1})|,
+.. math:: L(\gamma)=\lim \sum_{j=1}^ N |\gamma(\tau_j)-\gamma(\tau_{j-1})|,
 
 þar sem markgildið er tekið þegar fínleiki skiptingarinnar
 :math:`a=\tau_0<\tau_1<\cdots<\tau_N=b` stefnir á núll. Með því að líta
 á hægri hliðina í þessari jöfnu sem Riemann-summu, þá fáum við
 
-.. math:: 
-    L(\gamma)=\int_a^ b |\gamma{{^{\prime}}}(t)| \, dt.
+.. math:: L(\gamma)=\int_a^ b |\gamma{{^{\prime}}}(t)| \, dt.
 
 Heildið er vel skilgreint, því :math:`\gamma` er samfellt deildanlegt á
 köflum og því er afleiðan samfelld alls staðar nema í endanlega mörgum
@@ -191,7 +189,7 @@ Heildi yfir línustrik og hringboga
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Mikilvægustu vegheildin, sem við þurfum að reikna út, eru tekin yfir
-hringboga:hover:`hringbogi` og línustrik:hover:`línustrik`. Við skulum
+:hover:`hringboga,hringbogi` og :hover:`línustrik`. Við skulum
 líta á stikanir á þessum ferlum. Ef :math:`\alpha` og :math:`\beta` eru
 tveir punktar í :math:`{{\mathbb  C}}`, þá látum við
 :math:`{{\langle\alpha,\beta\rangle}}` tákna línustrikið á milli þeirra.
@@ -242,7 +240,7 @@ Setning
 ^^^^^^^
 
 Gerum ráð fyrir að :math:`X` sé opið mengi og :math:`f\in C(X)`. Ef
-:math:`f` hefur stofnfall:hover:`stofnfall` :math:`F`, þ.e.a.s. ef til
+:math:`f` hefur :hover:`stofnfall` :math:`F`, þ.e.a.s. ef til
 er fall :math:`F\in {{\cal O}}(X)` þannig að :math:`F{{^{\prime}}}=f`
 þá er
 
@@ -263,7 +261,7 @@ Við látum :math:`X` vera opið hlutmengi af :math:`{{\mathbb  C}}`,
 :math:`\Omega` vera opið hlutmengi af :math:`X` þannig að jaðarinn
 :math:`\partial\Omega` á :math:`\Omega` sé í :math:`X` og gerum ráð
 fyrir að :math:`\partial\Omega` sé einfaldur lokaður vegur sem stikaður
-er í *jákvæða stefnu*:hover:`jákvæð stefna` miðað við :math:`\Omega`.
+er í *jákvæða stefnu* miðað við :math:`\Omega`.
 Þetta þýðir að
 
 .. math:: \partial\Omega={{{\operatorname{mynd}(\gamma)}}}=\{\gamma(t); t\in [a,b]\}
@@ -356,8 +354,7 @@ Nú erum við komin að undirstöðusetningu tvinnfallagreiningarinnar:
 Setning
 ^^^^^^^
 
-(*Cauchy-setningin:hover:`Cauchy!setningin`
-:hover:`Cauchy`*:hover:`setning!Cauchy`).   Látum :math:`X` vera opið
+(*Cauchy-setningin*).   Látum :math:`X` vera opið
 hlutmengi af :math:`{{\mathbb  C}}`, :math:`\Omega\subset X` vera opið,
 þannig að :math:`\partial\Omega\subset X` og gerum ráð fyrir að
 :math:`\partial\Omega` samanstandi af endanlega mörgum vegum, sem
@@ -387,7 +384,7 @@ Skilgreining
 Opið mengi :math:`X` kallast *stjörnusvæði með tilliti til punktsins*
 :math:`\alpha\in X`, ef línustrikið :math:`{{\langle\alpha,z\rangle}}`
 er innihaldið í :math:`X` fyrir sérhvert :math:`z\in X`. Við segjum að
-:math:`X` sé *stjörnusvæði*:hover:`stjörnusvæði` ef það er stjörnusvæði
+:math:`X` sé :hover:`stjörnusvæði` ef það er stjörnusvæði
 með tilliti til einhvers punkts í :math:`X`.
 
 .. figure:: ./myndir/fig094.svg
@@ -427,7 +424,7 @@ svæðinu :math:`\Omega`. Þá fæst:
 Setning
 ^^^^^^^
 
-(*Cauchy-formúlan:hover:`Cauchy!formúlan`*:hover:`Cauchy`).   Gerum ráð
+(*Cauchy-formúlan*).   Gerum ráð
 fyrir sömu forsendum og í Cauchy -setningunni. Ef :math:`f\in C^1(X)`,
 þá gildir um sérhvert :math:`z\in \Omega` að
 
@@ -455,7 +452,7 @@ Cauchy-formúlan:
 Setning
 ^^^^^^^
 
-(*Meðalgildissetning*:hover:`meðalgildissetning`).   Látum :math:`X`
+(*Meðalgildissetning*).   Látum :math:`X`
 vera opið mengi í :math:`{{\mathbb  C}}`, :math:`f\in {{\cal O}}(X)`, :math:`z\in X` og gerum ráð fyrir að
 :math:`\overline S(z,r)\subset X`. Þá gildir
 
@@ -540,15 +537,18 @@ Við athugum að ef :math:`z` er á einingarhringnum og við skrifum
    \cos\theta=\dfrac 12(e^{i\theta}+e^{-i\theta})
    =\dfrac12(z+\dfrac 1z)=\dfrac{z^ 2+1}{2z},
 
-  .. _10.2.12:
+   
    \\ 
    \sin\theta=\dfrac 1{2i}(e^{i\theta}-e^{-i\theta})
    =\dfrac1{2i}(z-\dfrac 1z)=\dfrac{z^ 2-1}{2iz},
 
-  .. _10.2.13:
+   
    \\ 
    dz=ie^{i\theta}d\theta, \qquad d\theta=\dfrac 1{iz}dz.
- Heldið sem við viljum reikna er vegheildi
+
+   \end{gathered}
+
+Heildið sem við viljum reikna er vegheildi
 
 .. math::
 
@@ -657,8 +657,7 @@ Með þrepun fáum við nú:
 Setning
 ^^^^^^^
 
-(*Cauchy-formúlan fyrir afleiður:hover:‘Cauchy!formúlan fyrir
-afleiður‘*:hover:`Cauchy`).   Látum :math:`X` og :math:`\Omega` vera
+(*Cauchy-formúlan fyrir afleiður*).   Látum :math:`X` og :math:`\Omega` vera
 eins og í Cauchy-setningunni og tökum :math:`z\in \Omega`. Þá er
 sérhvert :math:`f` í :math:`{{\cal O}}(X)` óendanlega oft deildanlegt á
 :math:`X`, allar hlutafleiður af :math:`f` eru fáguð föll og
@@ -677,7 +676,7 @@ Með því að skrifa :math:`\Omega` sem hringskífu, þá fáum við:
 Fylgisetning
 ^^^^^^^^^^^^
 
-(*Cauchy-ójöfnur*:hover:`Cauchy!ójöfnur`).  :hover:`Cauchy` Ef :math:`X`
+(*Cauchy-ójöfnur*). Ef :math:`X`
 er opið hlutmengi af :math:`{{\mathbb  C}}`,
 :math:`\bar S(\alpha,\varrho)\subset X`, :math:`f\in {{\cal O}}(X)` og
 :math:`|f(z)|\leq M` fyrir öll :math:`z\in \partial S(\alpha,\varrho)`, þá er
@@ -695,7 +694,7 @@ Eftirfarandi setning er andhverfa Cauchy-setningarinnar:
 Setning
 ^^^^^^^
 
-(*Morera:hover:`Morera-setningin`*:hover:`setning!Morera`).   Látum
+(*Morera*).   Látum
 :math:`X` vera opið mengi í :math:`{{\mathbb  C}}`, :math:`f\in C(X)` og
 gerum ráð fyrir að
 
@@ -732,7 +731,7 @@ Undirstöðusetning algebrunnar
 Setning
 ^^^^^^^
 
-(*Undirstöðusetning algebrunnar*:hover:`undirstöðusetning algebrunnar`).
+(:hover:`Undirstöðusetning algebrunnar`).
   Sérhver margliða af af stigi :math:`n\geq 1` með stuðla í
 :math:`{{\mathbb  C}}` hefur núllstöð í :math:`{{\mathbb  C}}`.
 
@@ -796,7 +795,11 @@ Látum :math:`A` vera mengi og :math:`\{f_n\}` vera runu af föllum á
 :math:`A` með gildi í :math:`{{\mathbb  C}}`. Við segjum að
 :math:`\{f_n\}` stefni á fallið :math:`f` *í jöfnum mæli* á :math:`A`,
 ef fyrir sérhvert :math:`\varepsilon>0` er til :math:`N` þannig að
-:math:``\ \|f\_n(a)-f(a)\|<, :math:`` Við segjum að :math:`\{f_n\}` sé
+
+.. math::
+    \|f_n(a)-f(a)\|<\varepsilon, \text{fyrir öll} \quad n\geq N.
+
+Við segjum að :math:`\{f_n\}` sé
 *samleitin í jöfnum mæli á* :math:`A`, ef til er fall :math:`f` þannig
 að :math:`\{f_n\}` stefni á :math:`f` í jöfnum mæli á :math:`A`. Við
 segjum að fallaröðin :math:`\sum_{k=0}^\infty f_k` sé *samleitin í
@@ -804,7 +807,7 @@ jöfnum mæli* ef runan af hlutsummum :math:`\{\sum_{k=0}^ n f_k\}` er
 samleitin í jöfnum mæli. Ef fallaröðin :math:`\sum_{k=0}^\infty |f_k|`
 er samleitin í jöfnum mæli á :math:`A`, þá segjum við að
 :math:`\sum_{k=0}^\infty f_k` sé *alsamleitin í jöfnum
-mæli*:hover:`alsamleitinn í jöfnu mæli` á menginu :math:`A`.
+mæli* á menginu :math:`A`.
 
 Í því tilfelli að :math:`f_n` og :math:`f` eru raungild föll má einnig
 orða skilgreininguna svo, að fyrir sérhvert :math:`\varepsilon>0` sé til
@@ -823,11 +826,9 @@ Myndin sýnir runu :math:`\{f_n\}`,
 
 .. figure:: ./myndir/figA1.svg
     :align: center
-    :alt: :math:`f_n\to 0`,
+    :alt: :math:`f_n\to 0`, *ekki í jöfnum mæli
 
-*ekki*
-
-    Mynd: :math:`f_n\to 0`, *ekki í jöfnum mæli*
+    Mynd: :math:`f_n\to 0`, *ekki* í jöfnum mæli
 
 Samleitnipróf Weierstrass
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -838,7 +839,13 @@ Setning
 ^^^^^^^
 
 (*Weierstrass–próf*).   Gerum ráð fyrir að :math:`\sum_{k=0}^  \infty f_k` sé fallaröð á menginu :math:`A`, :math:`\sum_{k=0}^ \infty M_k` sé samleitin röð af jákvæðum rauntölum og
-:math:``\ 0\|f\_k(a)\| M\_k :math:`` Þá er röðin
+
+.. math::
+
+    0\leq |f_k(a)| \leq M_k \qquad \text{fyrir öll  $k\geq 1$ og öll $
+    a\in A$.}
+
+Þá er röðin
 :math:`\sum_{k=0}^ \infty f_k` samleitin í jöfnum mæli á :math:`A`.
 
 Setning Abels
@@ -847,7 +854,7 @@ Setning Abels
 Setning
 ^^^^^^^
 
-(*Abel:hover:`Abel-setningin`*:hover:`setning!Abel`).   Ef
+(*Abel*).   Ef
 :math:`\sum_{n=0}^\infty a_nz^n` er veldaröð með samleitnigeisla
 :math:`\varrho`, þá er hún samleitin í jöfnum mæli á sérhverri
 hringskífu með miðju í :math:`0` og geisla :math:`r<\varrho`.
@@ -876,8 +883,12 @@ Fylgisetning
 
 Látum :math:`A` vera hlutmengi af :math:`{{\mathbb  R}}^ m` og
 :math:`\sum_{k=0}^\infty f_k` vera röð af samfelldum föllum sem er samleitin í jöfnum mæli á
-:math:`A`. Þá er :math:``\ \_xa \_k=0f\_k(x) = \_k=0\_xaf\_k(x),
-:math:``
+:math:`A`. Þá er 
+
+.. math::
+
+    \lim_{x\to a} \sum\limits_{k=0}^\infty f_k(x) =
+    \sum\limits_{k=0}^\infty \lim_{x\to a}f_k(x), \qquad \text{fyrir öll $a\in A$.} 
 
 Samleitni í jöfnum mæli og heildun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -903,7 +914,7 @@ Setjum
   g_n(x)=\int_a^ x f_n(t)\, dt, \qquad
    \text{og } \qquad g(x)=\int_a^ x f(t)\, dt.
 
-Þá stefnir :math:`g_n` á :math:` g` í jöfnum mæli á :math:`[a,b]`.
+Þá stefnir :math:`g_n` á :math:`g` í jöfnum mæli á :math:`[a,b]`.
 
 Hliðstæða þessarar setningar fyrir raðir er:
 
@@ -1116,9 +1127,9 @@ Ef :math:`X` er opið hlutmengi af :math:`{{\mathbb  C}}`,
 
   \sum\limits_{n=0}^\infty \dfrac{f^{(n)}(\alpha)}{n!}(z-\alpha)^n,
 
-*Taylor-röð*:hover:`Taylor-röð` fágaða fallsins :math:`f` í punktinum
+*Taylor-röð* fágaða fallsins :math:`f` í punktinum
 :math:`\alpha`. Ef :math:`\alpha=0`, þá kallast hún
-*Maclaurin-röð*:hover:`Maclaurin-röð` fágaða fallsins :math:`f`.
+*Maclaurin-röð* fágaða fallsins :math:`f`.
 
 Núllstöðvar fágaðra falla
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1128,17 +1139,16 @@ Skilgreining
 
 Látum :math:`X` vera opið hlutmengi í :math:`{{\mathbb  C}}`,
 :math:`\alpha\in X` og :math:`f\in {{\cal O}}(X)`. Punkturinn
-:math:`\alpha` nefnist *núllstöð*:hover:`núllstöð` fágaða fallsins
-:math:`f` ef :math:`f(\alpha)=0` og mengið:hover:`núllstöð!mengi`
-:math:`{\cal N}(f)=\{\alpha\in X; f(\alpha)=0\}` kallast *núllstöðvamengi*:hover:`núllstöðvamengi` fágaða
+:math:`\alpha` nefnist :hover:`núllstöð` fágaða fallsins
+:math:`f` ef :math:`f(\alpha)=0` og mengið
+:math:`{\cal N}(f)=\{\alpha\in X; f(\alpha)=0\}` kallast :hover:`núllstöðvamengi` fágaða
 fallsins :math:`f`. Ef :math:`f` er ekki núllfallið í
 :math:`S(\alpha,\varrho)`, þar sem :math:`\varrho>0`, þá er til minnsta
 gildi :math:`m>0` á :math:`n` þannig að :math:`f^{(n)}(\alpha)\neq 0`.
-Talan :math:`m` nefnist *stig*:hover:`stig`
-núllstöðvarinnar:hover:`stig!núllstöðvar` :math:`\alpha`. Ef fallið
+Talan :math:`m` nefnist :hover:`stig`
+núllstöðvarinnar :math:`\alpha`. Ef fallið
 :math:`f` er núll í heilli grennd um :math:`\alpha`, þá segjum við að
-:math:`f` hafi núllstöð af *óendanlegu stigi:hover:‘óendanlegt
-stig‘:hover:`stig!óendanlegt`*:hover:`stig` í :math:`\alpha`.
+:math:`f` hafi núllstöð af *óendanlegu stigi* í :math:`\alpha`.
 
 Eins og fyrir margliður þá er hægt að þátta núllstöðvar úr fáguðum
 föllum:
@@ -1162,22 +1172,21 @@ Samsemdarsetningin
 Samsemdarsetningin
 ~~~~~~~~~~~~~~~~~~
 
-Við skulum rifja það upp að *svæði*:hover:`svæði` er opið samanhangandi
+Við skulum rifja það upp að :hover:`svæði` er opið samanhangandi
 mengi, en það þýðir að sérhverja tvo punkta :math:`\alpha` og
 :math:`\beta` í :math:`X` er unnt að tengja saman með vegi í :math:`X`.
 Ef :math:`A` er hlutmengi í :math:`{{\mathbb  C}}`, þá er punktur
-:math:`\alpha\in A` sagður vera *einangraður:hover:‘einangraður
-punktur‘* í :math:`A` ef til er :math:`\varepsilon>0` þannig að
+:math:`\alpha\in A` sagður vera *einangraður* í :math:`A` ef til er :math:`\varepsilon>0` þannig að
 :math:`A\cap S(\alpha,\varepsilon)=\{\alpha\}`. Mengi sem samanstendur
-af einangruðum punktum í :math:`A` er sagt vera *dreift:hover:‘dreift
-mengi‘* í :math:`A`. Athugið að þetta þýðir að ekki er til nein runa af
+af einangruðum punktum í :math:`A` er sagt vera *dreift*
+mengi` í :math:`A`. Athugið að þetta þýðir að ekki er til nein runa af
 *ólíkum* punktum í :math:`A` sem er samleitin og hefur markgildi í
 :math:`A`.
 
 Setning
 ^^^^^^^
 
-(*Samsemdarsetning I*:hover:`samsemdarsetning`).   Ef :math:`X` er svæði
+(:hover:`Samsemdarsetning,samsemdarsetning` I).   Ef :math:`X` er svæði
 í :math:`{{\mathbb  C}}`, :math:`f,g\in {{\cal O}}(X)` og til er punktur
 :math:`{\alpha}` í :math:`X` þannig að
 :math:`f^{(n)}({\alpha})=g^{(n)}({\alpha})` fyrir öll :math:`n\geq 0`,
@@ -1213,7 +1222,7 @@ Við fáum nú enn sterkari útgáfu af samsemdarsetningunni:
 Setning
 ^^^^^^^
 
-(*Samsemdarsetning II*:hover:`samsemdarsetning`).   Ef :math:`X` er
+(:hover:`Samsemdarsetning,samsemdarsetning` II).   Ef :math:`X` er
 svæði, :math:`f,g\in {{\cal O}}(X)` og :math:`f(a_j)=g(a_j)` þar sem
 :math:`\{a_j\}` er runa af ólíkum punktum, sem hefur markgildi
 :math:`a\in X`, þá er :math:`f(z)=g(z)` fyrir öll :math:`z\in X`.
@@ -1243,14 +1252,14 @@ konar ójöfnur fyrir :math:`|f|`, þar sem :math:`f` er fágað fall:
 Setning
 ^^^^^^^
 
-(*Hágildislögmál I*:hover:`hágildislögmál`).   Ef :math:`X` er svæði og
+(:hover:`Hágildislögmál,hágildislögmál` I). Ef :math:`X` er svæði og
 :math:`f\in {{\cal O}}(X)`, þá getur :math:`|f(z)|` ekki haft staðbundið
 hágildi í :math:`X` nema :math:`f` sé fastafall.
 
 Setning
 ^^^^^^^
 
-(*Hágildislögmál II*:hover:`hágildislögmál`).   Látum :math:`X` vera
+(:hover:`Hágildislögmál,hágildislögmál` II). Látum :math:`X` vera
 takmarkað svæði :math:`f\in {{\cal O}}(X)\cap C(\overline X)` (samfellt á lokuninni
 :math:`\overline X`). Þá tekur :math:`|f(z)|` hágildi á jaðri svæðisins
 :math:`\partial X`.
@@ -1267,7 +1276,7 @@ vera punkt sem liggur ekki á ferlinum. Þá er hægt að skrifa
 .. math:: \gamma(t)=p+r(t)e^{i\theta(t)}, \qquad r=|\gamma(t)-p|, \qquad t\in [a,b],
 
 þar sem fallið :math:`\theta:[a,b]\to {{\mathbb  R}}` kallast *horn
-fyrir ferilinn:hover:`horn!fyrir feril`* :math:`\gamma`  *mælt frá
+fyrir ferilinn* :math:`\gamma`  *mælt frá
 punktinum* :math:`p`. Fallið :math:`\gamma` er samfellt og af því leiðir
 að hægt er að velja :math:`\theta` samfellt. Ef :math:`\gamma` er vegur,
 þá er fallið :math:`\gamma` samfellt og samfellt deildanlegt á köflum og
@@ -1290,18 +1299,18 @@ frá punktinum :math:`p`, þá kallast talan
 
 .. math:: \theta(b)-\theta(a)
 
-*hornauki ferilsins:hover:`hornauki ferils`* :math:`\gamma`  *séð frá
-punktinum :math:`p`.* Ef :math:`\gamma` er lokaður ferill, þá nefnist
+*hornauki ferilsins* :math:`\gamma` *séð frá
+punktinum* :math:`p`. Ef :math:`\gamma` er lokaður ferill, þá nefnist
 heiltalan
 
 .. math:: I(\gamma,p)=\dfrac 1{2\pi}(\theta(b)-\theta(a))
 
-*vafningstala ferilsins:hover:`ferill!vafningstala`:hover:‘vafningstala
-ferils‘* :math:`\gamma`  *með tilliti til punktsins* :math:`p`. Við segjum
-að :math:`\gamma` *vefjist utan um*:hover:`vefjast utan um` :math:`p`,
+:hover:`Vafningstala,vafningstala` *ferilsins* 
+:math:`\gamma` *með tilliti til punktsins* :math:`p`. Við segjum
+að :math:`\gamma` *vefjist utan um* :math:`p`,
 ef :math:`I(\gamma,p)\neq 0`. Mengi allra punkta :math:`p` sem liggja
 ekki á ferlinum og ferillinn vefst utan um köllum við *innmengi
-ferilsins*:hover:`innmengi ferils` :math:`\gamma` og við táknum það með
+ferilsins* :math:`\gamma` og við táknum það með
 :math:`I(\gamma)`.
 
 .. figure:: ./myndir/fig0911.svg
@@ -1329,7 +1338,7 @@ samanstendur af öllum punktum :math:`p` sem eru ekki á ferlinum. Það er
 hægt að skrifa :math:`X` sem sammengi :math:`X=\cup X_i`, :math:`i\in I`
 af sundurlægum svæðum :math:`X_i`, þar sem :math:`I` er eitthvert
 endanlegt eða teljanlega óendanlegt mengi. Þessi mengi :math:`X_i`
-kallast *samhengisþættir*:hover:`samhengisþáttur` mengisins :math:`X`. Á
+kallast :hover:`samhengisþætti,samhengisþáttur` mengisins :math:`X`. Á
 sérhverjum samhengisþætti :math:`X_i` er vafningstalan fasti sem fall af
 :math:`p`, því
 
@@ -1385,8 +1394,7 @@ yfir á almennari flokk mengja:
 Skilgreining
 ^^^^^^^^^^^^
 
-Opið mengi :math:`X` er sagt vera *einfaldlega
-samanhangandi*:hover:`einfaldrelga samhangandi mengi` ef
+Opið mengi :math:`X` er sagt vera :hover:`einfaldlega samhangandi` ef
 :math:`I(\gamma)\subset X` fyrir sérhvern lokaðan veg :math:`\gamma` í
 :math:`X`.
 
@@ -1409,18 +1417,18 @@ Setning
 Látum :math:`X` vera svæði í :math:`{{\mathbb  C}}`. Þá er eftirfarandi
 jafngilt:
 
-(i) :math:`X` er einfaldlega samanhangandi.
+\(i) :math:`X` er einfaldlega samanhangandi.
 
-(ii) Sérhvert fágað fall á :math:`X` hefur stofnfall.
+\(ii) Sérhvert fágað fall á :math:`X` hefur stofnfall.
 
-(iii) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
+\(iii) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
 :math:`\gamma` í :math:`X` er
 
 .. math::
 
-  \int_\gamma f(\zeta) \, d\zeta = 0.
+   \int_\gamma f(\zeta) \, d\zeta = 0.
 
-(iv) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
+\(iv) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
 :math:`\gamma` í :math:`X` er
 
 .. math::
@@ -1428,16 +1436,16 @@ jafngilt:
   f(z)I(\gamma,z) = \dfrac 1{2\pi i}\int_\gamma \dfrac{f(\zeta)}
    {\zeta-z} \, d\zeta.
 
-(v) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur logra,
+\(v) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur logra,
 þ.e. ef :math:`f\in {{\cal O}}(X)` og :math:`{\cal N}(f)=\varnothing`,
 þá er til :math:`g\in {{\cal O}}(X)` þannig að :math:`f(z)=e^{g(z)}`,
 :math:`z\in X`.
 
-(vi) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða
+\(vi) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða
 :math:`n`-tu rót fyrir öll :math:`n\geq 1`, þ.e. ef
 :math:`f\in {{\cal O}}(X)` og :math:`{\cal N}(f)=\varnothing`, þá er til
 :math:`h\in {{\cal O}}(X)` þannig að :math:`f(z)=h(z)^n`,
 :math:`z\in X`.
 
-(vii) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða aðra
+\(vii) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða aðra
 rót.
