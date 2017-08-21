@@ -322,7 +322,7 @@ Athugið að af þessu leiðir formúlan
 Sýnidæmi
 ^^^^^^^^
 
-(i) Allar margliður
+\(i) Allar margliður
 
 .. math:: P(z)= a_0+a_1z+\cdots+a_mz^m, \qquad z\in {{\mathbb  C}},
 
@@ -330,7 +330,7 @@ eru fáguð föll á öllu :math:`{{\mathbb  C}}` og afleiðan er
 
 .. math:: P{{^{\prime}}}(z)= a_1+2a_2z+\cdots+ma_mz^{m-1}, \qquad z\in {{\mathbb  C}}.
 
-(ii) Sérhvert rætt fall :math:`R=P/Q`, þar sem :math:`P` og :math:`Q`
+\(ii) Sérhvert rætt fall :math:`R=P/Q`, þar sem :math:`P` og :math:`Q`
 eru margliður, er fágað fall á menginu
 :math:`\{z\in {{\mathbb  C}}; Q(z)\neq 0\}` og
 
@@ -958,7 +958,7 @@ Helstu eiginleikar logra, róta og horna eru:
 Setning
 ^^^^^^^
 
-(i) Ef :math:`\lambda` er logri á :math:`X`, þá er :math:`0\not\in X`,
+\(i) Ef :math:`\lambda` er logri á :math:`X`, þá er :math:`0\not\in X`,
 :math:`\lambda\in {{\cal O}}(X)` og
 
 .. math:: \lambda{{^{\prime}}}(z)=\frac 1z, \qquad z\in X.
@@ -966,7 +966,7 @@ Setning
 Föllin :math:`\lambda(z)+i2\pi k`, :math:`k\in {{\mathbb  Z}}` eru
 einnig lograr á :math:`X`.
 
-(ii) Ef :math:`\lambda` er logri á :math:`X`, þá er
+\(ii) Ef :math:`\lambda` er logri á :math:`X`, þá er
 
 .. math::
 
@@ -977,12 +977,12 @@ einnig lograr á :math:`X`.
 ef :math:`\theta:X\to {{\mathbb  R}}` er horn á :math:`X`, þá er
 :math:`\lambda(z)=\ln|z|+i\theta(z)` logri á :math:`X`.
 
-(iii) Ef :math:`\varrho` er :math:`n`–ta rót á :math:`X` þá er
+\(iii) Ef :math:`\varrho` er :math:`n`–ta rót á :math:`X` þá er
 :math:`\varrho\in {{\cal O}}(X)` og
 
 .. math:: \varrho{{^{\prime}}}(z)=\frac {\varrho(z)}{nz}, \qquad z\in X.
 
-(iv) Ef :math:`\lambda` er logri á :math:`X`, þá er
+\(iv) Ef :math:`\lambda` er logri á :math:`X`, þá er
 :math:`\varrho(z)=e^{\lambda(z)/n}` :math:`n`–ta rót á :math:`X`.
 
 Fyrir sérhverja tvinntölu :math:`{\alpha}` skilgreinum við fágað

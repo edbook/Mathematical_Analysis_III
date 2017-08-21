@@ -18,19 +18,17 @@ Mengi af gerðinni
   A(\alpha,\varrho_1,\varrho_2)=\{z\in {{\mathbb  C}};
    \varrho_1<|z-\alpha|<\varrho_2\}
 
-þar sem :math:`0\leq\varrho_1<\varrho_2\leq +\infty` kallast *opinn
-hringkragi :hover:`hringkragi` :hover:`hringkragi!opinn` :hover:‘opinn
-hringkragi‘* með miðju í :math:`\alpha`, *innri geisla :hover:‘innri
-geisli hringkraga‘* :math:`\varrho_1`, og *ytri geisla :hover:‘ytri
-geisli hringkraga‘* :math:`\varrho_2`, og mengi af gerðinni
+þar sem :math:`0\leq\varrho_1<\varrho_2\leq +\infty` kallast *opinn*
+:hover:`hringkragi` með miðju í :math:`\alpha`, *innri geisla* 
+:math:`\varrho_1`, og *ytri geisla* :math:`\varrho_2`, og mengi af gerðinni
 
 .. math::
 
   \bar A(\alpha,\varrho_1,\varrho_2)=\{z\in {{\mathbb  C}};
    \varrho_1\leq|z-\alpha|\leq\varrho_2\}
 
-þar sem :math:`0<\varrho_1<\varrho_2\leq +\infty` kallast *lokaður
-hringkragi* :hover:`hringkragi!lokaður` með miðju í :math:`\alpha`,
+þar sem :math:`0<\varrho_1<\varrho_2\leq +\infty` kallast *lokaður*
+:hover:`hringkragi` með miðju í :math:`\alpha`,
 *innri geisla* :math:`\varrho_1`, og *ytri geisla* :math:`\varrho_2`.
 
 .. figure:: ./myndir/fig097.svg
@@ -48,28 +46,24 @@ Fágað fall á skífu er hægt að setja fram með veldaröð. Ef fall er fága
 Setning
 ^^^^^^^
 
-(*Laurent :hover:`Laurent-setningin` *:hover:`setning!Laurent`).   Látum
+(*Laurent*).   Látum
 :math:`X` vera opið hlutmengi af :math:`{{\mathbb  C}}` og gerum ráð
 fyrir að :math:`A(\alpha,\varrho_1,\varrho_2)\subset X`. Ef
 :math:`f\in {{\cal O}}(X)`, þá er unnt að skrifa :math:`f` sem
 
 .. math::
 
-  f(z)=\sum_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n, \qquad z\in
+   f(z)=\sum_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n, \qquad z\in
    A(\alpha,\varrho_1,\varrho_2).
 
-
-   
 
 Stuðlar raðarinnar :math:`a_n` eru gefnir með formúlunni
 
 .. math::
 
-  a_n=\dfrac 1{2\pi i}\int_{\partial S(\alpha,r)} \dfrac{f(\zeta)}
+   a_n=\dfrac 1{2\pi i}\int_{\partial S(\alpha,r)} \dfrac{f(\zeta)}
    {(\zeta-\alpha)^{n+1}} \, d\zeta,
 
-
-   
 
 og :math:`r` getur verið hvaða tala sem er á bilinu
 :math:`]\varrho_1,\varrho_2[`. Röðin
@@ -92,29 +86,24 @@ Röð af gerðinni
 
 .. math:: \sum_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n
 
-kallast *Laurent-röð *:hover:`laurent-röð`. *Innri samleitnigeisli
-:hover:`innri samleitnigeisli Laurent-raðar`
-:hover:`Laurent-röð!samleitni` *:hover:`samleitin Laurent-röð`
+kallast *Laurent-röð*. *Innri samleitnigeisli* 
 raðarinnar :math:`\varrho_1` er skilgreindur sem neðra mark yfir
 :math:`\varrho=|z-\alpha|` þannig að
 
 .. math:: \sum_{n=-\infty}^{-1} a_n(z-{\alpha})^ n
 
-er samleitin, *ytri samleitnigeisli :hover:‘ytri samleitnigeisli
-Laurent-raðar‘* raðarinnar :math:`\varrho_2` er skilgreindur sem efra
+er samleitin, *ytri samleitnigeisli* raðarinnar :math:`\varrho_2` er skilgreindur sem efra
 mark yfir öll :math:`\varrho=|z-\alpha|` þannig að
 
 .. math:: \sum_{n=0}^{+\infty}a_n(z-{\alpha})^ n
 
 er samleitin. Ef :math:`\varrho_1<\varrho_2` þá segjum við að
-Laurent-röðin sé *samleitin*. Stuðullinn :math:`a_{-1}` kallast *leif
-:hover:`Laurent-röð!leif` :hover:`leif` *:hover:`leif!Laurent-raðar`
-Laurent-raðarinnar og röðin
+Laurent-röðin sé *samleitin*. Stuðullinn :math:`a_{-1}` kallast 
+:hover:`leif` Laurent-raðarinnar og röðin
 
 .. math:: \sum_{n=-\infty}^{-1}a_n(z-{\alpha})^ n
 
-kallast *höfuðhluti :hover:`höfuðhluti!Laurent-raðar`
-*:hover:`Laurent-röð!höfuðhluti` hennar.
+kallast :hover:`höfuðhluti` hennar.
 
 Ef Laurent-röð :math:`\sum_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n` er
 samleitin og :math:`\varrho_1` og :math:`\varrho_2` tákna innri og ytri
@@ -188,20 +177,20 @@ Einangraðir punktar og dreifð mengi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum nú :math:`A` vera hlutmengi í :math:`{{\mathbb  C}}`. Rifjum það
-upp að punktur :math:`\alpha\in A` kallast *einangraður punktur
-*:hover:`sérstöðupunktur!einangraður` í :math:`A` ef til er
+upp að punktur :math:`\alpha\in A` kallast 
+:hover:`einangraður punktur` í :math:`A` ef til er
 :math:`\varepsilon>0` þannig að
-:math:`S^ *(\alpha,\varepsilon)\cap A=\varnothing`,
-þ.e.a.s. \* :math:`\alpha`  *er eini punkturinn í* :math:`A`  *sem liggur í
-opnu skífunni :math:`S(\alpha,\varepsilon)`. Við segjum að mengið*
-:math:`A`  *sé *dreift :hover:`dreift mengi`* ef sérhver punktur í því er
+:math:`S^\ast(\alpha,\varepsilon)\cap A=\varnothing`,
+þ.e.a.s. :math:`\alpha` er eini punkturinn í :math:`A` sem liggur í
+opnu skífunni :math:`S(\alpha,\varepsilon)`. Við segjum að mengið
+:math:`A` sé *dreift* ef sérhver punktur í því er
 einangraður.
 
 Höfuðhluti og leif
 ~~~~~~~~~~~~~~~~~~
 
-Látum* :math:`X`  *vera opið mengi,* :math:`f\in {{\cal O}}(X)`  *og*
-:math:`\alpha`  *vera einangraðan sérstöðupunkt fágaða fallsins :math:`f`.
+Látum :math:`X` vera opið mengi, :math:`f\in {{\cal O}}(X)` og
+:math:`\alpha` vera einangraðan sérstöðupunkt fágaða fallsins :math:`f`.
 Samkvæmt Laurent-setningunni getum við skrifað
 
 .. math::
@@ -210,11 +199,11 @@ Samkvæmt Laurent-setningunni getum við skrifað
    S^ *(\alpha,\varepsilon)=A(\alpha,0,\varepsilon),
 
 þar sem stuðlarnir eru ótvírætt ákvarðaðir. Við köllum þessa röð
-*Laurent-röð fágaða fallsins :hover:`Laurent-röð!fágaðs falls`* :math:`f` 
+*Laurent-röð fágaða fallsins* :math:`f` 
 *í punktinum* :math:`\alpha`, við köllum höfuðhluta raðarinnar
-*höfuðhluta fágaða fallsins :hover:`höfuðhluti!fágaðs falls`* :math:`f`  *í
-punktinum* :math:`\alpha` og við köllum leif raðarinnar *leif fallsins
-:hover:`Laurent-röð!leif` :hover:`leif!falls`* :math:`f`  *í punktinum*
+*höfuðhluta fágaða fallsins* :math:`f` *í punktinum* 
+:math:`\alpha` og við köllum leif raðarinnar *leif fallsins* 
+:math:`f` *í punktinum*
 :math:`\alpha` og við táknum hana með
 
 .. math:: {{\operatorname{Res}}}(f,\alpha).
@@ -223,7 +212,7 @@ Afmáanlegir sérstöðupunktar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Einangraður sérstöðupunktur :math:`{\alpha}` fágaða fallsins :math:`f`
-er sagður vera *afmáanlegur *:hover:`sérstöðupunktur!afmáanlegur`, ef
+er sagður vera :hover:`afmáanlegur, afmáanlegur sérstöðupunktur`, ef
 til er :math:`r>0` og :math:`g\in {{\cal O}}(S({\alpha},r))` þannig að
 :math:`S^\ast({\alpha},r)\subset X` og :math:`f(z)=g(z)` fyrir öll
 :math:`z\in S^\ast({\alpha},r)`.
@@ -231,7 +220,7 @@ til er :math:`r>0` og :math:`g\in {{\cal O}}(S({\alpha},r))` þannig að
 Setning
 ^^^^^^^
 
-(*Riemann :hover:`Riemann-setningin` *:hover:`setning!Riemann`).   Ef
+(Riemann).   Ef
 :math:`\alpha` er einangraður sérstöðupunktur fágaða fallsins :math:`f`,
 og :math:`\lim_{z\to \alpha}(z-\alpha)f(z)= 0`, þá er :math:`\alpha`
 afmáanlegur sérstöðupunktur
@@ -244,12 +233,12 @@ Skilgreining
 
 Látum :math:`f` vera fágað fall á opnu mengi :math:`X` og :math:`\alpha`
 vera einangraðan sérstöðupunkt fallsins :math:`f`. Við segjum að
-:math:`\alpha` sé *skaut af stigi *:hover:`sérstöðupunktur!skaut`
+:math:`\alpha` sé :hover:`skaut` *af stigi* 
 :math:`m>0`, ef til er fágað fall :math:`g\in {{\cal O}}(U)`, þar sem
 :math:`U` er grennd um :math:`\alpha`, þannig að :math:`g(\alpha)\neq 0`
 og
 
-.. math:: f(z)=\dfrac{g(z)}{(z-\alpha)^ m}, \qquad z\in U\setminus\set\alpha.
+.. math:: f(z)=\dfrac{g(z)}{(z-\alpha)^ m}, \qquad z\in U\setminus\{\alpha\}.
 
 Skautin einkennast af:
 
@@ -278,8 +267,8 @@ Stofnbrotaliðun
 ~~~~~~~~~~~~~~~
 
 Áður en við segjum skilið við skautin, þá skulum við víkja ögn að
-stofnbrotaliðun :hover:`stofnbrotaliðun`. Við höfum gengum út frá því
-sem vísum hlut, að það væri alltaf hægt að liða rætt fall í stofnbrot
+:hover:`stofnbrotaliðun`. Við höfum gengum út frá því
+sem vísum hlut, að það væri alltaf hægt að liða rætt fall í 
 :hover:`stofnbrot`. Nú skulum við sanna þetta og leiða út formúlurnar
 fyrir stuðlunum í stofnbrotaliðuninni.
 
@@ -328,24 +317,27 @@ Verulegir sérstöðupunktar
 Skilgreining
 ^^^^^^^^^^^^
 
-Einangraður sérstöðupunktur fágaða fallsins :math:`f` kallast *verulegur
-sérstöðupunktur *:hover:`sérstöðupunktur!verulegur`, ef hann er hvorki
-afmáanlegur sérstöðupunktur né skaut.
+Einangraður sérstöðupunktur fágaða fallsins :math:`f` kallast 
+:hover:`verulegur sérstöðupunktur`, ef hann er hvorki
+:hover:`afmáanlegur sérstöðupunktur` né 
+:hover:`skaut`.
 
 Hegðun fágaðra falla í grennd um verulega sérstöðupunkta er lýst með:
 
 Setning
 ^^^^^^^
 
-(*Casorati-Weierstrass :hover:`Casorati-Weierstrass-setningin`
-*:hover:`setning!Casorati-Weierstrass`).   Gerum ráð fyrir að
+(Casorati-Weierstrass).   Gerum ráð fyrir að
 :math:`\alpha` sé verulegur sérstöðupunktur fallsins :math:`f`. Ef
 :math:`\beta\in {{\mathbb  C}}`, :math:`\varepsilon>0` og
 :math:`\delta>0`, þá er til :math:`z\in S(\alpha,\delta)` þannig að
 :math:`f(z)\in S(\beta,\varepsilon)`.
 
-Leifasetningin 
----------------
+Leifasetningin
+--------------
+
+Leifasetningin
+~~~~~~~~~~~~~~
 
 Við sáum í síðasta kafla hvernig hægt er að hagnýta Cauchy-formúluna og
 Cauchy-formúluna fyrir afleiður til þess að reikna út ákveðin heildi.
@@ -359,7 +351,7 @@ númerið :math:`-1`.
 Setning
 ^^^^^^^
 
-(*Leifasetningin *:hover:`leifasetningin`).   Látum :math:`X` vera opið
+(:hover:`Leifasetningin,leifasetning`).   Látum :math:`X` vera opið
 hlutmengi í :math:`{{\mathbb  C}}` og látum :math:`\Omega` vera opið
 hlutmengi af :math:`X` sem uppfyllir sömu forsendur og í
 Cauchy-setningunni. Látum :math:`A` vera dreift hlutmengi af :math:`X`
@@ -424,6 +416,8 @@ sértilfelli af leifasetningunni, því ef :math:`z\in \Omega` og
   \dfrac 1{2\pi i}\int_{\partial\Omega} \dfrac{f(\zeta)}{\zeta-z}\,
    d\zeta = {{\operatorname{Res}}}\bigg( \dfrac{f(\zeta)}{\zeta-z},z\bigg)=f(z).
 
+.. _Leifeinfaltskaut:
+
 Leif í einföldu skauti
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -437,12 +431,12 @@ sem
 .. math::
 
   f(z)=\sum\limits_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n, \qquad
-   z\in S^ *(\alpha,\varepsilon),
+   z\in S^\ast(\alpha,\varepsilon),
 
    
 
-er framsetning á* :math:`f`  *með Laurent–röð. Ef við höfum skaut af stigi*
-:math:`1`  *í punktinum :math:`\alpha`, þá eru allir stuðlarnir
+er framsetning á :math:`f` með Laurent–röð. Ef við höfum skaut af stigi
+:math:`1` í punktinum :math:`\alpha`, þá eru allir stuðlarnir
 :math:`a_n=0`, :math:`n<-1`, í Laurent–röðinnni og við fáum
 
 .. math::
@@ -458,16 +452,16 @@ Af þessari formúlu leiðir síðan
 
    
 
-Leif í skauti af stigi* :math:`m>1` 
-*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Leif í skauti af stigi :math:`m>1`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Við skulum gera ráð fyrir að* :math:`f`  *hafi skaut af stigi* :math:`m>0`  *í
-punktinum :math:`\alpha`. Samkvæmt skilgreiningu er þá til fágað fall*
-:math:`g`  *í grennd* :math:`U`  *um* :math:`\alpha`  *þannig að*
-:math:`g(\alpha)\neq 0`  *og :math:`f(z)=g(z)/(z-\alpha)^ m`,
-:math:`z\in  U\setminus {{\{\alpha\}}}`. Við sjáum sambandið milli stuðlanna*
-:math:`b_n`  *í Taylor–röð fallsins* :math:`g`  *í punktinum* :math:`\alpha` 
-*og stuðlanna* :math:`a_n`  *í Laurent röð fallsins :math:`f`, út frá
+Við skulum gera ráð fyrir að :math:`f` hafi skaut af stigi :math:`m>0` í
+punktinum :math:`\alpha`. Samkvæmt skilgreiningu er þá til fágað fall
+:math:`g` í grennd :math:`U` um :math:`\alpha` þannig að
+:math:`g(\alpha)\neq 0` og :math:`f(z)=g(z)/(z-\alpha)^m`,
+:math:`z\in  U\setminus {{\{\alpha\}}}`. Við sjáum sambandið milli stuðlanna
+:math:`b_n` í Taylor–röð fallsins :math:`g` í punktinum* :math:`\alpha` 
+og stuðlanna :math:`a_n` í Laurent röð fallsins :math:`f`, út frá
 formúlunni
 
 .. math::
@@ -484,8 +478,8 @@ sem gefur okkur
 
    
 
-Sértilfellið að* :math:`\alpha`  *sé skaut af fyrsta stigi, sem við
-skrifuðum upp í (:ref:`Link title <11.1.3>`), er einfaldast,
+Sértilfellið að :math:`\alpha` sé skaut af fyrsta stigi, sem við
+skrifuðum upp neðst í undirkafla (:ref:`4.4.2 <Leifeinfaltskaut>`) hér fyrir ofan, er einfaldast,
 
 .. math::
 
@@ -498,10 +492,10 @@ Cauchy-formúla fyrir afleiður og leifasetning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cauchy–formúlan fyrir afleiður er einnig sértilfelli af
-leifasetningunni, því ef* :math:`A\cap \Omega=\varnothing`  *og*
-:math:`z\in \Omega`  *þá hefur fallið*
-:math:`\zeta\mapsto f(\zeta)/(\zeta-z)^{n+1}`  *skaut af stigi*
-:math:`\leq n+1`  *og samkvæmt (:ref:`Link title <11.1.4>`) er
+leifasetningunni, því ef :math:`A\cap \Omega=\varnothing` og
+:math:`z\in \Omega` þá hefur fallið
+:math:`\zeta\mapsto f(\zeta)/(\zeta-z)^{n+1}` skaut af stigi
+:math:`\leq n+1` og samkvæmt (:ref:`Link title <11.1.4>`) er
 
 .. math::
 
@@ -513,12 +507,12 @@ leifasetningunni, því ef* :math:`A\cap \Omega=\varnothing`  *og*
 Leif af kvóta tveggja falla
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nú skulum við hugsa okkur að* :math:`f`  *hafi skaut af stigi* :math:`m`  *í*
-:math:`\alpha`  *og að* :math:`f`  *sé gefið í grennd um* :math:`\alpha`  *sem*
-:math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0`  *og :math:`h(\alpha)=0`. Þá getum við skrifað*
-:math:`h(z)=(z-\alpha)^mh_1(z)`  *þar sem* :math:`h_1(z)`  *er fágað í grennd
-um* :math:`\alpha`  *og :math:`h_1(\alpha)=h^{(m)}(\alpha)/m!\neq 0`. Ef*
-:math:`f`  *hefur skaut af fyrsta stigi, þá er leifin
+Nú skulum við hugsa okkur að :math:`f` hafi skaut af stigi :math:`m` í
+:math:`\alpha` og að :math:`f` sé gefið í grennd um :math:`\alpha` sem
+:math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0` og :math:`h(\alpha)=0`. Þá getum við skrifað
+:math:`h(z)=(z-\alpha)^mh_1(z)` þar sem :math:`h_1(z)` er fágað í grennd
+um :math:`\alpha` og :math:`h_1(\alpha)=h^{(m)}(\alpha)/m!\neq 0`. Ef
+:math:`f` hefur skaut af fyrsta stigi, þá er leifin
 
 .. math::
 
@@ -527,12 +521,13 @@ um* :math:`\alpha`  *og :math:`h_1(\alpha)=h^{(m)}(\alpha)/m!\neq 0`. Ef*
    \dfrac{(z-\alpha)g(z)}{h(z)-h(\alpha)}=\dfrac{g(\alpha)}{h{{^{\prime}}}(\alpha)}.
 
 
-   
+  
 
-Þetta segir okkur, að formúlan sem við leiddum út í setningu 3.3.6, er
+Þetta segir okkur, að formúlan sem við leiddum út í 
+:ref:`setningu 3.3.5.1 <set10.2.6>`, (3.3.6 í RS), er
 ekkert annað en sértilfelli af leifasetningunni, því þar gerðum við ráð
-fyrir að núllstöðvar* :math:`\alpha_1,\dots,\alpha_m`  *margliðunnar*
-:math:`Q`  *væru einfaldar og því gefur leifasetningin
+fyrir að núllstöðvar :math:`\alpha_1,\dots,\alpha_m` margliðunnar
+:math:`Q` væru einfaldar og því gefur leifasetningin
 
 .. math::
 
@@ -541,7 +536,7 @@ fyrir að núllstöðvar* :math:`\alpha_1,\dots,\alpha_m`  *margliðunnar*
    {{\operatorname{Res}}}\bigg(\dfrac{f(\zeta)}{Q(\zeta)}, \alpha_j\bigg) 
    =  2\pi i\sum_{\alpha_j\in \Omega} \dfrac{f(\alpha_j)}{Q{{^{\prime}}}(\alpha_j)}.
 
-Ef* :math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0`  *og* :math:`h`  *hefur núllstöð af stigi* :math:`m>1`  *og við skrifum
+Ef :math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0` og :math:`h` hefur núllstöð af stigi :math:`m>1` og við skrifum
 :math:`h(z)=(z-{\alpha})^mh_1(z)`, þá er
 
 .. math::
@@ -550,13 +545,13 @@ Ef* :math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0`  *og* :math:`h`  *h
    \left.\dfrac {d^{m-1}}{dz^{m-1}}\bigg(\dfrac
    {g(z)}{h_1(z)}\bigg)\right|_{z=\alpha}. 
 
-   
+  
 
 Leifar reiknaðar út frá stuðlum í veldaröðum
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Höldum nú áfram með útreikning okkar á leifum, gerum ráð fyrir að*
-:math:`f=g/h`  *og
+Höldum nú áfram með útreikning okkar á leifum, gerum ráð fyrir að
+:math:`f=g/h` og
 
 .. math::
 
@@ -564,10 +559,10 @@ Höldum nú áfram með útreikning okkar á leifum, gerum ráð fyrir að*
    g(z)=\sum\limits_{n=k}^{\infty}b_n(z-\alpha)^n, \quad
    h(z)=\sum\limits_{n=l}^{\infty}c_n(z-\alpha)^n,
 
-hugsum okkur að stuðlarnir* :math:`b_n`, :math:`c_n`  *séu gefnir,*
-:math:`c_l\neq 0`, :math:`b_k\neq 0`  *og að við viljum reikna út leifina*
-:math:`{{\operatorname{Res}}}(f,\alpha)=a_{-1}`. Taylor–röð :math:`g`  *er
-þá gefin sem margfeldi af Laurent–röð* :math:`f`  *og Taylor–röð :math:`h`,
+hugsum okkur að stuðlarnir :math:`b_n`, :math:`c_n` séu gefnir,
+:math:`c_l\neq 0`, :math:`b_k\neq 0` og að við viljum reikna út leifina
+:math:`{{\operatorname{Res}}}(f,\alpha)=a_{-1}`. Taylor–röð :math:`g` er
+þá gefin sem margfeldi af Laurent–röð :math:`f` og Taylor–röð :math:`h`,
 
 .. math::
 
@@ -575,7 +570,7 @@ hugsum okkur að stuðlarnir* :math:`b_n`, :math:`c_n`  *séu gefnir,*
    \sum\limits_{n=l}^{\infty}c_n(z-\alpha)^n=
    \sum\limits_{n=k}^{\infty}b_n(z-\alpha)^n.
 
-Þetta segir okkur að* :math:`-m+l=k`  *og að við fáum sambandið milli
+Þetta segir okkur að :math:`-m+l=k` og að við fáum sambandið milli
 stuðlanna með því að margfalda saman raðirnar í vinstri hliðinni
 
 .. math::
@@ -588,9 +583,9 @@ stuðlanna með því að margfalda saman raðirnar í vinstri hliðinni
    a_{-2}c_l+a_{-3}c_{l+1}+\cdots+a_{-m}c_{l+m-2}=b_{k+m-2}\\
    a_{-1}c_l+a_{-2}c_{l+1}+\cdots+a_{-m}c_{l+m-1}=b_{k+m-1}.\end{gathered}
 
-Fyrst* :math:`c_l\neq 0`, þá fáum við :math:`m`  *skrefa rakningarformúlu
-fyrir* :math:`a_{-m}, a_{-m+1},\dots, a_{-1}`  *og í síðasta skrefinu er leif* :math:`f`  *í*
-:math:`\alpha`  *fundin,
+Fyrst :math:`c_l\neq 0`, þá fáum við :math:`m` skrefa rakningarformúlu
+fyrir :math:`a_{-m}, a_{-m+1},\dots, a_{-1}` og í síðasta skrefinu er leif :math:`f` í
+:math:`\alpha` fundin,
 
 .. math::
 
@@ -606,7 +601,7 @@ fyrir* :math:`a_{-m}, a_{-m+1},\dots, a_{-1}`  *og í síðasta skrefinu er leif
    {{\operatorname{Res}}}(f,\alpha)=a_{-1}&=c_l^{-1}\big(
    b_{k+m-1}-a_{-2}c_{l+1}-\cdots-a_{-m}c_{l+m-1}\big).
 
-   \end{aligned}
+  \end{aligned}
 
 Ef engin af aðferðunum, sem við höfum verið að fjalla um hér, dugir til
 að finna leifina þá er ekkert annað að gera en að reikna hana út frá
@@ -617,16 +612,17 @@ formúlunni sem við leiddum út í Laurent–setningunni,
   {{\operatorname{Res}}}(f,\alpha) = \dfrac 1{2\pi i}\int_{\partial
    S(\alpha,\varepsilon)} f(\zeta)\, d\zeta,
 
-þar sem við veljum geislann* :math:`\varepsilon`  *í hringnum nógu lítinn.
+þar sem við veljum geislann :math:`\varepsilon` í hringnum nógu lítinn.
 
 Heildi yfir einingarhringinn
 ----------------------------
 
-Við skulum gera ráð fyrir að* :math:`f`  *sé fall af tveimur breytistærðum*
-:math:`(x,y)`  *og að* :math:`f`  *sé skilgreint í grennd um
+Við skulum gera ráð fyrir að :math:`f` sé fall af tveimur breytistærðum
+:math:`(x,y)` og að :math:`f` sé skilgreint í grennd um
 einingarhringinn, :math:`x^ 2+y^ 2=1`. Við fáum nú endurbót á
-aðferðinni, sem við leiddum út eftir setningu 3.3.6. Eins og þar athugum
-við, að ef* :math:`z`  *er á einingarhringnum, :math:`z=e^{i\theta}`, þá
+aðferðinni, sem við leiddum út eftir 
+:ref:`setningu 3.3.5.1 <set10.2.6>`, (3.3.6 í RS). Eins og þar athugum
+við, að ef :math:`z` er á einingarhringnum, :math:`z=e^{i\theta}`, þá
 er
 
 .. math::
@@ -651,9 +647,9 @@ Við getum því reiknað heildið út með leifareikningi
    f\big(\dfrac{z^ 2+1}{2z},\dfrac{z^ 2-1}{2iz}\big)\dfrac 1{iz},\alpha
    \bigg),\end{aligned}
 
-ef til er opin grennd* :math:`X`  *um lokuðu einingarskífuna*
-:math:`\overline S(0,1)`  *og dreift mengi* :math:`A`  *þannig að fallið*
-:math:`z\mapsto f\big({(z^ 2+1)}/{(2z)},{(z^ 2-1)}/{(2iz)}\big)/(iz)`  *sé fágað á
+ef til er opin grennd :math:`X` um lokuðu einingarskífuna
+:math:`\overline S(0,1)` og dreift mengi :math:`A` þannig að fallið
+:math:`z\mapsto f\big({(z^ 2+1)}/{(2z)},{(z^ 2-1)}/{(2iz)}\big)/(iz)` sé fágað á
 :math:`X\setminus A`.
 
 Heildi yfir raunásinn
@@ -665,11 +661,11 @@ Nú ætlum við að snúa okkur að heildum af gerðinni
 
   I=\int_{-\infty}^{+\infty}f(x) \, dx 
 
-   
+  
 
-þar sem fallið* :math:`f`  *er fágað í grennd um :math:`{{\mathbb  R}}`.
-Hugsum okkur fyrst að*
-:math:`f\in {{\cal O}}({{\mathbb  C}}\setminus A)`, þar sem :math:`A`  *er
+þar sem fallið :math:`f` er fágað í grennd um :math:`{{\mathbb  R}}`.
+Hugsum okkur fyrst að
+:math:`f\in {{\cal O}}({{\mathbb  C}}\setminus A)`, þar sem :math:`A` er
 dreift mengi. Aðferðin byggir á því að athuga að
 
 .. math:: I=\lim_{r\to +\infty}\int_{-r}^ r f(x)\, dx,
@@ -688,7 +684,7 @@ og jafnframt
   \int_{-r}^{r}f(x)\, dx +\int_{\beta_r}f(z)\, dz =
    -2\pi i\sum_{\alpha\in A\cap \widetilde\Omega_r}{{\operatorname{Res}}}(f,\alpha),
 
-þar sem* :math:`\Omega_r`  *og* :math:`\widetilde\Omega_r`  *eru
+þar sem :math:`\Omega_r` og :math:`\widetilde\Omega_r` eru
 hálfskífurnar á myndinni.
 
 .. figure:: ./myndir/fig101.svg
@@ -698,7 +694,7 @@ hálfskífurnar á myndinni.
     Mynd: Hálfskífur í efra og neðra hálfplani
 
 Ef unnt er að sýna fram á að önnur hvor summan í hægri hliðunum hafi
-markgildi ef* :math:`r\to +\infty`  *og að tilsvarandi vegheildi
+markgildi ef :math:`r\to +\infty` og að tilsvarandi vegheildi
 
 .. math::
 
@@ -719,27 +715,27 @@ eða
   I=\int_{-\infty}^{+\infty}f(x)\, dx =
    -2\pi i\sum_{\alpha\in A\cap H_-}{{\operatorname{Res}}}\big(f,\alpha)
 
-þar sem*
-:math:`H_+=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z>0\}`  *táknar
-efra hálfplanið og*
-:math:`H_-=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z<0\}`  *táknar
+þar sem
+:math:`H_+=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z>0\}` táknar
+efra hálfplanið og
+:math:`H_-=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z<0\}` táknar
 neðra hálfplanið.
 
-Lítum nú á tilfellið að* :math:`f(x)=P(x)/Q(x)`  *sé rætt fall, að*
-:math:`P`  *og* :math:`Q`  *séu margliður með
+Lítum nú á tilfellið að :math:`f(x)=P(x)/Q(x)` sé rætt fall, að
+:math:`P` og :math:`Q` séu margliður með
 :math:`{{\operatorname{stig}}}\, P\leq {{\operatorname{stig}}}\, Q-2`,
-og að* :math:`Q`  *hafi engar núllstöðvar á :math:`{{\mathbb  R}}`. Auðvelt
-er að sannfæra sig um að til er fasti* :math:`C`  *þannig að
+og að :math:`Q` hafi engar núllstöðvar á :math:`{{\mathbb  R}}`. Auðvelt
+er að sannfæra sig um að til er fasti :math:`C` þannig að
 
 .. math:: |f(z)|\leq \dfrac C{r^ 2},
 
-ef* :math:`|z|=r`  *og* :math:`r`  *er það stórt að allar núllstöðvar*
-:math:`Q`  *liggja í* :math:`S(0,r-1)`. Lengd veganna :math:`\gamma_r`  *og*
-:math:`\beta_r`  *er :math:`\pi r`, svo við fáum
+ef :math:`|z|=r` og :math:`r` er það stórt að allar núllstöðvar
+:math:`Q` liggja í :math:`S(0,r-1)`. Lengd veganna :math:`\gamma_r` og
+:math:`\beta_r` er :math:`\pi r`, svo við fáum
 
 .. math:: |\int_{\gamma_r}f(z)\, dz|\leq \pi C/r\to 0, \qquad r\to +\infty,
 
-og sama mat fæst fyrir heildið af* :math:`f(z)`  *yfir :math:`\beta_r`.
+og sama mat fæst fyrir heildið af :math:`f(z)` yfir :math:`\beta_r`.
 Niðurstaðan verður því að
 
 .. math::
@@ -748,5 +744,4 @@ Niðurstaðan verður því að
    2\pi i\sum_{\alpha\in {\cal N}(Q)\cap H_+}{{\operatorname{Res}}}\big(f,\alpha)
    =-2\pi i\sum_{\alpha\in {\cal N}(Q)\cap H_-}{{\operatorname{Res}}}\big(f,\alpha),
 
-þar sem* :math:`{\cal N}(Q)`  *er núllstöðvamengi :math:`Q`.*
-*
+þar sem :math:`{\cal N}(Q)` er núllstöðvamengi :math:`Q`.

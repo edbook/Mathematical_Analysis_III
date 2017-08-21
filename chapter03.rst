@@ -304,6 +304,12 @@ og að í punktunum :math:`\gamma_j(t)`, þar sem vegirnir eru
 deildanlegir, er :math:`\Omega` á vinstri hönd ef staðið er í
 :math:`\gamma(t)` og horft er í stefnu :math:`\gamma{{^{\prime}}}(t)`.
 
+.. figure:: ./myndir/fig093.svg
+    :align: center
+    :alt: Stikun á jaðri sem myndaður er úr fjórum vegum
+
+    Mynd: Stikun á jaðri sem myndaður er úr fjórum vegum
+
 Við skilgreinum heildið af :math:`f` með tilliti til :math:`x` og
 :math:`g` með tilliti til :math:`y` yfir jaðarinn :math:`\partial\Omega`
 með formúlunni
@@ -470,7 +476,7 @@ okkur að forsendurnar í Cauchy-setningunni séu uppfylltar og að
 :math:`Q(z)` sé margliða af stigi :math:`m` með einfaldar núllstöðvar
 :math:`\alpha_1,\dots,\alpha_m` og að engin þeirra liggi á
 :math:`\partial\Omega`. Við skrifum upp stofnbrotaliðun á
-:math:`1/Q(z)`, sem við fjölluðum um í grein 1.5, og fáum
+:math:`1/Q(z)`, sem við fjölluðum um í :ref:`grein 1.5 <1.5>`, og fáum
 
 .. math::
 
@@ -793,7 +799,8 @@ Skilgreining
 
 Látum :math:`A` vera mengi og :math:`\{f_n\}` vera runu af föllum á
 :math:`A` með gildi í :math:`{{\mathbb  C}}`. Við segjum að
-:math:`\{f_n\}` stefni á fallið :math:`f` *í jöfnum mæli* á :math:`A`,
+:math:`\{f_n\}` stefni á fallið :math:`f` 
+:hover:`í jöfnum mæli,samleitni í jöfnum mæli` á :math:`A`,
 ef fyrir sérhvert :math:`\varepsilon>0` er til :math:`N` þannig að
 
 .. math::
@@ -1114,7 +1121,7 @@ með
 
   a_n=\dfrac {f^{(n)}(\alpha)}{n!}.
 
-Samleitnigeisli raðarinnar er stærri en eða jafn fjarlægðinni frá
+:hover:`Samleitnigeisli,samleitnigeisli` raðarinnar er stærri en eða jafn fjarlægðinni frá
 :math:`\alpha` út á jaðar :math:`X`.
 
 Skilgreining
@@ -1408,8 +1415,16 @@ punkta í fyllimenginu :math:`{{\mathbb  C}}\setminus X`. Þetta þýðir að
 mengið :math:`X` hafi engin göt. Sem dæmi má nefna að allar hringskífur
 eru einfaldlega samanhangandi, en hringkragar eru það ekki.
 
+.. figure:: ./myndir/fig0914.svg
+    :align: center
+    :alt: Einfaldlega  og ekki einfaldlega samanhangandi svæði.
+
+    Mynd: Einfaldlega  og ekki einfaldlega samanhangandi svæði.
+
 Einfaldlega samanhangandi svæði einkennast af fjölbreytilegum
 eiginleikum:
+
+.. _se-einfaldlega-samanahangandi-svæði:
 
 Setning
 ^^^^^^^

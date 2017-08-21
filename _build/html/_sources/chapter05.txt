@@ -10,7 +10,7 @@ Laplace-virki, Laplace-jafna og þýð föll
 Látum nú :math:`X` tákna opið mengi í
 :math:`{{\mathbb  C}}={{\mathbb  R}}^2` og látum
 :math:`\varphi:X\to {{\mathbb  R}}` vera deildanlegt fall á :math:`X`.
-Munum að *stigull* fallsins :math:`\varphi` er vigursviðið
+Munum að :hover:`stigull` fallsins :math:`\varphi` er vigursviðið
 
 .. math::
 
@@ -18,7 +18,7 @@ Munum að *stigull* fallsins :math:`\varphi` er vigursviðið
    \dfrac{\partial \varphi}{\partial y}\big).
 
 Munum einnig að fyrir deildanlegt vigursvið
-:math:`\vec V=(p,q):X\to {{\mathbb  R}}^ 2` er *sundurleitni* þess
+:math:`\vec V=(p,q):X\to {{\mathbb  R}}^ 2` er :hover:`sundurleitni` þess
 skilgreind sem fallið
 
 .. math::
@@ -44,11 +44,11 @@ Látum :math:`\varphi:X\to {{\mathbb  R}}` vera tvisvar deildanlegt fall
   {\Delta}=\nabla^2=\dfrac {\partial^2 }{\partial x^2}+  
    \dfrac {\partial^2 }{\partial y^2}
 
-nefnist *Laplace-virki :hover:`Laplace!virki` *:hover:`virki!Laplace`,
+nefnist *Laplace-virki*,
 óhliðraða hlutafleiðujafnan :math:`{\Delta}\varphi=0` nefnist
-*Laplace-jafna :hover:`Laplace!jafna` *:hover:`jafna!Laplace` og lausn
-:math:`\varphi:X\to {{\mathbb  R}}` á henni er sögð vera *þýtt fall* á
-:math:`X`.
+*Laplace-jafna* og lausn
+:math:`\varphi:X\to {{\mathbb  R}}` á henni er sögð vera 
+:hover:`þýtt fall` á :math:`X`.
 
 Wirtinger-afleiðuvirkjarnir
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -106,7 +106,7 @@ Af þessu leiðir að
 
 sem segir okkur að stiglar :math:`u` og :math:`v` eru hornréttir.
 
-Munum að raungilt á fall á svæði :math:`X` er fastafall þá og því aðeins
+Munum að raungilt fall á svæði :math:`X` er fastafall þá og því aðeins
 að stigull þess sé núll í sérhverjum punkti. Cauchy-Riemann jöfnurnar
 segja okkur að :math:`u` sé fastafall þá og því aðeins að :math:`v` sé
 fastafall.
@@ -165,7 +165,8 @@ við :math:`\partial^2u/\partial\bar z \partial z=0`.
 
 Nú sjáum við að sérhvert þýtt fall á :math:`X` er raunhluti af fáguðu
 falli þá og því aðeins að sérhvert fágað fall á :math:`X` hafi
-stofnfall. Í 3. kafla sáum við að þetta einkennir einfaldlega
+stofnfall. Í :ref:`3. kafla <se-einfaldlega-samanahangandi-svæði>` 
+sáum við að þetta einkennir einfaldlega
 samanhangandi svæði:
 
 Setning
@@ -200,16 +201,18 @@ okkur að samskeyting af þýðu falli við fágað fall er þýtt fall.
 Hagnýtingar í straumfræði
 -------------------------
 
+Hagnýtingar í straumfræði
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Látum nú :math:`\vec V` vera vigursvið á opnu mengi :math:`X` í
 :math:`{{\mathbb  R}}^2`. Við ætlum að líta á :math:`\vec V` sem
-hraðasvið :hover:`hraðasvið`, sem er háð tveimur breytistærðum
+hraðasvið, sem er háð tveimur breytistærðum
 
 .. math:: \vec V(x,y)= (p(x,y), q(x,y)), \qquad (x,y)\in X.
 
-*Straumlína *:hover:`straumlína` vigursviðsins :math:`\vec V` er ferill
-:hover:`ferill` :hover:`ferill!einfaldur` :hover:`ferill!lokaður` í
-:math:`X` sem stikaður er með lausn :math:`\vec z:I\to {{\mathbb  R}}^2`
-á
+:hover:`Straumlína,straumlína` vigursviðsins :math:`\vec V` er 
+:hover:`ferill` í :math:`X` sem stikaður er með lausn 
+:math:`\vec z:I\to {{\mathbb  R}}^2` á
 
 .. math::
 
@@ -246,15 +249,15 @@ stika :math:`{\partial}{\Omega}` með einföldum lokuðum ferli
 :math:`{\gamma}{{^{\prime}}}(t)`. Ef
 :math:`(x,y)={\gamma}(t)\in {\partial}{\Omega}` er punktur, þar sem
 :math:`{\gamma}` er deildanlegt fall, þá skilgreinum við
-*einingarsnertil *:hover:`einingarsnertill` :math:`\vec T(x,y)` í
+*einingarsnertil* :math:`\vec T(x,y)` í
 :math:`(x,y)`, sem einingarvigurinn í stefnu
 :math:`{\gamma}{{^{\prime}}}(t)`,
-:math:`\vec T(x,y)={\gamma}{{^{\prime}}}(t)/|{\gamma}'(t)|`, og *ytri
-einingarþvervigur :hover:`einingarþverhringur` á*
+:math:`\vec T(x,y)={\gamma}{{^{\prime}}}(t)/|{\gamma}'(t)|`, og 
+*ytri einingarþvervigur á*
 :math:`{\partial}{\Omega}` sem einingarvigurinn :math:`\vec n(x,y)` sem
 er hornréttur á :math:`{\gamma}{{^{\prime}}}(t)` og vísar út úr
-:math:`{\Omega}`. Við látum :math:`ds` tákna *bogalengdarfrymið
-*:hover:`bogalengdarfrymi`. Með :math:`{\gamma}` sem stikun á
+:math:`{\Omega}`. Við látum :math:`ds` tákna 
+:hover:`bogalengdarfrymið,bogalengdarfrymi`. Með :math:`{\gamma}` sem stikun á
 :math:`{\partial}{\Omega}` er það gefið sem
 :math:`ds=|{\gamma}{{^{\prime}}}(t)|\, dt`.
 
@@ -264,7 +267,7 @@ er hornréttur á :math:`{\gamma}{{^{\prime}}}(t)` og vísar út úr
 
     Mynd: Jaðar á svæði, snertill og þvervigur
 
-Gauss-setningin :hover:`Gauss-setningin` :hover:`setning!Gauss` gefur nú
+Gauss-setningin gefur nú
 
 .. math::
 
@@ -275,9 +278,9 @@ Gauss-setningin :hover:`Gauss-setningin` :hover:`setning!Gauss` gefur nú
    &=\iint\limits_{{\Omega}}
    \big({\partial}_xp(x,y)+{\partial}_yq(x,y)\big)\, dxdy.\nonumber\end{aligned}
 
-Heildið í vinstri hliðinne nefnist *flæði :hover:`flæði` vigursviðsins*
+Heildið í vinstri hliðinne nefnist :hover:`flæði vigursviðsins,flæði` 
 :math:`\vec V` yfir jaðarinn :math:`{\partial}{\Omega}`. Green-setningin
-:hover:`Green-setningin` :hover:`setning!Green` gefur
+gefur
 
 .. math::
 
@@ -288,7 +291,7 @@ Heildið í vinstri hliðinne nefnist *flæði :hover:`flæði` vigursviðsins*
    &=\iint\limits_{{\Omega}}
    \big({\partial}_xq(x,y)-{\partial}_yp(x,y)\big)\, dxdy.\nonumber\end{aligned}
 
-Heildið í vinstri hliðinni nefnist *hringstreymi *:hover:`hringstreymi`
+Heildið í vinstri hliðinni nefnist *hringstreymi* 
 vigursviðsins :math:`\vec V` eftir jaðrinum :math:`{\partial}{\Omega}`.
 Við gefum okkur nú tvær forsendur um hraðasviðið :math:`\vec V`:
 
@@ -304,7 +307,7 @@ för með sér að
 
   
 
-Þessi jafna er oft nefnd *samfelldnijafna *:hover:`samfelldnijafna`.
+Þessi jafna er oft nefnd *samfelldnijafna*.
 Þetta er lögmálið um varðveislu massans, ef :math:`\vec V` er hraðasvið
 fyrir vökvastreymi, en lögmálið um varðveislu hleðslunnar, ef
 :math:`\vec V` er hraðasvið rafstraums.
@@ -322,7 +325,7 @@ jafnt :math:`0`. Þetta hefur í för með sér að
   
 
 Ein mikilvæg afleiðing þessa skilyrðis er að í streyminu geta ekki
-verið *hvirflar *:hover:`hvirfill`, en það eru lokaðar straumlínur, sem
+verið *hvirflar*, en það eru lokaðar straumlínur, sem
 mynda jaðar á svæði :math:`{\Omega}\subset X`. Hugsum okkur að
 :math:`\vec z:[a,b]\to {{\mathbb  R}}^2` væri slík straumlína. Þá er
 :math:`\vec T(\vec z(t))=\pm z{{^{\prime}}}(t)/|z{{^{\prime}}}(t)|`,
@@ -338,7 +341,7 @@ Nú skulum við skrifa :math:`\vec V` sem tvinnfall,
 :math:`V(z)=p(z)+iq(z)`. Hlutafleiðujöfnurnar hér að framan segja að
 :math:`\overline  V=p-iq` uppfylli Cauchy-Riemann-jöfnurnar og þar með
 er fallið :math:`\overline V` fágað. Hugsum okkur að :math:`\overline V`
-hafi stofnfall :hover:`stofnfall`, sem við táknum með :math:`f`. Ef
+hafi stofnfall, sem við táknum með :math:`f`. Ef
 :math:`{\varphi}={{\operatorname{Re\, }}}f` og
 :math:`{\psi}={{\operatorname{Im\, }}}f`, þá leiðir af
 Cauchy-Riemann-jöfnunum að
@@ -350,7 +353,8 @@ Cauchy-Riemann-jöfnunum að
    =p(z)-iq(z).
 
 Við höfum því :math:`{{\operatorname{grad}}}\varphi=\vec V=(p,q)`, svo
-straumlínurnar eru hornréttar á jafnhæðarlínurnar :hover:`jafnhæðarlína`
+straumlínurnar eru hornréttar á 
+:hover:`jafnhæðarlínurnar,hæðarlínur`
 :math:`\{z; \varphi(z)=c\}`, þar sem :math:`c` er fasti. Nú gefa
 Cauchy-Riemann-jöfnurnar hins vegar að
 :math:`{{\operatorname{grad}}}\psi=(\partial_x\psi, \partial_y\psi)` er hornréttur á
@@ -358,10 +362,10 @@ Cauchy-Riemann-jöfnurnar hins vegar að
 :math:`\vec V` gefnar sem jafnhæðarlínurnar :math:`\{z; \psi(z)=c\}`,
 þar sem :math:`c` fasti.
 
-Fallið :math:`f` kallast *tvinnmætti *:hover:`tvinnmætti` fyrir
-straumfallið :math:`V`, fallið :math:`\varphi` kallast *raunmætti
-*:hover:`raunmætti` fyrir :math:`V` og fallið :math:`\psi` kallast
-*streymisfall *:hover:`streymisfall`. Niðurstaða athugana okkar er því
+Fallið :math:`f` kallast *tvinnmætti* fyrir
+straumfallið :math:`V`, fallið :math:`\varphi` kallast *raunmætti* 
+fyrir :math:`V` og fallið :math:`\psi` kallast
+*streymisfall*. Niðurstaða athugana okkar er því
 að straumlínur vigursviðsins :math:`\vec V` eru jafnhæðarlínur
 streymisfallsins :math:`\psi`, þar sem
 :math:`\psi= {{\operatorname{Im\, }}}f` og
@@ -387,7 +391,7 @@ Lítum fyrst á hraðasviðið :math:`V` sem gefið er með
   
 
 þar sem :math:`a\in {{\mathbb  R}}`. Fallið :math:`\overline V` hefur
-ekkert stofnfall á öllu :math:`{{\mathbb  C}}\setminus \set 0`, en á menginu :math:`X={{\mathbb  C}}\setminus {{\mathbb  R}}_-`
+ekkert stofnfall á öllu :math:`{{\mathbb  C}}\setminus \{0\}`, en á menginu :math:`X={{\mathbb  C}}\setminus {{\mathbb  R}}_-`
 getum við tekið
 
 .. math:: f(z)=a{{\operatorname{Log}}}z=a(\ln |z|+i\theta(z)),  \qquad -\pi<\theta(z)<\pi,
@@ -403,9 +407,9 @@ straumfallsins gegnum hring með geislann :math:`r` er
    \int_0^{2\pi}\dfrac ar \, rd\theta=2\pi a.
 
 Ef :math:`a>0` þá stefna straumlínurnar út frá :math:`0` og þetta
-straumfall er til komið af *uppsprettu *:hover:`uppspretta` í punktinum
+straumfall er til komið af :hover:`uppsprettu,uppspretta` í punktinum
 :math:`0` með styrkinn :math:`2\pi a`. Ef :math:`a<0` þá er straumfallið
-til komið af *svelg *:hover:`svelgur` í punktinum :math:`0` með styrkinn
+til komið af :hover:`svelg,svelgur` í punktinum :math:`0` með styrkinn
 :math:`2\pi a`.
 
 .. figure:: ./myndir/fig0319.svg
@@ -442,7 +446,7 @@ geisla :math:`r` er
   \int_{|z|=r}{{\langle\vec V,\vec T\rangle}} \, ds=
    \int_0^{2\pi}\dfrac br \, rd\theta=2\pi b.
 
-Þetta mætti er sagt lýsa *hringstreymi *:hover:`hringstreymi` umhverfis
+Þetta mætti er sagt lýsa *hringstreymi* umhverfis
 *hvirfilpunkt* með styrk :math:`2\pi b` í :math:`0`.
 
 .. figure:: ./myndir/fig0320.svg
@@ -471,7 +475,7 @@ Lítum á enn eitt afbrigðið,
 
 Straumlínurnar eru :math:`\{z;a\theta(z)-b\ln |z|=c\}`. Í pólhnitum eru
 þær gefnar með jöfnunni :math:`r=e^{(a\theta-c)/b}`, en þetta eru
-*skrúflínur *:hover:`skrúflína` eða *iðustreymi *:hover:`iðustrymi` út
+*skrúflínur* eða *iðustreymi* út 
 frá :math:`0`. Þetta mætti er myndað af straumuppsprettu með styrkinn
 :math:`2\pi a` og hvirfilpunkti með styrkinn :math:`2\pi b` í :math:`0`.
 
@@ -566,6 +570,12 @@ eru síðan gefnar með jöfnum af gerðinni
 þar sem :math:`c>0`. Ef :math:`c=1`, þá er þetta þverásinn, en fyrir
 :math:`c\neq 1` er þetta hringur.
 
+.. figure:: ./myndir/fig0323.svg
+    :align: center
+    :alt: Straumuppspretta í :math:`-\alpha` og svelgur í :math:`+\alpha`
+
+    Mynd: Straumuppspretta í :math:`-\alpha` og svelgur í :math:`+\alpha`
+
 Sýnidæmi
 ^^^^^^^^
 
@@ -616,7 +626,7 @@ jöfnur þeirra í :math:`z`-planinu eru
 Ef við lítum á fallið :math:`g(z)=-i\arcsin z`, þá skipta straumlínur og
 jafnmættislínur um hlutverk og breiðbogarnir verða straumlínur. Við
 tökum eftir því að þverásinn er straumlína. Við getum því túlkað þetta
-sem mætti fyrir streymi gegnum hlið :hover:`streymi!gegnum hlið`.
+sem mætti fyrir streymi gegnum hlið.
 
 .. figure:: ./myndir/fig0327.svg
     :align: center
