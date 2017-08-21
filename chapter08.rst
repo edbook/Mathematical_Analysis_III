@@ -24,6 +24,8 @@ samleitin veldaröð :math:`\sum_{n=0}^\infty c_nx^n` þannig að
 
   
 
+--------------
+
 Ef :math:`f` er fall sem sett fram með veldaröð á bilinu
 :math:`]a-\varrho,a+\varrho[`, þá framlengist :math:`f` sjálfkrafa í
 fágað fall á skífunni opnu :math:`S(a,\varrho)` og gildi þess eru gefin
@@ -212,6 +214,8 @@ Látum :math:`f` vera raunfágað fall á opnu mengi :math:`X` í
 Þá kallast minnsta gildið á :math:`n` þannig að :math:`c_n\neq 0`
 :hover:`margfeldni` eða :hover:`stig` :math:`a`.
 
+--------------
+
 Ef :math:`a` er núllstöð fallsins :math:`f` af stigi :math:`N` og við
 setjum :math:`b_n=c_{N+n}`, þá er :math:`b_0\neq 0` og
 
@@ -241,6 +245,8 @@ segjum að einangraður sérstöðupunktur sé
 :hover:`afmáanlegur sérstöðupunktur` ef til er :math:`\varrho>0`, þannig að :math:`\{x; 0<|x-a|<{\varrho}\}\subset X` og raunfágað 
 fall :math:`g` á :math:`\{x; |x-a|<{\varrho}\}` þannig að 
 :math:`f(x)=g(x)` ef :math:`0<|x-a|<{\varrho}`.
+
+--------------
 
 Skilgreiningin segir að :math:`a` sé afmáanlegur sérstöðupunktur
 raunfágaða fallsins :math:`f` þá og því aðeins að hægt sé að bæta
@@ -294,6 +300,8 @@ annars stigs afleiðujöfnu, ef :math:`a_2(a)\neq 0` eða :math:`a_2(a)=0`
 og :math:`a` er afmáanlegur sérstöðupunktur fallanna :math:`P` og
 :math:`Q`. Ef :math:`a` er ekki venjulegur punktur, þá kallast :math:`a`
 *sérstöðupunktur* jöfnunnar.
+
+--------------
 
 Lítum nú á afleiðujöfnuna, umritum hana eins og hér að framan og gerum
 ráð fyrir að stuðlarnir :math:`P(x)` og :math:`Q(x)` hafi
@@ -383,6 +391,8 @@ og látum föllin :math:`P(x)=a_1(x)/a_2(x)` og
 þar sem stuðlarnir :math:`c_n` uppfylla rakningarformúluna.
 Samleitnigeislinn er að minnsta kosti jafn stór og minni samleitnigeisli
 raðanna tveggja.
+
+--------------
 
 Útreikningar okkar hér að framan byggðu á þeirri lausnartilgátu að
 :math:`u` væri raunfágað.
@@ -713,6 +723,8 @@ af stigi* :math:`m>0`, ef til er
 
 .. math:: f(x)=\dfrac {g(x)}{(x-a)^m}\qquad 0<|x-a|<\varrho.
 
+--------------
+
 Látum :math:`a` vera sérstöðupunkt fyrir jöfnuna (:ref:`Link title <3.4.1>`) og
 skrifum
 
@@ -733,6 +745,8 @@ jöfnunnar, fallið :math:`P` hefur annað hvort afmáanlegan sérstöðupunkt
 í :math:`a` eða skaut af stigi :math:`\leq 1` og :math:`Q` hefur annað
 hvort afmáanlegan sérstöðupunkt í :math:`a` eða skaut af stigi
 :math:`\leq 2`.
+
+--------------
 
 Punkturinn :math:`a` er reglulegur sérstöðupunktur afleiðujöfnunnar þá
 og því aðeins að föllin :math:`p` og :math:`q`, sem skilgreind eru hér
@@ -827,6 +841,8 @@ afleiðujöfnunnar
 :math:`\varphi(\lambda)=0` kallast *vísajafna afleiðujöfnunnar í
 punktinum* :math:`a`. Núllstöðvar hennar kallast
 *vísar jöfnunnar í punktinum* :math:`a`.
+
+--------------
 
 Við höfum sem sagt komist að því í útreikningum okkar, að til þess að
 fallið :math:`u(x)` sem gefið er með formúlunni, geti verið lausn á
@@ -934,6 +950,8 @@ Röðin er samleitin fyrir öll :math:`x` sem uppfylla
 :math:`0<|x-a|<\varrho`. Stuðlar raðarinnar og :math:`\gamma` fást með
 innsetningu í jöfnuna.
 
+--------------
+
 Við höfum aðeins sannað lítið brot af setningunni, en látum það duga.
 
 Bessel–jafnan
@@ -1016,6 +1034,8 @@ sem gefin er með formúlunni
   
 
 er kölluð *fall Bessels af fyrstu gerð með vísi* :math:`\alpha`.
+
+--------------
 
 Nú þurfum við að finna línulega óháða lausn og skiptum í tilfelli:
 
@@ -1154,6 +1174,8 @@ fasta Eulers
 
 nefnist *fall Bessels af annarri gerð með vísi* :math:`0`.
 
+--------------
+
 Það er ljóst að föllin :math:`J_0` og :math:`Y_0` eru línulega óháð, svo
 sérhverja lausn á Bessel-jöfnunni með vísi :math:`{\alpha}=0` er unnt að
 skrifa sem línulega samantekt af þeim.
@@ -1187,6 +1209,8 @@ er með
 þar sem :math:`h_k=1+1/2+1/3+\cdots+1/k` og :math:`{\gamma}` táknar
 fasta Eulers, nefnist *fall Bessels af annarri gerð með vísi*
 :math:`{\alpha}`.
+
+--------------
 
 Almenn lausn á Bessel-jöfnunni með vísi :math:`{\alpha}` er línuleg
 samantekt af :math:`J_{\alpha}` og :math:`Y_{\alpha}`,

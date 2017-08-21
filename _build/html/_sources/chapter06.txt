@@ -70,8 +70,8 @@ Afleiðujafna af gerðinni
   
 
 þar sem föllin :math:`a_0,\dots,a_m,f` eru skilgreind á bili
-:math:`I\subset {{\mathbb  R}}`, er sögð vera *línuleg
-:hover:`afleiðujafna!línuleg`* :hover:`línuleg afleiðujafna`. Ástæðan
+:math:`I\subset {{\mathbb  R}}`, er sögð vera 
+:hover:`línuleg,línuleg deildajafna`. Ástæðan
 fyrir nafngiftinni er, að vinstri hliðin skilgreinir línulega vörpun
 
 .. math::
@@ -85,9 +85,9 @@ fyrir nafngiftinni er, að vinstri hliðin skilgreinir línulega vörpun
 ef :math:`a_0,\dots,a_m\in C(I)`. Hér táknar :math:`C^m(I)` línulegt
 rúm allra :math:`m` sinnum samfellt deildanlegra falla á :math:`I` og
 :math:`C(I)` táknar rúm allra samfelldra falla á :math:`I`. Við segjum
-að línulega jafna sé *óhliðruð :hover:`afleiðujafna!óhliðruð`*
-:hover:`óhliðraður` ef :math:`f` er núllfallið. Annars segjum við að
-hún sé *hliðruð :hover:`afleiðujafna!hliðruð`* :hover:`hliðraður`.
+að línulega jafna sé :hover:`óhliðruð,óhliðruð línuleg deildajafna` 
+ef :math:`f` er núllfallið. Annars segjum við að
+hún sé :hover:`hliðruð,hliðruð línuleg deildajafna`.
 
 Hlutafleiðujöfnur
 ~~~~~~~~~~~~~~~~~
@@ -95,22 +95,15 @@ Hlutafleiðujöfnur
 Erfitt er að lýsa hlutafleiðujöfnum með almennum hætti eins, en sem dæmi
 um hlutafleiðujöfnur getum við tekið
 
-.. math::
-
-  \begin{aligned}
-   {2}
-   &\partial_xu+i\partial_yu=0,& \qquad
-   &\text{({\it
-   Cauchy--Riemann--jafna :hover:`Cauchy--Riemann!jafna`
-    :hover:`jafna!Cauchy--Riemann`})},\\
-   &\partial_x^ 2u+\partial_y^ 2u=0,&\qquad
-   &\text{({\it Laplace--jafna :hover:`Laplace!jafna` :hover:`jafna!Laplace`})},\\
-   &\partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^
-   2u)=f(x,y,z,t),& \qquad
-   &\text{({\it varmaleiðnijafna :hover:`varmaleiðnijafna`})},\\
-   &\partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^
-   2u)=f(x,y,z,t),& \qquad
-   &\text{({\it bylgjujafna :hover:`bylgjujafna`})}.\end{aligned}
++------------------------------------------------------------------------------------+--------------------------+
+| 2\partial_xu+i\partial_yu=0                                                        | (*Cauchy-Riemann-jafna*) |
++------------------------------------------------------------------------------------+--------------------------+
+| \partial_x^2u+\partial_y^2u=0                                                      | (*Laplace-jafna*)        |
++------------------------------------------------------------------------------------+--------------------------+
+| \partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)         | (*varmaleiðnijafna*)     |
++------------------------------------------------------------------------------------+--------------------------+
+| \partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)          | (*bylgjujafna*)          |
++------------------------------------------------------------------------------------+--------------------------+
 
 Tilvist og ótvíræðni lausna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -172,8 +165,7 @@ Fyrsta stigs línuleg afleiðujafna er af gerðinni
 
   
 
-:hover:`afleiðujafna!línuleg fyrsta stigs` :hover:‘línuleg fyrsta stigs
-afleiðujafna‘ Við skulum rifja upp aðferðina til að leysa þessa jöfnu í
+Við skulum rifja upp aðferðina til að leysa þessa jöfnu í
 því tilfelli að stuðlarnir eru samfelld föll á einhverju bili :math:`I`
 og að :math:`a_1(t)\neq 0` fyrir öll :math:`t\in I`. Með því að deila í gegnum jöfnuna með
 :math:`a_1(t)`, þá getum við gert ráð fyrir því að :math:`a_1` sé
@@ -220,8 +212,7 @@ Aðskiljanlegar jöfnur
 ~~~~~~~~~~~~~~~~~~~~~
 
 Við segjum að fyrsta stigs afleiðujafna :math:`u'=f(t,u)` sé
-*aðskiljanleg :hover:`afleiðujafna!aðskiljanleg` :hover:‘aðskiljanleg
-afleiðujafna‘* ef hægt er að rita fallið :math:`f` sem kvóta af gerðinni
+*aðskiljanleg* ef hægt er að rita fallið :math:`f` sem kvóta af gerðinni
 :math:`f(t,x)=g(t)/h(x)`. Til þess að leysa jöfnuna, þá skrifum við hana
 sem :math:`h(u)u'=g(t)` og heildum síðan
 
@@ -263,11 +254,10 @@ betra að leysa :math:`u(t)` úr jöfnunni :math:`H(u(t))-H(b)=G(t)`.
 Afleiðujöfnuhneppi
 ------------------
 
-*Afleiðujöfnuhneppi* :hover:`afleiðujöfnuhneppi` er safn af jöfnum sem
+*Afleiðujöfnuhneppi* er safn af jöfnum sem
 lýsa sambandi milli gilda óþekktra falla og gilda á einstökum afleiðum
 þeirra. Ef óþekktu föllin eru háð einni breytistærð, þá kallast það
-*venjulegt :hover:`afleiðujöfnuhneppi!venjulegt` afleiðujöfnuhneppi*, en
-það kallast *hlutafleiðujöfnuhneppi* :hover:`hlutafleiðujöfnuhneppi` ef
+*venjulegt*, en það kallast *hlutafleiðujöfnuhneppi* ef
 þau eru háð fleiri en einni breytistærð. Venjulegt afleiðujöfnuhneppi er
 alltaf hægt að umrita yfir í jöfnur af gerðinni
 
@@ -290,8 +280,7 @@ sem hefur sama útlit.
 Staðalform hneppa
 ~~~~~~~~~~~~~~~~~
 
-Við segjum að hneppið sé á *staðalformi* :hover:`staðalform`
-:hover:`afleiðujöfnuhneppi!staðalform` , ef fjöldi jafna og fjöldi
+Við segjum að hneppið sé á *staðalformi*, ef fjöldi jafna og fjöldi
 óþekktra falla er sá sami og það er af gerðinni
 
 .. math:: u^{(m)}=G(t,u,u{{^{\prime}}},\dots,u^{(m-1)}).
@@ -325,9 +314,8 @@ lausnirnar eigi að taka rauntölugildi eða tvinntölugildi.
 Línuleg afleiðujöfnuhneppi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Við segjum að fyrsta stigs jöfnuhneppi sé *línulegt
-:hover:`afleiðujöfnuhneppi!línulegt` :hover:‘línulegt
-afleiðujöfnuhneppi‘* ef fallið :math:`G` er af gerðinni
+Við segjum að fyrsta stigs jöfnuhneppi sé *línulegt* 
+ef fallið :math:`G` er af gerðinni
 
 .. math:: G(t,x)=A(t)x+f(t),
 
@@ -343,11 +331,8 @@ afleiðujöfnuhneppi‘* ef fallið :math:`G` er af gerðinni
    u_m{{^{\prime}}}&=a_{m1}(t)u_1+\cdots+a_{mm}(t)u_m+f_m(t).\end{aligned}
 
 Hér eru föllin :math:`a_{jk}(t)` stökin í fylkinu :math:`A(t)`. Við
-segjum að hneppið sé *óhliðrað :hover:`afleiðujöfnuhneppi!óhliðrað`*
-:hover:`línulegt afleiðujöfnuhneppi!óhliðrað` ef :math:`f` er
-núllfallið og við segjum að það sé *hliðrað
-:hover:`afleiðujöfnuhneppi!hliðrað` :hover:‘línulegt
-afleiðujöfnuhneppi!hliðrað‘* annars.
+segjum að hneppið sé *óhliðrað* ef :math:`f` er
+núllfallið og við segjum að það sé *hliðrað* annars.
 
 Jöfnur af hærri stigum og jafngild hneppi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -421,12 +406,13 @@ vigurinn :math:`f` verða þá
 
   \end{matrix}\right].
 
-Upphafsgildisverkefni :hover:`upphafsgildisverkefni`
-----------------------------------------------------
+Upphafsgildisverkefni
+---------------------
 
 Oft hafa menn áhuga á að finna lausnir á afleiðujöfnum og
 afleiðujöfnuhneppum sem uppfylla einhverja ákveðna eiginleika.
-*Upphafsgildisverkefni* snúast um að leysa afleiðujöfnuhneppi með því
+:hover:`Upphafsgildisverkefni,upphafsgildisverkefni` 
+snúast um að leysa afleiðujöfnuhneppi með því
 hliðarskilyrði að lausnin og einhverjar afleiður hennar taki fyrirfram
 gefin gildi í ákveðnum punkti. Upphafsgildisverkefni fyrir fyrsta stigs
 hneppi af staðalformi er til dæmis verkefnið
@@ -460,7 +446,7 @@ jafngilt :math:`m\times m` línulegt jöfnuhneppi með óþekkta vigurfallið
 Jaðargildisverkefni
 -------------------
 
-*Jaðargildisverkefni* :hover:`jaðargildisverkefni` snúast um að leysa
+:hover:`Jaðargildisverkefni,jaðargildisverkefni` snúast um að leysa
 jöfnu
 
 .. math:: u^{(m)}=f(t,u,u{{^{\prime}}},\dots,u^{(m-1)})
@@ -474,13 +460,12 @@ af stigi :math:`m` á takmörkuðu bili :math:`I=[a,b]` með skilyrðum á
 
 Þessi skilyrði eru venjulega sett fram þannig að ákveðnar línulegar
 samantektir af þessum fallgildum eigi að taka fyrirfram gefin gildi.
-Fyrir annars stigs jöfnu geta *jaðarskilyrðin*
-:hover:`jaðargildisskilyrði` til dæmis verið
+Fyrir annars stigs jöfnu geta 
+:hover:`jaðarskilyrðin,jaðarskilyrði` til dæmis verið
 
 .. math:: u(a)=0, \qquad u{{^{\prime}}}(b)=0.
 
-*Lotubundin :hover:`jaðargildisskilyrði!lotubundin` :hover:‘lotubundin
-jaðarskilyrði‘* jaðarskilyrði eru af gerðinni
+*Lotubundin* jaðarskilyrði eru af gerðinni
 
 .. math:: u(a)=u(b), \qquad u{{^{\prime}}}(a)=u{{^{\prime}}}(b).
 
@@ -504,8 +489,7 @@ jaðarskilyrði fyrir :math:`m`-ta stigs jöfnu eru af gerðinni
    +{\beta}_{jl}u^{(l-1)}(b)\big)=c_j, \qquad j=1,2,\dots,m.
 
 Við lítum á :math:`B_j` sem línulega vörpun
-:math:`C^{m-1}[a,b]\to {{\mathbb  C}}` og skilgreinum *jaðargildisvirkja
-:hover:`jaðargildisvirki` :hover:`virki`* :hover:`virki!jaðargildis`
+:math:`C^{m-1}[a,b]\to {{\mathbb  C}}` og skilgreinum *jaðargildisvirkja* 
 :math:`B:C^{m-1}[a,b]\to {{\mathbb  C}}^m` með formúlunni
 :math:`Bu=(B_1u,\dots,B_mu)`. Almennt jaðargildisverkefni fyrir
 :math:`m`-ta stigs línulega jöfnu er að leysa
@@ -567,13 +551,15 @@ samfellt.
 Setning
 ^^^^^^^
 
-(*Peano :hover:`Peano`* :hover:`setning!Peano`).   Gerum ráð fyrir að
+(*Peano*).   Gerum ráð fyrir að
 :math:`\Omega` sé grennd um punktinn :math:`(a,b)\in {{\mathbb  R}}\times{{\mathbb  R}}^m` og að
 :math:`f\in C(\Omega,{{\mathbb  R}}^m)`. Þá er til opið bil :math:`I`
 sem inniheldur punktinn :math:`a` og fall
 :math:`u:I\to {{\mathbb  R}}^m`, þannig að :math:`(t,u(t))\in \Omega`,
 :math:`u{{^{\prime}}}(t)=f(t,u(t))` fyrir öll :math:`t\in I` og
 :math:`u(a)=b`.
+
+--------------
 
 Setning Peano er of erfið til þess að við getum átt við að sanna hana
 hér, en fróðlegt er að vita hvað hún segir. Við munum hins vegar sanna
@@ -620,8 +606,8 @@ fall, þar sem :math:`\Omega\subset {{\mathbb  R}}\times {{\mathbb  R}}^m` og :m
 
   
 
-þá segjum við að :math:`f` uppfylli *Lipschitz–skilyrði*
-:hover:`Lipschitz–skilyrði` í menginu :math:`A`.
+þá segjum við að :math:`f` uppfylli *Lipschitz–skilyrði* 
+í menginu :math:`A`.
 
   
 
@@ -681,6 +667,8 @@ samfellt, en uppfyllir ekki Lipschitz–skilyrði í neinni grennd um
 :math:`0`, því :math:`|f(t,x)-f(t,0)|=x^{2/3}=x^{-1/3}|x-0|` og
 :math:`x^{-1/3}\to \infty` ef :math:`x\to 0`.
 
+--------------
+
 Nú kemur í ljós að Lipschitz–skilyrði tryggir að lausnin verður ótvírætt
 ákvörðuð:
 
@@ -689,8 +677,7 @@ Nú kemur í ljós að Lipschitz–skilyrði tryggir að lausnin verður ótvír
 Setning
 ^^^^^^^
 
-(*Picard; víðfeðm útgáfa*).   :hover:`Picard–setningin`
-:hover:`Picard–setningin!víðfeðm útgáfa` :hover:`setning!Picard` Látum
+(*Picard; víðfeðm útgáfa*).   Látum
 :math:`I\subset {{\mathbb  R}}` vera opið bil, :math:`a\in I`,
 :math:`b\in {{\mathbb  R}}^ m`,
 :math:`f\in C(I\times {{\mathbb  R}}^ m,{{\mathbb  R}}^ m)` og gerum
@@ -700,6 +687,8 @@ hlutbil :math:`J` í :math:`I`. Þá er til ótvírætt ákvörðuð lausn
 :math:`u\in C^ 1(I,{{\mathbb  R}}^ m)` á upphafsgildisverkefninu
 
 .. math:: u{{^{\prime}}}=f(t,u), \qquad u(a)=b.
+
+--------------
 
 Þessi setning er önnur tveggja tilvistarsetninga sem við sönnum í næstu
 grein. Eins og fram hefur komið kallast hún venjulega *víðfeðm* útgáfa
@@ -727,6 +716,8 @@ Látum :math:`I\subset {{\mathbb  R}}` vera opið bil, :math:`a\in I`,
 
   
 
+--------------
+
 Með umskrift á upphafsgildisverkefni fyrir :math:`m`-ta stigs
 afleiðujöfnu yfir í jafngilt hneppi fáum við:
 
@@ -745,6 +736,8 @@ Látum :math:`I\subset {{\mathbb  R}}` vera opið bil, :math:`a\in I`,
    a_m(t)u^ {(m)}+\cdots+a_1(t)u{{^{\prime}}}+a_0(t)u=g(t),\\
    u(a)=b_0, u{{^{\prime}}}(a)=b_1,\dots, u^{(m-1)}(a)=b_{m-1}.\end{gathered}
 
+--------------
+
 Nú setjum við fram aðra útgáfu sem venjulega kallast *staðbundin* útgáfa
 af tilvistarsetningu fyrir fyrsta stigs hneppi:
 
@@ -753,9 +746,7 @@ af tilvistarsetningu fyrir fyrsta stigs hneppi:
 Setning
 ^^^^^^^
 
-(*Picard; staðbundin útgáfa :hover:`Picard–setningin`*
-:hover:`Picard–setningin!staðbundin útgáfa`).   :hover:`setning!Picard`
-Látum :math:`\Omega` vera opið hlutmengi í
+(*Picard; staðbundin útgáfa*).   Látum :math:`\Omega` vera opið hlutmengi í 
 :math:`{{\mathbb  R}}\times {{\mathbb  R}}^{m}`,
 :math:`a\in {{\mathbb  R}}`, :math:`b\in {{\mathbb  R}}^ m`,
 :math:`(a,b)\in \Omega` og :math:`f\in C(\Omega,{{\mathbb  R}}^ m)`.
@@ -766,6 +757,8 @@ Lipschitz–skilyrði í :math:`U`. Þá er til opið bil :math:`I` á
 lausn :math:`u\in C^ 1(I, {{\mathbb  R}}^m)` á upphafsgildisverkefninu
 
 .. math:: u{{^{\prime}}}=f(t,u), \qquad u(a)=b.
+
+--------------
 
 Ástæðan fyrir því að þessi setning kallast *staðbundin* útgáfa af
 tilvistarsetningunni fyrir fyrsta stigs afleiðujöfnuhneppi er sú, að hún
@@ -791,6 +784,8 @@ Athugið að engu að síður hefur verkefnið lausn í grennd um :math:`a`
 fyrir sérhvert val á :math:`(a,b)`. Við sáum í sýnidæmi :ref:`Link title <syn1.7.4>`
 \(iii) uppfyllir skilyrðin í staðbundnu útgáfu Picard setningarinnar, en
 ekki þeirrar víðfeðmu.
+
+--------------
 
 Aðferðin sem beitt er í sönnuninni á þessum setningum er kennd við
 franska stærðfræðinginn Émile Picard. Eins og áður hefur verið sagt
@@ -831,9 +826,9 @@ föllum í :math:`C(I,{{\mathbb  R}}^ m)` með formúlunni
 og sýna síðan að þessi fallaruna sé samleitin að markfalli :math:`u`.
 Ekki er nóg að sýna að runan :math:`\{u_n(t)\}` stefni á :math:`u(t)` í
 sérhverjum punkti heldur þurfum við að sanna að :math:`\{u_n\}` sé
-samleitin í *jöfnum mæli* :hover:`samleitni!í jöfnum mæli` á sérhverju
+samleitin í :hover:`jöfnum mæli,samleitni í jöfnum mæli` á sérhverju
 lokuðu og takmörkuðu hlutbili :math:`J` af :math:`I`. Að því fengnu gefa
-niðurstöðurnar í grein 3.5 að markfallið :math:`u` er í
+niðurstöðurnar í grein :ref:`3.5` að markfallið :math:`u` er í
 :math:`C(I,{{\mathbb  R}}^ m)`. Lipschitz skilyrðið gefur að
 
 .. math:: |f(t,u_n(t))-f(t,u(t))|\leq C|u_n(t)-u(t)|, \qquad t\in J,

@@ -12,9 +12,8 @@ Afleiðujafna af gerðinni
 .. math:: a_m(t)u^{(m)}+a_{m-1}(t)u^{(m-1)}+\cdots+a_1(t)u'+a_0(t)u=f(t),
 
 þar sem föllin :math:`a_0,\dots,a_m,f` eru skilgreind á bili
-:math:`I\subset {{\mathbb  R}}`, er sögð vera *línuleg*
-:hover:`afleiðujafna!línuleg`, því vinstri hliðin skilgreinir línulega
-vörpun
+:math:`I\subset {{\mathbb  R}}`, er sögð vera 
+:hover:`línuleg,línuleg deildajafna`, því vinstri hliðin skilgreinir línulega vörpun
 
 .. math::
 
@@ -25,11 +24,11 @@ vörpun
    \cdots+a_1(t)u'(t)+a_0(t)u(t),\end{gathered}
 
 ef :math:`a_0,\dots,a_m\in C(I)`. Línuleg vörpun af þessari gerð
-kallast *afleiðuvirki :hover:`afleiðuvirki`*
-:hover:`virki!afleiðuvirki`. Við segjum að jafnan sé *óhliðruð
-:hover:`afleiðujafna!óhliðruð`* :hover:`óhliðraður` ef :math:`f` er
-núllfallið. Annars segjum við að hún sé *hliðruð
-:hover:`afleiðujafna!hliðruð`* :hover:`hliðraður`. Fyrir sérhvern punkt
+kallast :hover:`afleiðuvirki, deildavirki`.
+Við segjum að jafnan sé 
+:hover:`óhliðruð,einsleitur` ef :math:`f` er
+núllfallið. Annars segjum við að hún sé 
+:hover:`hliðruð,misleitur`. Fyrir sérhvern punkt
 :math:`t\in I` fáum við margliðu af einni breytistærð :math:`\lambda`,
 
 .. math::
@@ -40,8 +39,7 @@ núllfallið. Annars segjum við að hún sé *hliðruð
 
   \cdots+a_1(t)\lambda+a_0(t).
 
-Þessa margliðu köllum við *kennimargliðu :hover:`kennimargliða`
-:hover:`margliða!kennimargliða`* :hover:`afleiðuvirki!kennimargliða`
+Þessa margliðu köllum við :hover:`kennimargliðu,kennimargliða` 
 afleiðuvirkjans :math:`L`.
 
 Afleiðuvirkinn :math:`D`
@@ -71,7 +69,7 @@ látinn verka á fallið :math:`u`, er margfaldað með :math:`a_0(t)` í
 síðasta liðnum.
 
 Ef allir stuðlarnir :math:`a_j` eru fastaföll, þá segjum við að virkinn
-hafi *fastastuðla* :hover:`fastastuðlar` og við skrifum þá einungis
+hafi *fastastuðla* og við skrifum þá einungis
 :math:`P(D)` í stað :math:`P(t,D)`. Þegar ekki er ljóst í formúlum með
 tilliti til hvaða breytistærðar er verið að deilda, þá tilgreinum við
 það með :math:`D_t`, :math:`D_x`, :math:`D_s`, …, í stað :math:`D` í
@@ -102,11 +100,12 @@ virkjarnir hafa fastastuðla:
 Setning
 ^^^^^^^
 
-Ef :math:`P(D)` og :math:`Q(D)` eru línulegir afleiðuvirkjar
-:hover:`afleiðuvirki!línulegur` með fastastuðla :hover:‘afleiðuvirki!með
-fastastuðla‘, þá er
+Ef :math:`P(D)` og :math:`Q(D)` eru :hover:`línulegir,línulegur` 
+:hover:`afleiðuvirkjar,deildavirkjar` með fastastuðla þá er
 
 .. math:: P(D)Q(D)=Q(D)P(D).
+
+--------------
 
 Nú skulum við líta á tilvist á lausnum á jaðargildisverkefnum. Í grein
 6.5 skilgreindum við almennan jaðargildisvirkja með formúlunni
@@ -152,46 +151,7 @@ er
    B_mu_1 & B_mu_2 & \cdots & B_mu_m
    \end{matrix}\right|\neq 0.
 
-Sönnun
-^^^^^^
-
-Byrjum á því að athuga að (i) er jafngilt:
-
-\(i):math:`^\prime` Jaðargildisverkefnið :math:`P(t,D)u=0`, :math:`Bu=c`,
-hefur ótvírætt ákvarðaða lausn fyrir sérhvert
-:math:`c\in {{\mathbb  C}}^m`.
-
-Við sjáum að (i):math:`{{^{\prime}}}` er sértilfelli af (i). Til þess
-að sjá að (i):math:`{{^{\prime}}}` hafi (i) í för með sér, þá notfærum
-við okkur að fylgisetning 6.7.7 gefur okkur fall :math:`v` sem uppfyllir
-:math:`P(t,D)v=f(t)` án nokkurra hliðarskilyrða. Samkvæmt
-\(i):math:`{{^{\prime}}}` er til fall :math:`w` sem uppfyllir
-:math:`P(t,D)w=0` og :math:`Bw=c-Bv`. Nú er ljóst að :math:`u=v+w`
-uppfyllir (i), því
-
-.. math:: P(t,D)u=P(t,D)v+P(t,D)w=f(t), \qquad Bu=Bv+Bw=c.
-
-Lausnin er ótvírætt ákvörðuð, því mismunur tveggja lausna er núllfallið
-samkvæmt (i):math:`{{^{\prime}}}`. Nú snúum við okkur að því að sanna
-að (i):math:`{{^{\prime}}}`, (ii) og (iii) séu jafngild. Til þess
-látum við :math:`u_1,\dots,u_m` vera grunn í núllrúminu og skrifum lausn
-:math:`u` á :math:`P(t,D)u=0` sem :math:`u=d_1u_1+\cdots+d_mu_m`, þar
-sem :math:`d_1,\dots,d_m\in {{\mathbb  C}}`. Skilyrðið :math:`Bu=c` er
-þá jafngilt jöfnuhneppinu
-
-.. math::
-
-  \begin{aligned}
-   \big(B_1u_1)d_1+\cdots+\big(B_1u_m\big)d_m &=c_1,\\
-   \big(B_2u_1)d_1+\cdots+\big(B_2u_m\big)d_m &=c_2,\\
-   \vdots\qquad\qquad\vdots\qquad\qquad & \vdots \\
-   \big(B_mu_1)d_1+\cdots+\big(B_mu_m\big)d_m &=c_m.\\\end{aligned}
-
-Við vitum úr línulegri algebru að það er jafngilt að hliðraða jafnan
-hafi lausn fyrir sérhverja hægri hlið, að óhliðraða jafnan hafi aðeins
-núlllausnina og að ákveða stuðlafylkisins sé frábrugðin núlli. Þetta er
-nákvæmlega það sem skilyrðin (i):math:`{{^{\prime}}}`, (ii) og (iii)
-segja.
+--------------
 
 Hugsum okkur nú að við þekkjum grunn :math:`u_1,\dots,u_m` fyrir núllrúm
 virkjans :math:`P(t,D)` og eina sérlausn :math:`u_p` á
@@ -213,13 +173,13 @@ virkjans :math:`P(t,D)` og eina sérlausn :math:`u_p` á
 
    
 
-Línulegar jöfnur með fastastuðla :hover:`afleiðuvirki!með fastastuðla`
-----------------------------------------------------------------------
+Línulegar jöfnur með fastastuðla
+--------------------------------
 
-Línulegar jöfnur með fastastuðla :hover:`afleiðuvirki!með fastastuðla`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Línulegar jöfnur með fastastuðla
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Við skulum nú líta á línulega afleiðujöfnu :hover:`afleiðujafna!línuleg`
+Við skulum nú líta á :hover:`línulega afleiðujöfnu,línuleg deildajafna`
 
 .. math::
 
@@ -230,8 +190,7 @@ Við skulum nú líta á línulega afleiðujöfnu :hover:`afleiðujafna!línuleg
 
 þar sem við gerum ráð fyrir því að stuðlarnir :math:`a_j` í virkjanum
 séu fastaföll, :math:`a_j\in {{\mathbb  C}}`, og :math:`a_m\neq 0`.
-Kennimargliðan :hover:`kennimargliða` :hover:`kennimargliða!virkja`
-:hover:`margliða!kennimargliða` er þá
+:hover:`Kennimargliðan,kennimargliða` er þá
 
 .. math::
 
@@ -240,9 +199,10 @@ Kennimargliðan :hover:`kennimargliða` :hover:`kennimargliða!virkja`
    
 
 Fyrsta viðfangsefni okkar er að finna grunn fyrir núllrúmið
-:math:`{\cal N}(P(D))` og fá þannig framsetningu á almennri lausn
-:hover:`afleiðujafna!almenn lausn` :hover:`almenn lausn` óhliðruðu
-:hover:`afleiðujafna!óhliðruð` jöfnunnar :math:`P(D)u=0`. Við byrjum á
+:math:`{\cal N}(P(D))` og fá þannig framsetningu á 
+:hover:`almennri lausn,almenn lausn` 
+:hover:`óhliðruðu,misleitur` 
+jöfnunnar :math:`P(D)u=0`. Við byrjum á
 því að láta afleiðuvirkjana :math:`D^ k` verka á veldisvísisfallið
 :math:`e^{\alpha t}`, þar sem :math:`\alpha` er einhver tvinntala. Þá
 fæst
@@ -278,9 +238,9 @@ margliðuna :math:`P` fullkomlega yfir tvinntölurnar og skrifað hana sem
    
 
 þar sem :math:`\lambda_1,\dots,\lambda_\ell\in {{\mathbb  C}}` eru
-*núllstöðvarnar :hover:`núllstöð`* :hover:`margfeldni!núllstöðvar` og
-:math:`m_1,\dots,m_\ell` er *margfeldni :hover:`margfeldni`*
-:hover:`núllrúm!margfeldni` þeirra, :math:`m_1+\cdots+m_\ell=m`. Með
+:hover:`núllstöðvarnar,núllstöð` og
+:math:`m_1,\dots,m_\ell` er 
+:hover:`margfeldni` þeirra, :math:`m_1+\cdots+m_\ell=m`. Með
 því að nota þessa framsetningu á kennimargliðunni getum við skrifað
 afleiðuvirkjann sem
 
@@ -290,7 +250,7 @@ afleiðuvirkjann sem
 
    
 
-Við fáum nú fullkomna lýsingu á núllrúmi :hover:`núllrúm` afleiðuvirkja
+Við fáum nú fullkomna lýsingu á :hover:`núllrúm,kjarni` afleiðuvirkja
 með fastastuðla:
 
 Setning
@@ -318,11 +278,11 @@ stak í núllrúminu sem
 þar sem :math:`q_j` eru margliður af stigi :math:`<m_j`,
 :math:`1\leq j\leq \ell`.
 
-Euler-jöfnur :hover:`Euler` :hover:`Euler!jafna` :hover:`jafna!Euler`
----------------------------------------------------------------------
+Euler-jöfnur
+------------
 
-Euler-jöfnur :hover:`Euler` :hover:`Euler!jafna` :hover:`jafna!Euler`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Euler-jöfnur
+~~~~~~~~~~~~
 
 Afleiðujafna af gerðinni
 
@@ -432,8 +392,8 @@ fallanna
 :math:`Q`, sem gefin er með (:ref:`Link title <2.3.2>`), og margfeldni þeirra er
 :math:`m_1,\dots,m_\ell`.
 
-Sérlausnir :hover:`sérlausn` :hover:`afleiðujafna!sérlausn`
------------------------------------------------------------
+Sérlausnir
+----------
 
 Algengt er að ástandsjöfnur eðlisfræðilegra kerfa séu af gerðinni
 
@@ -606,11 +566,11 @@ og
 
    
 
-Green-föll :hover:`Green-fall`
-------------------------------
+Green-föll
+----------
 
-Green-föll :hover:`Green-fall`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Green-föll
+~~~~~~~~~~
 
 Í síðustu grein skoðuðum við nokkrar einfaldar aðferðir til að finna
 sérlausnir á línulegum jöfnum með fastastuðla, þar sem hægri hlið
@@ -686,6 +646,8 @@ sem gefið er með formúlunni
 
   h{{^{\prime}}}(t)=g(t,t)f(t)+\int_a^ t \partial_tg(t,\tau)f(\tau) \, d\tau,
    \qquad t\in I.
+
+--------------
 
 Nú skulum við ganga út frá því að
 :math:`\partial_t^{j}G\in C(I\times I)` fyrir :math:`j=0,\dots,m` og
@@ -774,9 +736,10 @@ af :math:`t` fyrir sérhvert :math:`\tau\in I` og
 Skilgreining
 ^^^^^^^^^^^^
 
-Fallið :math:`G(t,\tau)` í síðustu setningu kallast *Green-fall
-:hover:`Green-fall`* :hover:`Green-fall!fyrir upphafsgildisverkefni`
+Fallið :math:`G(t,\tau)` í síðustu setningu kallast *Green-fall* 
 virkjans :math:`P(t,D)`. Við tölum einnig um *fall Greens*.
+
+--------------
 
 Mjög auðvelt er að ákvarða Green-fallið fyrir línulegan afleiðuvirkja
 með fastastuðla:
@@ -797,11 +760,11 @@ afleiðuvirki með fastastuðla. Látum
 
 Þá er :math:`G(t,\tau)=g(t-\tau)` Green-fall virkjans :math:`P(D)`.
 
-Wronski-fylkið :hover:`Wronski-fylki` og Wronski-ákveðan :hover:`Wronski-ákveða`
---------------------------------------------------------------------------------
+Wronski-fylkið og Wronski-ákveðan
+---------------------------------
 
-Wronski-fylkið :hover:`Wronski-fylki` og Wronski-ákveðan :hover:`Wronski-ákveða`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wronski-fylkið og Wronski-ákveðan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Nú skulum við láta :math:`G(t,\tau)` tákna Green-fallið sem lýst er í
 setningu 7.5.2 og jafnframt gera ráð fyrir því að :math:`u_1,\dots, u_m`
@@ -864,6 +827,8 @@ skilgreint er með (:ref:`Link title <2.6.2>`), *Wronski-fylki* fallanna
 :math:`u_1,\dots, u_m` og hana táknum við með
 :math:`W=W(u_1,\dots,u_m)`.
 
+--------------
+
 Ef við þekkjum Wronski-ákveðuna af :math:`m` lausnum á afleiðujöfnu í
 einum punkti, þá getum við reiknað hana út með því að leysa fyrsta stigs
 afleiðujöfnu:
@@ -894,6 +859,8 @@ og þar með gildir formúlan
 fyrir öll :math:`a` og :math:`t` á bili :math:`J` þar sem :math:`a_m`
 er núllstöðvalaust.
 
+--------------
+
 Sönnunin er tekin fyrir í grein 7.7. Formúluna fyrir Wronski-ákveðuna má
 nota á ýmsa vegu:
 
@@ -914,8 +881,10 @@ opnu bili :math:`J\subset I`. Þá eru eftirfarandi skilyrði jafngild:
 \(iv) Dálkvigrarnir í Wronski-fylkinu :math:`V(u_1,\dots,u_m)(t)` eru
 línulega óháðir fyrir sérhvert :math:`t\in J`.
 
-\(vi) Dálkvigrarnir í Wronski-fylkinu :math:`V(u_1,\dots,u_m)(a)` eru
+\(v) Dálkvigrarnir í Wronski-fylkinu :math:`V(u_1,\dots,u_m)(a)` eru
 línulega óháðir fyrir eitthvert :math:`a\in J`.
+
+--------------
 
 Nú skulum við rifja það upp að :math:`n\times n` fylki :math:`A` hefur
 andhverfu þá og því aðeins að :math:`\det A\neq 0`. Andhverfuna er hægt
@@ -990,6 +959,8 @@ línuna og dálk númer :math:`j` í :math:`V(u_1,\dots,u_m)(\tau)`. Ef
   v_j(t)=\int_a^ t c_j(\tau)f(\tau) \, d\tau.
 
    
+
+--------------
 
 Við fáum nú beina formúlu fyrir Green-falli annars stigs virkja:
 

@@ -105,6 +105,8 @@ Laurent-röðin sé *samleitin*. Stuðullinn :math:`a_{-1}` kallast
 
 kallast :hover:`höfuðhluti` hennar.
 
+--------------
+
 Ef Laurent-röð :math:`\sum_{n=-\infty}^{+\infty}a_n(z-\alpha)^ n` er
 samleitin og :math:`\varrho_1` og :math:`\varrho_2` tákna innri og ytri
 samleitnigeisla hennar, þá skilgreinir hún fágað fall á hringkraganum
@@ -240,6 +242,8 @@ og
 
 .. math:: f(z)=\dfrac{g(z)}{(z-\alpha)^ m}, \qquad z\in U\setminus\{\alpha\}.
 
+--------------
+
 Skautin einkennast af:
 
 Setning
@@ -247,6 +251,8 @@ Setning
 
 Fall :math:`f` hefur skaut í :math:`\alpha` ef og aðeins ef
 :math:`|f(z)|\to +\infty` ef :math:`z\to \alpha`.
+
+--------------
 
 Hugsum okkur nú að fallið :math:`f` hafi skaut í punktinum
 :math:`\alpha` af stigi :math:`m`. Þá er fallið sett fram með
@@ -322,6 +328,8 @@ Einangraður sérstöðupunktur fágaða fallsins :math:`f` kallast
 :hover:`afmáanlegur sérstöðupunktur` né 
 :hover:`skaut`.
 
+--------------
+
 Hegðun fágaðra falla í grennd um verulega sérstöðupunkta er lýst með:
 
 Setning
@@ -365,6 +373,8 @@ sem sker ekki jaðarinn :math:`\partial\Omega` á :math:`\Omega`. Ef
 
 
    
+
+--------------
 
 Leifasetningin hefur mikla hagnýta þýðingu við útreikninga á ákveðnum
 heildum. Við gerum þeim hagnýtingum skil í næsta kafla, en það sem eftir

@@ -537,6 +537,8 @@ nefnast *Wirtinger–afleiður* fallsins
 :math:`f` í punktinum :math:`a` og virkinn :math:`{\partial}_{\bar z}`
 nefnist *Cauchy–Riemann–virki*.
 
+--------------
+
 Hugsum okkur nú að :math:`f:X\to {{\mathbb  C}}` sé eitthvert fall og að
 til séu tvinntölur :math:`A`, :math:`B` og fall
 :math:`\varphi_a:X\to {{\mathbb  C}}`, samfellt í :math:`a` með
@@ -598,6 +600,8 @@ samfellt deildanlegt í :math:`X` og uppfylli Cauchy–Riemann–jöfnuna
   f{{^{\prime}}}=\dfrac{df}{dz}=\dfrac{\partial f}{\partial z}=\dfrac 12\bigg(
    \dfrac{\partial f}{\partial x}-i\dfrac{\partial f}{\partial y}\bigg).
 
+--------------
+
 Reikningur með hlutafleiðunum með tilliti til :math:`z` og
 :math:`\bar z` er alveg eins of reikningur með óháðu breytunum :math:`x`
 og :math:`y`.
@@ -655,6 +659,8 @@ vera :hover:`raunfágað,raunfágaður` ef það hefur þann eiginleika að í g
 punkt í :math:`U` er hægt að setja :math:`f` fram með samleitinni
 veldaröð.
 
+--------------
+
 Fallið :math:`z\mapsto 1/(1-z)` er fágað á
 :math:`{{\mathbb  C}}\setminus\{1\}` og það gefið með geómetrísku
 röðinni
@@ -693,6 +699,8 @@ Gerum ráð fyrir að :math:`X` sé opið hlutmengi af
 
   f{{^{\prime}}}(z)=\sum_{n=1}^\infty na_n(z-\alpha)^{n-1}, \qquad z\in
    S(\alpha,\varrho).
+
+--------------
 
 Ef :math:`\sum_{n=0}^\infty a_nz^n` og :math:`\sum_{n=0}^\infty b_nz^n`
 eru tvær samleitnar veldaraðir með samleitnigeisla :math:`\varrho_a` og
@@ -746,6 +754,8 @@ Ef  :math:`\sum_{n=0}^{\infty} a_nx^n` er samleitin veldaröð, :math:`I`
 er opið bil sem inniheldur :math:`0` og :math:`\sum_{n=0}^{\infty} a_nx^n=0` fyrir öll :math:`x\in I`, þá er :math:`a_n=0` fyrir öll
 :math:`n=0,1,2,\dots`.
 
+--------------
+
 Við sáum hér að framan að sérhvert fall sem gefið er með
 veldaraðaframsetningu á einhverri skífu er fágað. Nú hugum við að
 andhverfu þessarar staðhæfingar:
@@ -771,6 +781,8 @@ frá jaðrinum :math:`\partial X` á menginu :math:`X`, þá er hægt að setja
 
     Mynd: Skífa í skilgreiningarsvæði :math:`f`
 
+--------------
+
 Þessa setningu sönnum við ekki fyrr en í kafla 3, en við skulum skoða
 nokkrar afleiðingar hennar.
 
@@ -779,6 +791,8 @@ Fylgisetning
 
 Ef :math:`f\in {{\cal O}}(X)`, þá er
 :math:`f{{^{\prime}}}\in {{\cal O}}(X)`.
+
+--------------
 
 Nú sjáum við að fallið :math:`f{{^{\prime}}}` er fágað og afleiða þess
 :math:`f{{^{\prime\prime}}}` er einnig fáguð og þannig áfram út í hið
@@ -953,6 +967,9 @@ Samfellt fall :math:`\theta:X\to {{\mathbb  R}}` kallast *horn á*
 
   z=|z|e^{i\theta(z)}, \qquad z\in X.
 
+
+--------------
+
 Helstu eiginleikar logra, róta og horna eru:
 
 Setning
@@ -984,6 +1001,8 @@ ef :math:`\theta:X\to {{\mathbb  R}}` er horn á :math:`X`, þá er
 
 \(iv) Ef :math:`\lambda` er logri á :math:`X`, þá er
 :math:`\varrho(z)=e^{\lambda(z)/n}` :math:`n`–ta rót á :math:`X`.
+
+--------------
 
 Fyrir sérhverja tvinntölu :math:`{\alpha}` skilgreinum við fágað
 *veldisfall með veldisvísi* :math:`\alpha` með
@@ -1025,6 +1044,7 @@ Athugið að skilgreiningin er háð valinu á logranum. Keðjureglan gefur
    \dfrac d{dz}e^{z\lambda(\alpha)}=e^{z\lambda(\alpha)}\cdot
    \lambda(\alpha)=\alpha^z\lambda(\alpha).
 
+--------------
 
 Lítum nú á mengið
 :math:`X={{\mathbb  C}}\setminus {{\mathbb  R}}_-`, sem fæst með því að

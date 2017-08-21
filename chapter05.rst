@@ -143,6 +143,8 @@ hornréttir í sérhverjum punkti í :math:`X`. Ef :math:`X` er svæði og
 annað hvort :math:`u` eða :math:`v` er fastafall, þá er hitt fallið það
 líka.
 
+--------------
+
 Gerum nú aftur ráð fyrir að :math:`u` sé þýtt fall á svæði :math:`X` í
 :math:`{{\mathbb  C}}` og athugum hvernig hægt er að finna :math:`v`
 þannig að :math:`u+iv` verði fágað fall. Gerum ráð fyrir að slíkt
@@ -185,6 +187,8 @@ fallið :math:`f` gefið með formúlunni
 þar sem :math:`\gamma_z` er einhver vegur í :math:`X` með upphafspunkt
 :math:`a` og lokapunkt :math:`z` og :math:`c\in {{\mathbb  R}}` er
 fasti.
+
+--------------
 
 Athugið að veginn í setningunni má velja sem línustrik, ef :math:`X` er
 stjörnusvæði með tilliti til :math:`a`.

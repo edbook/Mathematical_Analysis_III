@@ -464,6 +464,8 @@ vera opið mengi í :math:`{{\mathbb  C}}`, :math:`f\in {{\cal O}}(X)`, :math:`z
 
 .. math:: f(z)=\dfrac 1{2\pi} \int_0^{2\pi}f(z+re^{it})\, dt.
 
+--------------
+
 Setningin segir okkur að meðalgildi fágaðs falls yfir jaðar hringskífu
 er jafnt gildi fallsins í miðpunkti skífunnar.
 
@@ -709,6 +711,8 @@ gerum ráð fyrir að
 fyrir sérhvert þríhyrningssvæði :math:`\Omega` þannig að
 :math:`\Omega\cup \partial \Omega\subset X`. Þá er :math:`f\in {{\cal O}}(X)`.
 
+--------------
+
 Ein áhugaverð afleiðing af Cauchy-ójöfnunum er:
 
 Setning Liouville
@@ -815,6 +819,8 @@ samleitin í jöfnum mæli. Ef fallaröðin :math:`\sum_{k=0}^\infty |f_k|`
 er samleitin í jöfnum mæli á :math:`A`, þá segjum við að
 :math:`\sum_{k=0}^\infty f_k` sé *alsamleitin í jöfnum
 mæli* á menginu :math:`A`.
+
+--------------
 
 Í því tilfelli að :math:`f_n` og :math:`f` eru raungild föll má einnig
 orða skilgreininguna svo, að fyrir sérhvert :math:`\varepsilon>0` sé til
@@ -923,6 +929,8 @@ Setjum
 
 Þá stefnir :math:`g_n` á :math:`g` í jöfnum mæli á :math:`[a,b]`.
 
+--------------
+
 Hliðstæða þessarar setningar fyrir raðir er:
 
 Fylgisetning
@@ -937,6 +945,8 @@ samleitin í jöfnum mæli á bilinu :math:`[a,b]`. Þá er
   \int_a^ x \sum_{k=0}^ \infty f_k(t)\, dt
    = \sum_{k=0}^ \infty \int_a^ x  f_k(t)\, dt, \qquad x\in [a,b].
 
+--------------
+
 Með því að skipta á stærðinni :math:`(b-a)` og rúmmáli mengisins
 :math:`A\subset {{\mathbb  R}}^ m` í sönnuninni á setninguni hér fyrir framan, fáum
 við með sömu röksemdarfærslu:
@@ -949,6 +959,8 @@ og :math:`\{f_n\}` vera runu af heildanlegum föllum á :math:`A`. Ef
 :math:`f_n\to f` í jöfnum mæli á :math:`A`, þá er
 
 .. math:: \lim\limits_{n\to +\infty} \int_A f_n(x)\, dx = \int_Af(x)\, dx.
+
+--------------
 
 Hliðstæðar setningar gilda einnig um vegheildi með tilliti til
 bogalengdar og heildi yfir svæði með endanlegt flatarmál.
@@ -989,6 +1001,8 @@ mæli á :math:`[a,b]` og að til sé :math:`c\in [a,b]` þannig runan
 
 .. math:: f{{^{\prime}}}(x)=\lim_{n\to \infty}f_n{{^{\prime}}}(x), \qquad x\in [a,b].
 
+--------------
+
 Með þrepun fáum við hliðstæða setningu fyrir hærri afleiður:
 
 Fylgisetning
@@ -1000,6 +1014,8 @@ séu samleitnar í jöfnum mæli á :math:`[a,b]` og táknum markgildi
 :math:`\{f_n\}` með :math:`f`. Þá er :math:`f\in C^m([a,b])` og
 
 .. math:: f^{(k)}(t)=\lim_{n\to +\infty} f_n^{(k)}(t), \qquad t\in [a,b].
+
+--------------
 
 Raðaútgáfan ef þessari setningu er:
 
@@ -1031,6 +1047,8 @@ lokuðu og takmörkuðu hlutmengi af :math:`X`, þá er markfallið :math:`f`
 fágað og
 
 .. math:: \lim_{n\to \infty} f_n'(z)=f'(z)\qquad z\in X.
+
+--------------
 
 Við getum eins tekið fyrir óendanlegar raðir
 :math:`\sum_{n=0}^\infty f_n` af fáguðum föllum og fáum að markfallið
@@ -1157,6 +1175,8 @@ núllstöðvarinnar :math:`\alpha`. Ef fallið
 :math:`f` er núll í heilli grennd um :math:`\alpha`, þá segjum við að
 :math:`f` hafi núllstöð af *óendanlegu stigi* í :math:`\alpha`.
 
+--------------
+
 Eins og fyrir margliður þá er hægt að þátta núllstöðvar úr fáguðum
 föllum:
 
@@ -1212,17 +1232,7 @@ Ef :math:`X` er svæði og :math:`f\in {{\cal O}}(X)` er ekki núllfallið,
 þá er núllstöðvamengi :math:`{\cal N}(f)=\{z\in X; f(z)=0\}` fallsins
 :math:`f` dreift hlutmengi af :math:`X`.
 
-Sönnun
-^^^^^^
-
-Látum :math:`\alpha` vera núllstöð fallsins :math:`f` og gerum ráð fyrir
-að hún sé af stigi :math:`m>0`. Samkvæmt setningu :ref:`Link title <se:10.4.3>` er
-til fall :math:`g\in {{\cal O}}(X)` þannig að
-:math:`f(z)=(z-\alpha)^ mg(z)` fyrir öll :math:`z\in X` og
-:math:`g(\alpha)\neq 0`. Fyrst :math:`g` er samfellt, þá er til
-:math:`\varepsilon>0`, þannig að :math:`g(z)\neq 0` fyrir öll
-:math:`z\in S(\alpha,\varepsilon)`. Við höfum því :math:`{\cal N}(f)\cap S^\ast (\alpha,\varepsilon)=\varnothing` og þar með er :math:`{\cal N}(f)`
-dreift mengi.
+--------------
 
 Við fáum nú enn sterkari útgáfu af samsemdarsetningunni:
 
@@ -1339,6 +1349,8 @@ Ef :math:`\gamma` er lokaður vegur, þá er
   I(\gamma,p)=\dfrac 1{2\pi i}\int_\gamma \dfrac{dz}{z-p}, 
    \qquad p\in {{\mathbb  C}}\setminus {{{\operatorname{mynd}(\gamma)}}}.
 
+--------------
+
 Lítum nú á mengið
 :math:`X={{\mathbb  C}}\setminus {{{\operatorname{mynd}(\gamma)}}}` sem
 samanstendur af öllum punktum :math:`p` sem eru ekki á ferlinum. Það er
@@ -1404,6 +1416,8 @@ Skilgreining
 Opið mengi :math:`X` er sagt vera :hover:`einfaldlega samhangandi` ef
 :math:`I(\gamma)\subset X` fyrir sérhvern lokaðan veg :math:`\gamma` í
 :math:`X`.
+
+--------------
 
 Innmengi vegarins :math:`\gamma` samanstendur af öllum punktum :math:`p`
 sem :math:`\gamma` vefst utanum, þar sem við segjum að :math:`\gamma`

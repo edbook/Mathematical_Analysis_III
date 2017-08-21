@@ -884,6 +884,8 @@ Undirstöðusetning algebrunnar
 Setning
 ^^^^^^^
 
+--------------
+
   Sérhver margliða af stigi :math:`\geq 1` með stuðlum í
 :math:`{{\mathbb  C}}` hefur núllstöð í :math:`{{\mathbb  C}}`.
 
@@ -1387,6 +1389,8 @@ er fylki :math:`L` miðað við staðalgrunninn á :math:`{{\mathbb  R}}^2`,
 
   A=\tfrac 12((a+d)+i(c-b)) \qquad \text{ og } \qquad
    B= \tfrac 12((a-d)+i(c+b))
+
+--------------
 
 Hugsum okkur næst að við þekkjum stuðlana :math:`A` og :math:`B` og að
 við viljum ákvarða stuðlana :math:`a`, :math:`b`, :math:`c` og :math:`d`

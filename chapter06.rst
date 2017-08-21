@@ -98,11 +98,11 @@ um hlutafleiðujöfnur getum við tekið
 +------------------------------------------------------------------------------------+--------------------------+
 | 2\partial_xu+i\partial_yu=0                                                        | (*Cauchy-Riemann-jafna*) |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_x^2u+\partial_y^2u=0                                                      | *Laplace-jafna*          |
+| \partial_x^2u+\partial_y^2u=0                                                      | (*Laplace-jafna*)        |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)         | *varmaleiðnijafna*       |
+| \partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)         | (*varmaleiðnijafna*)     |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)          | *bylgjujafna*            |
+| \partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)          | (*bylgjujafna*)          |
 +------------------------------------------------------------------------------------+--------------------------+
 
 Tilvist og ótvíræðni lausna
@@ -559,6 +559,8 @@ sem inniheldur punktinn :math:`a` og fall
 :math:`u{{^{\prime}}}(t)=f(t,u(t))` fyrir öll :math:`t\in I` og
 :math:`u(a)=b`.
 
+--------------
+
 Setning Peano er of erfið til þess að við getum átt við að sanna hana
 hér, en fróðlegt er að vita hvað hún segir. Við munum hins vegar sanna
 tvær tilvistarsetningar, sem kenndar eru við Picard. Í þeim gefum við
@@ -665,6 +667,8 @@ samfellt, en uppfyllir ekki Lipschitz–skilyrði í neinni grennd um
 :math:`0`, því :math:`|f(t,x)-f(t,0)|=x^{2/3}=x^{-1/3}|x-0|` og
 :math:`x^{-1/3}\to \infty` ef :math:`x\to 0`.
 
+--------------
+
 Nú kemur í ljós að Lipschitz–skilyrði tryggir að lausnin verður ótvírætt
 ákvörðuð:
 
@@ -683,6 +687,8 @@ hlutbil :math:`J` í :math:`I`. Þá er til ótvírætt ákvörðuð lausn
 :math:`u\in C^ 1(I,{{\mathbb  R}}^ m)` á upphafsgildisverkefninu
 
 .. math:: u{{^{\prime}}}=f(t,u), \qquad u(a)=b.
+
+--------------
 
 Þessi setning er önnur tveggja tilvistarsetninga sem við sönnum í næstu
 grein. Eins og fram hefur komið kallast hún venjulega *víðfeðm* útgáfa
@@ -710,6 +716,8 @@ Látum :math:`I\subset {{\mathbb  R}}` vera opið bil, :math:`a\in I`,
 
   
 
+--------------
+
 Með umskrift á upphafsgildisverkefni fyrir :math:`m`-ta stigs
 afleiðujöfnu yfir í jafngilt hneppi fáum við:
 
@@ -728,6 +736,8 @@ Látum :math:`I\subset {{\mathbb  R}}` vera opið bil, :math:`a\in I`,
    a_m(t)u^ {(m)}+\cdots+a_1(t)u{{^{\prime}}}+a_0(t)u=g(t),\\
    u(a)=b_0, u{{^{\prime}}}(a)=b_1,\dots, u^{(m-1)}(a)=b_{m-1}.\end{gathered}
 
+--------------
+
 Nú setjum við fram aðra útgáfu sem venjulega kallast *staðbundin* útgáfa
 af tilvistarsetningu fyrir fyrsta stigs hneppi:
 
@@ -736,7 +746,8 @@ af tilvistarsetningu fyrir fyrsta stigs hneppi:
 Setning
 ^^^^^^^
 
-(*Picard; staðbundin útgáfa *).   Látum :math:`\Omega` vera opið hlutmengi í :math:`{{\mathbb  R}}\times {{\mathbb  R}}^{m}`,
+(*Picard; staðbundin útgáfa*).   Látum :math:`\Omega` vera opið hlutmengi í 
+:math:`{{\mathbb  R}}\times {{\mathbb  R}}^{m}`,
 :math:`a\in {{\mathbb  R}}`, :math:`b\in {{\mathbb  R}}^ m`,
 :math:`(a,b)\in \Omega` og :math:`f\in C(\Omega,{{\mathbb  R}}^ m)`.
 Gerum ráð fyrir að til sé grennd :math:`U` um punktinn :math:`(a,b)`
@@ -746,6 +757,8 @@ Lipschitz–skilyrði í :math:`U`. Þá er til opið bil :math:`I` á
 lausn :math:`u\in C^ 1(I, {{\mathbb  R}}^m)` á upphafsgildisverkefninu
 
 .. math:: u{{^{\prime}}}=f(t,u), \qquad u(a)=b.
+
+--------------
 
 Ástæðan fyrir því að þessi setning kallast *staðbundin* útgáfa af
 tilvistarsetningunni fyrir fyrsta stigs afleiðujöfnuhneppi er sú, að hún
@@ -771,6 +784,8 @@ Athugið að engu að síður hefur verkefnið lausn í grennd um :math:`a`
 fyrir sérhvert val á :math:`(a,b)`. Við sáum í sýnidæmi :ref:`Link title <syn1.7.4>`
 \(iii) uppfyllir skilyrðin í staðbundnu útgáfu Picard setningarinnar, en
 ekki þeirrar víðfeðmu.
+
+--------------
 
 Aðferðin sem beitt er í sönnuninni á þessum setningum er kennd við
 franska stærðfræðinginn Émile Picard. Eins og áður hefur verið sagt

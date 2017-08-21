@@ -105,6 +105,8 @@ Ef :math:`P(D)` og :math:`Q(D)` eru :hover:`línulegir,línulegur`
 
 .. math:: P(D)Q(D)=Q(D)P(D).
 
+--------------
+
 Nú skulum við líta á tilvist á lausnum á jaðargildisverkefnum. Í grein
 6.5 skilgreindum við almennan jaðargildisvirkja með formúlunni
 
@@ -149,46 +151,7 @@ er
    B_mu_1 & B_mu_2 & \cdots & B_mu_m
    \end{matrix}\right|\neq 0.
 
-Sönnun
-^^^^^^
-
-Byrjum á því að athuga að (i) er jafngilt:
-
-\(i)' Jaðargildisverkefnið :math:`P(t,D)u=0`, :math:`Bu=c`,
-hefur ótvírætt ákvarðaða lausn fyrir sérhvert
-:math:`c\in {{\mathbb  C}}^m`.
-
-Við sjáum að (i)' er sértilfelli af (i). Til þess
-að sjá að (i)' hafi (i) í för með sér, þá notfærum
-við okkur að fylgisetning 6.7.7 gefur okkur fall :math:`v` sem uppfyllir
-:math:`P(t,D)v=f(t)` án nokkurra hliðarskilyrða. Samkvæmt
-\(i)' er til fall :math:`w` sem uppfyllir
-:math:`P(t,D)w=0` og :math:`Bw=c-Bv`. Nú er ljóst að :math:`u=v+w`
-uppfyllir (i), því
-
-.. math:: P(t,D)u=P(t,D)v+P(t,D)w=f(t), \qquad Bu=Bv+Bw=c.
-
-Lausnin er ótvírætt ákvörðuð, því mismunur tveggja lausna er núllfallið
-samkvæmt (i)'. Nú snúum við okkur að því að sanna
-að (i):math:', (ii) og (iii) séu jafngild. Til þess
-látum við :math:`u_1,\dots,u_m` vera grunn í núllrúminu og skrifum lausn
-:math:`u` á :math:`P(t,D)u=0` sem :math:`u=d_1u_1+\cdots+d_mu_m`, þar
-sem :math:`d_1,\dots,d_m\in {{\mathbb  C}}`. Skilyrðið :math:`Bu=c` er
-þá jafngilt jöfnuhneppinu
-
-.. math::
-
-  \begin{aligned}
-   \big(B_1u_1)d_1+\cdots+\big(B_1u_m\big)d_m &=c_1,\\
-   \big(B_2u_1)d_1+\cdots+\big(B_2u_m\big)d_m &=c_2,\\
-   \vdots\qquad\qquad\vdots\qquad\qquad & \vdots \\
-   \big(B_mu_1)d_1+\cdots+\big(B_mu_m\big)d_m &=c_m.\\\end{aligned}
-
-Við vitum úr línulegri algebru að það er jafngilt að hliðraða jafnan
-hafi lausn fyrir sérhverja hægri hlið, að óhliðraða jafnan hafi aðeins
-núlllausnina og að ákveða stuðlafylkisins sé frábrugðin núlli. Þetta er
-nákvæmlega það sem skilyrðin (i)', (ii) og (iii)
-segja.
+--------------
 
 Hugsum okkur nú að við þekkjum grunn :math:`u_1,\dots,u_m` fyrir núllrúm
 virkjans :math:`P(t,D)` og eina sérlausn :math:`u_p` á
@@ -684,6 +647,8 @@ sem gefið er með formúlunni
   h{{^{\prime}}}(t)=g(t,t)f(t)+\int_a^ t \partial_tg(t,\tau)f(\tau) \, d\tau,
    \qquad t\in I.
 
+--------------
+
 Nú skulum við ganga út frá því að
 :math:`\partial_t^{j}G\in C(I\times I)` fyrir :math:`j=0,\dots,m` og
 líta aftur á fallið :math:`u_p` sem skilgreint var með (:ref:`Link title <2.5.4>`).
@@ -774,6 +739,8 @@ Skilgreining
 Fallið :math:`G(t,\tau)` í síðustu setningu kallast *Green-fall* 
 virkjans :math:`P(t,D)`. Við tölum einnig um *fall Greens*.
 
+--------------
+
 Mjög auðvelt er að ákvarða Green-fallið fyrir línulegan afleiðuvirkja
 með fastastuðla:
 
@@ -860,6 +827,8 @@ skilgreint er með (:ref:`Link title <2.6.2>`), *Wronski-fylki* fallanna
 :math:`u_1,\dots, u_m` og hana táknum við með
 :math:`W=W(u_1,\dots,u_m)`.
 
+--------------
+
 Ef við þekkjum Wronski-ákveðuna af :math:`m` lausnum á afleiðujöfnu í
 einum punkti, þá getum við reiknað hana út með því að leysa fyrsta stigs
 afleiðujöfnu:
@@ -890,6 +859,8 @@ og þar með gildir formúlan
 fyrir öll :math:`a` og :math:`t` á bili :math:`J` þar sem :math:`a_m`
 er núllstöðvalaust.
 
+--------------
+
 Sönnunin er tekin fyrir í grein 7.7. Formúluna fyrir Wronski-ákveðuna má
 nota á ýmsa vegu:
 
@@ -912,6 +883,8 @@ línulega óháðir fyrir sérhvert :math:`t\in J`.
 
 \(v) Dálkvigrarnir í Wronski-fylkinu :math:`V(u_1,\dots,u_m)(a)` eru
 línulega óháðir fyrir eitthvert :math:`a\in J`.
+
+--------------
 
 Nú skulum við rifja það upp að :math:`n\times n` fylki :math:`A` hefur
 andhverfu þá og því aðeins að :math:`\det A\neq 0`. Andhverfuna er hægt
@@ -986,6 +959,8 @@ línuna og dálk númer :math:`j` í :math:`V(u_1,\dots,u_m)(\tau)`. Ef
   v_j(t)=\int_a^ t c_j(\tau)f(\tau) \, d\tau.
 
    
+
+--------------
 
 Við fáum nú beina formúlu fyrir Green-falli annars stigs virkja:
 

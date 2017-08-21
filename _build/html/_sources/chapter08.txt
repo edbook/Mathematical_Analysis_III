@@ -11,7 +11,7 @@ Skilgreining
 ^^^^^^^^^^^^
 
 Fall :math:`f:X\to {{\mathbb  C}}` skilgreint á opnu mengi :math:`X` á
-raunásnum, er sagt vera *raunfágað* :hover:`raunfágaður` á :math:`X` ef
+raunásnum, er sagt vera :hover:`raunfágað,raunfágaður` á :math:`X` ef
 hægt er að skrifa :math:`X` sem sammengi af opnum bilum
 :math:`]a-\varrho,a+\varrho[` og fyrir sérhvert þessara bila er til
 samleitin veldaröð :math:`\sum_{n=0}^\infty c_nx^n` þannig að
@@ -23,6 +23,8 @@ samleitin veldaröð :math:`\sum_{n=0}^\infty c_nx^n` þannig að
 
 
   
+
+--------------
 
 Ef :math:`f` er fall sem sett fram með veldaröð á bilinu
 :math:`]a-\varrho,a+\varrho[`, þá framlengist :math:`f` sjálfkrafa í
@@ -38,12 +40,11 @@ Af þessu leiðir að um sérhvert raunfágað fall :math:`f` á opnu mengi
 :math:`X` í :math:`{{\mathbb  R}}` gildir að til er fágað fall :math:`F`
 á opnu mengi :math:`Y` í :math:`{{\mathbb  C}}` sem inniheldur :math:`X`
 þannig að :math:`F(x)=f(x)` fyrir öll :math:`x\in X`. Fallið :math:`F`
-er þá nefnt *fáguð útvíkkun* eða *fáguð framlenging* af :math:`f` yfir á
-:math:`Y`. Ef :math:`Y` er svæði og :math:`F_1` og :math:`F_2` eru tvær
-fágaðar útvíkkanir af :math:`f` yfir á :math:`Y`, þá gefur
-samsemdarsetningin að :math:`F_1=F_2`. Þetta segir okkur að fágaðar
-útvíkkanir yfir á svæði séu ótvírætt ákvarðaðar og því notum við
-bókstafinn :math:`f` líka fyrir útvíkkunina.
+er þá nefnt *fáguð útvíkkun* eða :hover:`fáguð framlenging` 
+af :math:`f` yfir á :math:`Y`. Ef :math:`Y` er svæði og :math:`F_1` 
+og :math:`F_2` eru tvær fágaðar útvíkkanir af :math:`f` 
+yfir á :math:`Y`, þá gefur samsemdarsetningin að :math:`F_1=F_2`. 
+Þetta segir okkur að fágaðar útvíkkanir yfir á svæði séu ótvírætt ákvarðaðar og því notum við bókstafinn :math:`f` líka fyrir útvíkkunina.
 
 Ef fallið :math:`f` er raunfágað á menginu :math:`X` og :math:`f` er
 gefið með veldaröðinni hér að framan á bilinu
@@ -69,9 +70,8 @@ sama hátt
    f^{(k)}(x)&= \sum\limits_{n=k}^\infty n(n-1)\cdots (n-k+1)c_n(x-a)^{n-k}\\
    &= \sum\limits_{n=0}^\infty (n+1)(n+2)\cdots(n+k)c_{n+k}(x-a)^n.\end{aligned}
 
-Út frá þessu sést að veldaröðin er Taylor-röð :hover:`Taylor-röðun`
-fallsins :math:`f` í punktinum :hover:`Taylor-röðun!falls í punkti`
-:math:`a`
+Út frá þessu sést að veldaröðin er Taylor-röð 
+fallsins :math:`f` í punktinum :math:`a`
 
 .. math::
 
@@ -174,8 +174,8 @@ Við fáum því rakningarformúlu fyrir stuðlana
    &\quad \vdots\qquad\qquad \vdots\\
    d_n&=(a_n-d_0b_n-d_1b_{n-1}-\cdots-d_{n-1}b_1)/b_0.\end{aligned}
 
-Raðalausnir :hover:`afleiðujafna!raðalausn` umhverfis venjulega punkta :hover:`venjulegur punktur`
---------------------------------------------------------------------------------------------------
+Raðalausnir umhverfis venjulega punkta
+--------------------------------------
 
 Nú skulum við snúa okkur að almennum afleiðuvirkja. Við vitum að ef öll
 stuðlaföllin :math:`a_0(x),\dots,a_{m}(x)` eru raunfáguð á bilinu
@@ -190,8 +190,7 @@ Nokkur dæmi um veldaraðalausnir
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Hugmyndin bakvið veldaraðalausnir á afleiðujöfnum er einföld. Við göngum
-út frá þeirri lausnartilgátu að til sé lausn sem gefin er með veldaröð
-:hover:`afleiðujafna!veldaraðalausn`,
+út frá þeirri lausnartilgátu að til sé lausn sem gefin er með veldaröð,
 
 .. math:: u(x)=\sum\limits_{n=0}^{\infty} c_n(x-a)^n.
 
@@ -213,10 +212,9 @@ Látum :math:`f` vera raunfágað fall á opnu mengi :math:`X` í
 .. math:: f(x)=\sum_{n=0}^ \infty c_n(x-a)^ n.
 
 Þá kallast minnsta gildið á :math:`n` þannig að :math:`c_n\neq 0`
-*margfeldni* :hover:`margfeldni` eða *stig :hover:`stig`
-:hover:`núllstöð!stig`* :hover:`stig!núllstöðvar` núllstöðvarinnar
-:hover:`margfeldni!núllstöðvar` :hover:`núllstöð`
-:hover:`núllstöð!margfeldni` :math:`a`.
+:hover:`margfeldni` eða :hover:`stig` :math:`a`.
+
+--------------
 
 Ef :math:`a` er núllstöð fallsins :math:`f` af stigi :math:`N` og við
 setjum :math:`b_n=c_{N+n}`, þá er :math:`b_0\neq 0` og
@@ -241,16 +239,14 @@ Skilgreining
 Látum :math:`f` vera raunfágað fall á opnu mengi :math:`X` í
 :math:`{{\mathbb  R}}`, gerum ráð fyrir að :math:`a\not\in X` og að
 :math:`\{x; 0<|x-a|<r\}\subset X` fyrir eitthvert :math:`r>0`. Þá
-kallast punkturinn :math:`a` *einangraður sérstöðupunktur
-:hover:`einangraður sérstöðupunktur` :hover:`sérstöðupunktur`*
-:hover:`sérstöðupunktur!einangraður` raunfágaða fallsins :math:`f`. Við
-segjum að einangraður sérstöðupunktur sé *afmáanlegur
-:hover:`afmáanlegur sérstöðupunktur`
-:hover:`sérstöðupunktur!afmáanlegur` :hover:‘einangraður
-sérstöðupunktur!afmáanlegur‘* ef til er :math:`\varrho>0`, þannig að
-:math:`\{x; 0<|x-a|<{\varrho}\}\subset X` og raunfágað fall :math:`g` á
-:math:`\{x; |x-a|<{\varrho}\}` þannig að :math:`f(x)=g(x)` ef
-:math:`0<|x-a|<{\varrho}`.
+kallast punkturinn :math:`a` 
+:hover:`einangraður sérstöðupunktur` raunfágaða fallsins :math:`f`. Við
+segjum að einangraður sérstöðupunktur sé 
+:hover:`afmáanlegur sérstöðupunktur` ef til er :math:`\varrho>0`, þannig að :math:`\{x; 0<|x-a|<{\varrho}\}\subset X` og raunfágað 
+fall :math:`g` á :math:`\{x; |x-a|<{\varrho}\}` þannig að 
+:math:`f(x)=g(x)` ef :math:`0<|x-a|<{\varrho}`.
+
+--------------
 
 Skilgreiningin segir að :math:`a` sé afmáanlegur sérstöðupunktur
 raunfágaða fallsins :math:`f` þá og því aðeins að hægt sé að bæta
@@ -298,13 +294,14 @@ við jafngilda afleiðujöfnu
 Skilgreining
 ^^^^^^^^^^^^
 
-Við segjum að punkturinn :math:`a\in I` sé *venjulegur punktur
-:hover:`venjulegur punktur`* :hover:`afleiðujafna!venjulegur punktur`
+Við segjum að punkturinn :math:`a\in I` sé 
+:hover:`venjulegur punktur` 
 annars stigs afleiðujöfnu, ef :math:`a_2(a)\neq 0` eða :math:`a_2(a)=0`
 og :math:`a` er afmáanlegur sérstöðupunktur fallanna :math:`P` og
 :math:`Q`. Ef :math:`a` er ekki venjulegur punktur, þá kallast :math:`a`
-*sérstöðupunktur :hover:`sérstöðupunktur`*
-:hover:`afleiðujafna!sérstöðupunktur` jöfnunnar.
+*sérstöðupunktur* jöfnunnar.
+
+--------------
 
 Lítum nú á afleiðujöfnuna, umritum hana eins og hér að framan og gerum
 ráð fyrir að stuðlarnir :math:`P(x)` og :math:`Q(x)` hafi
@@ -395,17 +392,17 @@ og látum föllin :math:`P(x)=a_1(x)/a_2(x)` og
 Samleitnigeislinn er að minnsta kosti jafn stór og minni samleitnigeisli
 raðanna tveggja.
 
+--------------
+
 Útreikningar okkar hér að framan byggðu á þeirri lausnartilgátu að
 :math:`u` væri raunfágað.
-
---------------
 
 .. _syn3.2.9:
 
 Sýnidæmi
 ^^^^^^^^
 
-(*Jafna Legendre :hover:`jafna!Legendre`* :hover:`Legendre!jafna`).  
+(*Jafna Legendre*).  
 Gerum ráð fyrir að jafnan
 
 .. math::
@@ -498,9 +495,7 @@ núll og fyrri summan er því margliða af stigi :math:`\alpha`. Ef hins
 vegar :math:`\alpha` er oddatala þá er seinni veldaröðin margliða. Við
 fáum því að fyrir sérhvert :math:`n` er til margliðulausn á jöfnu
 Legendre, ef :math:`\lambda` er valið sem :math:`\lambda=n(n+1)`. Venja
-er að skilgreina Legendre–margliðurnar :hover:`Legendre!margliður`
-:hover:`margliða!Legendre` sem þessar lausnir eftir að hafa valið
-ákveðin gildi á stuðlunum :math:`c_0` og :math:`c_1`.
+er að skilgreina Legendre–margliðurnar sem þessar lausnir eftir að hafa valið ákveðin gildi á stuðlunum :math:`c_0` og :math:`c_1`.
 Legendre–margliðurnar koma fyrir í ýmsum útreikningum, meðal annars í
 rafsegulfræði. Við höfum ekki tök á því að gera þeim nein skil hér.
 
@@ -509,7 +504,7 @@ rafsegulfræði. Við höfum ekki tök á því að gera þeim nein skil hér.
 Sýnidæmi
 ^^^^^^^^
 
-(*Jafna Hermite :hover:`Hermite-jafna`* :hover:`jafna!Hermite`).   Við
+(*Jafna Hermite*).   Við
 lítum nú á afleiðujöfnuna
 :math:`u{{^{\prime\prime}}}-2xu{{^{\prime}}}+\lambda u=0` og leysum
 hana með því að gera ráð fyrir að lausnin sé gefin með veldaröð. Við
@@ -561,11 +556,10 @@ Við fáum nú formúlu fyrir lausnina
 
 Við sjáum nú að ef :math:`\alpha` er heiltala :math:`>0` þá fæst lausn
 sem er margliða. Fyrir ákveðið val á :math:`c_0` og :math:`c_1` fæst
-runa af margliðum, en þær nefnast *Hermite–margliður
-:hover:`margliða!Hermite`* :hover:`Hermite-margliður`.
+runa af margliðum, en þær nefnast *Hermite–margliður*.
 
-:math:`\Gamma`–fallið :hover:`Gamma-fall`
------------------------------------------
+:math:`\Gamma`–fallið
+---------------------
 
 Þegar rakningarformúlur eru notaðar til að finna beinar formúlur fyrir
 stuðlana í raðalausnum afleiðujafna koma endurtekin margfeldi oft fyrir.
@@ -685,8 +679,8 @@ og í framhaldi af því
 
     Mynd: Gamma–fallið.
 
-Aðferð Frobeniusar :hover:`aðferð Frobeniusar` :hover:`Frobenius`
------------------------------------------------------------------
+Aðferð Frobeniusar
+------------------
 
 Reglulegir sérstöðupunktar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -721,14 +715,15 @@ Skilgreining
 
 Látum :math:`f` vera raunfágað fall á opnu mengi :math:`X` í
 :math:`{{\mathbb  R}}`. Við segjum að einangraður sérstöðupunktur
-:math:`a` raunfágaða fallsins :math:`f` sé *skaut :hover:`skaut`
-:hover:`einangraður sérstöðupunktur!skaut`
-:hover:`sérstöðupunktur!skaut` af stigi* :math:`m>0`, ef til er
+:math:`a` raunfágaða fallsins :math:`f` sé :hover:`skaut`
+af stigi* :math:`m>0`, ef til er
 :math:`\varrho>0` og raunfágað fall :math:`g` á
 :math:`\{x; |x-a|<\varrho\}`, þannig að
 :math:`\{x; 0<|x-a|<{\varrho}\}\subset X`, :math:`g(a)\neq 0` og
 
 .. math:: f(x)=\dfrac {g(x)}{(x-a)^m}\qquad 0<|x-a|<\varrho.
+
+--------------
 
 Látum :math:`a` vera sérstöðupunkt fyrir jöfnuna (:ref:`Link title <3.4.1>`) og
 skrifum
@@ -743,19 +738,19 @@ skrifum
 Skilgreining
 ^^^^^^^^^^^^
 
-Við segjum að :math:`a` sé *reglulegur sérstöðupunktur
-:hover:`reglulegur sérstöðupunktur`* :hover:`sérstöðupunktur!reglulegur`
+Við segjum að :math:`a` sé 
+:hover:`reglulegur sérstöðupunktur` 
 afleiðujöfnunnar (:ref:`Link title <3.4.1>`), ef :math:`a` er sérstöðupunktur
 jöfnunnar, fallið :math:`P` hefur annað hvort afmáanlegan sérstöðupunkt
 í :math:`a` eða skaut af stigi :math:`\leq 1` og :math:`Q` hefur annað
 hvort afmáanlegan sérstöðupunkt í :math:`a` eða skaut af stigi
 :math:`\leq 2`.
 
+--------------
+
 Punkturinn :math:`a` er reglulegur sérstöðupunktur afleiðujöfnunnar þá
 og því aðeins að föllin :math:`p` og :math:`q`, sem skilgreind eru hér
 fyrir ofan, séu bæði fáguð í grennd um :math:`a`.
-
---------------
 
 Útfærsla á aðferð Forbeniusar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -842,14 +837,12 @@ afleiðujöfnunnar
 
 .. math:: \varphi(\lambda)=\lambda(\lambda-1)+p(a)\lambda+q(a)
 
-*vísamargliða afleiðujöfnunnar í punktinum :hover:‘vísamargliða
-afleiðujöfnu‘ :hover:`afleiðujafna!vísamargliða`*
-:hover:`margliða!vísamargliða` :math:`a`, jafnan
+*vísamargliða afleiðujöfnunnar í punktinum* :math:`a`, jafnan
 :math:`\varphi(\lambda)=0` kallast *vísajafna afleiðujöfnunnar í
-punktinum :hover:`vísajafna afleiðujöfnu`*
-:hover:`afleiðujafna!vísajafna` :math:`a`. Núllstöðvar hennar kallast
-*vísar jöfnunnar í punktinum :hover:`vísir aðleiðujöfnu`*
-:hover:`afleiðujafna!vísir` :math:`a`.
+punktinum* :math:`a`. Núllstöðvar hennar kallast
+*vísar jöfnunnar í punktinum* :math:`a`.
+
+--------------
 
 Við höfum sem sagt komist að því í útreikningum okkar, að til þess að
 fallið :math:`u(x)` sem gefið er með formúlunni, geti verið lausn á
@@ -876,8 +869,7 @@ Við erum nú komin að meginniðurstöðu kaflans:
 Setning
 ^^^^^^^
 
-(*Frobenius*).   :hover:`aðferð Frobeniusar` :hover:`Frobenius`
-:hover:`setning!Frobenius` Gerum ráð fyrir því að :math:`a` sé
+(*Frobenius*).   Gerum ráð fyrir því að :math:`a` sé
 reglulegur sérstöðupunktur afleiðujöfnunnar
 
 .. math::
@@ -958,13 +950,15 @@ Röðin er samleitin fyrir öll :math:`x` sem uppfylla
 :math:`0<|x-a|<\varrho`. Stuðlar raðarinnar og :math:`\gamma` fást með
 innsetningu í jöfnuna.
 
+--------------
+
 Við höfum aðeins sannað lítið brot af setningunni, en látum það duga.
 
-Bessel–jafnan :hover:`Bessel-jafnan`
-------------------------------------
+Bessel–jafnan
+-------------
 
-Bessel–jafnan :hover:`Bessel-jafnan`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Bessel–jafnan
+~~~~~~~~~~~~~
 
 Við skulum nú taka fyrir aðferð Frobeniusar til þess að leysa
 Bessel–jöfnuna
@@ -1039,9 +1033,9 @@ sem gefin er með formúlunni
 
   
 
-er kölluð *fall Bessels :hover:`fall Bessels` :hover:`Bessel-fall` af
-fyrstu gerð :hover:`Bessel-fall!af fyrstu gerð` með vísi*
-:math:`\alpha`.
+er kölluð *fall Bessels af fyrstu gerð með vísi* :math:`\alpha`.
+
+--------------
 
 Nú þurfum við að finna línulega óháða lausn og skiptum í tilfelli:
 
@@ -1169,7 +1163,7 @@ Fallið :math:`Y_0`, sem skilgreint er með
   \dfrac{(-1)^{k-1}h_k}{2^{2k}(k!)^2} x^{2k}\right],
 
 þar sem :math:`h_k=1+1/2+1/3+\cdots+1/k` og :math:`{\gamma}` táknar
-fasta Eulers :hover:`Euler!fasti` :hover:`fasti Eulers`
+fasta Eulers
 
 .. math::
 
@@ -1178,8 +1172,9 @@ fasta Eulers :hover:`Euler!fasti` :hover:`fasti Eulers`
    \\
    &\approx 0.577 \,  215 \,  644 \, 90 \dots,\nonumber\end{aligned}
 
-nefnist *fall Bessels :hover:`Bessel-fall` :hover:‘Bessel-fall!af
-annarri gerð‘ af annarri gerð með vísi* :math:`0`.
+nefnist *fall Bessels af annarri gerð með vísi* :math:`0`.
+
+--------------
 
 Það er ljóst að föllin :math:`J_0` og :math:`Y_0` eru línulega óháð, svo
 sérhverja lausn á Bessel-jöfnunni með vísi :math:`{\alpha}=0` er unnt að
@@ -1214,6 +1209,8 @@ er með
 þar sem :math:`h_k=1+1/2+1/3+\cdots+1/k` og :math:`{\gamma}` táknar
 fasta Eulers, nefnist *fall Bessels af annarri gerð með vísi*
 :math:`{\alpha}`.
+
+--------------
 
 Almenn lausn á Bessel-jöfnunni með vísi :math:`{\alpha}` er línuleg
 samantekt af :math:`J_{\alpha}` og :math:`Y_{\alpha}`,
