@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="Orðaskrá" href="ordaskra.html"/>
+        <link rel="prev" title="9. LÍNULEG AFLEIÐUJÖFNUHNEPPI" href="chapter09.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="Orðaskrá" href="ordaskra.html"/>
-        <link rel="prev" title="9. LÍNULEG AFLEIÐUJÖFNUHNEPPI" href="chapter09.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -974,7 +938,8 @@ veldisvísisgerð og að til sé fasti <span class="math">\(c\)</span> þannig a
 <p>Þá er <span class="math">\(f(t)=g(t)\)</span> fyrir öll <span class="math">\(t\in {{\mathbb  R}}_+\)</span>.</p>
 <hr class="docutils" />
 <p>Þessa setningu má einnig orða þannig að Laplace-ummyndun er eintæk
-vörpun á mengi allra samfelldra falla af veldisvísisgerð. Ef við sjáum
+vörpun á mengi allra samfelldra falla af veldisvísisgerð.</p>
+<p>Ef við sjáum
 að eitthvert fall <span class="math">\(F(s)\)</span> er Laplace-mynd af samfelldu falli
 <span class="math">\(f\)</span>, þá segir setningin okkur að <span class="math">\(f\)</span> er ótvírætt ákvarðað og
 við köllum þá <span class="math">\(f\)</span> <em>andhverfa Laplace-mynd</em> af fallinu <span class="math">\(F\)</span> og
@@ -1171,13 +1136,16 @@ formúlunni</p>
 <div class="math">
 \[f\ast g(t)=\int_{-\infty}^{+\infty}f(t-\tau)g(\tau) \, d\tau,\]</div>
 <p>og talan <span class="math">\(t\)</span> liggur í skilgreiningarmengi <span class="math">\(f\ast g\)</span> ef heildið
-er samleitið. Ef <span class="math">\(f\)</span> er til dæmis heildanlegt á
+er samleitið.</p>
+<p>Ef <span class="math">\(f\)</span> er til dæmis heildanlegt á
 <span class="math">\({{\mathbb  R}}\)</span> og <span class="math">\(g\)</span> er takmarkað, þá er földunin vel
-skilgreind fyrir öll <span class="math">\(t\in {{\mathbb  R}}\)</span>. Ef föllin <span class="math">\(f\)</span> og
+skilgreind fyrir öll <span class="math">\(t\in {{\mathbb  R}}\)</span>.</p>
+<p>Ef föllin <span class="math">\(f\)</span> og
 <span class="math">\(g\)</span> eru bæði skilgreind og heildanleg á <span class="math">\({{\mathbb  R}}_+\)</span>,
 þá getum við framlengt skilgreiningarsvæði þeirra yfir í allt
 <span class="math">\({{\mathbb  R}}\)</span> með því að setja <span class="math">\(f(t)=g(t)=0\)</span> fyrir öll
-<span class="math">\(t&lt;0\)</span>. Þá er <span class="math">\(f\ast g(t)\)</span> skilgreint fyrir öll
+<span class="math">\(t&lt;0\)</span>.</p>
+<p>Þá er <span class="math">\(f\ast g(t)\)</span> skilgreint fyrir öll
 <span class="math">\(t\in {{\mathbb  R}}\)</span> og</p>
 <div class="math">
 \[f\ast g(t)= \int_0^tf(t-\tau)g(\tau)\, d\tau.\]</div>

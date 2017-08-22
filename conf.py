@@ -30,37 +30,51 @@ import shlex
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.todo',
+#extensions = [
+#    'sphinx.ext.todo',
     # For some reason there seems to be a conflict between mathjax and 
     # other extensions causing non-proper rendering of LaTeX math code.
     # To avoid these errors we use the extension pngmath.
     # For the document to render properly dvipng must be uninstalled from your system
     #'sphinx.ext.pngmath',
-    'sphinx.ext.mathjax',
+#    'sphinx.ext.mathjax',
     #'hieroglyph',
     #  hieroglyph is used to generate html slides, needs to be installed for use,
     #  see https://github.com/nyergler/hieroglyph
-    'ggbextension.ggb',
+#    'ggbextension.ggb',
     #  Extension for embedding geogebra applets, see README.txt in ggbextension folder
-    'toggleblock.toggleBlock',
+#    'toggleblock.toggleBlock',
     # Extension for toggleable blocks of text (click to show/hide).
     # See README.txt in toggleblock-extension folder.
-    'sagecell.sagecell',
+#    'sagecell.sagecell',
     # Extension for embedding sage cells (https://sagecell.sagemath.org/).
     # See README.txt in sagecell-extension folder. 
-    'hoverrole.hoverrole',
+#    'hoverrole.hoverrole',
     # Extension for providing Icelandic to English translation of mathematical terms
     # on mouse-over. See README in hoverrole folder.
-    'scrolldepth.scrolldepth'
+#    'scrolldepth.scrolldepth'
+#
+#]
 
+extensions = [
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+#    'hieroglyph',
+    'ggbextension.ggb',
+    'hoverrole.hoverrole',
+    'toggleblock.toggleBlock',
+    'scrolldepth.scrolldepth'
 ]
+
+
+
 
 # The mathjax path needs to be set to https in order to work on notendur.hi.is, it can be changed here to suit other needs 
 # (http://sphinx-doc.org/latest/ext/math.html#confval-mathjax_path)
-mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 #mathjax_path = "MathJax.js"
-
+mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

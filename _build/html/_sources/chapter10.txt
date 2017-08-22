@@ -189,7 +189,9 @@ veldisvísisgerð og að til sé fasti :math:`c` þannig að
 --------------
 
 Þessa setningu má einnig orða þannig að Laplace-ummyndun er eintæk
-vörpun á mengi allra samfelldra falla af veldisvísisgerð. Ef við sjáum
+vörpun á mengi allra samfelldra falla af veldisvísisgerð. 
+
+Ef við sjáum
 að eitthvert fall :math:`F(s)` er Laplace-mynd af samfelldu falli
 :math:`f`, þá segir setningin okkur að :math:`f` er ótvírætt ákvarðað og
 við köllum þá :math:`f` *andhverfa Laplace-mynd* af fallinu :math:`F` og
@@ -507,13 +509,19 @@ formúlunni
 .. math:: f\ast g(t)=\int_{-\infty}^{+\infty}f(t-\tau)g(\tau) \, d\tau,
 
 og talan :math:`t` liggur í skilgreiningarmengi :math:`f\ast g` ef heildið
-er samleitið. Ef :math:`f` er til dæmis heildanlegt á
+er samleitið. 
+
+Ef :math:`f` er til dæmis heildanlegt á
 :math:`{{\mathbb  R}}` og :math:`g` er takmarkað, þá er földunin vel
-skilgreind fyrir öll :math:`t\in {{\mathbb  R}}`. Ef föllin :math:`f` og
+skilgreind fyrir öll :math:`t\in {{\mathbb  R}}`. 
+
+Ef föllin :math:`f` og
 :math:`g` eru bæði skilgreind og heildanleg á :math:`{{\mathbb  R}}_+`,
 þá getum við framlengt skilgreiningarsvæði þeirra yfir í allt
 :math:`{{\mathbb  R}}` með því að setja :math:`f(t)=g(t)=0` fyrir öll
-:math:`t<0`. Þá er :math:`f\ast g(t)` skilgreint fyrir öll
+:math:`t<0`. 
+
+Þá er :math:`f\ast g(t)` skilgreint fyrir öll
 :math:`t\in {{\mathbb  R}}` og
 
 .. math:: f\ast g(t)= \int_0^tf(t-\tau)g(\tau)\, d\tau.

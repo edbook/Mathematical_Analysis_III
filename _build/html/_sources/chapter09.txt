@@ -97,11 +97,9 @@ er jafngild hneppinu
   \begin{aligned}
    u_1{{^{\prime}}}&= u_2,\quad
    u_2{{^{\prime}}}= u_3,\quad
-
-  
-
-  \dots, \quad u_{m-1}{{^{\prime}}}= u_m\\
-   u_m{{^{\prime}}}&=-a_0(t)u_1-a_1(t)u_2-\cdots-a_{m-1}(t)u_m+g(t).\nonumber\end{aligned}
+   \dots, \quad u_{m-1}{{^{\prime}}}= u_m\\
+   u_m{{^{\prime}}}&=-a_0(t)u_1-a_1(t)u_2-\cdots-a_{m-1}(t)u_m+g(t).
+  \end{aligned}
 
 í þeim skilningi að :math:`v` er lausn á afleiðujöfnunni þá og því
 aðeins að :math:`u=[v,v{{^{\prime}}},\dots,v^{(m-1)}]^t` sé lausn á
@@ -124,9 +122,6 @@ tilfelli
    \vdots\\
    0\\
    g(t)
-
-  
-
   \end{matrix}\right].
 
 Setning
@@ -197,9 +192,6 @@ og er þar með
 .. math::
 
   v_j(t)=\beta_je^{\lambda_j(t-a)}+e^{\lambda_jt}\int_a^t e^{-\lambda_j
-
-  
-
   \tau}g_j(\tau) \, d\tau.
 
 Úrlausn með gefinn eiginvigragrunn
@@ -475,10 +467,7 @@ andhverfan :math:`\Phi(t)^{-1}` til í sérhverjum punkti
 
   \begin{aligned}
    \Phi{{^{\prime}}}(t)&= [u_1{{^{\prime}}}(t),\dots,u_m{{^{\prime}}}(t)]=\nonumber\\
-   &=[A(t)u_1(t),\dots,A(t)u_m(t)]=
-
-  
-   \\
+   &=[A(t)u_1(t),\dots,A(t)u_m(t)]=\\
    &=A(t)\Phi(t).\nonumber\end{aligned}
 
 Af hjálparsetningunni leiðir einnig að ef :math:`m\times m` fylkjafallið :math:`\Phi` uppfyllir

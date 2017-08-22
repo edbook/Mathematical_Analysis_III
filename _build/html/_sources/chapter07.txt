@@ -70,11 +70,15 @@ síðasta liðnum.
 
 Ef allir stuðlarnir :math:`a_j` eru fastaföll, þá segjum við að virkinn
 hafi *fastastuðla* og við skrifum þá einungis
-:math:`P(D)` í stað :math:`P(t,D)`. Þegar ekki er ljóst í formúlum með
+:math:`P(D)` í stað :math:`P(t,D)`. 
+
+Þegar ekki er ljóst í formúlum með
 tilliti til hvaða breytistærðar er verið að deilda, þá tilgreinum við
 það með :math:`D_t`, :math:`D_x`, :math:`D_s`, …, í stað :math:`D` í
 tákninu fyrir virkjann, þar sem lágvísirinn er táknið fyrir
-breytistærðina. Línulega samantekt tveggja afleiðuvirkja :math:`P(t,D)`
+breytistærðina. 
+
+Línulega samantekt tveggja afleiðuvirkja :math:`P(t,D)`
 og :math:`Q(t,D)` með tvinntölunum :math:`\alpha` og :math:`\beta`
 táknum við með :math:`\alpha P(t,D)+\beta Q(t,D)`. Þetta er virkinn sem
 skilgreindur er með formúlunni
@@ -92,7 +96,7 @@ Samsetningu virkjanna :math:`P(t,D)` og :math:`Q(t,D)` táknum við með
   \big(P(t,D)Q(t,D)\big)u=
    P(t,D)\big(Q(t,D)u\big).
 
-Sýnt er með dæmum sýnir að almennt er
+Sýnt er með dæmum að almennt er
 :math:`P(t,D)Q(t,D)\neq Q(t,D)P(t,D)`, með öðrum orðum, víxlreglan
 gildir ekki við samsetningu afleiðuvirkja. Hins vegar gildir hún ef
 virkjarnir hafa fastastuðla:
@@ -116,9 +120,6 @@ Nú skulum við líta á tilvist á lausnum á jaðargildisverkefnum. Í grein
    B:C^{m-1}[a,b]\to {{\mathbb  C}}^m, \qquad Bu=(B_1u,\dots,B_mu),\\
    B_ju=\sum\limits_{l=1}^m {\alpha}_{jl}u^{(l-1)}(a)
    +{\beta}_{jl}u^{(l-1)}(b)=c_j,  &j=1,2,\dots,m.
-
-   
-
   \end{cases}
 
 Við höfum fullkomna lýsingu á því hvenær lausn fæst:
@@ -294,13 +295,16 @@ Afleiðujafna af gerðinni
    
 
 þar sem stuðlarnir :math:`a_j` eru tvinntölur, :math:`a_m\neq 0` og
-:math:`u` er óþekkt fall af :math:`x`, nefnist *Euler-jafna*. Til þess
-að fá almenna lýsingu á lausnum jöfnunnar á
+:math:`u` er óþekkt fall af :math:`x`, nefnist *Euler-jafna*. 
+
+Til þess að fá almenna lýsingu á lausnum jöfnunnar á
 :math:`{{\mathbb  R}}\setminus{{\{0\}}}` dugir okkur að finna almenna
 lausn á jákvæða raunásnum, því auðvelt er að sannfæra sig um að
 :math:`v(x)=u(|x|)` er lausn á :math:`{{\mathbb  R}}\setminus{{\{0\}}}`
 þá og því aðeins að :math:`u` sé lausn á
-:math:`\{x\in {{\mathbb  R}}; x>0\}`. Athugið að veldið á :math:`x` í
+:math:`\{x\in {{\mathbb  R}}; x>0\}`. 
+
+Athugið að veldið á :math:`x` í
 hverjum lið er það sama og stigið á afleiðunni. Ef við stingum
 :math:`u(x)=x^r` inn í afleiðuvirkjann, þá fæst
 
@@ -402,17 +406,19 @@ Algengt er að ástandsjöfnur eðlisfræðilegra kerfa séu af gerðinni
 þar sem :math:`P(D)` er línulegur afleiðuvirki með fastastuðla og
 :math:`f` er gefið fall á einhverju bili. Fallið :math:`f` stendur oft
 fyrir ytra álag, örvun eða krafta, sem á kerfið verka, en lausnin er
-svörun kerfisins við þessu ytra álagi. Til þess að skilja kerfið er
+svörun kerfisins við þessu ytra álagi. 
+
+Til þess að skilja kerfið er
 nauðsynlegt að ráða yfir fjölbreytilegum aðferðum til þess að reikna út
-svörunina :math:`u` þegar ytra álagið :math:`f` er gefið. Í þessari
-grein ætlum við að líta á tilfellið að :math:`f` sé veldisvísisfall eða
-hornafall og athuga hvort hægt sé að finna sérlausn af sömu gerð. Í
-næstu grein munum við hins vegar fjalla um almenna aðferð til þess að
-finna sérlausn fyrir hvaða hægri hlið sem er. við höfum séð að
-:math:`P(D)e^{\alpha t}=P(\alpha)e^{\alpha t}`. Ef :math:`\alpha` er
-núllstöð kennimargliðunnar :math:`P`, þá er veldisvísisfallið
-:math:`e^{\alpha t}` lausn á óhliðruðu jöfnunni. Ef aftur á móti
-:math:`P(\alpha) \neq 0`, þá er
+svörunina :math:`u` þegar ytra álagið :math:`f` er gefið. 
+
+Í þessari grein ætlum við að líta á tilfellið að :math:`f` sé 
+veldisvísisfall eða hornafall og athuga hvort hægt sé að finna sérlausn af sömu gerð. Í næstu grein munum við hins vegar fjalla um almenna aðferð til þess að finna sérlausn fyrir hvaða hægri hlið sem er. 
+
+Við höfum séð að :math:`P(D)e^{\alpha t}=P(\alpha)e^{\alpha t}`. 
+Ef :math:`\alpha` er núllstöð kennimargliðunnar :math:`P`, 
+þá er veldisvísisfallið :math:`e^{\alpha t}` lausn á óhliðruðu jöfnunni. 
+Ef aftur á móti :math:`P(\alpha) \neq 0`, þá er
 
 .. math::
 
@@ -604,16 +610,11 @@ Við táknum hana með :math:`G(t,\tau)`. Þar með ákvarðast fallið
 .. math::
 
   \begin{gathered}
-   P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,
-
-   
-   \\
+   P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\\
    G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=
-
-   
-
-  \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
-   \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). \end{gathered}
+   \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
+   \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). 
+  \end{gathered}
 
 Nú tökum við :math:`a\in I` og sýnum fram á að fallið
 
@@ -718,16 +719,11 @@ og er hún gefin með formúlunni
 .. math::
 
   \begin{gathered}
-   P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,
-
-   
-   \\
+   P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\\
    G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=
-
-   
-
-  \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
-   \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). \end{gathered}
+   \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
+   \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). 
+  \end{gathered}
 
 Fallið :math:`G(t,\tau)` er :math:`m`-sinnum samfellt deildanlegt fall
 af :math:`t` fyrir sérhvert :math:`\tau\in I` og

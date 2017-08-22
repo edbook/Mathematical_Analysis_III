@@ -8,12 +8,15 @@ Venjulegar afleiðujöfnur
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 :hover:`Afleiðujafna,deildajafna` er jafna sem lýsir sambandi milli
-fallgilda óþekkts falls og gilda á einstökum afleiðum þess. Ef óþekkta
-fallið er háð einni breytistærð, þá kallast jafnan 
+fallgilda óþekkts falls og gilda á einstökum afleiðum þess. 
+
+Ef óþekkta fallið er háð einni breytistærð, þá kallast jafnan 
 :hover:`venjuleg afleiðujafna,venjuleg deildajafna` 
 en ef það er háð fleiri en einni breytistærð, þá kallast
-hún :hover:`hlutafleiðujafna`. Venjulega afleiðujöfnu
-er alltaf hægt að umrita yfir í jafngilda jöfnu af gerðinni
+hún :hover:`hlutafleiðujafna`. 
+
+Venjulega afleiðujöfnu er alltaf hægt að umrita yfir í jafngilda 
+jöfnu af gerðinni
 
 .. math::
 
@@ -25,7 +28,9 @@ er alltaf hægt að umrita yfir í jafngilda jöfnu af gerðinni
 einhverju hlutmengi :math:`A` af :math:`{{\mathbb  R}}` og að :math:`u`
 sé óþekkt fall sem skilgreint er á :math:`A` og tekur gildi í
 :math:`{{\mathbb  R}}`, :math:`{{\mathbb  C}}` eða jafnvel
-:math:`{{\mathbb  R}}^m`. Úrlausn jöfnunnar felst í því að finna opið
+:math:`{{\mathbb  R}}^m`. 
+
+Úrlausn jöfnunnar felst í því að finna opið
 bil :math:`I\subset A` og öll föll :math:`u` þannig að vigurinn
 
 .. math::
@@ -109,10 +114,14 @@ Tilvist og ótvíræðni lausna
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Það eru margvíslegar spurningar sem menn leita svara við þegar
-afleiðujöfnur eru leystar. Eðlilega fjallar fyrsta spurningin um tilvist
+afleiðujöfnur eru leystar. 
+
+Eðlilega fjallar fyrsta spurningin um tilvist
 á lausn. Ef henni er svarað játandi er eðlilegt að spyrja næst með hvaða
 skilyrðum lausn sé ótvírætt ákvörðuð og síðan hvernig ákvarða megi
-lausnir og finna nálganir á þeim. Til þess að útskýra þetta skulum við
+lausnir og finna nálganir á þeim. 
+
+Til þess að útskýra þetta skulum við
 líta á einföldustu afleiðujöfnu sem hugsast getur
 
 .. math:: u'=0.
@@ -203,9 +212,6 @@ stofnfallið :math:`A` þannig að :math:`A(a)=0` og :math:`C=b`,
 .. math::
 
   u(t)=e^{-A(t)}(b+\int_a^ t e^{A(\tau)}f(\tau) \, d\tau), 
-
-  
-
   \qquad A(t)=\int_a^ t a_0(\tau) \, d\tau.
 
 Aðskiljanlegar jöfnur
@@ -228,9 +234,6 @@ verkefnið
 .. math::
 
   H(u(t))-H(b)= \int_b^{u(t)} h(x) \, dx =
-
-  
-
   \int_a^ t h(u({\tau}))u'({\tau}) \, d{\tau} = 
    \int_a^ t g(\tau) \, d\tau.
 
@@ -256,9 +259,13 @@ Afleiðujöfnuhneppi
 
 *Afleiðujöfnuhneppi* er safn af jöfnum sem
 lýsa sambandi milli gilda óþekktra falla og gilda á einstökum afleiðum
-þeirra. Ef óþekktu föllin eru háð einni breytistærð, þá kallast það
+þeirra. 
+
+Ef óþekktu föllin eru háð einni breytistærð, þá kallast það
 *venjulegt*, en það kallast *hlutafleiðujöfnuhneppi* ef
-þau eru háð fleiri en einni breytistærð. Venjulegt afleiðujöfnuhneppi er
+þau eru háð fleiri en einni breytistærð. 
+
+Venjulegt afleiðujöfnuhneppi er
 alltaf hægt að umrita yfir í jöfnur af gerðinni
 
 .. math::
@@ -271,7 +278,9 @@ alltaf hægt að umrita yfir í jöfnur af gerðinni
 
 þar sem :math:`t` táknar breytistærðina, :math:`u_1,\dots,u_k` eru
 óþekktu föllin og föllin :math:`F_1,\dots,F_l` taka gildi í
-:math:`{{\mathbb  R}}` eða :math:`{{\mathbb  C}}`. Til þess að einfalda
+:math:`{{\mathbb  R}}` eða :math:`{{\mathbb  C}}`. 
+
+Til þess að einfalda
 ritháttinn, þá skilgreinum við vigurgildu föllin
 :math:`u=(u_1,\dots,u_k)` og :math:`F=(F_1,\dots,F_l)`. Þá eru jöfnurnar
 jafngildar vigurjöfnunni :math:`F(t,u,u{{^{\prime}}},\dots,u^{(m)})=0`
@@ -306,6 +315,7 @@ jöfnurnar
 :math:`G_j:\Omega\to{{\mathbb  C}}`,
 :math:`\Omega\subset {{\mathbb  R}}\times{{\mathbb  C}}^m` eftir því
 hvort við viljum að lausnin taki rauntölugildi eða tvinntölugildi.
+
 Föllin :math:`u=(u_1,\dots,u_m)` og :math:`G=(G_1,\dots,G_m)` taka gildi
 í vigurrúminu :math:`{{\mathbb  R}}^ m` eða
 :math:`{{\mathbb  C}}^ m`, eftir því hvort við hugsum okkur að
@@ -362,9 +372,13 @@ Ef við skilgreinum vigurfallið :math:`u=(u_1,\dots,u_m)` með
 Jafnan og jöfnuhneppið eru jafngild í þeim skilningi að sérhver lausn
 :math:`v` á gefur lausn :math:`u=(v,v{{^{\prime}}},\dots,v^{(m-1)})`
 á hneppinu og sérhver lausn :math:`u` á hneppinu gefur lausnina
-:math:`v=u_1` á jöfnunni. Þessi einfalda staðreynd er mikilvæg, því
+:math:`v=u_1` á jöfnunni. 
+
+Þessi einfalda staðreynd er mikilvæg, því
 einfalt reynist að sanna tilvist á lausnum á fyrsta stigs jöfnuhneppum á
-staðalformi. Þá niðurstöðu er síðan hægt að nota til að sanna tilvist á
+staðalformi. 
+
+Þá niðurstöðu er síðan hægt að nota til að sanna tilvist á
 lausnum á jöfnum af stigi stærra en :math:`1`.
 
 Línulega afleiðujafnan
@@ -393,17 +407,14 @@ vigurinn :math:`f` verða þá
    \vdots&\vdots&\ddots&\vdots\\
    0&0&\dots&1\\
    -a_0/a_m&-a_1/a_m&\dots&-a_{m-1}/a_m
-   \end{matrix}\right],
-   \qquad
-   f=\left[\begin{matrix}
+  \end{matrix}\right],
+  \qquad
+  f=\left[\begin{matrix}
    0\\
    0\\
    \vdots\\
    0\\
    g/a_m
-
-  
-
   \end{matrix}\right].
 
 Upphafsgildisverkefni
@@ -411,10 +422,13 @@ Upphafsgildisverkefni
 
 Oft hafa menn áhuga á að finna lausnir á afleiðujöfnum og
 afleiðujöfnuhneppum sem uppfylla einhverja ákveðna eiginleika.
+
 :hover:`Upphafsgildisverkefni,upphafsgildisverkefni` 
 snúast um að leysa afleiðujöfnuhneppi með því
 hliðarskilyrði að lausnin og einhverjar afleiður hennar taki fyrirfram
-gefin gildi í ákveðnum punkti. Upphafsgildisverkefni fyrir fyrsta stigs
+gefin gildi í ákveðnum punkti. 
+
+Upphafsgildisverkefni fyrir fyrsta stigs
 hneppi af staðalformi er til dæmis verkefnið
 
 .. math::
@@ -500,9 +514,6 @@ Við lítum á :math:`B_j` sem línulega vörpun
    a_m(t)u^{(m)}+\cdots+a_1(t)u{{^{\prime}}}+a_0(t)u=f(t),  &t\in ]a,b[\\
    Bu=c, \qquad B_ju=\sum\limits_{l=1}^m \big({\alpha}_{jl}u^{(l-1)}(a)
    +{\beta}_{jl}u^{(l-1)}(b)\big), 
-
-  
-
   \end{cases}
 
 fyrir gefið fall :math:`f\in C[a,b]` og gefinn vigur
@@ -540,10 +551,12 @@ upphafsgildisverkefninu
 einhverju hlutmengi :math:`\Omega` í
 :math:`{{\mathbb  R}}\times {{\mathbb  R}}^m`, :math:`a` er gefin
 rauntala, :math:`b` er gefinn vigur og :math:`(a,b)\in \Omega`.
+
 Tilfellið að :math:`f` taki gildi í tvinntölurúminu
 :math:`{{\mathbb  C}}^m` og að :math:`\Omega` sé hlutmengi í
 :math:`{{\mathbb  R}}\times {{\mathbb  C}}^m` fæst síðan með því að líta
 á :math:`{{\mathbb  C}}^m` sem vigurrúmið :math:`{{\mathbb  R}}^{2m}`.
+
 Ef við ætlumst til þess að lausnin :math:`u` hafi samfellda afleiðu, þá
 þurfum við auðvitað að gera ráð fyrir því að fallið :math:`f` sé
 samfellt.
@@ -562,10 +575,14 @@ sem inniheldur punktinn :math:`a` og fall
 --------------
 
 Setning Peano er of erfið til þess að við getum átt við að sanna hana
-hér, en fróðlegt er að vita hvað hún segir. Við munum hins vegar sanna
+hér, en fróðlegt er að vita hvað hún segir. 
+
+Við munum hins vegar sanna
 tvær tilvistarsetningar, sem kenndar eru við Picard. Í þeim gefum við
 okkur meiri forsendur um fallið :math:`f`, en að það sé bara samfellt,
-og þær tryggja að lausnin verði ótvírætt ákvörðuð. Setning Peano segir
+og þær tryggja að lausnin verði ótvírætt ákvörðuð. 
+
+Setning Peano segir
 okkur einungis að til sé lausn en hún segir ekkert um það hvort lausnin
 er ótvírætt ákvörðuð.
 
@@ -632,7 +649,9 @@ er tekið yfir öll :math:`t\in J`.
 fyrir að :math:`\Omega` sé þannig að fyrir sérhvert par af punktum
 :math:`(t,x), (t,y)` í :math:`\Omega` liggi línustrikið milli þeirra í
 :math:`\Omega`. Línustrikið samanstendur af öllum punktum
-:math:`(t,\tau x+(1-\tau)y)`, :math:`\tau\in [0,1]`. Látum nú :math:`A`
+:math:`(t,\tau x+(1-\tau)y)`, :math:`\tau\in [0,1]`. 
+
+Látum nú :math:`A`
 vera lokað og takmarkað hlutmengi af :math:`\Omega`, sem hefur þann
 eiginleika að fyrir sérhvert par af punktum :math:`(t,x), (t,y)` í
 :math:`A` liggur línustrikið á milli þeirra í :math:`A`. Þá er
@@ -694,9 +713,11 @@ hlutbil :math:`J` í :math:`I`. Þá er til ótvírætt ákvörðuð lausn
 grein. Eins og fram hefur komið kallast hún venjulega *víðfeðm* útgáfa
 af tilvistarsetningu fyrir fyrsta stigs hneppi. Ástæðan fyrir
 nafngiftinni er, að við fáum lausn á bili sem inniheldur öll
-:math:`t`–gildi þar sem hægri hlið jöfnunnar er skilgreind. Tökum nú
-fyrir tvær mikilvægustu afleiðingar setningarinnar. Í sýnidæmi
-:ref:`Link title <syn1.7.4>` sáum við að forsendurnar í setningu :ref:`Link title <set1.7.5>` eru
+:math:`t`–gildi þar sem hægri hlið jöfnunnar er skilgreind. 
+
+Tökum nú fyrir tvær mikilvægustu afleiðingar setningarinnar. Í sýnidæmi 
+:ref:`Link title <syn1.7.4>` sáum við að forsendurnar í 
+setningu :ref:`Link title <set1.7.5>` eru 
 uppfylltar fyrir línuleg jöfnuhneppi með samfellda stuðla. Við lítum á
 vigurrúmið :math:`{{\mathbb  C}}^m` yfir tvinntölurnar sem :math:`2m`
 víða rúmið :math:`{{\mathbb  R}}^{2m}` yfir rauntölurnar og fáum:
@@ -752,7 +773,9 @@ Setning
 :math:`(a,b)\in \Omega` og :math:`f\in C(\Omega,{{\mathbb  R}}^ m)`.
 Gerum ráð fyrir að til sé grennd :math:`U` um punktinn :math:`(a,b)`
 innihaldin í :math:`\Omega` og að fallið :math:`f` uppfylli
-Lipschitz–skilyrði í :math:`U`. Þá er til opið bil :math:`I` á
+Lipschitz–skilyrði í :math:`U`. 
+
+Þá er til opið bil :math:`I` á
 :math:`{{\mathbb  R}}` sem inniheldur :math:`a` og ótvírætt ákvörðuð
 lausn :math:`u\in C^ 1(I, {{\mathbb  R}}^m)` á upphafsgildisverkefninu
 
@@ -781,8 +804,9 @@ Maður skyldi ætla að óreyndu, að svona einföld jafna hefði lausn, sem
 skilgreind er á öllum rauntalnaásnum, en svo er greinilega ekki.
 Skilgreiningarsvæðið minnkar eftir því sem upphafsgildið stækkar.
 Athugið að engu að síður hefur verkefnið lausn í grennd um :math:`a`
-fyrir sérhvert val á :math:`(a,b)`. Við sáum í sýnidæmi :ref:`Link title <syn1.7.4>`
-\(iii) uppfyllir skilyrðin í staðbundnu útgáfu Picard setningarinnar, en
+fyrir sérhvert val á :math:`(a,b)`. 
+
+Við sáum í sýnidæmi :ref:`Link title <syn1.7.4>` (iii) uppfyllir skilyrðin í staðbundnu útgáfu Picard setningarinnar, en
 ekki þeirrar víðfeðmu.
 
 --------------

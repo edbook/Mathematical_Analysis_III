@@ -195,8 +195,9 @@ stjörnusvæði með tilliti til :math:`a`.
 
 Gerum nú ráð fyrir að :math:`u` sé þýtt fall á svæði :math:`Y` og að
 :math:`g:X\to {{\mathbb  C}}` sé fágað fall á svæði
-:math:`X\subset {{\mathbb  C}}` þannig að :math:`g(X)\subset Y`. Ef
-:math:`a\in  X` þá er til opin skífa með miðju í :math:`g(a)` í
+:math:`X\subset {{\mathbb  C}}` þannig að :math:`g(X)\subset Y`. 
+
+Ef :math:`a\in  X` þá er til opin skífa með miðju í :math:`g(a)` í
 :math:`Y` þannig að :math:`u` er raunhluti fágaðs falls á :math:`f` á
 skífunni. Þá verður samskeytingin :math:`u\circ g` raunhluti
 :math:`f\circ g` sem er fágað fall í grennd um :math:`a`. Þetta segir
@@ -237,10 +238,13 @@ jafngildir afleiðujöfnuhneppinu
 
 Vigursviðið getur átt sér eðlisfræðilega túlkun. Við getum til dæmis
 litið á :math:`\vec V` sem hraðasvið fyrir streymi vökva eða lofts.
+
 Gengið er út frá því að streymið sé óháð tíma og einni rúmbreytistærð og
 að það sé samsíða einhverju plani, sem við höfum valið sem
 :math:`(x,y)`-plan. Straumlínurnar eru þá brautir agnanna í vökvanum eða
-loftinu. :math:`\vec V` getur einnig verið hraðasvið rafstraums í þunnri
+loftinu. 
+
+:math:`\vec V` getur einnig verið hraðasvið rafstraums í þunnri
 plötu og þá er :math:`\vec V` samsíða straumsviðinu í sérhverjum punkti.
 
 Hugsum okkur nú að :math:`{\Omega}` sé hlutsvæði í :math:`X` með jaðar
@@ -250,8 +254,9 @@ stika :math:`{\partial}{\Omega}` með einföldum lokuðum ferli
 :math:`{\gamma}` stikar :math:`{\partial}{\Omega}` í jákvæða stefnu, en
 það þýðir að svæðið :math:`{\Omega}` er vinstra megin við snertilínuna í
 :math:`{\gamma}(t)`, ef horft er í stefnu snertilsins
-:math:`{\gamma}{{^{\prime}}}(t)`. Ef
-:math:`(x,y)={\gamma}(t)\in {\partial}{\Omega}` er punktur, þar sem
+:math:`{\gamma}{{^{\prime}}}(t)`. 
+
+Ef :math:`(x,y)={\gamma}(t)\in {\partial}{\Omega}` er punktur, þar sem
 :math:`{\gamma}` er deildanlegt fall, þá skilgreinum við
 *einingarsnertil* :math:`\vec T(x,y)` í
 :math:`(x,y)`, sem einingarvigurinn í stefnu
@@ -260,7 +265,9 @@ stika :math:`{\partial}{\Omega}` með einföldum lokuðum ferli
 *ytri einingarþvervigur á*
 :math:`{\partial}{\Omega}` sem einingarvigurinn :math:`\vec n(x,y)` sem
 er hornréttur á :math:`{\gamma}{{^{\prime}}}(t)` og vísar út úr
-:math:`{\Omega}`. Við látum :math:`ds` tákna 
+:math:`{\Omega}`. 
+
+Við látum :math:`ds` tákna 
 :hover:`bogalengdarfrymið,bogalengdarfrymi`. Með :math:`{\gamma}` sem stikun á
 :math:`{\partial}{\Omega}` er það gefið sem
 :math:`ds=|{\gamma}{{^{\prime}}}(t)|\, dt`.
@@ -344,7 +351,9 @@ mynda jaðar á svæði :math:`{\Omega}\subset X`. Hugsum okkur að
 Nú skulum við skrifa :math:`\vec V` sem tvinnfall,
 :math:`V(z)=p(z)+iq(z)`. Hlutafleiðujöfnurnar hér að framan segja að
 :math:`\overline  V=p-iq` uppfylli Cauchy-Riemann-jöfnurnar og þar með
-er fallið :math:`\overline V` fágað. Hugsum okkur að :math:`\overline V`
+er fallið :math:`\overline V` fágað. 
+
+Hugsum okkur að :math:`\overline V`
 hafi stofnfall, sem við táknum með :math:`f`. Ef
 :math:`{\varphi}={{\operatorname{Re\, }}}f` og
 :math:`{\psi}={{\operatorname{Im\, }}}f`, þá leiðir af
@@ -359,8 +368,9 @@ Cauchy-Riemann-jöfnunum að
 Við höfum því :math:`{{\operatorname{grad}}}\varphi=\vec V=(p,q)`, svo
 straumlínurnar eru hornréttar á 
 :hover:`jafnhæðarlínurnar,hæðarlínur`
-:math:`\{z; \varphi(z)=c\}`, þar sem :math:`c` er fasti. Nú gefa
-Cauchy-Riemann-jöfnurnar hins vegar að
+:math:`\{z; \varphi(z)=c\}`, þar sem :math:`c` er fasti. 
+
+Nú gefa Cauchy-Riemann-jöfnurnar hins vegar að
 :math:`{{\operatorname{grad}}}\psi=(\partial_x\psi, \partial_y\psi)` er hornréttur á
 :math:`{{\operatorname{grad}}}\varphi=(\partial_x\varphi, \partial_y\varphi)` og þar með eru staumlínurnar fyrir vigursviðið
 :math:`\vec V` gefnar sem jafnhæðarlínurnar :math:`\{z; \psi(z)=c\}`,
@@ -369,7 +379,9 @@ Cauchy-Riemann-jöfnurnar hins vegar að
 Fallið :math:`f` kallast *tvinnmætti* fyrir
 straumfallið :math:`V`, fallið :math:`\varphi` kallast *raunmætti* 
 fyrir :math:`V` og fallið :math:`\psi` kallast
-*streymisfall*. Niðurstaða athugana okkar er því
+*streymisfall*. 
+
+Niðurstaða athugana okkar er því
 að straumlínur vigursviðsins :math:`\vec V` eru jafnhæðarlínur
 streymisfallsins :math:`\psi`, þar sem
 :math:`\psi= {{\operatorname{Im\, }}}f` og

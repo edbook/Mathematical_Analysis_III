@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="8. VELDARAÐALAUSNIR Á AFLEIÐUJÖFNUM" href="chapter08.html"/>
+        <link rel="prev" title="6. UNDIRSTÖÐUATRIÐI UM AFLEIÐUJÖFNUR" href="chapter06.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="8. VELDARAÐALAUSNIR Á AFLEIÐUJÖFNUM" href="chapter08.html"/>
-        <link rel="prev" title="6. UNDIRSTÖÐUATRIÐI UM AFLEIÐUJÖFNUR" href="chapter06.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -893,11 +857,13 @@ látinn verka á fallið <span class="math">\(u\)</span>, er margfaldað með <s
 síðasta liðnum.</p>
 <p>Ef allir stuðlarnir <span class="math">\(a_j\)</span> eru fastaföll, þá segjum við að virkinn
 hafi <em>fastastuðla</em> og við skrifum þá einungis
-<span class="math">\(P(D)\)</span> í stað <span class="math">\(P(t,D)\)</span>. Þegar ekki er ljóst í formúlum með
+<span class="math">\(P(D)\)</span> í stað <span class="math">\(P(t,D)\)</span>.</p>
+<p>Þegar ekki er ljóst í formúlum með
 tilliti til hvaða breytistærðar er verið að deilda, þá tilgreinum við
 það með <span class="math">\(D_t\)</span>, <span class="math">\(D_x\)</span>, <span class="math">\(D_s\)</span>, …, í stað <span class="math">\(D\)</span> í
 tákninu fyrir virkjann, þar sem lágvísirinn er táknið fyrir
-breytistærðina. Línulega samantekt tveggja afleiðuvirkja <span class="math">\(P(t,D)\)</span>
+breytistærðina.</p>
+<p>Línulega samantekt tveggja afleiðuvirkja <span class="math">\(P(t,D)\)</span>
 og <span class="math">\(Q(t,D)\)</span> með tvinntölunum <span class="math">\(\alpha\)</span> og <span class="math">\(\beta\)</span>
 táknum við með <span class="math">\(\alpha P(t,D)+\beta Q(t,D)\)</span>. Þetta er virkinn sem
 skilgreindur er með formúlunni</p>
@@ -909,7 +875,7 @@ skilgreindur er með formúlunni</p>
 <div class="math">
 \[\big(P(t,D)Q(t,D)\big)u=
  P(t,D)\big(Q(t,D)u\big).\]</div>
-<p>Sýnt er með dæmum sýnir að almennt er
+<p>Sýnt er með dæmum að almennt er
 <span class="math">\(P(t,D)Q(t,D)\neq Q(t,D)P(t,D)\)</span>, með öðrum orðum, víxlreglan
 gildir ekki við samsetningu afleiðuvirkja. Hins vegar gildir hún ef
 virkjarnir hafa fastastuðla:</p>
@@ -926,7 +892,8 @@ virkjarnir hafa fastastuðla:</p>
 \[\begin{split}\begin{cases}
  B:C^{m-1}[a,b]\to {{\mathbb  C}}^m, \qquad Bu=(B_1u,\dots,B_mu),\\
  B_ju=\sum\limits_{l=1}^m {\alpha}_{jl}u^{(l-1)}(a)
- +{\beta}_{jl}u^{(l-1)}(b)=c_j,  &amp;j=1,2,\dots,m.\end{split}\]\[\end{cases}\]</div>
+ +{\beta}_{jl}u^{(l-1)}(b)=c_j,  &amp;j=1,2,\dots,m.
+\end{cases}\end{split}\]</div>
 <p>Við höfum fullkomna lýsingu á því hvenær lausn fæst:</p>
 </div>
 <div class="section" id="id1">
@@ -1046,13 +1013,14 @@ stak í núllrúminu sem</p>
 \[P(x,D_x)u=
  a_mx^mu^{(m)}+\cdots+a_1xu{{^{\prime}}}+a_0u=0,\]</div>
 <p>þar sem stuðlarnir <span class="math">\(a_j\)</span> eru tvinntölur, <span class="math">\(a_m\neq 0\)</span> og
-<span class="math">\(u\)</span> er óþekkt fall af <span class="math">\(x\)</span>, nefnist <em>Euler-jafna</em>. Til þess
-að fá almenna lýsingu á lausnum jöfnunnar á
+<span class="math">\(u\)</span> er óþekkt fall af <span class="math">\(x\)</span>, nefnist <em>Euler-jafna</em>.</p>
+<p>Til þess að fá almenna lýsingu á lausnum jöfnunnar á
 <span class="math">\({{\mathbb  R}}\setminus{{\{0\}}}\)</span> dugir okkur að finna almenna
 lausn á jákvæða raunásnum, því auðvelt er að sannfæra sig um að
 <span class="math">\(v(x)=u(|x|)\)</span> er lausn á <span class="math">\({{\mathbb  R}}\setminus{{\{0\}}}\)</span>
 þá og því aðeins að <span class="math">\(u\)</span> sé lausn á
-<span class="math">\(\{x\in {{\mathbb  R}}; x&gt;0\}\)</span>. Athugið að veldið á <span class="math">\(x\)</span> í
+<span class="math">\(\{x\in {{\mathbb  R}}; x&gt;0\}\)</span>.</p>
+<p>Athugið að veldið á <span class="math">\(x\)</span> í
 hverjum lið er það sama og stigið á afleiðunni. Ef við stingum
 <span class="math">\(u(x)=x^r\)</span> inn í afleiðuvirkjann, þá fæst</p>
 <div class="math">
@@ -1122,17 +1090,16 @@ fallanna</p>
 <p>þar sem <span class="math">\(P(D)\)</span> er línulegur afleiðuvirki með fastastuðla og
 <span class="math">\(f\)</span> er gefið fall á einhverju bili. Fallið <span class="math">\(f\)</span> stendur oft
 fyrir ytra álag, örvun eða krafta, sem á kerfið verka, en lausnin er
-svörun kerfisins við þessu ytra álagi. Til þess að skilja kerfið er
+svörun kerfisins við þessu ytra álagi.</p>
+<p>Til þess að skilja kerfið er
 nauðsynlegt að ráða yfir fjölbreytilegum aðferðum til þess að reikna út
-svörunina <span class="math">\(u\)</span> þegar ytra álagið <span class="math">\(f\)</span> er gefið. Í þessari
-grein ætlum við að líta á tilfellið að <span class="math">\(f\)</span> sé veldisvísisfall eða
-hornafall og athuga hvort hægt sé að finna sérlausn af sömu gerð. Í
-næstu grein munum við hins vegar fjalla um almenna aðferð til þess að
-finna sérlausn fyrir hvaða hægri hlið sem er. við höfum séð að
-<span class="math">\(P(D)e^{\alpha t}=P(\alpha)e^{\alpha t}\)</span>. Ef <span class="math">\(\alpha\)</span> er
-núllstöð kennimargliðunnar <span class="math">\(P\)</span>, þá er veldisvísisfallið
-<span class="math">\(e^{\alpha t}\)</span> lausn á óhliðruðu jöfnunni. Ef aftur á móti
-<span class="math">\(P(\alpha) \neq 0\)</span>, þá er</p>
+svörunina <span class="math">\(u\)</span> þegar ytra álagið <span class="math">\(f\)</span> er gefið.</p>
+<p>Í þessari grein ætlum við að líta á tilfellið að <span class="math">\(f\)</span> sé
+veldisvísisfall eða hornafall og athuga hvort hægt sé að finna sérlausn af sömu gerð. Í næstu grein munum við hins vegar fjalla um almenna aðferð til þess að finna sérlausn fyrir hvaða hægri hlið sem er.</p>
+<p>Við höfum séð að <span class="math">\(P(D)e^{\alpha t}=P(\alpha)e^{\alpha t}\)</span>.
+Ef <span class="math">\(\alpha\)</span> er núllstöð kennimargliðunnar <span class="math">\(P\)</span>,
+þá er veldisvísisfallið <span class="math">\(e^{\alpha t}\)</span> lausn á óhliðruðu jöfnunni.
+Ef aftur á móti <span class="math">\(P(\alpha) \neq 0\)</span>, þá er</p>
 <div class="math">
 \[P(D)u_p=e^{\alpha t} \qquad\text{ ef } \qquad
  u_p(t)=\dfrac{e^{\alpha t}}{P(\alpha)}.\]</div>
@@ -1239,11 +1206,12 @@ upphafsgildisverkefninu</p>
 <p>Við táknum hana með <span class="math">\(G(t,\tau)\)</span>. Þar með ákvarðast fallið
 <span class="math">\(G\)</span> af skilyrðunum</p>
 <div class="math">
-\[\begin{gathered}
- P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\]\[\begin{split}
- \\
- G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=\end{split}\]\[\partial_t^{(m-2)}G(\tau,\tau)=0, \quad
- \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). \end{gathered}\]</div>
+\[\begin{split}\begin{gathered}
+ P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\\
+ G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=
+ \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
+ \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}).
+\end{gathered}\end{split}\]</div>
 <p>Nú tökum við <span class="math">\(a\in I\)</span> og sýnum fram á að fallið</p>
 <div class="math">
 \[u_p(t) = \int_a^ t G(t,\tau)f(\tau) \, d\tau, \qquad t\in I,\]</div>
@@ -1310,11 +1278,12 @@ sérhvert <span class="math">\(f\in C(I)\)</span> er til ótvírætt ákvörðu�
 \[u_p(t) = \int_a^ t G(t,\tau)f(\tau) \, d\tau, \qquad t\in I,\]</div>
 <p>þar sem <span class="math">\(G\)</span>, er lausnin á upphafsgildisverkefninu</p>
 <div class="math">
-\[\begin{gathered}
- P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\]\[\begin{split}
- \\
- G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=\end{split}\]\[\partial_t^{(m-2)}G(\tau,\tau)=0, \quad
- \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}). \end{gathered}\]</div>
+\[\begin{split}\begin{gathered}
+ P(t,D_t)G(t,\tau)=0,  \qquad t,\tau\in I,\\
+ G(\tau,\tau)=\partial_tG(\tau,\tau)=\cdots=
+ \partial_t^{(m-2)}G(\tau,\tau)=0, \quad
+ \partial_t^{(m-1)}G(\tau,\tau)=1/a_m({\tau}).
+\end{gathered}\end{split}\]</div>
 <p>Fallið <span class="math">\(G(t,\tau)\)</span> er <span class="math">\(m\)</span>-sinnum samfellt deildanlegt fall
 af <span class="math">\(t\)</span> fyrir sérhvert <span class="math">\(\tau\in I\)</span> og
 <span class="math">\(\partial_t^jG\in C(I\times I)\)</span> fyrir <span class="math">\(j=0,\dots,m\)</span>.</p>

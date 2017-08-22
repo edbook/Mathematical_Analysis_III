@@ -172,12 +172,10 @@ einhverju mengi.
 Ef :math:`X` er opið hlutmengi í :math:`{{\mathbb  C}}` þá látum við
 :math:`C(X)` tákna mengi allra samfelldra falla
 :math:`f:X\to {{\mathbb  C}}`. Það er til mikilla þæginda að gera frá
-byrjun ráð fyrir að föllin séu tvinntölugild. Við látum
-:math:`C^ m(X)` tákna mengi allra :math:`m` sinnum 
-:hover:`samfellt deildanlegra,samfellt diffranlegur` falla. Hér er átt við að allar
-hlutafleiður fallsins :math:`f` af stigi :math:`\leq m` eru til og þar
-að auki samfelldar. Við skrifum :math:`C^0(X)=C(X)` og táknum mengi
-óendanlega oft deildanlegra falla með :math:`C^{\infty}(X)`.
+byrjun ráð fyrir að föllin séu tvinntölugild. 
+
+Við látum :math:`C^ m(X)` tákna mengi allra :math:`m` sinnum 
+:hover:`samfellt deildanlegra,samfellt diffranlegur` falla. Hér er átt við að allar hlutafleiður fallsins :math:`f` af stigi :math:`\leq m` eru til og þar að auki samfelldar. Við skrifum :math:`C^0(X)=C(X)` og táknum mengi óendanlega oft deildanlegra falla með :math:`C^{\infty}(X)`.
 
 Fáguð föll
 ----------
@@ -203,6 +201,7 @@ Hugtök eins og samfelldni, deildanleiki og heildanleiki eru skilgreind
 eins og venjulega fyrir vigurgild föll. Þetta þýðir að :math:`f` er
 samfellt á :math:`X`, :math:`f\in C(X)`, þá og því aðeins að föllin
 :math:`u` og :math:`v` séu samfelld á :math:`X`, :math:`u,v\in C(X)`.
+
 Eins er :math:`f` :math:`k`–sinnum samfellt deildanlegt á :math:`X`,
 :math:`f\in C^ k(X)` þá og því aðeins að :math:`u,v\in C^ k(X)` og
 við skilgreinum hlutafleiður af :math:`f` sem tvinnföllin
@@ -240,13 +239,16 @@ af :math:`{{\mathbb  C}}`. Við segjum að :math:`f` sé
 er til. Markgildið táknum við með :math:`f{{^{\prime}}}(a)` og köllum
 það
 :math:`{{\mathbb  C}}` *–afleiðu* 
-fallsins :math:`f` í punktinum :math:`a`. Fall
-:math:`f:X\to {{\mathbb  C}}` er sagt vera :hover:`fágað,fágað fall` á
-opna menginu :math:`X` ef :math:`f\in C^1(X)` og :math:`f` er :math:`{{\mathbb  C}}`–deildanlegt í sérhverjum
-punkti í :math:`X`. Við látum :math:`{{\cal O}}(X)` tákna mengi allra
+fallsins :math:`f` í punktinum :math:`a`. 
+
+Fall :math:`f:X\to {{\mathbb  C}}` er sagt vera :hover:`fágað,fágað fall` á opna menginu :math:`X` ef :math:`f\in C^1(X)` og :math:`f` er :math:`{{\mathbb  C}}`–deildanlegt í sérhverjum punkti í :math:`X`. 
+
+Við látum :math:`{{\cal O}}(X)` tákna mengi allra
 fágaðra falla á :math:`X`. Við segjum að :math:`f` sé *fágað í punktinum*
 :math:`a` ef til er opin grennd :math:`U` um :math:`a` þannig að
-:math:`f` sé fágað í :math:`U`. Fallið :math:`f` er sagt vera :hover:`heilt fall` 
+:math:`f` sé fágað í :math:`U`. 
+
+Fallið :math:`f` er sagt vera :hover:`heilt fall` 
 ef það er fágað á öllu :math:`{{\mathbb  C}}`.
 
 Þessi skilgreining er eins og skilgreiningin af afleiðu falls af einni
@@ -457,10 +459,13 @@ deildanlegt í punktinum :math:`a`, ef til er línuleg vörpun
   \lim_{\substack{h\to 0\\ h\in {{\mathbb  R}}^2}}
    \dfrac{\| f(a+h)-f(a)-L(h)\|}{\|h\|}= 0,
 
-þar sem :math:`\|z\|` táknar lengd vigursins :math:`z`. Vörpunin
-:math:`L` er ótvírætt ákvörðuð. Hún nefnist afleiða :math:`f` í
+þar sem :math:`\|z\|` táknar lengd vigursins :math:`z`. 
+
+Vörpunin :math:`L` er ótvírætt ákvörðuð. Hún nefnist afleiða :math:`f` í
 punktinum :math:`a` og er oftast táknuð með :math:`d_af`, :math:`df_a`
-eða :math:`Df(a)`. Með því að velja vigurinn :math:`h` af gerðinni
+eða :math:`Df(a)`. 
+
+Með því að velja vigurinn :math:`h` af gerðinni
 :math:`t(1,0)` og :math:`t(0,1)` og láta síðan :math:`t\to 0`, þá sjáum
 við að hlutafleiðurnar :math:`{\partial}_xu(a)`,
 :math:`{\partial}_yu(a)`, :math:`{\partial}_xv(a)` og
@@ -627,9 +632,9 @@ Samleitnar veldaraðir
 Einu dæmin um fáguð föll sem við höfum nefnt til þessa eru margliður
 :math:`P`, en þær eru fágaðar á öllu :math:`{{\mathbb  C}}`, og ræð föll
 :math:`R=P/Q`, en þau eru fáguð á
-:math:`{{\mathbb  C}}\setminus\{z\in {{\mathbb  C}}; Q(z)=0\}`. Nú ætlum
-við að bæta verulega við dæmaforðann með því að sanna að öll föll, sem
-unnt er að setja fram með samleitnum veldaröðum, séu fáguð á
+:math:`{{\mathbb  C}}\setminus\{z\in {{\mathbb  C}}; Q(z)=0\}`. 
+
+Nú ætlum við að bæta verulega við dæmaforðann með því að sanna að öll föll, sem unnt er að setja fram með samleitnum veldaröðum, séu fáguð á
 samleitniskífu raðarinnar.
 
 Ef fallið :math:`f` er skilgreint á einhverju opnu mengi :math:`Y` á

@@ -350,7 +350,9 @@ Leifasetningin
 Við sáum í síðasta kafla hvernig hægt er að hagnýta Cauchy-formúluna og
 Cauchy-formúluna fyrir afleiður til þess að reikna út ákveðin heildi.
 Við ætlum nú að beita Cauchy-setningunni til þess að alhæfa þessar
-formúlur fyrir heildi yfir lokaða vegi. Við höfum séð að það er
+formúlur fyrir heildi yfir lokaða vegi. 
+
+Við höfum séð að það er
 einstaklega auðvelt að reikna út vegheildi af föllum, sem gefin eru með
 samleitnum Laurent-röðum yfir lokaða vegi, því við getum alltaf heildað
 röðina lið fyrir lið og allir liðirnir hafa stofnfall nema sá með
@@ -390,15 +392,23 @@ Cauchy-formúla og leifasetning
 Látum :math:`X` vera opið hlutmengi af :math:`{{\mathbb  C}}` og
 :math:`\Omega` vera opið hlutmengi af :math:`X`, þannig að jaðarinn
 :math:`\partial\Omega` af :math:`\Omega` sé einnig innihaldinn í
-:math:`X`. Við hugsum okkur jafnframt að :math:`\partial\Omega` sé
+:math:`X`. 
+
+Við hugsum okkur jafnframt að :math:`\partial\Omega` sé
 stikaður af endanlega mörgum vegum :math:`\gamma_1,\dots,\gamma_N`, sem
 skerast aðeins í endapunktum, og að þeir stiki :math:`\partial\Omega` í
 jákvæða stefnu, sem þýðir að svæðið sé vinstra megin við snertilínuna í
 punkti :math:`\gamma_j(t)`, ef horft er í stefnu
-:math:`\gamma_j{{^{\prime}}}(t)`. Hér höfum við verið að telja upp
-hluta af forsendum Cauchy–setningarinnar. Til viðbótar gerum við ráð
+:math:`\gamma_j{{^{\prime}}}(t)`. 
+
+Hér höfum við verið að telja upp
+hluta af forsendum Cauchy–setningarinnar. 
+
+Til viðbótar gerum við ráð
 fyrir að :math:`A` sé dreift hlutmengi af :math:`X` og að
-:math:`f\in {{\cal A}}(X\setminus A)`. Þá eru allir punktarnir í
+:math:`f\in {{\cal A}}(X\setminus A)`. 
+
+Þá eru allir punktarnir í
 :math:`A` einangraðir sérstöðupunktar fallsins :math:`f` og
 leifasetningin segir okkur að
 
@@ -415,7 +425,9 @@ Ef :math:`A\cap \Omega=\varnothing`, þá er summan sett :math:`0`, eins
 og alltaf þegar summa yfir tóma mengið er tekin. Þetta er í fullu
 samræmi við Cauchy–setninguna, því í þessu tilfelli er :math:`f` fágað í
 grennd um :math:`\overline\Omega=\partial\Omega\cup \Omega` og þá er
-heildið í vinstri hliðinni jafnt :math:`0`. Cauchy–formúlan er líka
+heildið í vinstri hliðinni jafnt :math:`0`. 
+
+Cauchy–formúlan er líka
 sértilfelli af leifasetningunni, því ef :math:`z\in \Omega` og
 :math:`\Omega\cap A=\varnothing`, þá hefur fallið
 :math:`\zeta\mapsto f(\zeta)/(\zeta-z)` eitt skaut :math:`z` af stigi
@@ -469,8 +481,10 @@ Við skulum gera ráð fyrir að :math:`f` hafi skaut af stigi :math:`m>0` í
 punktinum :math:`\alpha`. Samkvæmt skilgreiningu er þá til fágað fall
 :math:`g` í grennd :math:`U` um :math:`\alpha` þannig að
 :math:`g(\alpha)\neq 0` og :math:`f(z)=g(z)/(z-\alpha)^m`,
-:math:`z\in  U\setminus {{\{\alpha\}}}`. Við sjáum sambandið milli stuðlanna
-:math:`b_n` í Taylor–röð fallsins :math:`g` í punktinum* :math:`\alpha` 
+:math:`z\in  U\setminus {{\{\alpha\}}}`. 
+
+Við sjáum sambandið milli stuðlanna
+:math:`b_n` í Taylor–röð fallsins :math:`g` í punktinum :math:`\alpha` 
 og stuðlanna :math:`a_n` í Laurent röð fallsins :math:`f`, út frá
 formúlunni
 
@@ -519,7 +533,9 @@ Leif af kvóta tveggja falla
 
 Nú skulum við hugsa okkur að :math:`f` hafi skaut af stigi :math:`m` í
 :math:`\alpha` og að :math:`f` sé gefið í grennd um :math:`\alpha` sem
-:math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0` og :math:`h(\alpha)=0`. Þá getum við skrifað
+:math:`f(z)=g(z)/h(z)`, þar sem :math:`g(\alpha)\neq 0` og :math:`h(\alpha)=0`. 
+
+Þá getum við skrifað
 :math:`h(z)=(z-\alpha)^mh_1(z)` þar sem :math:`h_1(z)` er fágað í grennd
 um :math:`\alpha` og :math:`h_1(\alpha)=h^{(m)}(\alpha)/m!\neq 0`. Ef
 :math:`f` hefur skaut af fyrsta stigi, þá er leifin
@@ -601,16 +617,11 @@ fyrir :math:`a_{-m}, a_{-m+1},\dots, a_{-1}` og í síðasta skrefinu er leif :m
 
   \begin{aligned}
    a_{-m}&=c_l^{-1}b_k,\\
-   a_{-m+1}&=c_l^{-1}\big(b_{k+1}
-   -a_{-m}c_{l+1}\big),\\
-   a_{-m+2}&=c_l^{-1}\big(b_{k+2}
-   -a_{-m+1}c_{l+1}-a_{-m}c_{l+2}\big),\\
+   a_{-m+1}&=c_l^{-1}\big(b_{k+1}-a_{-m}c_{l+1}\big),\\
+   a_{-m+2}&=c_l^{-1}\big(b_{k+2}-a_{-m+1}c_{l+1}-a_{-m}c_{l+2}\big),\\
    &\qquad \vdots\qquad\qquad\qquad\vdots\\
-   a_{-2}&=c_l^{-1}\big(b_{k+m-2}
-   -a_{-3}c_{l+1}-\cdots-a_{-m}c_{l+m-2}\big)\\
-   {{\operatorname{Res}}}(f,\alpha)=a_{-1}&=c_l^{-1}\big(
-   b_{k+m-1}-a_{-2}c_{l+1}-\cdots-a_{-m}c_{l+m-1}\big).
-
+   a_{-2}&=c_l^{-1}\big(b_{k+m-2}-a_{-3}c_{l+1}-\cdots-a_{-m}c_{l+m-2}\big)\\
+   {{\operatorname{Res}}}(f,\alpha)=a_{-1}&=c_l^{-1}\big(b_{k+m-1}-a_{-2}c_{l+1}-\cdots-a_{-m}c_{l+m-1}\big).
   \end{aligned}
 
 Ef engin af aðferðunum, sem við höfum verið að fjalla um hér, dugir til
@@ -680,7 +691,8 @@ dreift mengi. Aðferðin byggir á því að athuga að
 
 .. math:: I=\lim_{r\to +\infty}\int_{-r}^ r f(x)\, dx,
 
-ef heildið (:ref:`Link title <11.3.1>`) er samleitið. Leifasetningin gefur okkur þá
+ef heildið (:ref:`Link title <11.3.1>`) er samleitið. 
+Leifasetningin gefur okkur þá
 
 .. math::
 

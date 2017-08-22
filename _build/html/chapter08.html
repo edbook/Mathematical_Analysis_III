@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="9. LÍNULEG AFLEIÐUJÖFNUHNEPPI" href="chapter09.html"/>
+        <link rel="prev" title="7. LÍNULEGAR AFLEIÐUJÖFNUR" href="chapter07.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="9. LÍNULEG AFLEIÐUJÖFNUHNEPPI" href="chapter09.html"/>
-        <link rel="prev" title="7. LÍNULEGAR AFLEIÐUJÖFNUR" href="chapter07.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -874,7 +838,8 @@ með</p>
 á opnu mengi <span class="math">\(Y\)</span> í <span class="math">\({{\mathbb  C}}\)</span> sem inniheldur <span class="math">\(X\)</span>
 þannig að <span class="math">\(F(x)=f(x)\)</span> fyrir öll <span class="math">\(x\in X\)</span>. Fallið <span class="math">\(F\)</span>
 er þá nefnt <em>fáguð útvíkkun</em> eða <a href="http://www.stae.is/os/leita/analytic_continuation." class="tooltip" target="_blank">fáguð framlenging<span>en: <i>analytic continuation.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>
-af <span class="math">\(f\)</span> yfir á <span class="math">\(Y\)</span>. Ef <span class="math">\(Y\)</span> er svæði og <span class="math">\(F_1\)</span>
+af <span class="math">\(f\)</span> yfir á <span class="math">\(Y\)</span>.</p>
+<p>Ef <span class="math">\(Y\)</span> er svæði og <span class="math">\(F_1\)</span>
 og <span class="math">\(F_2\)</span> eru tvær fágaðar útvíkkanir af <span class="math">\(f\)</span>
 yfir á <span class="math">\(Y\)</span>, þá gefur samsemdarsetningin að <span class="math">\(F_1=F_2\)</span>.
 Þetta segir okkur að fágaðar útvíkkanir yfir á svæði séu ótvírætt ákvarðaðar og því notum við bókstafinn <span class="math">\(f\)</span> líka fyrir útvíkkunina.</p>
@@ -961,23 +926,25 @@ margfeldið</p>
 <p>Við fáum því rakningarformúlu fyrir stuðlana</p>
 <div class="math">
 \[\begin{split}\begin{aligned}
- f(x)/g(x)&amp;=\sum\limits_{n=0}^{\infty} d_n(x-a)^n\end{split}\]\[\begin{split}
- \\
- d_0&amp;=a_0/b_0,\\
- d_1&amp;=(a_1-d_0b_1)/b_0,\\
- &amp;\quad \vdots\qquad\qquad \vdots\\
- d_n&amp;=(a_n-d_0b_n-d_1b_{n-1}-\cdots-d_{n-1}b_1)/b_0.\end{aligned}\end{split}\]</div>
+f(x)/g(x)&amp;=\sum\limits_{n=0}^{\infty} d_n(x-a)^n\\
+d_0&amp;=a_0/b_0,\\
+d_1&amp;=(a_1-d_0b_1)/b_0,\\
+&amp;\quad \vdots\qquad\qquad \vdots\\
+d_n&amp;=(a_n-d_0b_n-d_1b_{n-1}-\cdots-d_{n-1}b_1)/b_0.
+\end{aligned}\end{split}\]</div>
 </div>
 <div id='scrolled_to_subsection_2' > <script> top.scrolldepth_tags.push('#scrolled_to_subsection_2'); </script></div>
 <div class="section" id="raalausnir-umhverfis-venjulega-punkta">
 <h2>8.2. Raðalausnir umhverfis venjulega punkta<a class="headerlink" href="#raalausnir-umhverfis-venjulega-punkta" title="Varanlegur hlekkur á titilinn">¶</a></h2>
-<p>Nú skulum við snúa okkur að almennum afleiðuvirkja. Við vitum að ef öll
+<p>Nú skulum við snúa okkur að almennum afleiðuvirkja.</p>
+<p>Við vitum að ef öll
 stuðlaföllin <span class="math">\(a_0(x),\dots,a_{m}(x)\)</span> eru raunfáguð á bilinu
 <span class="math">\(I\)</span> og <span class="math">\(a_m(x)\neq 0\)</span> fyrir öll <span class="math">\(x\in I\)</span>, þá hefur
 afleiðujafnan <span class="math">\(P(x,D)u=0\)</span> <span class="math">\(m\)</span> línulega óháðar lausnir, sem
 eru fágaðar á <span class="math">\(I\)</span> og unnt er að ákvarða stuðlana í
 veldaraðarframsetningu þessara falla út frá stuðlunum í
-veldaraðarframsetningu <span class="math">\(a_0,\dots,a_{m-1}\)</span>. Við ætlum nú að ganga
+veldaraðarframsetningu <span class="math">\(a_0,\dots,a_{m-1}\)</span>.</p>
+<p>Við ætlum nú að ganga
 út frá þessari setningu og reikna út lausnir með veldaröðum.</p>
 <div class="section" id="nokkur-daemi-um-veldaraalausnir">
 <h3>8.2.1. Nokkur dæmi um veldaraðalausnir<a class="headerlink" href="#nokkur-daemi-um-veldaraalausnir" title="Varanlegur hlekkur á titilinn">¶</a></h3>
@@ -1018,8 +985,8 @@ stigi <span class="math">\(N\)</span> í punktinum <span class="math">\(a\)</spa
 <h4>8.2.2.2. Skilgreining<a class="headerlink" href="#id2" title="Varanlegur hlekkur á titilinn">¶</a></h4>
 <p>Látum <span class="math">\(f\)</span> vera raunfágað fall á opnu mengi <span class="math">\(X\)</span> í
 <span class="math">\({{\mathbb  R}}\)</span>, gerum ráð fyrir að <span class="math">\(a\not\in X\)</span> og að
-<span class="math">\(\{x; 0&lt;|x-a|&lt;r\}\subset X\)</span> fyrir eitthvert <span class="math">\(r&gt;0\)</span>. Þá
-kallast punkturinn <span class="math">\(a\)</span>
+<span class="math">\(\{x; 0&lt;|x-a|&lt;r\}\subset X\)</span> fyrir eitthvert <span class="math">\(r&gt;0\)</span>.</p>
+<p>Þá kallast punkturinn <span class="math">\(a\)</span>
 <a href="http://www.stae.is/os/leita/isolated_singularity." class="tooltip" target="_blank">einangraður sérstöðupunktur<span>en: <i>isolated singularity.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> raunfágaða fallsins <span class="math">\(f\)</span>. Við
 segjum að einangraður sérstöðupunktur sé
 <a href="http://www.stae.is/os/leita/removable_singularity." class="tooltip" target="_blank">afmáanlegur sérstöðupunktur<span>en: <i>removable singularity.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> ef til er <span class="math">\(\varrho&gt;0\)</span>, þannig að <span class="math">\(\{x; 0&lt;|x-a|&lt;{\varrho}\}\subset X\)</span> og raunfágað
@@ -1100,7 +1067,8 @@ vegar í (<span class="xref std std-ref">Link title</span>), þá fáum við</p>
 <p>Val okkar á <span class="math">\(c_0\)</span> og <span class="math">\(c_1\)</span> er frjálst og við fáum
 rakningarformúluna</p>
 <div class="math">
-\[c_{n+2} = \dfrac{-1}{(n+2)(n+1)}\]\[\sum_{k=0}^ n \big[(k+1)P_{n-k}c_{k+1} +  Q_{n-k}c_k\big],\]</div>
+\[c_{n+2} = \dfrac{-1}{(n+2)(n+1)}
+\sum_{k=0}^ n \big[(k+1)P_{n-k}c_{k+1} +  Q_{n-k}c_k\big],\]</div>
 <p>fyrir <span class="math">\(n=0,1,2,\dots\)</span>.</p>
 </div>
 <div class="section" id="setning">
@@ -1196,11 +1164,11 @@ Gerum ráð fyrir að jafnan</p>
 <p>Nú tökum við eftir því að ef <span class="math">\(\alpha\)</span> er jöfn heiltala þá eru
 allir liðir í fyrri summunni með númer <span class="math">\(2k\geq \alpha+2\)</span> jafnir
 núll og fyrri summan er því margliða af stigi <span class="math">\(\alpha\)</span>. Ef hins
-vegar <span class="math">\(\alpha\)</span> er oddatala þá er seinni veldaröðin margliða. Við
-fáum því að fyrir sérhvert <span class="math">\(n\)</span> er til margliðulausn á jöfnu
+vegar <span class="math">\(\alpha\)</span> er oddatala þá er seinni veldaröðin margliða.</p>
+<p>Við fáum því að fyrir sérhvert <span class="math">\(n\)</span> er til margliðulausn á jöfnu
 Legendre, ef <span class="math">\(\lambda\)</span> er valið sem <span class="math">\(\lambda=n(n+1)\)</span>. Venja
-er að skilgreina Legendre–margliðurnar sem þessar lausnir eftir að hafa valið ákveðin gildi á stuðlunum <span class="math">\(c_0\)</span> og <span class="math">\(c_1\)</span>.
-Legendre–margliðurnar koma fyrir í ýmsum útreikningum, meðal annars í
+er að skilgreina Legendre–margliðurnar sem þessar lausnir eftir að hafa valið ákveðin gildi á stuðlunum <span class="math">\(c_0\)</span> og <span class="math">\(c_1\)</span>.</p>
+<p>Legendre–margliðurnar koma fyrir í ýmsum útreikningum, meðal annars í
 rafsegulfræði. Við höfum ekki tök á því að gera þeim nein skil hér.</p>
 </div>
 <hr class="docutils" />
@@ -1618,7 +1586,8 @@ lausnina sem</p>
 <p>Fallið <span class="math">\(Y_0\)</span>, sem skilgreint er með</p>
 <div class="math">
 \[Y_0(x)=\dfrac 2{\pi}\left[J_0(x)\bigg(\ln \dfrac {|x|}2+{\gamma}\bigg)
- +\sum\limits_{k=0}^{\infty}\]\[\dfrac{(-1)^{k-1}h_k}{2^{2k}(k!)^2} x^{2k}\right],\]</div>
+ +\sum\limits_{k=0}^{\infty}
+ \dfrac{(-1)^{k-1}h_k}{2^{2k}(k!)^2} x^{2k}\right],\]</div>
 <p>þar sem <span class="math">\(h_k=1+1/2+1/3+\cdots+1/k\)</span> og <span class="math">\({\gamma}\)</span> táknar
 fasta Eulers</p>
 <div class="math">
@@ -1647,10 +1616,10 @@ er með</p>
  J_{\alpha}(x)\bigg(\ln \dfrac {|x|}2+{\gamma}\bigg)
  &amp;+x^{\alpha}\sum\limits_{k=0}^{\infty}
  \dfrac{(-1)^{k-1}\big(h_k+h_{k+\alpha}\big)}
- {2^{2k+\alpha+1}k!(k+{\alpha})!} x^{2k}\end{split}\]\[\begin{split}
- \\
+ {2^{2k+\alpha+1}k!(k+{\alpha})!} x^{2k}\\
  &amp;-x^{-\alpha}\sum\limits_{k=0}^{\alpha-1}
- \dfrac{(\alpha-k-1)!}{2^{2k-\alpha+1}k!}x^{2k}\bigg],\nonumber\end{aligned}\end{split}\]</div>
+ \dfrac{(\alpha-k-1)!}{2^{2k-\alpha+1}k!}x^{2k}\bigg],
+ \end{aligned}\end{split}\]</div>
 <p>þar sem <span class="math">\(h_k=1+1/2+1/3+\cdots+1/k\)</span> og <span class="math">\({\gamma}\)</span> táknar
 fasta Eulers, nefnist <em>fall Bessels af annarri gerð með vísi</em>
 <span class="math">\({\alpha}\)</span>.</p>

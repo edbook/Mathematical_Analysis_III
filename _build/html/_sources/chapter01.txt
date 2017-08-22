@@ -250,11 +250,11 @@ Veldareglur
 
 Ef :math:`z` er tvinntala þá getum við skilgreint heiltöluveldi þannig
 að :math:`z^0=1`, :math:`z^1=z`, og :math:`z^n=z\cdots z` þar sem allir
-þættirnir eru eins og fjöldi þeirra er :math:`n\geq 2`. Fyrir
-:math:`z\neq 0` eru neikvæðu veldin skilgreind þannig að :math:`z^{-1}`
-er margföldunarandhverfan af :math:`z` og fyrir neikvæð :math:`n` er
-:math:`z^n=(z^{-1})^{|n|}`. Með þessu fást sömu veldareglur og gilda um
-rauntölur
+þættirnir eru eins og fjöldi þeirra er :math:`n\geq 2`. 
+
+Fyrir :math:`z\neq 0` eru neikvæðu veldin skilgreind þannig að :math:`z^{-1}` er margföldunarandhverfan af :math:`z` og fyrir neikvæð :math:`n` er :math:`z^n=(z^{-1})^{|n|}`. 
+
+Með þessu fást sömu veldareglur og gilda um rauntölur
 
 .. math::
 
@@ -364,10 +364,14 @@ Ef :math:`z\in {{\mathbb  C}}`, :math:`x={{\operatorname{Re\, }}}z` og
 
 þá nefnist talan :math:`\theta` :hover:`stefnuhorn` eða *horngildi*
 tvinntölunnar :math:`z` og stærðtáknið í hægri hliðinni nefnist *pólform
-tvinntölunnar* :math:`z`. Hornaföllin :math:`\cos` og :math:`\sin` eru
+tvinntölunnar* :math:`z`. 
+
+Hornaföllin :math:`\cos` og :math:`\sin` eru
 lotubundin með lotuna :math:`2\pi` og því eru allar tölur af gerðinni
 :math:`\theta+2\pi k` með :math:`k\in {{\mathbb  Z}}` einnig stefnuhorn
-fyrir :math:`z`. Raðtvenndin :math:`(|z|,\theta)` er nefnd :hover:`pólhnit` eða
+fyrir :math:`z`. 
+
+Raðtvenndin :math:`(|z|,\theta)` er nefnd :hover:`pólhnit` eða
 :hover:`skauthnit` tölunnar :math:`z`.
 
 Við höfum að
@@ -506,9 +510,9 @@ er tvinntala.
 
 Tilfellin eru:
 
-(i) *Lína*: :math:`\alpha=0`, :math:`\beta\neq 0`.
+\(i) *Lína*: :math:`\alpha=0`, :math:`\beta\neq 0`.
 
-(ii) *Hringur*: :math:`\alpha\neq 0`,
+\(ii) *Hringur*: :math:`\alpha\neq 0`,
 :math:`|\beta|^2-{\alpha}\gamma>0`. Ef miðjan er :math:`m` og geislinn
 :math:`r`, þá er
 
@@ -517,14 +521,14 @@ Tilfellin eru:
   m=-\beta/\alpha\qquad \text{ og } \qquad
    r=\sqrt{|\beta|^2-\alpha\gamma}\, /|\alpha|.
 
-(iii) *Einn punktur*: :math:`\alpha\neq 0` og
+\(iii) *Einn punktur*: :math:`\alpha\neq 0` og
 :math:`|\beta|^2-\alpha\gamma=0`. Punkturinn er :math:`m=-\beta/\alpha`.
 
-(iv) *Tóma mengið*: :math:`\alpha\neq 0`,
+\(iv) *Tóma mengið*: :math:`\alpha\neq 0`,
 :math:`|\beta|^2-\alpha\gamma<0` eða :math:`\alpha=0`, :math:`\beta=0`,
 :math:`\gamma\neq 0`.
 
-(v) *Allt planið* :math:`{{\mathbb  C}}`: :math:`\alpha=\beta=\gamma=0`.
+\(v) *Allt planið* :math:`{{\mathbb  C}}`: :math:`\alpha=\beta=\gamma=0`.
 
 Einingarhringurinn
 ~~~~~~~~~~~~~~~~~~
@@ -884,10 +888,10 @@ Undirstöðusetning algebrunnar
 Setning
 ^^^^^^^
 
---------------
-
   Sérhver margliða af stigi :math:`\geq 1` með stuðlum í
 :math:`{{\mathbb  C}}` hefur núllstöð í :math:`{{\mathbb  C}}`.
+
+--------------
 
 Segjum nú að :math:`P` sé margliða af stigi :math:`m\geq 1` og að
 :math:`\alpha_1` sé núllstöð hennar. Við getum þá skrifað
@@ -1140,7 +1144,7 @@ skilgreiningarsvæði :math:`\exp` þannig að það verði allt
 
 Við skrifum :math:`e^z=\exp z` fyrir :math:`z\in {{\mathbb  C}}`.
 
-Fyrst hornaföllin :math:`\cos ` og :math:`\sin ` eru lotubundin með
+Fyrst hornaföllin :math:`\cos` og :math:`\sin` eru lotubundin með
 lotuna :math:`2\pi`, þá fáum við beint út frá skilgreiningunni á
 veldisvísisfallinu að það er lotubundið með lotuna :math:`2\pi i`,
 
@@ -1213,11 +1217,9 @@ og sérstaklega gildir
 
 Af þessu leiðir að veldisvísisfallið hefur enga
 núllstöð :math:`e^z=e^xe^{iy}` og
-hvorugur þátturinn í hægri hliðinni getur verið núll. Við sjáum einnig
-að veldisvísisfallið varpar lóðréttu línunni sem gefin er með jöfnunni
-:math:`x={{\operatorname{Re\, }}}z=a` í :math:`z`-plani á hringinn sem
-gefinn er með jöfnununni :math:`|w|=e^a` í :math:`w`-plani og það varpar
-láréttu línunni sem gefin er með jöfnunni
+hvorugur þátturinn í hægri hliðinni getur verið núll. 
+
+Við sjáum einnig að veldisvísisfallið varpar lóðréttu línunni sem gefin er með jöfnunni :math:`x={{\operatorname{Re\, }}}z=a` í :math:`z`-plani á hringinn sem gefinn er með jöfnununni :math:`|w|=e^a` í :math:`w`-plani og það varpar láréttu línunni sem gefin er með jöfnunni
 :math:`y={{\operatorname{Im\, }}}z=b` á hálflínuna út frá :math:`0` með
 stefnuvigur :math:`e^{ib}`.
 
@@ -1388,7 +1390,7 @@ er fylki :math:`L` miðað við staðalgrunninn á :math:`{{\mathbb  R}}^2`,
 .. math::
 
   A=\tfrac 12((a+d)+i(c-b)) \qquad \text{ og } \qquad
-   B= \tfrac 12((a-d)+i(c+b))
+   B= \tfrac 12((a-d)+i(c+b)).
 
 --------------
 
@@ -1454,12 +1456,9 @@ víddir, svo við getum ekki teiknað upp myndir af gröfum tvinnfalla. Við
 getum vissulega teiknað upp gröf raungildu fallanna
 :math:`{{\operatorname{Re\, }}}f` og :math:`{{\operatorname{Im\, }}}f` í
 þrívíðu rúmi og gert okkur hugmynd um :math:`{{\operatorname{graf}}}f`
-út frá þeim, en það hefur takmarkaða þýðingu. Til þess að lýsa
-tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða
-hvernig þau færa til punktana í :math:`{{\mathbb  C}}` og lýsa á mynd
-afstöðunni millli :math:`z` og :math:`f(z)`. Vert er að geta þess að í
-þessu samhengi eru orðin :hover:`vörpun`, *færsla*, *ummyndun* o.fl. oft notuð
-sem samheiti fyrir orðið :hover:`fall`. Við skulum nú taka nokkur dæmi um þetta
+út frá þeim, en það hefur takmarkaða þýðingu. 
+
+Til þess að lýsa tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða hvernig þau færa til punktana í :math:`{{\mathbb  C}}` og lýsa á mynd afstöðunni millli :math:`z` og :math:`f(z)`. Vert er að geta þess að í þessu samhengi eru orðin :hover:`vörpun`, *færsla*, *ummyndun* o.fl. oft notuð sem samheiti fyrir orðið :hover:`fall`. Við skulum nú taka nokkur dæmi um þetta.
 
 Vörpun :math:`{{\mathbb  C}}\to {{\mathbb  C}}` af gerðinni
 :math:`z\mapsto z+a`, þar sem :math:`a\in {{\mathbb  C}}` nefnist
@@ -1790,7 +1789,9 @@ Myndir af línum og hringum
 Ein leið til þess að setja tvinngild föll :math:`f:X\to {{\mathbb  C}}`
 fram á myndrænan hátt er að líta á þau sem varpanir sem taka punkta í
 einu afriti af tvinntöluplaninu :math:`{{\mathbb  C}}` yfir í annað
-afrit. Þá er :math:`X` teiknað upp í :math:`z`-plani og myndmengið
+afrit. 
+
+Þá er :math:`X` teiknað upp í :math:`z`-plani og myndmengið
 :math:`Y=\{w=f(z); z\in X\}` teiknað upp í :math:`w`-plani og síðan er
 sýnt hvernig :math:`f` varpar punktum :math:`z\in X` á punkta
 :math:`w=f(z)\in Y`. Oft er litið á einhverja fjölskyldu af ferlum í

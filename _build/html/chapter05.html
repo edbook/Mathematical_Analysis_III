@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="6. UNDIRSTÖÐUATRIÐI UM AFLEIÐUJÖFNUR" href="chapter06.html"/>
+        <link rel="prev" title="4. LEIFAREIKNINGUR" href="chapter04.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="6. UNDIRSTÖÐUATRIÐI UM AFLEIÐUJÖFNUR" href="chapter06.html"/>
-        <link rel="prev" title="4. LEIFAREIKNINGUR" href="chapter04.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -988,8 +952,8 @@ fasti.</p>
 stjörnusvæði með tilliti til <span class="math">\(a\)</span>.</p>
 <p>Gerum nú ráð fyrir að <span class="math">\(u\)</span> sé þýtt fall á svæði <span class="math">\(Y\)</span> og að
 <span class="math">\(g:X\to {{\mathbb  C}}\)</span> sé fágað fall á svæði
-<span class="math">\(X\subset {{\mathbb  C}}\)</span> þannig að <span class="math">\(g(X)\subset Y\)</span>. Ef
-<span class="math">\(a\in  X\)</span> þá er til opin skífa með miðju í <span class="math">\(g(a)\)</span> í
+<span class="math">\(X\subset {{\mathbb  C}}\)</span> þannig að <span class="math">\(g(X)\subset Y\)</span>.</p>
+<p>Ef <span class="math">\(a\in  X\)</span> þá er til opin skífa með miðju í <span class="math">\(g(a)\)</span> í
 <span class="math">\(Y\)</span> þannig að <span class="math">\(u\)</span> er raunhluti fágaðs falls á <span class="math">\(f\)</span> á
 skífunni. Þá verður samskeytingin <span class="math">\(u\circ g\)</span> raunhluti
 <span class="math">\(f\circ g\)</span> sem er fágað fall í grennd um <span class="math">\(a\)</span>. Þetta segir
@@ -1016,11 +980,12 @@ jafngildir afleiðujöfnuhneppinu</p>
 <div class="math">
 \[x{{^{\prime}}}=p(x,y), \qquad y{{^{\prime}}}=q(x,y).\]</div>
 <p>Vigursviðið getur átt sér eðlisfræðilega túlkun. Við getum til dæmis
-litið á <span class="math">\(\vec V\)</span> sem hraðasvið fyrir streymi vökva eða lofts.
-Gengið er út frá því að streymið sé óháð tíma og einni rúmbreytistærð og
+litið á <span class="math">\(\vec V\)</span> sem hraðasvið fyrir streymi vökva eða lofts.</p>
+<p>Gengið er út frá því að streymið sé óháð tíma og einni rúmbreytistærð og
 að það sé samsíða einhverju plani, sem við höfum valið sem
 <span class="math">\((x,y)\)</span>-plan. Straumlínurnar eru þá brautir agnanna í vökvanum eða
-loftinu. <span class="math">\(\vec V\)</span> getur einnig verið hraðasvið rafstraums í þunnri
+loftinu.</p>
+<p><span class="math">\(\vec V\)</span> getur einnig verið hraðasvið rafstraums í þunnri
 plötu og þá er <span class="math">\(\vec V\)</span> samsíða straumsviðinu í sérhverjum punkti.</p>
 <p>Hugsum okkur nú að <span class="math">\({\Omega}\)</span> sé hlutsvæði í <span class="math">\(X\)</span> með jaðar
 <span class="math">\({\partial} {\Omega}\)</span> í <span class="math">\(X\)</span> og gerum ráð fyrir að hægt sé að
@@ -1029,8 +994,8 @@ stika <span class="math">\({\partial}{\Omega}\)</span> með einföldum lokuðum 
 <span class="math">\({\gamma}\)</span> stikar <span class="math">\({\partial}{\Omega}\)</span> í jákvæða stefnu, en
 það þýðir að svæðið <span class="math">\({\Omega}\)</span> er vinstra megin við snertilínuna í
 <span class="math">\({\gamma}(t)\)</span>, ef horft er í stefnu snertilsins
-<span class="math">\({\gamma}{{^{\prime}}}(t)\)</span>. Ef
-<span class="math">\((x,y)={\gamma}(t)\in {\partial}{\Omega}\)</span> er punktur, þar sem
+<span class="math">\({\gamma}{{^{\prime}}}(t)\)</span>.</p>
+<p>Ef <span class="math">\((x,y)={\gamma}(t)\in {\partial}{\Omega}\)</span> er punktur, þar sem
 <span class="math">\({\gamma}\)</span> er deildanlegt fall, þá skilgreinum við
 <em>einingarsnertil</em> <span class="math">\(\vec T(x,y)\)</span> í
 <span class="math">\((x,y)\)</span>, sem einingarvigurinn í stefnu
@@ -1039,7 +1004,8 @@ stika <span class="math">\({\partial}{\Omega}\)</span> með einföldum lokuðum 
 <em>ytri einingarþvervigur á</em>
 <span class="math">\({\partial}{\Omega}\)</span> sem einingarvigurinn <span class="math">\(\vec n(x,y)\)</span> sem
 er hornréttur á <span class="math">\({\gamma}{{^{\prime}}}(t)\)</span> og vísar út úr
-<span class="math">\({\Omega}\)</span>. Við látum <span class="math">\(ds\)</span> tákna
+<span class="math">\({\Omega}\)</span>.</p>
+<p>Við látum <span class="math">\(ds\)</span> tákna
 <a href="http://www.stae.is/os/leita/arc_length_element." class="tooltip" target="_blank">bogalengdarfrymið<span>en: <i>arc length element.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>. Með <span class="math">\({\gamma}\)</span> sem stikun á
 <span class="math">\({\partial}{\Omega}\)</span> er það gefið sem
 <span class="math">\(ds=|{\gamma}{{^{\prime}}}(t)|\, dt\)</span>.</p>
@@ -1096,7 +1062,8 @@ mynda jaðar á svæði <span class="math">\({\Omega}\subset X\)</span>. Hugsum 
 <p>Nú skulum við skrifa <span class="math">\(\vec V\)</span> sem tvinnfall,
 <span class="math">\(V(z)=p(z)+iq(z)\)</span>. Hlutafleiðujöfnurnar hér að framan segja að
 <span class="math">\(\overline  V=p-iq\)</span> uppfylli Cauchy-Riemann-jöfnurnar og þar með
-er fallið <span class="math">\(\overline V\)</span> fágað. Hugsum okkur að <span class="math">\(\overline V\)</span>
+er fallið <span class="math">\(\overline V\)</span> fágað.</p>
+<p>Hugsum okkur að <span class="math">\(\overline V\)</span>
 hafi stofnfall, sem við táknum með <span class="math">\(f\)</span>. Ef
 <span class="math">\({\varphi}={{\operatorname{Re\, }}}f\)</span> og
 <span class="math">\({\psi}={{\operatorname{Im\, }}}f\)</span>, þá leiðir af
@@ -1108,8 +1075,8 @@ Cauchy-Riemann-jöfnunum að</p>
 <p>Við höfum því <span class="math">\({{\operatorname{grad}}}\varphi=\vec V=(p,q)\)</span>, svo
 straumlínurnar eru hornréttar á
 <a href="http://www.stae.is/os/leita/contour_line." class="tooltip" target="_blank">jafnhæðarlínurnar<span>en: <i>contour line.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>
-<span class="math">\(\{z; \varphi(z)=c\}\)</span>, þar sem <span class="math">\(c\)</span> er fasti. Nú gefa
-Cauchy-Riemann-jöfnurnar hins vegar að
+<span class="math">\(\{z; \varphi(z)=c\}\)</span>, þar sem <span class="math">\(c\)</span> er fasti.</p>
+<p>Nú gefa Cauchy-Riemann-jöfnurnar hins vegar að
 <span class="math">\({{\operatorname{grad}}}\psi=(\partial_x\psi, \partial_y\psi)\)</span> er hornréttur á
 <span class="math">\({{\operatorname{grad}}}\varphi=(\partial_x\varphi, \partial_y\varphi)\)</span> og þar með eru staumlínurnar fyrir vigursviðið
 <span class="math">\(\vec V\)</span> gefnar sem jafnhæðarlínurnar <span class="math">\(\{z; \psi(z)=c\}\)</span>,
@@ -1117,7 +1084,8 @@ Cauchy-Riemann-jöfnurnar hins vegar að
 <p>Fallið <span class="math">\(f\)</span> kallast <em>tvinnmætti</em> fyrir
 straumfallið <span class="math">\(V\)</span>, fallið <span class="math">\(\varphi\)</span> kallast <em>raunmætti</em>
 fyrir <span class="math">\(V\)</span> og fallið <span class="math">\(\psi\)</span> kallast
-<em>streymisfall</em>. Niðurstaða athugana okkar er því
+<em>streymisfall</em>.</p>
+<p>Niðurstaða athugana okkar er því
 að straumlínur vigursviðsins <span class="math">\(\vec V\)</span> eru jafnhæðarlínur
 streymisfallsins <span class="math">\(\psi\)</span>, þar sem
 <span class="math">\(\psi= {{\operatorname{Im\, }}}f\)</span> og

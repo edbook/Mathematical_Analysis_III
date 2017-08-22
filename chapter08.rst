@@ -41,7 +41,9 @@ Af þessu leiðir að um sérhvert raunfágað fall :math:`f` á opnu mengi
 á opnu mengi :math:`Y` í :math:`{{\mathbb  C}}` sem inniheldur :math:`X`
 þannig að :math:`F(x)=f(x)` fyrir öll :math:`x\in X`. Fallið :math:`F`
 er þá nefnt *fáguð útvíkkun* eða :hover:`fáguð framlenging` 
-af :math:`f` yfir á :math:`Y`. Ef :math:`Y` er svæði og :math:`F_1` 
+af :math:`f` yfir á :math:`Y`. 
+
+Ef :math:`Y` er svæði og :math:`F_1` 
 og :math:`F_2` eru tvær fágaðar útvíkkanir af :math:`f` 
 yfir á :math:`Y`, þá gefur samsemdarsetningin að :math:`F_1=F_2`. 
 Þetta segir okkur að fágaðar útvíkkanir yfir á svæði séu ótvírætt ákvarðaðar og því notum við bókstafinn :math:`f` líka fyrir útvíkkunina.
@@ -164,26 +166,28 @@ Við fáum því rakningarformúlu fyrir stuðlana
 
 .. math::
 
-  \begin{aligned}
-   f(x)/g(x)&=\sum\limits_{n=0}^{\infty} d_n(x-a)^n
-
-  
-   \\
+   \begin{aligned}
+   f(x)/g(x)&=\sum\limits_{n=0}^{\infty} d_n(x-a)^n\\
    d_0&=a_0/b_0,\\
    d_1&=(a_1-d_0b_1)/b_0,\\
    &\quad \vdots\qquad\qquad \vdots\\
-   d_n&=(a_n-d_0b_n-d_1b_{n-1}-\cdots-d_{n-1}b_1)/b_0.\end{aligned}
+   d_n&=(a_n-d_0b_n-d_1b_{n-1}-\cdots-d_{n-1}b_1)/b_0.
+   \end{aligned}
 
 Raðalausnir umhverfis venjulega punkta
 --------------------------------------
 
-Nú skulum við snúa okkur að almennum afleiðuvirkja. Við vitum að ef öll
+Nú skulum við snúa okkur að almennum afleiðuvirkja. 
+
+Við vitum að ef öll
 stuðlaföllin :math:`a_0(x),\dots,a_{m}(x)` eru raunfáguð á bilinu
 :math:`I` og :math:`a_m(x)\neq 0` fyrir öll :math:`x\in I`, þá hefur
 afleiðujafnan :math:`P(x,D)u=0` :math:`m` línulega óháðar lausnir, sem
 eru fágaðar á :math:`I` og unnt er að ákvarða stuðlana í
 veldaraðarframsetningu þessara falla út frá stuðlunum í
-veldaraðarframsetningu :math:`a_0,\dots,a_{m-1}`. Við ætlum nú að ganga
+veldaraðarframsetningu :math:`a_0,\dots,a_{m-1}`. 
+
+Við ætlum nú að ganga
 út frá þessari setningu og reikna út lausnir með veldaröðum.
 
 Nokkur dæmi um veldaraðalausnir
@@ -238,8 +242,9 @@ Skilgreining
 
 Látum :math:`f` vera raunfágað fall á opnu mengi :math:`X` í
 :math:`{{\mathbb  R}}`, gerum ráð fyrir að :math:`a\not\in X` og að
-:math:`\{x; 0<|x-a|<r\}\subset X` fyrir eitthvert :math:`r>0`. Þá
-kallast punkturinn :math:`a` 
+:math:`\{x; 0<|x-a|<r\}\subset X` fyrir eitthvert :math:`r>0`. 
+
+Þá kallast punkturinn :math:`a` 
 :hover:`einangraður sérstöðupunktur` raunfágaða fallsins :math:`f`. Við
 segjum að einangraður sérstöðupunktur sé 
 :hover:`afmáanlegur sérstöðupunktur` ef til er :math:`\varrho>0`, þannig að :math:`\{x; 0<|x-a|<{\varrho}\}\subset X` og raunfágað 
@@ -361,9 +366,6 @@ rakningarformúluna
 .. math::
 
   c_{n+2} = \dfrac{-1}{(n+2)(n+1)}
-
-  
-
   \sum_{k=0}^ n \big[(k+1)P_{n-k}c_{k+1} +  Q_{n-k}c_k\big],
 
 fyrir :math:`n=0,1,2,\dots`.
@@ -492,10 +494,12 @@ og almenn lausn jöfnunnar verður því
 Nú tökum við eftir því að ef :math:`\alpha` er jöfn heiltala þá eru
 allir liðir í fyrri summunni með númer :math:`2k\geq \alpha+2` jafnir
 núll og fyrri summan er því margliða af stigi :math:`\alpha`. Ef hins
-vegar :math:`\alpha` er oddatala þá er seinni veldaröðin margliða. Við
-fáum því að fyrir sérhvert :math:`n` er til margliðulausn á jöfnu
+vegar :math:`\alpha` er oddatala þá er seinni veldaröðin margliða. 
+
+Við fáum því að fyrir sérhvert :math:`n` er til margliðulausn á jöfnu
 Legendre, ef :math:`\lambda` er valið sem :math:`\lambda=n(n+1)`. Venja
 er að skilgreina Legendre–margliðurnar sem þessar lausnir eftir að hafa valið ákveðin gildi á stuðlunum :math:`c_0` og :math:`c_1`.
+
 Legendre–margliðurnar koma fyrir í ýmsum útreikningum, meðal annars í
 rafsegulfræði. Við höfum ekki tök á því að gera þeim nein skil hér.
 
@@ -661,8 +665,6 @@ Næsta skref er að skipta yfir í pólhnit
 Við höfum því
 
 .. math::
-
-  
 
   \Gamma(1/2)=\sqrt\pi, \qquad \Gamma(-1/2)=-2\sqrt\pi,
 
@@ -1157,10 +1159,7 @@ Fallið :math:`Y_0`, sem skilgreint er með
 
   Y_0(x)=\dfrac 2{\pi}\left[J_0(x)\bigg(\ln \dfrac {|x|}2+{\gamma}\bigg)
    +\sum\limits_{k=0}^{\infty}
-
-  
-
-  \dfrac{(-1)^{k-1}h_k}{2^{2k}(k!)^2} x^{2k}\right],
+   \dfrac{(-1)^{k-1}h_k}{2^{2k}(k!)^2} x^{2k}\right],
 
 þar sem :math:`h_k=1+1/2+1/3+\cdots+1/k` og :math:`{\gamma}` táknar
 fasta Eulers
@@ -1199,12 +1198,10 @@ er með
    J_{\alpha}(x)\bigg(\ln \dfrac {|x|}2+{\gamma}\bigg)
    &+x^{\alpha}\sum\limits_{k=0}^{\infty}
    \dfrac{(-1)^{k-1}\big(h_k+h_{k+\alpha}\big)}
-   {2^{2k+\alpha+1}k!(k+{\alpha})!} x^{2k}
-
-  
-   \\
+   {2^{2k+\alpha+1}k!(k+{\alpha})!} x^{2k}\\
    &-x^{-\alpha}\sum\limits_{k=0}^{\alpha-1}
-   \dfrac{(\alpha-k-1)!}{2^{2k-\alpha+1}k!}x^{2k}\bigg],\nonumber\end{aligned}
+   \dfrac{(\alpha-k-1)!}{2^{2k-\alpha+1}k!}x^{2k}\bigg],
+   \end{aligned}
 
 þar sem :math:`h_k=1+1/2+1/3+\cdots+1/k` og :math:`{\gamma}` táknar
 fasta Eulers, nefnist *fall Bessels af annarri gerð með vísi*

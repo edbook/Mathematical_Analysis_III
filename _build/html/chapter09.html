@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="10. LAPLACE–UMMYNDUN" href="chapter10.html"/>
+        <link rel="prev" title="8. VELDARAÐALAUSNIR Á AFLEIÐUJÖFNUM" href="chapter08.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="10. LAPLACE–UMMYNDUN" href="chapter10.html"/>
-        <link rel="prev" title="8. VELDARAÐALAUSNIR Á AFLEIÐUJÖFNUM" href="chapter08.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -912,8 +876,10 @@ hliðruðu jöfnunni.</p>
 <div class="math">
 \[\begin{split}\begin{aligned}
  u_1{{^{\prime}}}&amp;= u_2,\quad
- u_2{{^{\prime}}}= u_3,\quad\end{split}\]\[\begin{split}\dots, \quad u_{m-1}{{^{\prime}}}= u_m\\
- u_m{{^{\prime}}}&amp;=-a_0(t)u_1-a_1(t)u_2-\cdots-a_{m-1}(t)u_m+g(t).\nonumber\end{aligned}\end{split}\]</div>
+ u_2{{^{\prime}}}= u_3,\quad
+ \dots, \quad u_{m-1}{{^{\prime}}}= u_m\\
+ u_m{{^{\prime}}}&amp;=-a_0(t)u_1-a_1(t)u_2-\cdots-a_{m-1}(t)u_m+g(t).
+\end{aligned}\end{split}\]</div>
 <p>í þeim skilningi að <span class="math">\(v\)</span> er lausn á afleiðujöfnunni þá og því
 aðeins að <span class="math">\(u=[v,v{{^{\prime}}},\dots,v^{(m-1)}]^t\)</span> sé lausn á
 hneppinu. Fylkið <span class="math">\(A(t)\)</span> og vigurinn <span class="math">\(f(t)\)</span> verða í þessu
@@ -932,7 +898,8 @@ tilfelli</p>
  0\\
  \vdots\\
  0\\
- g(t)\end{split}\]\[\end{matrix}\right].\]</div>
+ g(t)
+\end{matrix}\right].\end{split}\]</div>
 <div class="section" id="id3">
 <h4>9.1.2.1. Setning<a class="headerlink" href="#id3" title="Varanlegur hlekkur á titilinn">¶</a></h4>
 <p>Látum <span class="math">\(P(t,D)=D^ m+a_{m-1}(t)D^{m-1}+\cdots+a_1(t)D+a_0(t)\)</span>
@@ -983,7 +950,8 @@ sem stuðullinn <span class="math">\(v_j\)</span> uppfyllir</p>
 \[v_j{{^{\prime}}}(t)=\lambda_jv_j(t)+g_j(t), \qquad v_j(a)=\beta_j,\]</div>
 <p>og er þar með</p>
 <div class="math">
-\[v_j(t)=\beta_je^{\lambda_j(t-a)}+e^{\lambda_jt}\int_a^t e^{-\lambda_j\]\[\tau}g_j(\tau) \, d\tau.\]</div>
+\[v_j(t)=\beta_je^{\lambda_j(t-a)}+e^{\lambda_jt}\int_a^t e^{-\lambda_j
+\tau}g_j(\tau) \, d\tau.\]</div>
 </div>
 </div>
 <div class="section" id="urlausn-me-gefinn-eiginvigragrunn">
@@ -1181,8 +1149,7 @@ andhverfan <span class="math">\(\Phi(t)^{-1}\)</span> til í sérhverjum punkti
 <div class="math">
 \[\begin{split}\begin{aligned}
  \Phi{{^{\prime}}}(t)&amp;= [u_1{{^{\prime}}}(t),\dots,u_m{{^{\prime}}}(t)]=\nonumber\\
- &amp;=[A(t)u_1(t),\dots,A(t)u_m(t)]=\end{split}\]\[\begin{split}
- \\
+ &amp;=[A(t)u_1(t),\dots,A(t)u_m(t)]=\\
  &amp;=A(t)\Phi(t).\nonumber\end{aligned}\end{split}\]</div>
 <p>Af hjálparsetningunni leiðir einnig að ef <span class="math">\(m\times m\)</span> fylkjafallið <span class="math">\(\Phi\)</span> uppfyllir
 <span class="math">\(\Phi{{^{\prime}}}=A(t)\Phi\)</span> og <span class="math">\(\Phi(a)\)</span> hefur andhverfu

@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="2. FÁGUÐ FÖLL" href="chapter02.html"/>
+        <link rel="prev" title="Stærðfræðigreining III" href="index.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="2. FÁGUÐ FÖLL" href="chapter02.html"/>
-        <link rel="prev" title="Stærðfræðigreining III" href="index.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -1104,11 +1068,9 @@ gildir</p>
 <h3>1.2.2. Veldareglur<a class="headerlink" href="#veldareglur" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p>Ef <span class="math">\(z\)</span> er tvinntala þá getum við skilgreint heiltöluveldi þannig
 að <span class="math">\(z^0=1\)</span>, <span class="math">\(z^1=z\)</span>, og <span class="math">\(z^n=z\cdots z\)</span> þar sem allir
-þættirnir eru eins og fjöldi þeirra er <span class="math">\(n\geq 2\)</span>. Fyrir
-<span class="math">\(z\neq 0\)</span> eru neikvæðu veldin skilgreind þannig að <span class="math">\(z^{-1}\)</span>
-er margföldunarandhverfan af <span class="math">\(z\)</span> og fyrir neikvæð <span class="math">\(n\)</span> er
-<span class="math">\(z^n=(z^{-1})^{|n|}\)</span>. Með þessu fást sömu veldareglur og gilda um
-rauntölur</p>
+þættirnir eru eins og fjöldi þeirra er <span class="math">\(n\geq 2\)</span>.</p>
+<p>Fyrir <span class="math">\(z\neq 0\)</span> eru neikvæðu veldin skilgreind þannig að <span class="math">\(z^{-1}\)</span> er margföldunarandhverfan af <span class="math">\(z\)</span> og fyrir neikvæð <span class="math">\(n\)</span> er <span class="math">\(z^n=(z^{-1})^{|n|}\)</span>.</p>
+<p>Með þessu fást sömu veldareglur og gilda um rauntölur</p>
 <div class="math">
 \[\begin{split}\begin{aligned}
  z^n\cdot z^m&amp;=z^{n+m}\\
@@ -1193,10 +1155,12 @@ og að <span class="math">\(z\)</span> er hrein þvertala þá og því aðeins 
 \[z=|z|(\cos \theta +i\sin \theta),\]</div>
 <p>þá nefnist talan <span class="math">\(\theta\)</span> <a href="http://www.stae.is/os/leita/amplitude." class="tooltip" target="_blank">stefnuhorn<span>en: <i>amplitude.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> eða <em>horngildi</em>
 tvinntölunnar <span class="math">\(z\)</span> og stærðtáknið í hægri hliðinni nefnist <em>pólform
-tvinntölunnar</em> <span class="math">\(z\)</span>. Hornaföllin <span class="math">\(\cos\)</span> og <span class="math">\(\sin\)</span> eru
+tvinntölunnar</em> <span class="math">\(z\)</span>.</p>
+<p>Hornaföllin <span class="math">\(\cos\)</span> og <span class="math">\(\sin\)</span> eru
 lotubundin með lotuna <span class="math">\(2\pi\)</span> og því eru allar tölur af gerðinni
 <span class="math">\(\theta+2\pi k\)</span> með <span class="math">\(k\in {{\mathbb  Z}}\)</span> einnig stefnuhorn
-fyrir <span class="math">\(z\)</span>. Raðtvenndin <span class="math">\((|z|,\theta)\)</span> er nefnd <a href="http://www.stae.is/os/leita/polar_coordinates." class="tooltip" target="_blank">pólhnit<span>en: <i>polar coordinates.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> eða
+fyrir <span class="math">\(z\)</span>.</p>
+<p>Raðtvenndin <span class="math">\((|z|,\theta)\)</span> er nefnd <a href="http://www.stae.is/os/leita/polar_coordinates." class="tooltip" target="_blank">pólhnit<span>en: <i>polar coordinates.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> eða
 <a href="http://www.stae.is/os/leita/polar_coordinates." class="tooltip" target="_blank">skauthnit<span>en: <i>polar coordinates.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> tölunnar <span class="math">\(z\)</span>.</p>
 <p>Við höfum að</p>
 <div class="math">
@@ -1301,9 +1265,7 @@ gerðinni</p>
 <p>þar sem <span class="math">\(\alpha\)</span> og <span class="math">\(\gamma\)</span> eru rauntölur og <span class="math">\(\beta\)</span>
 er tvinntala.</p>
 <p>Tilfellin eru:</p>
-<ol class="lowerroman simple">
-<li><em>Lína</em>: <span class="math">\(\alpha=0\)</span>, <span class="math">\(\beta\neq 0\)</span>.</li>
-</ol>
+<p>(i) <em>Lína</em>: <span class="math">\(\alpha=0\)</span>, <span class="math">\(\beta\neq 0\)</span>.</p>
 <p>(ii) <em>Hringur</em>: <span class="math">\(\alpha\neq 0\)</span>,
 <span class="math">\(|\beta|^2-{\alpha}\gamma&gt;0\)</span>. Ef miðjan er <span class="math">\(m\)</span> og geislinn
 <span class="math">\(r\)</span>, þá er</p>
@@ -1315,9 +1277,7 @@ er tvinntala.</p>
 <p>(iv) <em>Tóma mengið</em>: <span class="math">\(\alpha\neq 0\)</span>,
 <span class="math">\(|\beta|^2-\alpha\gamma&lt;0\)</span> eða <span class="math">\(\alpha=0\)</span>, <span class="math">\(\beta=0\)</span>,
 <span class="math">\(\gamma\neq 0\)</span>.</p>
-<ol class="loweralpha simple" start="22">
-<li><em>Allt planið</em> <span class="math">\({{\mathbb  C}}\)</span>: <span class="math">\(\alpha=\beta=\gamma=0\)</span>.</li>
-</ol>
+<p>(v) <em>Allt planið</em> <span class="math">\({{\mathbb  C}}\)</span>: <span class="math">\(\alpha=\beta=\gamma=0\)</span>.</p>
 </div>
 <div class="section" id="einingarhringurinn">
 <h3>1.2.9. Einingarhringurinn<a class="headerlink" href="#einingarhringurinn" title="Varanlegur hlekkur á titilinn">¶</a></h3>
@@ -1594,9 +1554,9 @@ og við fáum tvær ólíkar lausnir</p>
 <h3>1.4.3. Undirstöðusetning algebrunnar<a class="headerlink" href="#undirstousetning-algebrunnar" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <div class="section" id="id1">
 <h4>1.4.3.1. Setning<a class="headerlink" href="#id1" title="Varanlegur hlekkur á titilinn">¶</a></h4>
-<hr class="docutils" />
 <p>&nbsp; Sérhver margliða af stigi <span class="math">\(\geq 1\)</span> með stuðlum í
 <span class="math">\({{\mathbb  C}}\)</span> hefur núllstöð í <span class="math">\({{\mathbb  C}}\)</span>.</p>
+<hr class="docutils" />
 <p>Segjum nú að <span class="math">\(P\)</span> sé margliða af stigi <span class="math">\(m\geq 1\)</span> og að
 <span class="math">\(\alpha_1\)</span> sé núllstöð hennar. Við getum þá skrifað</p>
 <div class="math">
@@ -1792,7 +1752,7 @@ skilgreiningarsvæði <span class="math">\(\exp\)</span> þannig að það verð
 <div class="math">
 \[\exp(z)=e^x(\cos y+i\sin y), \qquad z=x+iy\in {{\mathbb  C}}, \quad x,y\in {{\mathbb  R}}\]</div>
 <p>Við skrifum <span class="math">\(e^z=\exp z\)</span> fyrir <span class="math">\(z\in {{\mathbb  C}}\)</span>.</p>
-<p>Fyrst hornaföllin <span class="math">\(\cos ` og :math:\)</span>sin ` eru lotubundin með
+<p>Fyrst hornaföllin <span class="math">\(\cos\)</span> og <span class="math">\(\sin\)</span> eru lotubundin með
 lotuna <span class="math">\(2\pi\)</span>, þá fáum við beint út frá skilgreiningunni á
 veldisvísisfallinu að það er lotubundið með lotuna <span class="math">\(2\pi i\)</span>,</p>
 <div class="math">
@@ -1849,11 +1809,8 @@ veldisvísisfallsins.</p>
 \[|e^{iy}|=1, \qquad y\in {{\mathbb  R}}.\]</div>
 <p>Af þessu leiðir að veldisvísisfallið hefur enga
 núllstöð <span class="math">\(e^z=e^xe^{iy}\)</span> og
-hvorugur þátturinn í hægri hliðinni getur verið núll. Við sjáum einnig
-að veldisvísisfallið varpar lóðréttu línunni sem gefin er með jöfnunni
-<span class="math">\(x={{\operatorname{Re\, }}}z=a\)</span> í <span class="math">\(z\)</span>-plani á hringinn sem
-gefinn er með jöfnununni <span class="math">\(|w|=e^a\)</span> í <span class="math">\(w\)</span>-plani og það varpar
-láréttu línunni sem gefin er með jöfnunni
+hvorugur þátturinn í hægri hliðinni getur verið núll.</p>
+<p>Við sjáum einnig að veldisvísisfallið varpar lóðréttu línunni sem gefin er með jöfnunni <span class="math">\(x={{\operatorname{Re\, }}}z=a\)</span> í <span class="math">\(z\)</span>-plani á hringinn sem gefinn er með jöfnununni <span class="math">\(|w|=e^a\)</span> í <span class="math">\(w\)</span>-plani og það varpar láréttu línunni sem gefin er með jöfnunni
 <span class="math">\(y={{\operatorname{Im\, }}}z=b\)</span> á hálflínuna út frá <span class="math">\(0\)</span> með
 stefnuvigur <span class="math">\(e^{ib}\)</span>.</p>
 <div class="figure align-center" id="id10">
@@ -1983,7 +1940,7 @@ setja fram sem <span class="math">\(L(z)=Az+B\bar z\)</span>, þar sem stuðlarn
 þá er</p>
 <div class="math">
 \[A=\tfrac 12((a+d)+i(c-b)) \qquad \text{ og } \qquad
- B= \tfrac 12((a-d)+i(c+b))\]</div>
+ B= \tfrac 12((a-d)+i(c+b)).\]</div>
 <hr class="docutils" />
 <p>Hugsum okkur næst að við þekkjum stuðlana <span class="math">\(A\)</span> og <span class="math">\(B\)</span> og að
 við viljum ákvarða stuðlana <span class="math">\(a\)</span>, <span class="math">\(b\)</span>, <span class="math">\(c\)</span> og <span class="math">\(d\)</span>
@@ -2036,12 +1993,8 @@ víddir, svo við getum ekki teiknað upp myndir af gröfum tvinnfalla. Við
 getum vissulega teiknað upp gröf raungildu fallanna
 <span class="math">\({{\operatorname{Re\, }}}f\)</span> og <span class="math">\({{\operatorname{Im\, }}}f\)</span> í
 þrívíðu rúmi og gert okkur hugmynd um <span class="math">\({{\operatorname{graf}}}f\)</span>
-út frá þeim, en það hefur takmarkaða þýðingu. Til þess að lýsa
-tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða
-hvernig þau færa til punktana í <span class="math">\({{\mathbb  C}}\)</span> og lýsa á mynd
-afstöðunni millli <span class="math">\(z\)</span> og <span class="math">\(f(z)\)</span>. Vert er að geta þess að í
-þessu samhengi eru orðin <a href="http://www.stae.is/os/leita/mapping." class="tooltip" target="_blank">vörpun<span>en: <i>mapping.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>, <em>færsla</em>, <em>ummyndun</em> o.fl.&nbsp;oft notuð
-sem samheiti fyrir orðið <a href="http://www.stae.is/os/leita/function." class="tooltip" target="_blank">fall<span>en: <i>function.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>. Við skulum nú taka nokkur dæmi um þetta</p>
+út frá þeim, en það hefur takmarkaða þýðingu.</p>
+<p>Til þess að lýsa tvinnföllum á myndrænan hátt er því oft brugðið á það ráð að skoða hvernig þau færa til punktana í <span class="math">\({{\mathbb  C}}\)</span> og lýsa á mynd afstöðunni millli <span class="math">\(z\)</span> og <span class="math">\(f(z)\)</span>. Vert er að geta þess að í þessu samhengi eru orðin <a href="http://www.stae.is/os/leita/mapping." class="tooltip" target="_blank">vörpun<span>en: <i>mapping.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>, <em>færsla</em>, <em>ummyndun</em> o.fl.&nbsp;oft notuð sem samheiti fyrir orðið <a href="http://www.stae.is/os/leita/function." class="tooltip" target="_blank">fall<span>en: <i>function.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>. Við skulum nú taka nokkur dæmi um þetta.</p>
 <p>Vörpun <span class="math">\({{\mathbb  C}}\to {{\mathbb  C}}\)</span> af gerðinni
 <span class="math">\(z\mapsto z+a\)</span>, þar sem <span class="math">\(a\in {{\mathbb  C}}\)</span> nefnist
 <a class="tooltip" target="_blank">hliðrun<span><staelink style="line-height:4px; font-size:80%;">Ekki fannst þýðing á hugtakinu: <i>hliðrun</i></staelink></span></a>.</p>
@@ -2290,7 +2243,8 @@ formúlunni <span class="math">\(f=F^{-1}\circ G\)</span> þar sem</p>
 <p>Ein leið til þess að setja tvinngild föll <span class="math">\(f:X\to {{\mathbb  C}}\)</span>
 fram á myndrænan hátt er að líta á þau sem varpanir sem taka punkta í
 einu afriti af tvinntöluplaninu <span class="math">\({{\mathbb  C}}\)</span> yfir í annað
-afrit. Þá er <span class="math">\(X\)</span> teiknað upp í <span class="math">\(z\)</span>-plani og myndmengið
+afrit.</p>
+<p>Þá er <span class="math">\(X\)</span> teiknað upp í <span class="math">\(z\)</span>-plani og myndmengið
 <span class="math">\(Y=\{w=f(z); z\in X\}\)</span> teiknað upp í <span class="math">\(w\)</span>-plani og síðan er
 sýnt hvernig <span class="math">\(f\)</span> varpar punktum <span class="math">\(z\in X\)</span> á punkta
 <span class="math">\(w=f(z)\in Y\)</span>. Oft er litið á einhverja fjölskyldu af ferlum í

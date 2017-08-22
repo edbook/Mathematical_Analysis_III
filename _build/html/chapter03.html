@@ -32,6 +32,12 @@
   
 
   
+    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
+        <link rel="next" title="4. LEIFAREIKNINGUR" href="chapter04.html"/>
+        <link rel="prev" title="2. FÁGUÐ FÖLL" href="chapter02.html"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resizegg.js"></script>
+     
 
 	<!-- hoverrole.py css code -->
 	<style type="text/css">
@@ -56,50 +62,7 @@
 		}
 	</style>
 
-
-	<script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
-	<script src="http://sagecell.sagemath.org/static/embedded_sagecell.js"></script>
-    
-    <script> 
-    // the buttonText string says what will be written on the 
-    // sage cell evaluation button.
-    // It can be changed here.
-    var buttonText = "Keyra"
-    </script>
-    
-	<script>sagecell.makeSagecell({inputLocation: ".sage", evalButtonText:buttonText});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsage", languages:["r"], evalButtonText: buttonText });</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osage", languages:["octave"], evalButtonText: buttonText});</script>
-
-	<script>sagecell.makeSagecell({inputLocation: ".sageAuto", evalButtonText:buttonText, autoeval: true});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAuto", languages:["r"], evalButtonText: buttonText, autoeval: true});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAuto", languages:["octave"], evalButtonText: buttonText, autoeval: true});</script>
-	
-    <script>sagecell.makeSagecell({inputLocation: ".sageAutoHidden", evalButtonText :buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-    
-    <script>sagecell.makeSagecell({inputLocation: ".rsageAutoHidden", languages:["r"], evalButtonText: buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-    <script>sagecell.makeSagecell({inputLocation: ".osageAutoHidden", languages:["octave"], evalButtonText:buttonText, autoeval: true, hide: ["evalButton"], template: sagecell.templates.minimal});</script>
-
-
-	<style type="text/css">
-		.sagecell .CodeMirror-scroll {
-			overflow-y: hidden;
-			overflow-x: auto;
-		}
-		.sagecell .CodeMirror {
-			height: auto;
-		}
-	</style>
-
-    
-    <link rel="top" title="Stærðfræðigreining III 2017" href="index.html"/>
-        <link rel="next" title="4. LEIFAREIKNINGUR" href="chapter04.html"/>
-        <link rel="prev" title="2. FÁGUÐ FÖLL" href="chapter02.html"/>
+     
 
     
     <!-- ADD YOUR GOOGLE ANALYTICS TRACKING CODE HERE-->
@@ -109,7 +72,7 @@
   		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  		ga('create', 'UA-29852053-2', 'auto');
+  		ga('create', 'UA-UA-78633732-3', 'auto');
   		ga('send', 'pageview');
 
 	</script>
@@ -117,6 +80,7 @@
     <script>top.scrolldepth_tags = []; </script>
 
      
+
 
 
   
@@ -1099,16 +1063,12 @@ Green-setningarinnar. Við tökum <span class="math">\(f\in C^ 1(X)\)</span>,
 <div class="math">
 \[\begin{split}\begin{aligned}
  \int_{\partial\Omega} f\, dz
- &amp;=\int_{\partial\Omega} (u+iv)\, (dx+idy)\end{split}\]\[\begin{split}.. _10.2.1:
- \\
- &amp;=\int_{\partial\Omega} u\, dx - v\, dy
- +i\int_{\partial\Omega} v\, dx + u\, dy\nonumber\\
- &amp;=\iint_{\Omega}\big(-\partial_x v-\partial_y u\big) \, dxdy
- +i\iint_{\Omega}\big(\partial_x u-\partial_y v\big) \, dxdy\nonumber\\
- &amp;=\iint_{\Omega}i\big(\partial_x u+i\partial_x v\big)-
- \big(\partial_y u+i\partial_y v \big) \, dxdy \nonumber\\
- &amp;=i\iint_{\Omega}\big(\partial_x f+i\partial_y f\big) \, dxdy.
- =2i\iint_{\Omega}\partial_{\bar z} f \, dxdy.\nonumber\end{aligned}\end{split}\]</div>
+ &amp;=\int_{\partial\Omega} (u+iv)\, (dx+idy)\\
+ &amp;=\int_{\partial\Omega} u\, dx - v\, dy +i\int_{\partial\Omega} v\, dx + u\, dy\nonumber\\
+ &amp;=\iint_{\Omega}\big(-\partial_x v-\partial_y u\big) \, dxdy +i\iint_{\Omega}\big(\partial_x u-\partial_y v\big) \, dxdy\nonumber\\
+ &amp;=\iint_{\Omega}i\big(\partial_x u+i\partial_x v\big)- \big(\partial_y u+i\partial_y v \big) \, dxdy \nonumber\\
+ &amp;=i\iint_{\Omega}\big(\partial_x f+i\partial_y f\big) \, dxdy =2i\iint_{\Omega}\partial_{\bar z} f \, dxdy.
+\end{aligned}\end{split}\]</div>
 <p>Nú erum við komin að undirstöðusetningu tvinnfallagreiningarinnar:</p>
 <div class="section" id="id2">
 <h4>3.3.1.1. Setning<a class="headerlink" href="#id2" title="Varanlegur hlekkur á titilinn">¶</a></h4>
@@ -1195,11 +1155,13 @@ er jafnt gildi fallsins í miðpunkti skífunnar.</p>
 <div class="section" id="utreikningur-a-heildum">
 <h3>3.3.5. Útreikningur á heildum<a class="headerlink" href="#utreikningur-a-heildum" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p>Nú skulum við kanna, hvernig hægt er að beita Cauchy-formúlunni til þess
-að reikna út ýmis ákveðin heildi. Til undirbúnings á því hugsum við
+að reikna út ýmis ákveðin heildi.</p>
+<p>Til undirbúnings á því hugsum við
 okkur að forsendurnar í Cauchy-setningunni séu uppfylltar og að
 <span class="math">\(Q(z)\)</span> sé margliða af stigi <span class="math">\(m\)</span> með einfaldar núllstöðvar
 <span class="math">\(\alpha_1,\dots,\alpha_m\)</span> og að engin þeirra liggi á
-<span class="math">\(\partial\Omega\)</span>. Við skrifum upp stofnbrotaliðun á
+<span class="math">\(\partial\Omega\)</span>.</p>
+<p>Við skrifum upp stofnbrotaliðun á
 <span class="math">\(1/Q(z)\)</span>, sem við fjölluðum um í <a class="reference internal" href="chapter01.html#id2"><span>grein 1.5</span></a>, og fáum</p>
 <div class="math">
 \[\dfrac 1{Q(z)} = \dfrac 1{Q{{^{\prime}}}(\alpha_1)(z-\alpha_1)}+\cdots+
@@ -1243,14 +1205,13 @@ raunbreytistærðum og gerum ráð fyrir að <span class="math">\(q(x,y)\neq 0\)
 <p>Við athugum að ef <span class="math">\(z\)</span> er á einingarhringnum og við skrifum
 <span class="math">\(z=e^{i\theta}\)</span>, þá er</p>
 <div class="math">
-\[\begin{gathered}
+\[\begin{split}\begin{gathered}
  \cos\theta=\dfrac 12(e^{i\theta}+e^{-i\theta})
- =\dfrac12(z+\dfrac 1z)=\dfrac{z^ 2+1}{2z},\]\[\begin{split}
- \\
+ =\dfrac12(z+\dfrac 1z)=\dfrac{z^ 2+1}{2z},\\
  \sin\theta=\dfrac 1{2i}(e^{i\theta}-e^{-i\theta})
- =\dfrac1{2i}(z-\dfrac 1z)=\dfrac{z^ 2-1}{2iz},\end{split}\]\[\begin{split}
- \\
- dz=ie^{i\theta}d\theta, \qquad d\theta=\dfrac 1{iz}dz.\end{split}\]\[ \end{gathered}\]</div>
+ =\dfrac1{2i}(z-\dfrac 1z)=\dfrac{z^ 2-1}{2iz},\\
+ dz=ie^{i\theta}d\theta, \qquad d\theta=\dfrac 1{iz}dz.
+\end{gathered}\end{split}\]</div>
 <p>Heildið sem við viljum reikna er vegheildi</p>
 <div class="math">
 \[\int_0^ {2\pi}R(\cos\theta,\sin
@@ -1270,14 +1231,13 @@ síðustu setningu.</p>
 <p>þar sem <span class="math">\(f\)</span> er fágað í grennd um <span class="math">\({{\mathbb  R}}\cup H_+\)</span>,
 þar sem <span class="math">\(H_+=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z&gt;0\}\)</span> táknar efra hálfplanið og
 <span class="math">\(Q(z)\)</span> er margliða sem hefur einungis einfaldar núllstöðvar í efra
-hálfplaninu og engar núllstöðvar á <span class="math">\({{\mathbb  R}}\)</span>. Nú lítum við
-á svæðið
-<span class="math">\(\Omega_r=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z&gt;0, |z|&lt;r\}\)</span>,
-sem er hálf hringskífa. Jaðar hennar samanstendur af línustrikinu
+hálfplaninu og engar núllstöðvar á <span class="math">\({{\mathbb  R}}\)</span>.</p>
+<p>Nú lítum við á svæðið
+<span class="math">\(\Omega_r=\{z\in {{\mathbb  C}}; {{\operatorname{Im\, }}}z&gt;0, |z|&lt;r\}\)</span>, sem er hálf hringskífa. Jaðar hennar samanstendur af línustrikinu
 <span class="math">\({{\langle-r,r\rangle}}\)</span> og hálfhringnum
-<span class="math">\(\gamma_r(t)=re^{it}\)</span>, <span class="math">\(t\in [0,\pi]\)</span>. Ef við veljum nú
-<span class="math">\(r\)</span> það stórt að allar núllstöðvar <span class="math">\(Q\)</span> í <span class="math">\(H_+\)</span> séu
-innihaldnar í <span class="math">\(\Omega_r\)</span>, þá gefur síðasta setning okkur að</p>
+<span class="math">\(\gamma_r(t)=re^{it}\)</span>, <span class="math">\(t\in [0,\pi]\)</span>.</p>
+<p>Ef við veljum nú <span class="math">\(r\)</span> það stórt að allar núllstöðvar <span class="math">\(Q\)</span>
+í <span class="math">\(H_+\)</span> séu innihaldnar í <span class="math">\(\Omega_r\)</span>, þá gefur síðasta setning okkur að</p>
 <div class="math">
 \[\int_{\partial\Omega_r} \dfrac {f(z)}{Q(z)}\, dz
  =\int_{-r}^ r \dfrac {f(x)}{Q(x)}\, dx +
@@ -1453,10 +1413,11 @@ ef fyrir sérhvert <span class="math">\(\varepsilon&gt;0\)</span> er til <span c
 \[\begin{split}\|f_n(a)-f(a)\|&lt;\varepsilon, \text{fyrir öll} \quad n\geq N.\end{split}\]</div>
 <p>Við segjum að <span class="math">\(\{f_n\}\)</span> sé
 <em>samleitin í jöfnum mæli á</em> <span class="math">\(A\)</span>, ef til er fall <span class="math">\(f\)</span> þannig
-að <span class="math">\(\{f_n\}\)</span> stefni á <span class="math">\(f\)</span> í jöfnum mæli á <span class="math">\(A\)</span>. Við
-segjum að fallaröðin <span class="math">\(\sum_{k=0}^\infty f_k\)</span> sé <em>samleitin í
+að <span class="math">\(\{f_n\}\)</span> stefni á <span class="math">\(f\)</span> í jöfnum mæli á <span class="math">\(A\)</span>.</p>
+<p>Við segjum að fallaröðin <span class="math">\(\sum_{k=0}^\infty f_k\)</span> sé <em>samleitin í
 jöfnum mæli</em> ef runan af hlutsummum <span class="math">\(\{\sum_{k=0}^ n f_k\}\)</span> er
-samleitin í jöfnum mæli. Ef fallaröðin <span class="math">\(\sum_{k=0}^\infty |f_k|\)</span>
+samleitin í jöfnum mæli.</p>
+<p>Ef fallaröðin <span class="math">\(\sum_{k=0}^\infty |f_k|\)</span>
 er samleitin í jöfnum mæli á <span class="math">\(A\)</span>, þá segjum við að
 <span class="math">\(\sum_{k=0}^\infty f_k\)</span> sé <em>alsamleitin í jöfnum
 mæli</em> á menginu <span class="math">\(A\)</span>.</p>
@@ -1720,14 +1681,15 @@ með</p>
 <span class="math">\(\alpha\in X\)</span> og <span class="math">\(f\in {{\cal O}}(X)\)</span>. Punkturinn
 <span class="math">\(\alpha\)</span> nefnist <a href="http://www.stae.is/os/leita/null." class="tooltip" target="_blank">núllstöð<span>en: <i>null.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> fágaða fallsins
 <span class="math">\(f\)</span> ef <span class="math">\(f(\alpha)=0\)</span> og mengið
-<span class="math">\({\cal N}(f)=\{\alpha\in X; f(\alpha)=0\}\)</span> kallast <a href="http://www.stae.is/os/leita/set_of_zeros." class="tooltip" target="_blank">núllstöðvamengi<span>en: <i>set of zeros.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> fágaða
-fallsins <span class="math">\(f\)</span>. Ef <span class="math">\(f\)</span> er ekki núllfallið í
-<span class="math">\(S(\alpha,\varrho)\)</span>, þar sem <span class="math">\(\varrho&gt;0\)</span>, þá er til minnsta
-gildi <span class="math">\(m&gt;0\)</span> á <span class="math">\(n\)</span> þannig að <span class="math">\(f^{(n)}(\alpha)\neq 0\)</span>.
-Talan <span class="math">\(m\)</span> nefnist <a href="http://www.stae.is/os/leita/degree." class="tooltip" target="_blank">stig<span>en: <i>degree.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a>
-núllstöðvarinnar <span class="math">\(\alpha\)</span>. Ef fallið
-<span class="math">\(f\)</span> er núll í heilli grennd um <span class="math">\(\alpha\)</span>, þá segjum við að
-<span class="math">\(f\)</span> hafi núllstöð af <em>óendanlegu stigi</em> í <span class="math">\(\alpha\)</span>.</p>
+<span class="math">\({\cal N}(f)=\{\alpha\in X; f(\alpha)=0\}\)</span> kallast
+<a href="http://www.stae.is/os/leita/set_of_zeros." class="tooltip" target="_blank">núllstöðvamengi<span>en: <i>set of zeros.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> fágaða fallsins <span class="math">\(f\)</span>.</p>
+<p>Ef <span class="math">\(f\)</span> er ekki núllfallið í <span class="math">\(S(\alpha,\varrho)\)</span>, þar sem
+<span class="math">\(\varrho&gt;0\)</span>, þá er til minnsta gildi <span class="math">\(m&gt;0\)</span> á <span class="math">\(n\)</span>
+þannig að <span class="math">\(f^{(n)}(\alpha)\neq 0\)</span>.
+Talan <span class="math">\(m\)</span> nefnist <a href="http://www.stae.is/os/leita/degree." class="tooltip" target="_blank">stig<span>en: <i>degree.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> núllstöðvarinnar <span class="math">\(\alpha\)</span>.</p>
+<p>Ef fallið <span class="math">\(f\)</span> er núll í heilli grennd um <span class="math">\(\alpha\)</span>,
+þá segjum við að <span class="math">\(f\)</span> hafi núllstöð af <em>óendanlegu stigi</em>
+í <span class="math">\(\alpha\)</span>.</p>
 <hr class="docutils" />
 <p>Eins og fyrir margliður þá er hægt að þátta núllstöðvar úr fáguðum
 föllum:</p>
@@ -1748,14 +1710,14 @@ punktinum <span class="math">\(\alpha\in X\)</span> þá og því aðeins að ti
 <h3>3.7.1. Samsemdarsetningin<a class="headerlink" href="#id29" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <p>Við skulum rifja það upp að <a href="http://www.stae.is/os/leita/domain." class="tooltip" target="_blank">svæði<span>en: <i>domain.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> er opið samanhangandi
 mengi, en það þýðir að sérhverja tvo punkta <span class="math">\(\alpha\)</span> og
-<span class="math">\(\beta\)</span> í <span class="math">\(X\)</span> er unnt að tengja saman með vegi í <span class="math">\(X\)</span>.
-Ef <span class="math">\(A\)</span> er hlutmengi í <span class="math">\({{\mathbb  C}}\)</span>, þá er punktur
+<span class="math">\(\beta\)</span> í <span class="math">\(X\)</span> er unnt að tengja saman með vegi í <span class="math">\(X\)</span>.</p>
+<p>Ef <span class="math">\(A\)</span> er hlutmengi í <span class="math">\({{\mathbb  C}}\)</span>, þá er punktur
 <span class="math">\(\alpha\in A\)</span> sagður vera <em>einangraður</em> í <span class="math">\(A\)</span> ef til er <span class="math">\(\varepsilon&gt;0\)</span> þannig að
-<span class="math">\(A\cap S(\alpha,\varepsilon)=\{\alpha\}\)</span>. Mengi sem samanstendur
-af einangruðum punktum í <span class="math">\(A\)</span> er sagt vera <em>dreift</em>
-mengi` í <span class="math">\(A\)</span>. Athugið að þetta þýðir að ekki er til nein runa af
-<em>ólíkum</em> punktum í <span class="math">\(A\)</span> sem er samleitin og hefur markgildi í
-<span class="math">\(A\)</span>.</p>
+<span class="math">\(A\cap S(\alpha,\varepsilon)=\{\alpha\}\)</span>.</p>
+<p>Mengi sem samanstendur af einangruðum punktum í <span class="math">\(A\)</span> er sagt
+vera <em>dreift</em> í <span class="math">\(A\)</span>.
+Athugið að þetta þýðir að ekki er til nein runa af <em>ólíkum</em> punktum
+í <span class="math">\(A\)</span> sem er samleitin og hefur markgildi í <span class="math">\(A\)</span>.</p>
 <div class="section" id="id30">
 <h4>3.7.1.1. Setning<a class="headerlink" href="#id30" title="Varanlegur hlekkur á titilinn">¶</a></h4>
 <p>(<a href="http://www.stae.is/os/leita/identity_theorem." class="tooltip" target="_blank">Samsemdarsetning<span>en: <i>identity theorem.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> I). &nbsp; Ef <span class="math">\(X\)</span> er svæði
@@ -1785,7 +1747,8 @@ svæði, <span class="math">\(f,g\in {{\cal O}}(X)\)</span> og <span class="math
 ef <span class="math">\(f\)</span> er fall sem gefið er með veldaröð á bili <span class="math">\(I\)</span> á
 <span class="math">\({{\mathbb  R}}\)</span> og hægt er að útvíkka <span class="math">\(f\)</span> yfir í fágað fall
 á svæði <span class="math">\(X\)</span> í <span class="math">\({{\mathbb  C}}\)</span> sem inniheldur <span class="math">\(I\)</span>, þá
-er útvíkkunin ótvírætt ákvörðuð. Hún segir okkur einnig að
+er útvíkkunin ótvírætt ákvörðuð.</p>
+<p>Hún segir okkur einnig að
 <span class="math">\(e^ z=e^{x+iy}=e^ x(\cos y+i\sin y)\)</span> sé eina mögulega fágaða
 útvíkkunin á veldisvísisfallinu <span class="math">\(x\mapsto e^ x\)</span> og að höfuðgrein
 lografallsins <span class="math">\({{\operatorname{Log}}}z\)</span> sé eina mögulega fágaða
@@ -1825,17 +1788,19 @@ vera punkt sem liggur ekki á ferlinum. Þá er hægt að skrifa</p>
 \[\gamma(t)=p+r(t)e^{i\theta(t)}, \qquad r=|\gamma(t)-p|, \qquad t\in [a,b],\]</div>
 <p>þar sem fallið <span class="math">\(\theta:[a,b]\to {{\mathbb  R}}\)</span> kallast <em>horn
 fyrir ferilinn</em> <span class="math">\(\gamma\)</span>  <em>mælt frá
-punktinum</em> <span class="math">\(p\)</span>. Fallið <span class="math">\(\gamma\)</span> er samfellt og af því leiðir
+punktinum</em> <span class="math">\(p\)</span>.</p>
+<p>Fallið <span class="math">\(\gamma\)</span> er samfellt og af því leiðir
 að hægt er að velja <span class="math">\(\theta\)</span> samfellt. Ef <span class="math">\(\gamma\)</span> er vegur,
 þá er fallið <span class="math">\(\gamma\)</span> samfellt og samfellt deildanlegt á köflum og
-af því leiðir að hægt er að velja <span class="math">\(\theta\)</span> með sömu eiginleika.
-Sönnun á þessum staðreynum er alls ekki flókin, en við látum hana eiga
-sig. Fallið <span class="math">\(\theta\)</span> er ekki ótvírætt ákvarðað, en mismunur á
+af því leiðir að hægt er að velja <span class="math">\(\theta\)</span> með sömu eiginleika.</p>
+<p>Sönnun á þessum staðreynum er alls ekki flókin, en við látum hana eiga
+sig.</p>
+<p>Fallið <span class="math">\(\theta\)</span> er ekki ótvírætt ákvarðað, en mismunur á
 tveimur hornum <span class="math">\(\theta\)</span> og <span class="math">\(\varphi\)</span> fyrir ferillinn
 <span class="math">\(\gamma\)</span> mælt frá <span class="math">\(p\)</span> er fast heiltölumargfeldi af
 <span class="math">\(2\pi\)</span>. Þetta segir okkur að mismunurinn
-<span class="math">\(\theta(b)-\theta(a)\)</span> sé óháður því hvernig hornið er valið. Ef
-ferillinn <span class="math">\(\gamma\)</span> er lokaður, þá er
+<span class="math">\(\theta(b)-\theta(a)\)</span> sé óháður því hvernig hornið er valið.</p>
+<p>Ef ferillinn <span class="math">\(\gamma\)</span> er lokaður, þá er
 <span class="math">\(e^{i\theta(b)}=e^{i\theta(a)}\)</span>, sem segir okkur að
 <span class="math">\(\theta(b)-\theta(a)\)</span> sé heiltölumargfeldi af <span class="math">\(2\pi\)</span>.</p>
 <div class="section" id="id37">
@@ -1871,26 +1836,30 @@ vafningstölunni:</p>
 <hr class="docutils" />
 <p>Lítum nú á mengið
 <span class="math">\(X={{\mathbb  C}}\setminus {{{\operatorname{mynd}(\gamma)}}}\)</span> sem
-samanstendur af öllum punktum <span class="math">\(p\)</span> sem eru ekki á ferlinum. Það er
+samanstendur af öllum punktum <span class="math">\(p\)</span> sem eru ekki á ferlinum.</p>
+<p>Það er
 hægt að skrifa <span class="math">\(X\)</span> sem sammengi <span class="math">\(X=\cup X_i\)</span>, <span class="math">\(i\in I\)</span>
 af sundurlægum svæðum <span class="math">\(X_i\)</span>, þar sem <span class="math">\(I\)</span> er eitthvert
 endanlegt eða teljanlega óendanlegt mengi. Þessi mengi <span class="math">\(X_i\)</span>
-kallast <a href="http://www.stae.is/os/leita/component." class="tooltip" target="_blank">samhengisþætti<span>en: <i>component.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> mengisins <span class="math">\(X\)</span>. Á
-sérhverjum samhengisþætti <span class="math">\(X_i\)</span> er vafningstalan fasti sem fall af
-<span class="math">\(p\)</span>, því</p>
+kallast <a href="http://www.stae.is/os/leita/component." class="tooltip" target="_blank">samhengisþætti<span>en: <i>component.</i><staelink style="font-size:80%;"><br><strong>Smelltu</strong> fyrir ítarlegri þýðingu.</staelink></span></a> mengisins <span class="math">\(X\)</span>.</p>
+<p>Á sérhverjum samhengisþætti <span class="math">\(X_i\)</span> er vafningstalan fasti sem
+fall af <span class="math">\(p\)</span>, því</p>
 <div class="math">
 \[X_i\ni p\mapsto I(\gamma,p) = \dfrac 1{2\pi i}\int_\gamma \dfrac
  {dz}{z-p},\]</div>
-<p>er heiltölugilt fágað fall. Eitt mengjanna <span class="math">\(X_i\)</span> er ótakmarkað og
+<p>er heiltölugilt fágað fall.</p>
+<p>Eitt mengjanna <span class="math">\(X_i\)</span> er ótakmarkað og
 við sjáum á formúlunni að <span class="math">\(I(\gamma,p)\to 0\)</span> ef
 <span class="math">\(|p|\to +\infty\)</span>. Þar með er vafningstalan jöfn <span class="math">\(0\)</span> á
 ótakmarkaða samhengisþættinum.</p>
 <p>Mjög létt er að ákvarða vafningstölur fyrir alla skikkanlega vegi. Við
 tökum einn punkt í hverjum samhengisþætti í
 <span class="math">\(X\setminus{{{\operatorname{mynd}(\gamma)}}}\)</span> og drögum beint
-línustrik frá honum yfir í ótakmarkaða samhengisþáttinn. Gæta verður
+línustrik frá honum yfir í ótakmarkaða samhengisþáttinn.</p>
+<p>Gæta verður
 þess að í öllum skurðpunktum línunnar og vegarins sé snertivigurinn við
-veginn ekki samsíða línunni. Við merkjum alla skurðpunkta, sem eru
+veginn ekki samsíða línunni.</p>
+<p>Við merkjum alla skurðpunkta, sem eru
 þannig að vegurinn sker línuna frá hægri til vinstri séð frá punktinum
 <span class="math">\(p\)</span>, með tölunni <span class="math">\(1\)</span>, og við merkjum hina punktana, sem eru
 þá þannig að vegurinn sker línuna frá vinstri til hægri, með tölunni
@@ -1925,10 +1894,12 @@ yfir á almennari flokk mengja:</p>
 <p>Innmengi vegarins <span class="math">\(\gamma\)</span> samanstendur af öllum punktum <span class="math">\(p\)</span>
 sem <span class="math">\(\gamma\)</span> vefst utanum, þar sem við segjum að <span class="math">\(\gamma\)</span>
 vefjist utanum <span class="math">\(p\)</span> ef vafningstalan <span class="math">\(I(\gamma,p)\)</span> er
-frábrugðin <span class="math">\(0\)</span>. Skilyrðið í skilgreiningunni segir því að í
+frábrugðin <span class="math">\(0\)</span>.</p>
+<p>Skilyrðið í skilgreiningunni segir því að í
 einfaldlega samanhangandi mengi geti lokaðir vegir einungis vafist
 utanum punkta í <span class="math">\(X\)</span> og þar með að þeir geti ekki vafist utan um
-punkta í fyllimenginu <span class="math">\({{\mathbb  C}}\setminus X\)</span>. Þetta þýðir að
+punkta í fyllimenginu <span class="math">\({{\mathbb  C}}\setminus X\)</span>.</p>
+<p>Þetta þýðir að
 mengið <span class="math">\(X\)</span> hafi engin göt. Sem dæmi má nefna að allar hringskífur
 eru einfaldlega samanhangandi, en hringkragar eru það ekki.</p>
 <div class="figure align-center" id="id52">
