@@ -4,6 +4,8 @@ TVINNTÖLUR
 Talnakerfin
 -----------
 
+Þetta er breyting
+
 :math:`{{\mathbb  N}}`, :math:`{{\mathbb  Z}}`, :math:`{{\mathbb  Q}}`,
 :math:`{{\mathbb  R}}` og :math:`{{\mathbb  C}}`.
 
@@ -740,7 +742,7 @@ Ef :math:`z^2=x^2-y^2+2ixy=u+iv=w`, þá fæst með því að bera saman raun-
 og þverhluta í þessari jöfnu að formúlur :math:`x^2-y^2=u` og
 :math:`2xy=v`.
 
-Formúlan :math:`|w|=|z^2|=|w|^2=x^2+y^2` gefur okkur eina jöfnu til
+Formúlan :math:`|w|=|z^2|=|z|^2=x^2+y^2` gefur okkur eina jöfnu til
 viðbótar og við getum leyst út :math:`x^2` og :math:`y^2`,
 
 .. math::
@@ -1047,7 +1049,7 @@ einfaldar. Þá getum við skrifað
 
 .. math:: R(z) = \dfrac {A_1}{z-\alpha_1}+\cdots+\dfrac {A_m}{z-\alpha_m}.
 
-Við munum sanna þessa formúlu í kafla 4. Nú þarf að reikna stuðlana
+Nú þarf að reikna stuðlana
 :math:`A_1,\dots,A_m` út. Við athugum að
 
 .. math::
@@ -1745,7 +1747,7 @@ skilyrðin :math:`f(z_1)=w_1`, :math:`f(z_2)=w_2` og :math:`f(z_3)=w_3`.
 Hugsum okkur nú að :math:`g` sé önnur brotin línuleg vörpun sem
 uppfyllir :math:`g(z_1)=w_1`, :math:`g(z_2)=w_2` og :math:`g(z_3)=w_3`.
 Þá hefur vörpunin :math:`f^{-1}\circ g(z)` þrjá fastapunkta :math:`z_1`,
-:math:`z_2` og :math:`z_3`. Setning :ref:`1.7.4.1 <se:fastapunktar>`, (1.7.4 í RS), segir nú að
+:math:`z_2` og :math:`z_3`. Setningin hér að framan um fastapunkta segir nú að
 :math:`f^{-1}\circ g(z)=z` fyrir öll
 :math:`z\in \widehat {{\mathbb  C}}` og þar með er :math:`f(z)=g(z)`
 fyrir öll :math:`z\in \widehat {{\mathbb  C}}`. Niðurstaðan er því:

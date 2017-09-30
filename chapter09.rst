@@ -30,8 +30,8 @@ verður hneppið
 
 Hneppið er sagt vera :hover:`óhliðrað,óhliðraður`
 ef fallið :math:`f` er núllfallið,
-en :hover:`hliðrað,misleitur` annars. Samkvæmt
-fylgisetningu 6.7.6 hefur upphafsgildisverkefnið
+en :hover:`hliðrað,misleitur` annars. 
+Upphafsgildisverkefnið
 
 .. math::
 
@@ -39,7 +39,7 @@ fylgisetningu 6.7.6 hefur upphafsgildisverkefnið
 
   
 
-ótvírætt ákvarðaða lausn, þar sem :math:`a` er einhver gefinn punktur í
+hefur ótvírætt ákvarðaða lausn, þar sem :math:`a` er einhver gefinn punktur í
 :math:`I` og :math:`b` er einhver gefinn vigur í
 :math:`{{\mathbb  C}}^m`.
 
@@ -128,8 +128,7 @@ Setning
 ^^^^^^^
 
 Látum :math:`P(t,D)=D^ m+a_{m-1}(t)D^{m-1}+\cdots+a_1(t)D+a_0(t)`
-vera línulegan afleiðuvirkja og skilgreinum :math:`A(t)` sem fylkið í
-(:ref:`Link title <5.1.5>`). Þá er
+vera línulegan afleiðuvirkja og skilgreinum :math:`A(t)` sem fylkið hér að ofan. Þá er
 
 .. math:: \det(\lambda I-A(t))=P(t,\lambda),
 
@@ -234,14 +233,13 @@ mikilvægt að minnast þess að ef :math:`b` er vigur í
 :math:`\{\varepsilon_1,\dots,\varepsilon_m\}` gefin með jöfnunni
 :math:`{\beta}=T^{-1}b`.
 
-Nú skulum við skoða aftur lausnina á upphafsgildisverkefninu 9.1.2. Við
+Nú skulum við skoða aftur lausnina á upphafsgildisverkefninu. Við
 látum :math:`v(t)=[v_1(t),\dots,v_m(t)]^t` vera hnit :math:`u(t)`,
 :math:`g(t)=[g_1(t),\dots,g_m(t)]^t` vera hnit :math:`f(t)` og
 :math:`\beta=[\beta_1,\dots,\beta_m]^t` vera hnit :math:`b` miðað við
 grunninn :math:`\{\varepsilon_1,\dots,\varepsilon_m\}`,
 þ.e. \ :math:`v=T^{-1}u`, :math:`g=T^{-1}f` og :math:`\beta=T^{-1}b`.
-Við reiknum nú afleiðuna af :math:`v` og notum (:ref:`Link title <5.2.3>`)
-
+Við reiknum nú afleiðuna af :math:`v` og notum :math:`A=T\Lambda T^{-1}`
 .. math::
 
   \begin{gathered}
@@ -250,8 +248,8 @@ Við reiknum nú afleiðuna af :math:`v` og notum (:ref:`Link title <5.2.3>`)
    v(a)=T^{-1}u(a)=T^{-1}b=\beta \end{gathered}
 
 Nú er :math:`\Lambda v=(\lambda_1v_1,\dots,\lambda_mv_m)`, svo við
-höfum fengið upphafsgildisverkefni fyrir :math:`v`, sem sett er fram með
-jöfnunum (:ref:`Link title <5.2.1>`) og þar með er lausnin gefin með (:ref:`Link title <5.2.2>`).
+höfum fengið upphafsgildisverkefni fyrir :math:`v`. 
+Lausnin er gefin í setningunni hér að framan.
 
 Nú skulum við líta á þessa formúlu ögn nánar. Við skilgreinum
 fylkjafallið
@@ -284,7 +282,7 @@ og því er
    T{{\operatorname{diag}}}(e^{\lambda_1(t-\tau)},\dots,e^{\lambda_m(t-\tau)})g(\tau).\end{gathered}
 
 Nú er :math:`\beta=T^{-1}b` og :math:`g(\tau)=T^{-1}f(\tau)`, svo við
-fáum umritaða framsetningu á setningu :ref:`Link title <set5.2.2>`:
+fáum umritaðun á framsetningu á setningunni hér að framan.
 
 Setning
 ^^^^^^^
@@ -308,46 +306,6 @@ hefur upphafsgildisverkefnið
    &+\int_a^t T{{\operatorname{diag}}}(e^{\lambda_1(t-\tau)},\dots,e^{\lambda_m(t-\tau)})
    T^{-1}f(\tau)\, d\tau.\end{aligned}
 
---------------
-
-Þessi setning segir ekkert meira en setning :ref:`Link title <set5.2.2>` og hana
-höfum við sannað. Við skulum engu að síður staðfesta að þetta sé lausn á
-upphafsgildisverkefninu. Athugum fyrst að
-
-.. math::
-
-  \begin{aligned}
-   \dfrac d{dt}{{\operatorname{diag}}}(e^{\lambda_1 t},\dots,e^{\lambda_mt})
-   &=
-   \left[\begin{matrix}
-   \lambda_1e^{\lambda_1t}&0&\dots&0\\
-   0&\lambda_2e^{\lambda_2t}&\dots&0\\
-   \vdots&\vdots&\ddots&\vdots\\
-   0&0&\dots&\lambda_me^{\lambda_mt}
-   \end{matrix}\right]\\
-   &=\Lambda{{\operatorname{diag}}}(e^{\lambda_1 t},\dots,e^{\lambda_mt}).\end{aligned}
-
-Ef við notum þessa formúlu, þá fáum við
-
-.. math::
-
-  \begin{gathered}
-   u{{^{\prime}}}(t)=T\Lambda {{\operatorname{diag}}}(e^{\lambda_1(t-a)},\dots,e^{\lambda_m(t-a)})T^{-1}b
-   \\
-   +\int_a^t T\Lambda 
-   {{\operatorname{diag}}}(e^{\lambda_1(t-\tau)},\dots,e^{\lambda_m(t-\tau)})T^{-1}f(\tau)\,
-   d\tau + TT^{-1}f(t).\end{gathered}
-
-Nú notum við formúluna :math:`T\Lambda =T\Lambda T^{-1}T=AT` og fáum
-
-.. math::
-
-  \begin{gathered}
-   u{{^{\prime}}}(t)
-   =A\bigg(T{{\operatorname{diag}}}(e^{\lambda_1(t-a)},\dots,e^{\lambda_m(t-a)})T^{-1}b \\
-   +\int_a^t
-   T{{\operatorname{diag}}}(e^{\lambda_1(t-\tau)},\dots,e^{\lambda_m(t-\tau)})T^{-1}f(\tau)\, 
-   d\tau\bigg)+ f(t)=Au(t)+f(t).\end{gathered}
 
 Annars stigs hneppi
 ~~~~~~~~~~~~~~~~~~~
@@ -458,7 +416,7 @@ Fylki af gerðinni
 
 --------------
 
-Samkvæmt hjálparsetningu :ref:`Link title <hs5.3.1>`, þá eru dálkarnir í
+Samkvæmt hjálparsetningunni eru dálkarnir í
 :math:`\Phi(t)` línulega óháðir fyrir öll :math:`t\in I` og þar með er
 andhverfan :math:`\Phi(t)^{-1}` til í sérhverjum punkti
 :math:`t\in I`. Við sjáum jafnframt að
@@ -585,7 +543,7 @@ með upphafsskilyrðinu
 
 Þar með er :math:`\Phi` grunnfylki fyrir hneppið
 :math:`u{{^{\prime}}}=Au`. Hér er komin grunnlausnin sem við notuðum í
-útleiðslu okkar í grein 9.2.
+fyrri útleiðslu okkar.
 
 Fylkjamargliður og fylkjaveldaraðir
 -----------------------------------
@@ -761,11 +719,10 @@ Veldisvísisfylkið
 ~~~~~~~~~~~~~~~~~
 
 Nú ætlum við að finna almenna formúlu fyrir grunnfylki fyrir línulegt
-jöfnuhneppi með fastastuðla. Í grein 9.3 sáum við hvernig grunnfylkið
+jöfnuhneppi með fastastuðla. Við höfum séð hvernig grunnfylkið
 lítur út í því tilfelli að eiginvigrar stuðlafylkisins myndi grunn í
 :math:`{{\mathbb  C}}^ m`. Við byrjum á því að skoða rununa
-:math:`{{\{u_n\}}}` sem skilgreind var í aðferð Picards til að sanna
-setningu 6.7.5. Hún er
+:math:`{{\{u_n\}}}` sem skilgreind var í aðferð Picards. Hún er
 
 .. math::
 
@@ -802,7 +759,7 @@ Setning
 
 --------------
 
-Nú skulum við sjá hvernig unnt er að nota tilvistarsetninguna fyrir
+Hægt er að nota tilvistarsetninguna fyrir
 línuleg hneppi til þess að sanna samlagningarformúluna fyrir
 fylkjaveldisvísisfallið:
 
@@ -827,7 +784,7 @@ Fylkið :math:`e^ {tA}` hefur andhverfuna :math:`e^{-tA}`.
 
 --------------
 
-Setningu :ref:`Link title <set5.5.2>` er ekki nokkur vandi að alhæfa:
+Setninguna hér að framan er ekki nokkur vandi að alhæfa:
 
 Setning
 ^^^^^^^
@@ -858,7 +815,7 @@ fylkið :math:`A` í
 þar sem :math:`\varepsilon_1,\dots,\varepsilon_m` mynda dálkana í
 :math:`T` og
 :math:`\Lambda={{\operatorname{diag}}}(\lambda_1,\dots,\lambda_m)`.
-Setning :ref:`Link title <set5.5.5>` gefur nú
+Setningin gefur nú
 
 .. math:: e^{t A}=Te^{t\Lambda} T^{-1}.
 
@@ -955,7 +912,7 @@ fáum við
    \sum_{n=0}^\infty c_{jn}t^ n\bigg)A^ j.
 
 Þessi formúla er alls ekki svo fráleit til útreikninga á tölvu, því við
-fáum rakningarformúlur fyrir stuðlana út frá (:ref:`Link title <5.6.2>`) og
+fáum rakningarformúlur fyrir stuðlana út frá :math:`A^ m=-a_0I-a_1A-\cdots-a_{m-1}A^ {m-1}` og
 
 .. math::
 
@@ -1066,7 +1023,7 @@ Látum :math:`f\in {{\cal O}}({{\mathbb  C}})`,
 :math:`\alpha_1,\dots,\alpha_\ell` vera ólíka punkta í
 :math:`{{\mathbb  C}}`, :math:`m_1,\dots,m_\ell` vera jákvæðar
 heiltölur, setjum :math:`m=m_1+\cdots+m_\ell` og skilgreinum
-:math:`p(z)` með (:ref:`Link title <10.13.2>`). Þá er til margliða :math:`r` af stigi
+:math:`p(z)` eins og hér að framan. Þá er til margliða :math:`r` af stigi
 :math:`<m` og :math:`g\in {{\cal O}}({{\mathbb  C}})` þannig að
 
 .. math::
@@ -1075,7 +1032,7 @@ heiltölur, setjum :math:`m=m_1+\cdots+m_\ell` og skilgreinum
 
   
 
-Margliðan :math:`r` er lausn á (:ref:`Link title <10.13.1>`). Bæði :math:`r` og
+Margliðan :math:`r` er lausn á brúunarverkefninu. Bæði :math:`r` og
 :math:`g` eru ótvírætt ákvörðuð og eru gefin með formúlunum
 
 .. math::
@@ -1309,7 +1266,7 @@ og veldisvísisfylkið verður
 Hugsum okkur nú að við séum að finna lausn á upphafsgildisverkefninu
 :math:`u{{^{\prime}}}=Au`, :math:`u(0)=b`, þar sem :math:`A` er
 :math:`3\times 3` fylki með eitt eigingildi :math:`\alpha_1`. Formúlan í
-sýnidæmi :ref:`Link title <syn5.7.2>` (v) gefur
+sýnidæminu (v) hér að ofan gefur
 
 .. math:: e^{tA}b=e^{t\alpha_1}b_0+te^{t\alpha_1}b_1+\dfrac {t^2}2e^{t\alpha_1}b_2
 

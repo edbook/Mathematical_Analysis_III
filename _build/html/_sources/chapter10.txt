@@ -76,7 +76,10 @@ Setning
 ^^^^^^^
 
 Látum :math:`f:{{\mathbb  R}}_+\to {{\mathbb  C}}` vera fall sem er
-heildanlegt á sérhverju bili :math:`[0,b]` og uppfyllir (:ref:`Link title <7.1.2>`).
+heildanlegt á sérhverju bili :math:`[0,b]` til eru jákvæðir fastar
+:math:`M` og :math:`c` þannig að
+:math:`|f(t)|\leq Me^{c t}, t\in {{\mathbb  R}}_+`.
+
 Þá er :math:`{{\cal L}}f` fágað á menginu
 :math:`\{s\in {{\mathbb  C}};{{\operatorname{Re\, }}}s>c\}` og
 

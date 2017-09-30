@@ -59,12 +59,12 @@ Punktur :math:`a\in {{\mathbb  C}}` nefnist :hover:`þéttipunktur` mengisins
 :math:`S^\ast(a,r)` inniheldur punkta úr :math:`X`.
 
 Hlutmengi :math:`X` í :math:`{{\mathbb  C}}` er sagt vera
-:hover:`samanhangangi,tengdur` ef um sérhverja tvo punkta :math:`a` og :math:`b` í
+:hover:`vegsamanhangandi` ef um sérhverja tvo punkta :math:`a` og :math:`b` í
 :math:`X` gildir að til er samfelldur ferill
 :math:`[0,1]\ni t\mapsto \gamma(t)\in {{\mathbb  C}}` sem er innihaldinn
-í :math:`X`.
+í :math:`X`,  :math:`\gamma(0)=a` og :math:`\gamma(1)=b`.
 
-Opið samanhangandi mengi nefnist :hover:`svæði`.
+Opið vegsamanhangandi mengi nefnist :hover:`svæði`.
 
 Athugið að sérhver opin skífa er svæði, því sérhverja tvo punkta í henni
 má tengja saman með línustriki. Lokaðar skífur eru samanhangandi, og
@@ -254,7 +254,7 @@ ef það er fágað á öllu :math:`{{\mathbb  C}}`.
 Þessi skilgreining er eins og skilgreiningin af afleiðu falls af einni
 raunbreytistærð.
 
-.. _se:sammfelldni:
+
 
 Setning
 ^^^^^^^
@@ -267,9 +267,8 @@ Reiknireglur fyrir :math:`{{\mathbb  C}}`-afleiður
 
 Reiknireglurnar fyrir :math:`{{\mathbb  C}}`-afleiður eru nánast þær
 sömu og reiknireglurnar fyrir afleiður falla af einni raunbreytistærð.
-Við tökum sannanirnar á þeim fyrir aftast í kaflanum:
 
-.. _set4.2.3:
+
 
 Setning
 ^^^^^^^
@@ -342,7 +341,7 @@ eru margliður, er fágað fall á menginu
 :math:`{{\mathbb  C}}`–deildanleg föll er eins og keðjureglan fyrir
 raunföll:
 
-.. _se:2.2.6:
+
 
 Setning
 ^^^^^^^
@@ -371,7 +370,7 @@ setjum
 
 Mikilvæg afleiðing af þessari setningu er:
 
-.. _fs:2.2.7:
+
 
 Fylgisetning
 ^^^^^^^^^^^^
@@ -416,7 +415,7 @@ Ef við látum hins vegar :math:`h\to 0` eftir þvertölum, :math:`h=ik`,
 
 Við höfum því:
 
-.. _set4.2.8:
+
 
 Setning
 ^^^^^^^
@@ -452,7 +451,7 @@ rifja það upp að fall :math:`f:X\to {{\mathbb  R}}^2` er sagt vera
 deildanlegt í punktinum :math:`a`, ef til er línuleg vörpun
 :math:`L:{{\mathbb  R}}^2\to {{\mathbb  R}}^2` þannig að
 
-.. _4.2.10:
+
 
 .. math::
 
@@ -686,7 +685,7 @@ samleitnum veldaröðum á :math:`{{\mathbb  R}}` og fáguðu framlengingar
    \cosh z = \sum_{k=0}^ \infty \dfrac {1}{(2k)!}z^{2k}, \quad
    \sinh z = \sum_{k=0}^ \infty \dfrac {1}{(2k+1)!}z^{2k+1}.\end{gathered}
 
-.. _set4.3.1:
+
 
 Setning
 ^^^^^^^
@@ -788,8 +787,7 @@ frá jaðrinum :math:`\partial X` á menginu :math:`X`, þá er hægt að setja
 
 --------------
 
-Þessa setningu sönnum við ekki fyrr en í kafla 3, en við skulum skoða
-nokkrar afleiðingar hennar.
+Við skulum skoða nokkrar afleiðingar:
 
 Fylgisetning
 ^^^^^^^^^^^^
@@ -806,7 +804,7 @@ skilgreinum við hærri afleiður :math:`f^{(k)}` með þrepun
 :math:`f^{(0)}=f` og :math:`f^{(k)}=\big(f^{(k-1)}\big){{^{\prime}}}`,
 fyrir :math:`k\geq 1`. Við fáum síðan:
 
-.. _se:2.3.7:
+
 
 Setning
 ^^^^^^^

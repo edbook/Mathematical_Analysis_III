@@ -48,11 +48,11 @@ sé í skilgreiningarmengi fallsins :math:`F` og uppfylli jöfnuna
 
    
 
-Við segjum þá að fallið :math:`u` sé lausn á jöfnunni 
-(:ref:`Link title <1.1.1>`).
+Við segjum þá að fallið :math:`u` sé lausn á fyrstu afleiðujöfnunni 
+hér að ofan.
 *Stig* er hæsta stig á afleiðu, sem kemur fyrir í
 jöfnunni. Við segjum að :math:`m`-ta stigs afleiðujafnan 
-(:ref:`Link title <1.1.1>`) 
+hér að ofan 
 sé á *staðalformi* 
 þegar hún hefur verið umrituð yfir í jafngilda jöfnu af taginu
 
@@ -101,13 +101,13 @@ Erfitt er að lýsa hlutafleiðujöfnum með almennum hætti eins, en sem dæmi
 um hlutafleiðujöfnur getum við tekið
 
 +------------------------------------------------------------------------------------+--------------------------+
-| 2\partial_xu+i\partial_yu=0                                                        | (*Cauchy-Riemann-jafna*) |
+| :math:`\partial_xu+i\partial_yu=0`                                                 | (*Cauchy-Riemann-jafna*) |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_x^2u+\partial_y^2u=0                                                      | (*Laplace-jafna*)        |
+| :math:`\partial_x^2u+\partial_y^2u=0`                                              | (*Laplace-jafna*)        |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)         | (*varmaleiðnijafna*)     |
+| :math:`\partial_tu-\kappa(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)` | (*varmaleiðnijafna*)     |
 +------------------------------------------------------------------------------------+--------------------------+
-| \partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)          | (*bylgjujafna*)          |
+| :math:`\partial_t^2u-c^2(\partial_x^ 2u+\partial_y^ 2u+\partial_z^2u)=f(x,y,z,t)`  | (*bylgjujafna*)          |
 +------------------------------------------------------------------------------------+--------------------------+
 
 Tilvist og ótvíræðni lausna
@@ -517,8 +517,7 @@ Við lítum á :math:`B_j` sem línulega vörpun
   \end{cases}
 
 fyrir gefið fall :math:`f\in C[a,b]` og gefinn vigur
-:math:`c\in {{\mathbb  C}}^m`. Athugið að upphafsskilyrðin í
-(:ref:`Link title <1.4.2>`) eru dæmi um almenn línuleg jaðarskilyrði, þar sem við
+:math:`c\in {{\mathbb  C}}^m`. Athugið að venjuleg upphafsskilyrði eru dæmi um almenn línuleg jaðarskilyrði, þar sem við
 setjum :math:`{\beta}_{jl}=0` fyrir öll :math:`j` og :math:`l`,
 :math:`{\alpha}_{jl}=1` ef :math:`j=l` og :math:`{\alpha}_{jl}=0` ef
 :math:`j\neq l`. Ef bilið :math:`I` er ótakmarkað geta verið skilyrði á
@@ -574,18 +573,11 @@ sem inniheldur punktinn :math:`a` og fall
 
 --------------
 
-Setning Peano er of erfið til þess að við getum átt við að sanna hana
-hér, en fróðlegt er að vita hvað hún segir. 
-
-Við munum hins vegar sanna
-tvær tilvistarsetningar, sem kenndar eru við Picard. Í þeim gefum við
-okkur meiri forsendur um fallið :math:`f`, en að það sé bara samfellt,
-og þær tryggja að lausnin verði ótvírætt ákvörðuð. 
-
 Setning Peano segir
 okkur einungis að til sé lausn en hún segir ekkert um það hvort lausnin
 er ótvírætt ákvörðuð.
 
+Með auknum forsendum er hægt að sýna fram á ótvíræðni.
   
 
 Sýnidæmi
@@ -681,7 +673,7 @@ látum hins vegar :math:`[\alpha,\beta]` vera takmarkað bil og veljum
 :math:`f` Lipschitz–skilyrði í :math:`A` og við getum valið fastann
 :math:`C` sem :math:`C=2(|\alpha|+|\beta|)`.
 
-\(iv) Fallið :math:`f(t,x)=3x^{2/3}`, í sýnidæmi :ref:`Link title <syn1.7.2>`, er
+\(iv) Fallið :math:`f(t,x)=3x^{2/3}` er
 samfellt, en uppfyllir ekki Lipschitz–skilyrði í neinni grennd um
 :math:`0`, því :math:`|f(t,x)-f(t,0)|=x^{2/3}=x^{-1/3}|x-0|` og
 :math:`x^{-1/3}\to \infty` ef :math:`x\to 0`.
@@ -709,16 +701,14 @@ hlutbil :math:`J` í :math:`I`. Þá er til ótvírætt ákvörðuð lausn
 
 --------------
 
-Þessi setning er önnur tveggja tilvistarsetninga sem við sönnum í næstu
-grein. Eins og fram hefur komið kallast hún venjulega *víðfeðm* útgáfa
+Eins og fram hefur komið kallast hún venjulega *víðfeðm* útgáfa
 af tilvistarsetningu fyrir fyrsta stigs hneppi. Ástæðan fyrir
 nafngiftinni er, að við fáum lausn á bili sem inniheldur öll
 :math:`t`–gildi þar sem hægri hlið jöfnunnar er skilgreind. 
 
-Tökum nú fyrir tvær mikilvægustu afleiðingar setningarinnar. Í sýnidæmi 
-:ref:`Link title <syn1.7.4>` sáum við að forsendurnar í 
-setningu :ref:`Link title <set1.7.5>` eru 
-uppfylltar fyrir línuleg jöfnuhneppi með samfellda stuðla. Við lítum á
+Tökum nú fyrir tvær mikilvægustu afleiðingar setningarinnar. 
+Við höfum séð að forsendurnar í setningunni eru uppfylltar 
+fyrir línuleg jöfnuhneppi með samfellda stuðla. Við lítum á 
 vigurrúmið :math:`{{\mathbb  C}}^m` yfir tvinntölurnar sem :math:`2m`
 víða rúmið :math:`{{\mathbb  R}}^{2m}` yfir rauntölurnar og fáum:
 
@@ -786,7 +776,7 @@ lausn :math:`u\in C^ 1(I, {{\mathbb  R}}^m)` á upphafsgildisverkefninu
 Ástæðan fyrir því að þessi setning kallast *staðbundin* útgáfa af
 tilvistarsetningunni fyrir fyrsta stigs afleiðujöfnuhneppi er sú, að hún
 segir okkur einungis að til sé bil :math:`I` þar sem lausnin er til. Í
-sönnuninni, sem við tökum fyrir í næstu grein, kemur fram hvernig bilið
+sönnuninni kemur fram hvernig bilið
 :math:`I` er háð :math:`U`, Lipschitz–fasta fallsins :math:`f` og
 upphafsgildinu :math:`b`.
 
@@ -806,16 +796,12 @@ Skilgreiningarsvæðið minnkar eftir því sem upphafsgildið stækkar.
 Athugið að engu að síður hefur verkefnið lausn í grennd um :math:`a`
 fyrir sérhvert val á :math:`(a,b)`. 
 
-Við sáum í sýnidæmi :ref:`Link title <syn1.7.4>` (iii) uppfyllir skilyrðin í staðbundnu útgáfu Picard setningarinnar, en
-ekki þeirrar víðfeðmu.
-
 --------------
 
 Aðferðin sem beitt er í sönnuninni á þessum setningum er kennd við
 franska stærðfræðinginn Émile Picard. Eins og áður hefur verið sagt
-framkvæmum við hana í smáatriðum í næstu grein. Auðvelt er að skilja
-meginhugmyndina í sönnuninni á víðfeðmu útgáfunni af Picard–setningunni
-og skulum við líta á hana núna.
+framkvæmum við hana í smáatriðum í næstu grein. Við skulum nú líta á
+meginhugmyndina í sönnuninni á víðfeðmu útgáfunni af Picard–setningunni.
 
 Við athugum fyrst, að
 
@@ -835,7 +821,7 @@ er jafngilt því að
 
   
 
-Okkur dugir því að sanna að til sé ótvírætt ákvarðað fall :math:`u\in C(I,{{\mathbb  R}}^ m)` sem uppfyllir heildisjöfnuna (:ref:`Link title <1.7.5>`).
+Okkur dugir því að sanna að til sé ótvírætt ákvarðað fall :math:`u\in C(I,{{\mathbb  R}}^ m)` sem uppfyllir heildisjöfnuna.
 Tilvistin er fengin með því að skilgreina runu :math:`\{ u_n\}` af
 föllum í :math:`C(I,{{\mathbb  R}}^ m)` með formúlunni
 
@@ -851,9 +837,9 @@ og sýna síðan að þessi fallaruna sé samleitin að markfalli :math:`u`.
 Ekki er nóg að sýna að runan :math:`\{u_n(t)\}` stefni á :math:`u(t)` í
 sérhverjum punkti heldur þurfum við að sanna að :math:`\{u_n\}` sé
 samleitin í :hover:`jöfnum mæli,samleitni í jöfnum mæli` á sérhverju
-lokuðu og takmörkuðu hlutbili :math:`J` af :math:`I`. Að því fengnu gefa
-niðurstöðurnar í grein :ref:`3.5` að markfallið :math:`u` er í
-:math:`C(I,{{\mathbb  R}}^ m)`. Lipschitz skilyrðið gefur að
+lokuðu og takmörkuðu hlutbili :math:`J` af :math:`I`. Það hefur í för með sér að 
+markfallið :math:`u` er í :math:`C(I,{{\mathbb  R}}^ m)`. 
+Lipschitz skilyrðið gefur að
 
 .. math:: |f(t,u_n(t))-f(t,u(t))|\leq C|u_n(t)-u(t)|, \qquad t\in J,
 

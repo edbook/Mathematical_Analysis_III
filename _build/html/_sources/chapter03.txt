@@ -234,7 +234,7 @@ Stofnföll
 
 Undirstöðusetning stærðfræðigreiningarinnar gefur okkur
 
-.. _se:10.1.3:
+
 
 Setning
 ^^^^^^^
@@ -393,7 +393,7 @@ með tilliti til einhvers punkts í :math:`X`.
 
     Mynd: Dæmi um stjörnusvæði.
 
-.. _se:10.2.3:
+
 
 Setning
 ^^^^^^^
@@ -402,7 +402,7 @@ Ef :math:`X` er stjörnusvæði með tilliti til punktsins :math:`\alpha`,
 þá hefur sérhvert :math:`f\in {{\cal O}}(X)` stofnfall, sem gefið er með
 formúlunni
 
-.. _10.2.4a:
+
 
 .. math:: F(z)=\int_{{{\langle\alpha,z\rangle}}} f(\zeta)\, d\zeta, \qquad z\in X.
 
@@ -476,7 +476,7 @@ okkur að forsendurnar í Cauchy-setningunni séu uppfylltar og að
 :math:`\partial\Omega`. 
 
 Við skrifum upp stofnbrotaliðun á
-:math:`1/Q(z)`, sem við fjölluðum um í :ref:`grein 1.5 <1.5>`, og fáum
+:math:`1/Q(z)` og fáum
 
 .. math::
 
@@ -507,7 +507,7 @@ Ef aftur á móti :math:`\alpha_j\not\in\Omega`, þá er fallið
 heildi þess með tilliti til :math:`z` yfir :math:`\partial\Omega` sé
 :math:`0`. Niðurstaða þessa útreiknings er því:
 
-.. _set10.2.6:
+
 
 Setning
 ^^^^^^^
@@ -644,15 +644,14 @@ hlutafleiðunum undir heildið og fáum að afleiðan
 
 Með því að velja :math:`\Omega` sem opnar skífur sem þekja :math:`X`,
 þá fáum við að :math:`f\in C^{\infty}(X)` og að allar afleiður af
-:math:`f` eru fáguð föll. Þegar við fjölluðum um Taylor-raðir í setningu
-:ref:`Link title <se:2.3.7>`, þá skilgreindum við hærri
+:math:`f` eru fáguð föll. Þegar við fjölluðum um Taylor-raðir , þá skilgreindum við hærri
 :math:`{{\mathbb  C}}`-afleiður :math:`f^{(n)}` af :math:`f` með
 
 .. math:: f^{(0)}=f, \qquad f^{(n)}=\big(f^{(n-1)}){{^{\prime}}}, \quad n\geq 1.
 
 Með þrepun fáum við nú:
 
-.. _set10.3.1:
+
 
 Setning
 ^^^^^^^
@@ -717,15 +716,6 @@ Setning
 Látum :math:`f\in {{\cal O}}({{\mathbb  C}})` og gerum ráð fyrir að
 :math:`f` sé takmarkað fall. Þá er :math:`f` fasti.
 
-Sönnun
-^^^^^^
-
-Gerum ráð fyrir að :math:`|f(z)|\leq M` fyrir öll
-:math:`z\in {{\mathbb  C}}`. Látum :math:`z\in{{\mathbb  C}}` og
-:math:`\varrho>0`. Ójöfnur Cauchy gefa
-:math:`|f{{^{\prime}}}(z)|\leq  M/\varrho`. Við látum
-:math:`\varrho\to +\infty` og fáum að :math:`f{{^{\prime}}}(z)=0`. Þar
-með er :math:`f` fastafall.
 
 Undirstöðusetning algebrunnar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -877,7 +867,7 @@ Nú ætlum við að kanna formúluna
   \lim_{t\to \alpha}\lim_{n\to+\infty}f_n(t)=
    \lim_{n\to+\infty}\lim_{t\to \alpha}f_n(t).
 
-.. _se:3.4.5:
+
 
 Setning
 ^^^^^^^
@@ -908,7 +898,7 @@ Næsta viðfangsefni er formúlan
   \lim_{n\to+\infty}\int_a ^ b f_n(t)  \, dt=
    \int_a ^ b \lim_{n\to+\infty}\
    f_n(t) \, dt.
-.. _se:B.3.1:
+
 
 Setning
 ^^^^^^^
@@ -978,7 +968,7 @@ Samleitni í jöfnum mæli og deildun
 
 Nú snúum við okkur að formúlunni
 
-.. _B.4.1:
+
 
 .. math::
 
@@ -1093,8 +1083,7 @@ Nú er :math:`|z-\alpha|/|\zeta-\alpha|<1` ef
 
 Röðin er greinilega samleitin í jöfnum mæli fyrir öll
 :math:`\zeta\in\partial S(\alpha,\varrho)` og öll :math:`z\in \bar S(\alpha,\varrho-\varepsilon)`, :math:`\varepsilon<\varrho`, og því
-megum við skipta á óendalegu summunni og heildinu í (:ref:`Link title <10.4.1>`). Það
-gefur
+megum við skipta á röð summu og heildis í Cauchy-formúlunni. Það gefur
 
 .. math::
 
@@ -1178,7 +1167,7 @@ Ef fallið :math:`f` er núll í heilli grennd um :math:`\alpha`,
 Eins og fyrir margliður þá er hægt að þátta núllstöðvar úr fáguðum
 föllum:
 
-.. _se:10.4.3:
+
 
 Setning
 ^^^^^^^
@@ -1201,14 +1190,16 @@ Við skulum rifja það upp að :hover:`svæði` er opið samanhangandi
 mengi, en það þýðir að sérhverja tvo punkta :math:`\alpha` og
 :math:`\beta` í :math:`X` er unnt að tengja saman með vegi í :math:`X`.
 
-Ef :math:`A` er hlutmengi í :math:`{{\mathbb  C}}`, þá er punktur
-:math:`\alpha\in A` sagður vera *einangraður* í :math:`A` ef til er :math:`\varepsilon>0` þannig að
+Ef :math:`A` er hlutmengi í opnu mengi :math:`X` í :math:`{{\mathbb  C}}`, þá er punktur
+:math:`\alpha\in A` sagður vera *einangraður* í :math:`X` ef til er :math:`\varepsilon>0` þannig að
 :math:`A\cap S(\alpha,\varepsilon)=\{\alpha\}`. 
 
-Mengi sem samanstendur af einangruðum punktum í :math:`A` er sagt 
-vera *dreift* í :math:`A`. 
-Athugið að þetta þýðir að ekki er til nein runa af *ólíkum* punktum 
-í :math:`A` sem er samleitin og hefur markgildi í :math:`A`.
+Punktur :math:`\alpha` í :math:`\mathbb{C}` kallast :hover:`þéttipunktur` mengisins :math:`A` er
+sérhver opin skífa :math:`S(\alpha,\varepsilon)` inniheldur óendanlega marga punkta úr menginu :math:`A`.
+
+Gerum nú ráð fyrir að :math:`A` sé hlutmengi í opnu mengi :math:`X` í :math:`\mathbb{C}`.
+Við segjum að mengið :math:`A` sé :hover:`dreift hlutmengi` í menginu :math:`X` ef enginn þéttipunktur þess
+er stak í menginu :math:`X`.
 
 Setning
 ^^^^^^^
@@ -1266,7 +1257,7 @@ Hágildislögmálið
 Eftirfarandi setning er merkilegt hjálpartæki til þess að sanna alls
 konar ójöfnur fyrir :math:`|f|`, þar sem :math:`f` er fágað fall:
 
-.. _set10.9.1:
+
 
 Setning
 ^^^^^^^
@@ -1302,9 +1293,7 @@ Fallið :math:`\gamma` er samfellt og af því leiðir
 að hægt er að velja :math:`\theta` samfellt. Ef :math:`\gamma` er vegur,
 þá er fallið :math:`\gamma` samfellt og samfellt deildanlegt á köflum og
 af því leiðir að hægt er að velja :math:`\theta` með sömu eiginleika.
-
-Sönnun á þessum staðreynum er alls ekki flókin, en við látum hana eiga
-sig. 
+ 
 
 Fallið :math:`\theta` er ekki ótvírætt ákvarðað, en mismunur á
 tveimur hornum :math:`\theta` og :math:`\varphi` fyrir ferillinn
@@ -1423,7 +1412,7 @@ Einfaldlega samanhangandi svæði
 
 Við höfum séð að um stjörnusvæði :math:`X` gildir að vegheildi sérhvers
 fágaðs falls :math:`f` á :math:`X` yfir sérhvern lokaðan veg er
-:math:`0`. Við sönnuðum þetta með því að sýna fram á að sérhvert fágað
+:math:`0`. Þetter er sannað með því að sýna fram á að sérhvert fágað
 fall :math:`f` á stjörnusvæði hafi stofnfall. Hægt er að alhæfa þetta
 yfir á almennari flokk mengja:
 
@@ -1459,7 +1448,7 @@ eru einfaldlega samanhangandi, en hringkragar eru það ekki.
 Einfaldlega samanhangandi svæði einkennast af fjölbreytilegum
 eiginleikum:
 
-.. _se-einfaldlega-samanahangandi-svæði:
+
 
 Setning
 ^^^^^^^

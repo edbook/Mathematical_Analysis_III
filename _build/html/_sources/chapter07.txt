@@ -33,11 +33,7 @@ núllfallið. Annars segjum við að hún sé
 
 .. math::
 
-  P(t,\lambda)= a_m(t)\lambda^{m}+a_{m-1}(t)\lambda^{m-1}+
-
-   
-
-  \cdots+a_1(t)\lambda+a_0(t).
+  P(t,\lambda)= a_m(t)\lambda^{m}+a_{m-1}(t)\lambda^{m-1}+\cdots+a_1(t)\lambda+a_0(t).
 
 Þessa margliðu köllum við :hover:`kennimargliðu,kennimargliða` 
 afleiðuvirkjans :math:`L`.
@@ -323,11 +319,7 @@ formúlunni
 
 .. math::
 
-  Q(r)=a_m r(r-1)\cdots(r-m+1)+
-
-   
-
-  \cdots+a_1r+a_0.
+  Q(r)=a_m r(r-1)\cdots(r-m+1)+\cdots+a_1r+a_0.
 
 Lítum fyrst á tilfellið að þessi jafna hafi ólíkar núllstöðvar
 :math:`r_1,\dots, r_m`. Þá er auðvelt að sannfæra sig um að föllin
@@ -393,7 +385,13 @@ fallanna
    \big(\ln x\big)^{m_\ell-1} x^{r_\ell},\end{gathered}
 
 þar sem :math:`r_1,\dots,r_\ell` eru ólíkar núllstöðvar margliðunnar
-:math:`Q`, sem gefin er með (:ref:`Link title <2.3.2>`), og margfeldni þeirra er
+:math:`Q`, sem gefin er með 
+
+.. math::
+
+  Q(r)=a_m r(r-1)\cdots(r-m+1)+\cdots+a_1r+a_0
+
+og margfeldni þeirra er
 :math:`m_1,\dots,m_\ell`.
 
 Sérlausnir
@@ -652,8 +650,13 @@ sem gefið er með formúlunni
 
 Nú skulum við ganga út frá því að
 :math:`\partial_t^{j}G\in C(I\times I)` fyrir :math:`j=0,\dots,m` og
-líta aftur á fallið :math:`u_p` sem skilgreint var með (:ref:`Link title <2.5.4>`).
-Með því að beita hjálparsetningu :ref:`Link title <hs2.5.1>`, fáum við að
+líta aftur á fallið :math:`u_p` sem skilgreint var með 
+
+.. math::
+
+  u_p(t) = \int_a^ t G(t,\tau)f(\tau) \, d\tau, \qquad t\in I.
+
+Með því að beita hjálparsetningunni, fáum við að
 :math:`u_p\in C^ 1(I)` og
 
 .. math:: u_p{{^{\prime}}}(t) = G(t,t)f(t)+\int_a^ t \partial_t G(t,\tau)f(\tau) \, d\tau.
@@ -698,8 +701,13 @@ Setning
 ^^^^^^^
 
 Látum :math:`I` vera bil á rauntöluásnum, :math:`a\in I` og
-:math:`P(t,D)` vera línulegan afleiðuvirkja á forminu (:ref:`Link title <2.5.3>`) með
-samfellda stuðla og :math:`a_m(t)\neq 0` fyrir öll :math:`t\in I`. Fyrir
+:math:`P(t,D)` vera línulegan afleiðuvirkja
+
+.. math::
+
+  P(t,D)u=(a_m(t)D^m+\cdots+a_1(t)D+a_0(t))u
+
+með samfellda stuðla og :math:`a_m(t)\neq 0` fyrir öll :math:`t\in I`. Fyrir
 sérhvert :math:`f\in C(I)` er til ótvírætt ákvörðuð lausn :math:`u_p\in C^ m(I)` á upphafsgildisverkefninu
 
 .. math::
@@ -817,8 +825,7 @@ Skilgreining
 
 Látum :math:`I` vera bil á :math:`{{\mathbb  R}}` og
 :math:`u_1,\dots,u_m` vera :math:`m-1` sinnum deildanleg föll á
-:math:`I`. Þá nefnist fylkjagilda fallið :math:`V=V(u_1,\dots,u_m)`, sem
-skilgreint er með (:ref:`Link title <2.6.2>`), *Wronski-fylki* fallanna
+:math:`I`. Þá nefnist fylkjagilda fallið :math:`V=V(u_1,\dots,u_m)` *Wronski-fylki* fallanna
 :math:`u_1,\dots, u_m`. Ákveða þess kallast *Wronski-ákveða* fallanna
 :math:`u_1,\dots, u_m` og hana táknum við með
 :math:`W=W(u_1,\dots,u_m)`.
@@ -857,15 +864,13 @@ er núllstöðvalaust.
 
 --------------
 
-Sönnunin er tekin fyrir í grein 7.7. Formúluna fyrir Wronski-ákveðuna má
-nota á ýmsa vegu:
+Formúluna fyrir Wronski-ákveðuna má nota á ýmsa vegu:
 
 Setning
 ^^^^^^^
 
 Látum :math:`u_1,\dots,u_m` vera lausnir á óhliðruðu jöfnunni
-:math:`P(t,D)u=0`, þar sem :math:`P(t,D)` er sami virkinn og í setningu
-:ref:`Link title <set2.6.2>`, og gerum ráð fyrir að :math:`a_m` sé núllstöðvalaust á
+:math:`P(t,D)u=0` og gerum ráð fyrir að :math:`a_m` sé núllstöðvalaust á
 opnu bili :math:`J\subset I`. Þá eru eftirfarandi skilyrði jafngild:
 
 \(i) Föllin :math:`u_1,\dots,u_m` eru línulega óháð á bilinu :math:`J`.
@@ -914,8 +919,7 @@ Setning
 Látum :math:`I` vera bil á :math:`{{\mathbb  R}}` og
 :math:`P(t,D)=a_m(t)D^ m+\cdots+a_1(t)D+a_0(t)` vera afleiðuvirkja með
 samfellda stuðla á :math:`I` og :math:`u_1,\dots,u_m` vera grunn í
-:math:`{\cal N}(P(t,D))`. Green-fallið sem lýst er í setningu 7.5.2 er
-gefið með formúlunni
+:math:`{\cal N}(P(t,D))`. Green-fallið er gefið með formúlunni
 
 .. math::
 
@@ -939,7 +943,7 @@ aftasta dálkinn í andhverfu Wronski-fylkisins
 þar sem :math:`V_{mj}(u_1,\dots,u_m)(\tau)` táknar
 :math:`(m-1)\times (m-1)` fylkið sem fæst með því að fella niður neðstu
 línuna og dálk númer :math:`j` í :math:`V(u_1,\dots,u_m)(\tau)`. Ef
-:math:`f\in C(I)`, þá hefur upphafsgildisverkefnið (7.5.5) lausnina
+:math:`f\in C(I)`, þá hefur upphafsgildisverkefnið lausnina
 :math:`u_p\in C^ m(I)` sem gefin er með
 
 .. math::

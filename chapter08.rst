@@ -145,8 +145,8 @@ Ef :math:`g(a)=b_0\neq 0`, þá er til :math:`{\varrho}_1\leq {\varrho}`
 þannig að :math:`g(x)\neq 0` fyrir öll :math:`x` á bilinu
 :math:`]a-{\varrho}_1,a+{\varrho}_1[`. Kvótinn :math:`f(x)/g(x)` er þá
 gefinn með veldaröð :math:`\sum\limits_{n=0}^{\infty} d_n(x-a)^n`. Til
-þess að reikna út stuðlana :math:`d_n` þá beitum við (:ref:`Link title <3.1.5>`) á
-margfeldið
+þess að reikna út stuðlana :math:`d_n` þá notum við formúluna hér að 
+framan á margfeldið
 
 .. math::
 
@@ -325,8 +325,8 @@ veldaröð umhverfis punktinn :math:`a`,
 
 .. math::
 
-  u(x)=\sum\limits_{n=0}^\infty c_n(x-a)^ n, \quad
-   u'(x)=\sum\limits_{n=0}^\infty (n+1)c_{n+1}(x-a)^ n, \quad
+  u(x)=\sum\limits_{n=0}^\infty c_n(x-a)^ n, \ 
+   u'(x)=\sum\limits_{n=0}^\infty (n+1)c_{n+1}(x-a)^ n, \ 
    u{{^{\prime\prime}}}(x)=\sum\limits_{n=0}^\infty (n+2)(n+1)c_{n+2}(x-a)^ n.
 
 Ef við stingum þessum röðum inn í afleiðujöfnuna, þá fáum við
@@ -339,7 +339,7 @@ Ef við stingum þessum röðum inn í afleiðujöfnuna, þá fáum við
 
 Með því að margfalda saman raðirnar fyrir :math:`P` og
 :math:`u{{^{\prime}}}` annars vegar og :math:`Q` og :math:`u` hins
-vegar í (:ref:`Link title <3.2.4>`), þá fáum við
+vegar þá fáum við
 
 .. math::
 
@@ -398,8 +398,6 @@ raðanna tveggja.
 
 Útreikningar okkar hér að framan byggðu á þeirri lausnartilgátu að
 :math:`u` væri raunfágað.
-
-.. _syn3.2.9:
 
 Sýnidæmi
 ^^^^^^^^
@@ -513,7 +511,7 @@ lítum nú á afleiðujöfnuna
 :math:`u{{^{\prime\prime}}}-2xu{{^{\prime}}}+\lambda u=0` og leysum
 hana með því að gera ráð fyrir að lausnin sé gefin með veldaröð. Við
 notum formúlurnar fyrir :math:`u{{^{\prime\prime}}}` og
-:math:`xu{{^{\prime}}}` úr sýnidæmi :ref:`Link title <syn3.2.9>`. Til einföldunar
+:math:`xu{{^{\prime}}}` úr sýnidæminu hér að framan. Til einföldunar
 setjum við :math:`\lambda=2\alpha`. Það gefur okkur
 
 .. math::
@@ -727,7 +725,7 @@ af stigi* :math:`m>0`, ef til er
 
 --------------
 
-Látum :math:`a` vera sérstöðupunkt fyrir jöfnuna (:ref:`Link title <3.4.1>`) og
+Látum :math:`a` vera sérstöðupunkt fyrir afleiðujöfnuna og
 skrifum
 
 .. math::
@@ -742,7 +740,7 @@ Skilgreining
 
 Við segjum að :math:`a` sé 
 :hover:`reglulegur sérstöðupunktur` 
-afleiðujöfnunnar (:ref:`Link title <3.4.1>`), ef :math:`a` er sérstöðupunktur
+afleiðujöfnunnar, ef :math:`a` er sérstöðupunktur
 jöfnunnar, fallið :math:`P` hefur annað hvort afmáanlegan sérstöðupunkt
 í :math:`a` eða skaut af stigi :math:`\leq 1` og :math:`Q` hefur annað
 hvort afmáanlegan sérstöðupunkt í :math:`a` eða skaut af stigi
@@ -771,7 +769,7 @@ sérstöðupunkt :math:`a` og að við umritum hana yfir á formið
 
 Við gerum ráð fyrir því að unnt sé að skrifa lausnina sem
 
-.. _3.4.4:
+
 
 .. math::
 
@@ -952,9 +950,6 @@ Röðin er samleitin fyrir öll :math:`x` sem uppfylla
 :math:`0<|x-a|<\varrho`. Stuðlar raðarinnar og :math:`\gamma` fást með
 innsetningu í jöfnuna.
 
---------------
-
-Við höfum aðeins sannað lítið brot af setningunni, en látum það duga.
 
 Bessel–jafnan
 -------------

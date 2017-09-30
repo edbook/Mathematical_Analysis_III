@@ -167,9 +167,8 @@ við :math:`\partial^2u/\partial\bar z \partial z=0`.
 
 Nú sjáum við að sérhvert þýtt fall á :math:`X` er raunhluti af fáguðu
 falli þá og því aðeins að sérhvert fágað fall á :math:`X` hafi
-stofnfall. Í :ref:`3. kafla <se-einfaldlega-samanahangandi-svæði>` 
-sáum við að þetta einkennir einfaldlega
-samanhangandi svæði:
+stofnfall. Þetta er einkennandi eiginleiki einfaldlega
+samanhangandi svæða:
 
 Setning
 ^^^^^^^
