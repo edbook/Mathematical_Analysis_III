@@ -12,20 +12,20 @@ Látum :math:`f` vera fall sem skilgreint er á
 :math:`{{\mathbb  C}}` og gerum ráð fyrir að :math:`f` sé heildanlegt á
 sérhverju lokuðu og takmörkuðu bili :math:`[0,b]`.
 
-*Laplace–mynd* :math:`f`, sem við táknum með :math:`{{\cal L}}f` eða
-:math:`{{\cal L}}\{f\}`, er skilgreind með formúlunni
+*Laplace–mynd* :math:`f`, sem við táknum með :math:`{\mathcal{L}}f` eða
+:math:`{\mathcal{L}}\{f\}`, er skilgreind með formúlunni
 
 .. math::
 
-  {{\cal L}}f(s)=\int_0^ \infty e^{-st}f(t)\, dt.
+  {\mathcal{L}}f(s)=\int_0^ \infty e^{-st}f(t)\, dt.
 
   
 
-Skilgreiningarmengi fallsins :math:`{{\cal L}}f` samanstendur af öllum
+Skilgreiningarmengi fallsins :math:`{\mathcal{L}}f` samanstendur af öllum
 tvinntölum :math:`s` þannig að heildið í hægri hliðinni sé samleitið.
 
-*Laplace-ummyndun* er vörpunin :math:`{{\cal L}}` sem úthlutar falli
-:math:`f` Laplace-mynd sinni :math:`{{\cal L}}f`.
+*Laplace-ummyndun* er vörpunin :math:`{\mathcal{L}}` sem úthlutar falli
+:math:`f` Laplace-mynd sinni :math:`{\mathcal{L}}f`.
 
   
 
@@ -45,12 +45,12 @@ Við segjum að fallið :math:`f:{{\mathbb  R}}_+\to {{\mathbb  C}}` sé af
 --------------
 
 Ef :math:`f` er heildanlegt á sérhverju takmörkuðu bili :math:`[0,b]` og
-uppfyllir ójöfnuna, þá er :math:`{{\cal L}}f` skilgreint fyrir öll
-:math:`s\in {{\mathbb  C}}` með :math:`{{\operatorname{Re\, }}}s >c`. Við fáum að auki vaxtartakmarkanir á :math:`{{\cal L}}f`,
+uppfyllir ójöfnuna, þá er :math:`{\mathcal{L}}f` skilgreint fyrir öll
+:math:`s\in {{\mathbb  C}}` með :math:`{{\operatorname{Re\, }}}s >c`. Við fáum að auki vaxtartakmarkanir á :math:`{\mathcal{L}}f`,
 
 .. math::
 
-  |{{\cal L}}f(s) |\leq \int_0^\infty e^{-{{\operatorname{Re\, }}}st} Me^{c t} \, dt =
+  |{\mathcal{L}}f(s) |\leq \int_0^\infty e^{-{{\operatorname{Re\, }}}st} Me^{c t} \, dt =
    \dfrac M{{{\operatorname{Re\, }}}\,  s-c}, \qquad {{\operatorname{Re\, }}}\,  s>c.
 
 
@@ -58,12 +58,12 @@ uppfyllir ójöfnuna, þá er :math:`{{\cal L}}f` skilgreint fyrir öll
 
 Það er augljóst að Laplace-ummyndun er línuleg vörpun, en það þýðir að
 
-.. math:: {{\cal L}}\{\alpha f+\beta g\}(s)=\alpha{{\cal L}}\{f\}(s)+\beta{{\cal L}}\{g\}(s)
+.. math:: {\mathcal{L}}\{\alpha f+\beta g\}(s)=\alpha{\mathcal{L}}\{f\}(s)+\beta{\mathcal{L}}\{g\}(s)
 
 ef :math:`f` og :math:`g` eru föll af veldisvísisgerð, :math:`\alpha`
 og :math:`\beta` eru tvinntölur og :math:`s\in {{\mathbb  C}}` liggur í
-skilgreiningarmengi fallanna :math:`{{\cal L}}\{f\}` og
-:math:`{{\cal L}}\{g\}`.
+skilgreiningarmengi fallanna :math:`{\mathcal{L}}\{f\}` og
+:math:`{\mathcal{L}}\{g\}`.
 
 Við þurfum að leiða út nokkrar reiknireglur fyrir Laplace-ummyndun. Sú
 fyrsta segir okkur að Laplace-myndir falla af veldisvísisgerð séu fáguð
@@ -80,13 +80,13 @@ heildanlegt á sérhverju bili :math:`[0,b]` til eru jákvæðir fastar
 :math:`M` og :math:`c` þannig að
 :math:`|f(t)|\leq Me^{c t}, t\in {{\mathbb  R}}_+`.
 
-Þá er :math:`{{\cal L}}f` fágað á menginu
+Þá er :math:`{\mathcal{L}}f` fágað á menginu
 :math:`\{s\in {{\mathbb  C}};{{\operatorname{Re\, }}}s>c\}` og
 
 .. math::
 
-  \dfrac{d^k}{ds^k}{{\cal L}}\{f\}(s)=
-   (-1)^k{{\cal L}}\{t^kf(t)\}(s), \qquad {{\operatorname{Re\, }}}s>c.
+  \dfrac{d^k}{ds^k}{\mathcal{L}}\{f\}(s)=
+   (-1)^k{\mathcal{L}}\{t^kf(t)\}(s), \qquad {{\operatorname{Re\, }}}s>c.
 
 
   
@@ -103,7 +103,7 @@ Ef :math:`\alpha\in {{\mathbb  R}}` og :math:`\alpha>-1`, þá er
 .. math::
 
   \begin{aligned}
-   {{\cal L}}\{t^\alpha\}(s)
+   {\mathcal{L}}\{t^\alpha\}(s)
    &=\int_0^\infty e^{-st}t^\alpha \, dt =
    \dfrac 1{s^{\alpha+1}} \int_0^\infty e^{-st}(st)^\alpha \, s dt \\
    &=
@@ -114,14 +114,14 @@ Ef :math:`{\alpha}` er heiltala, þá verður þessi formúla
 
 .. math::
 
-  {{\cal L}}\{t^\alpha\}(s)
+  {\mathcal{L}}\{t^\alpha\}(s)
    =\dfrac {\alpha!}{s^{\alpha+1}}.
 
 Fyrir sérhvert :math:`\alpha\in {{\mathbb  C}}` gildir
 
 .. math::
 
-  {{\cal L}}\{e^{\alpha t}\}(s)=
+  {\mathcal{L}}\{e^{\alpha t}\}(s)=
    \int_0^{\infty}e^{-st}e^{\alpha t}\, dt =
    \int_0^{\infty}e^{-(s-\alpha)t}\, dt =
    \left[\dfrac {-e^{-(s-\alpha)t}} {s-\alpha}\right]_0^{\infty}=
@@ -132,20 +132,20 @@ og í framhaldi af þessu fáum við
 .. math::
 
   \begin{aligned}
-   {{\cal L}}\{\cos\beta t\}(s) &=
-   \frac 12 {{\cal L}}\{e^{i\beta t}\}(s) +\frac 12{{\cal L}}\{e^{-i\beta t}\}(s)\\
+   {\mathcal{L}}\{\cos\beta t\}(s) &=
+   \frac 12 {\mathcal{L}}\{e^{i\beta t}\}(s) +\frac 12{\mathcal{L}}\{e^{-i\beta t}\}(s)\\
    &=\frac 12\left[\dfrac 1{s-i\beta}+\dfrac 1{s+i\beta}\right]
    =\dfrac s{s^2+\beta^2},\\
-   {{\cal L}}\{\sin\beta t\}(s) &=
-   \frac 1{2i}{{\cal L}}\{e^{i\beta t}\}(s) -\frac 1{2i}{{\cal L}}\{e^{-i\beta t}\}(s)\\
+   {\mathcal{L}}\{\sin\beta t\}(s) &=
+   \frac 1{2i}{\mathcal{L}}\{e^{i\beta t}\}(s) -\frac 1{2i}{\mathcal{L}}\{e^{-i\beta t}\}(s)\\
    &=\frac 1{2i}\left[\dfrac 1{s-i\beta}-\dfrac 1{s+i\beta}\right]
    =\dfrac {\beta}{s^2+\beta^2},\\
-   {{\cal L}}\{\cosh \beta t\}(s) &= 
-   \frac 12 {{\cal L}}\{e^{\beta t}\}(s) +\frac 12{{\cal L}}\{e^{-\beta t}\}(s)\\
+   {\mathcal{L}}\{\cosh \beta t\}(s) &= 
+   \frac 12 {\mathcal{L}}\{e^{\beta t}\}(s) +\frac 12{\mathcal{L}}\{e^{-\beta t}\}(s)\\
    &=\frac 12\left[\dfrac 1{s-\beta}+\dfrac 1{s+\beta}\right]
    =\dfrac s{s^2-\beta^2},\\
-   {{\cal L}}\{\sinh \beta t\}(s) &= 
-   \frac 1{2}{{\cal L}}\{e^{\beta t}\}(s) -\frac 1{2}{{\cal L}}\{e^{-i\beta t}\}(s)\\
+   {\mathcal{L}}\{\sinh \beta t\}(s) &= 
+   \frac 1{2}{\mathcal{L}}\{e^{\beta t}\}(s) -\frac 1{2}{\mathcal{L}}\{e^{-i\beta t}\}(s)\\
    &=\frac 1{2}\left[\dfrac 1{s-\beta}-\dfrac 1{s+\beta}\right]
    =\dfrac \beta{s^2-\beta^2}.\end{aligned}
 
@@ -154,7 +154,7 @@ Við höfum almenna reiknireglu:
 Setning
 ^^^^^^^
 
-:math:`{{\cal L}}\{e^{\alpha t}f\}(s) = {{\cal L}}\{f\}(s-\alpha)`.
+:math:`{\mathcal{L}}\{e^{\alpha t}f\}(s) = {\mathcal{L}}\{f\}(s-\alpha)`.
 
 --------------
 
@@ -163,15 +163,15 @@ Setning
 .. math::
 
   \begin{aligned}
-   {{\cal L}}\{e^{\alpha t}t^{\beta}\}(s)
+   {\mathcal{L}}\{e^{\alpha t}t^{\beta}\}(s)
    &=\dfrac{\Gamma(\beta+1)}{(s-\alpha)^{\beta+1}},\\
-   {{\cal L}}\{e^{\alpha t}\cos \beta t\}(s)
+   {\mathcal{L}}\{e^{\alpha t}\cos \beta t\}(s)
    &=\dfrac{s-\alpha}{(s-\alpha)^2+\beta^2},\\
-   {{\cal L}}\{e^{\alpha t}\sin \beta t\}(s)
+   {\mathcal{L}}\{e^{\alpha t}\sin \beta t\}(s)
    &=\dfrac{\beta}{(s-\alpha)^2+\beta^2},\\
-   {{\cal L}}\{e^{\alpha t}\cosh \beta t\}(s)
+   {\mathcal{L}}\{e^{\alpha t}\cosh \beta t\}(s)
    &=\dfrac{s-\alpha}{(s-\alpha)^2-\beta^2},\\
-   {{\cal L}}\{e^{\alpha t}\sinh \beta t\}(s)
+   {\mathcal{L}}\{e^{\alpha t}\sinh \beta t\}(s)
    &=\dfrac{\beta}{(s-\alpha)^2-\beta^2}.\end{aligned}
 
 Laplace-ummyndun er eintæk vörpun
@@ -185,7 +185,7 @@ Setning
 Gerum ráð fyrir að föllin :math:`f,g\in C({{\mathbb  R}}_+)` séu bæði af
 veldisvísisgerð og að til sé fasti :math:`c` þannig að
 
-.. math:: {{\cal L}}f(s)={{\cal L}}g(s), \qquad s\in {{\mathbb  C}}, \quad {{\operatorname{Re\, }}}s\geq c.
+.. math:: {\mathcal{L}}f(s)={\mathcal{L}}g(s), \qquad s\in {{\mathbb  C}}, \quad {{\operatorname{Re\, }}}s\geq c.
 
 Þá er :math:`f(t)=g(t)` fyrir öll :math:`t\in {{\mathbb  R}}_+`.
 
@@ -198,7 +198,7 @@ Ef við sjáum
 að eitthvert fall :math:`F(s)` er Laplace-mynd af samfelldu falli
 :math:`f`, þá segir setningin okkur að :math:`f` er ótvírætt ákvarðað og
 við köllum þá :math:`f` *andhverfa Laplace-mynd* af fallinu :math:`F` og
-skrifum :math:`f(t)={{\cal L}}^{-1}\{F\}(t)`.
+skrifum :math:`f(t)={\mathcal{L}}^{-1}\{F\}(t)`.
 
 Heaviside-fallið
 ~~~~~~~~~~~~~~~~
@@ -224,7 +224,7 @@ og því er Laplace-mynd þess
 
 .. math::
 
-  {{\cal L}}H_a(s)= \int_a^{\infty} e^{-st}\, dt= \dfrac{e^{-as}} s, \qquad a>0.
+  {\mathcal{L}}H_a(s)= \int_a^{\infty} e^{-st}\, dt= \dfrac{e^{-as}} s, \qquad a>0.
 
 
   
@@ -237,7 +237,7 @@ Setning
 Látum :math:`f:{{\mathbb  R}}_+\to {{\mathbb  C}}` vera fall af
 veldisvísisgerð. Þá gildir um sérhvert :math:`a\geq 0` að
 
-.. math:: {{\cal L}}\{H(t-a)f(t-a)\}(s) = e^{-as}{{\cal L}}\{f\}(s).
+.. math:: {\mathcal{L}}\{H(t-a)f(t-a)\}(s) = e^{-as}{\mathcal{L}}\{f\}(s).
 
 þar sem fallið :math:`t\mapsto H(t-a)f(t-a)` tekur gildið :math:`0`
 fyrir öll :math:`t<a`.
@@ -249,20 +249,20 @@ Ef :math:`u=(u_1,\dots,u_m): {{\mathbb  R}}_+\to {{\mathbb  C}}^m` er
 vigurgilt fall á jákvæða raunásnum, þá skilgreinum við Laplace-mynd
 :math:`u` með því að taka Laplace-mynd af hnitaföllunum,
 
-.. math:: {{\cal L}}u(s)=({{\cal L}}u_1,\dots,{{\cal L}}u_m).
+.. math:: {\mathcal{L}}u(s)=({\mathcal{L}}u_1,\dots,{\mathcal{L}}u_m).
 
 Við förum eins að við að skilgreina Laplace-mynd af
 :math:`p\times m`-fylkjagildu falli :math:`U=(u_{jk})_{j,k=1}^{p,m}`,
-þar sem við skilgreinum :math:`{{\cal L}}U(s)` sem :math:`p\times m`
+þar sem við skilgreinum :math:`{\mathcal{L}}U(s)` sem :math:`p\times m`
 fylkjagilda fallið
 
-.. math:: {{\cal L}}U(s)=({{\cal L}}u_{jk}(s))_{j,k=1}^{p,m}.
+.. math:: {\mathcal{L}}U(s)=({\mathcal{L}}u_{jk}(s))_{j,k=1}^{p,m}.
 
 Ef :math:`A` er :math:`p\times m` fylki, þá er
 
 .. math::
 
-  {{\cal L}}\{Au\}(s)=A{{\cal L}}u(s).
+  {\mathcal{L}}\{Au\}(s)=A{\mathcal{L}}u(s).
 
 
   
@@ -270,7 +270,7 @@ Ef :math:`A` er :math:`p\times m` fylki, þá er
 Þessa reglu sönnum við með því að líta á :math:`v=Au`,
 :math:`v_j=a_{j1}u_1+\cdots+a_{jm}u_m` og notfæra okkur að
 Laplace-ummyndunin er línuleg vörpun. Það gefur okkur
-:math:`{{\cal L}}v_j(s)=a_{j1}{{\cal L}}u_1(s)+\cdots+a_{jm}{{\cal L}}u_m(s)`.
+:math:`{\mathcal{L}}v_j(s)=a_{j1}{\mathcal{L}}u_1(s)+\cdots+a_{jm}{\mathcal{L}}u_m(s)`.
 Vinstri hliðin í þessari jöfnu er þáttur númer :math:`j` í vinstri hlið
 jöfnunnar, en hægri hliðin er þáttur númer :math:`j` í hægri hlið
 hennar.
@@ -279,7 +279,7 @@ Ef hins :math:`A` er eitthvert :math:`q\times p` fylki, þá fæst reglan
 
 .. math::
 
-  {{\cal L}}\{AU\}(s)=A{{\cal L}}U(s).
+  {\mathcal{L}}\{AU\}(s)=A{\mathcal{L}}U(s).
 
 
   
@@ -307,7 +307,7 @@ Ef :math:`{{\operatorname{Re\, }}}s` er nógu stórt, þá getum við látið
 
 .. math::
 
-  {{\cal L}}\{f{{^{\prime}}}\}(s)=s{{\cal L}}\{f\}(s)-f(0).
+  {\mathcal{L}}\{f{{^{\prime}}}\}(s)=s{\mathcal{L}}\{f\}(s)-f(0).
 
 
   
@@ -318,7 +318,7 @@ við með því að beita þessari formúlu tvisvar að
 
 .. math::
 
-  {{\cal L}}\{f{{^{\prime\prime}}}\}(s)=s{{\cal L}}\{f{{^{\prime}}}\}(s)-f{{^{\prime}}}(0)=s^ 2{{\cal L}}\{f\}(s)
+  {\mathcal{L}}\{f{{^{\prime\prime}}}\}(s)=s{\mathcal{L}}\{f{{^{\prime}}}\}(s)-f{{^{\prime}}}(0)=s^ 2{\mathcal{L}}\{f\}(s)
    -sf(0)-f{{^{\prime}}}(0),
 
 
@@ -331,14 +331,14 @@ Setning
 
 Ef :math:`f\in C^ m({{\mathbb  R}}_+)` og
 :math:`f, f{{^{\prime}}}, f{{^{\prime\prime}}}, \dots, f^{(m-1)}`, eru af veldisvísisgerð, þá er
-:math:`{{\cal L}}\{f^{(m)}\}(s)` skilgreint fyrir öll
+:math:`{\mathcal{L}}\{f^{(m)}\}(s)` skilgreint fyrir öll
 :math:`s\in {{\mathbb  C}}` með :math:`{{\operatorname{Re\, }}}s` nógu
 stórt og
 
 .. math::
 
-  {{\cal L}}\{f^{(m)}\}(s)=s^
-   m{{\cal L}}\{f\}(s)-s^{m-1}f(0)-\cdots-sf^{(m-2)}(0)-f^{(m-1)}(0).
+  {\mathcal{L}}\{f^{(m)}\}(s)=s^
+   m{\mathcal{L}}\{f\}(s)-s^{m-1}f(0)-\cdots-sf^{(m-2)}(0)-f^{(m-1)}(0).
 
   
 
@@ -354,7 +354,7 @@ Um sérhvert :math:`m\times m` fylki :math:`A` gildir
 
 .. math::
 
-  {{\cal L}}\{e^{tA}\}(s) = (sI-A)^{-1}.
+  {\mathcal{L}}\{e^{tA}\}(s) = (sI-A)^{-1}.
 
 
   
@@ -397,51 +397,50 @@ Við höfum sýnt fram á að fallið :math:`u_p` sem uppfyllir
   
 
 þar sem :math:`G` er Green–fall virkjans :math:`P(D)`. Við skulum nú
-reikna út :math:`U_p(s)={{\cal L}}\{u_p\}(s)`. Vegna þess að
+reikna út :math:`U_p(s)={\mathcal{L}}\{u_p\}(s)`. Vegna þess að
 upphafsgildin eru öll :math:`0`, þá er
 
 .. math::
 
-  {{\cal L}}\{u_p{{^{\prime}}}\}(s)=sU_p(s), \quad 
-   {{\cal L}}\{u_p{{^{\prime\prime}}}\}(s)=s^2U_p(s),\dots,
-   {{\cal L}}\{u_p^{(m)}\}(s)=s^mU_p(s).
+  {\mathcal{L}}\{u_p{{^{\prime}}}\}(s)=sU_p(s), \quad 
+   {\mathcal{L}}\{u_p{{^{\prime\prime}}}\}(s)=s^2U_p(s),\dots,
+   {\mathcal{L}}\{u_p^{(m)}\}(s)=s^mU_p(s).
 
 Þetta gefur okkur að
 
-.. math:: {{\cal L}}\{P(D)u_p\}(s)=(a_ms^m+\cdots+a_1s+a_0)U_p(s)={{\cal L}}f(s),
+.. math:: {\mathcal{L}}\{P(D)u_p\}(s)=(a_ms^m+\cdots+a_1s+a_0)U_p(s)={\mathcal{L}}f(s),
 
 sem er greinilega jafnan
 
-.. math:: P(s)U_p(s)={{\cal L}}f(s),
+.. math:: P(s)U_p(s)={\mathcal{L}}f(s),
 
 og við fáum
 
   
 
-.. math:: {{\cal L}}\{u_p\}(s)=\dfrac {{{\cal L}}f(s)}{P(s)}.
+.. math:: {\mathcal{L}}\{u_p\}(s)=\dfrac {{\mathcal{L}}f(s)}{P(s)}.
 
 Nú er Green–fallið :math:`G(t,\tau)=g(t-\tau)`, þar sem :math:`g`
 uppfyllir
 
 .. math::
 
-  P(D)g=0, \  g(0)=g{{^{\prime}}}(0)=\cdots=g^{(m-2)}(0)=0, \ 
-   g^{(m-1)}(0)=\dfrac 1{a_m}.
+  P(D)g=0, \  g(0)=g{{^{\prime}}}(0)=\cdots=g^{(m-2)}(0)=0, \ g^{(m-1)}(0)=\dfrac 1{a_m}.
 
-Ef við setjum :math:`U(s)={{\cal L}}g(s)`, þá fáum við
+Ef við setjum :math:`U(s)={\mathcal{L}}g(s)`, þá fáum við
 
 .. math::
 
   \begin{aligned}
-   {{\cal L}}\{g{{^{\prime}}}\}(s) &= s{{\cal L}}\{g\}(s)-g(0)=sU(s),\\
-   {{\cal L}}\{g{{^{\prime\prime}}}\}(s) &= s^2{{\cal L}}\{g\}(s)-sg(0)-g{{^{\prime}}}(0)\\
+   {\mathcal{L}}\{g{{^{\prime}}}\}(s) &= s{\mathcal{L}}\{g\}(s)-g(0)=sU(s),\\
+   {\mathcal{L}}\{g{{^{\prime\prime}}}\}(s) &= s^2{\mathcal{L}}\{g\}(s)-sg(0)-g{{^{\prime}}}(0)\\
    &=s^2U(s),\\
    &\qquad \vdots\qquad\qquad\vdots\qquad\qquad \vdots\\
-   {{\cal L}}\{g^{(m-1)}\}(s) &=
-   s^{m-1}{{\cal L}}\{g\}(s)-s^{m-2}g(0)-\cdots-g^{(m-2)}(0)\\
+   {\mathcal{L}}\{g^{(m-1)}\}(s) &=
+   s^{m-1}{\mathcal{L}}\{g\}(s)-s^{m-2}g(0)-\cdots-g^{(m-2)}(0)\\
    &=s^{m-1}U(s),\\
-   {{\cal L}}\{g^{(m)}\}(s) &=
-   s^m{{\cal L}}\{g\}(s)-s^{m-1}g(0)-\cdots-g^{(m-1)}(0)\\
+   {\mathcal{L}}\{g^{(m)}\}(s) &=
+   s^m{\mathcal{L}}\{g\}(s)-s^{m-1}g(0)-\cdots-g^{(m-1)}(0)\\
    &=s^mU(s)-\dfrac 1{a_m}.\end{aligned}
 
 Við tökum nú Laplace-myndina af báðum hliðum jöfnunnar :math:`P(D)g=0`
@@ -453,14 +452,14 @@ og við fáum :math:`P(s)U(s)=1`, sem jafngildir
 
   
 
-.. math:: {{\cal L}}g(s)=\dfrac 1{P(s)}.
+.. math:: {\mathcal{L}}g(s)=\dfrac 1{P(s)}.
 
 Við höfum því sýnt fram á að
 
 .. math::
 
-  {{\cal L}}\left\{\int_0^tg(t-\tau)f(\tau)\, d\tau\right\}(s)= {{\cal L}}\{u_p\}(s)=
-   {{\cal L}}\{g\}(s){{\cal L}}\{f\}(s).
+  {\mathcal{L}}\left\{\int_0^tg(t-\tau)f(\tau)\, d\tau\right\}(s)= {\mathcal{L}}\{u_p\}(s)=
+   {\mathcal{L}}\{g\}(s){\mathcal{L}}\{f\}(s).
 
 Þessi formúla er engin tilviljun, því við höfum:
 
@@ -474,8 +473,8 @@ sérhverju bili :math:`[0,b]`, þá er
 
 .. math::
 
-  {{\cal L}}\left\{\int_0^tf(t-\tau)g(\tau)\, d\tau\right\}(s)=
-   {{\cal L}}\{f\}(s){{\cal L}}\{g\}(s).
+  {\mathcal{L}}\left\{\int_0^tf(t-\tau)g(\tau)\, d\tau\right\}(s)=
+   {\mathcal{L}}\{f\}(s){\mathcal{L}}\{g\}(s).
 
 --------------
 
@@ -486,7 +485,7 @@ Athugið að
   \int_0^t f(t-\tau)g(\tau) \, d\tau=
    \int_0^t f(\tau)g(t-\tau) \, d\tau.
 
-Með því að velja :math:`g(t)=1` og nota að :math:`{{\cal L}}\{1\}=1/s`,
+Með því að velja :math:`g(t)=1` og nota að :math:`{\mathcal{L}}\{1\}=1/s`,
 þá fæst:
 
 Fylgisetning
@@ -497,8 +496,8 @@ Ef :math:`f` er af veldisvísisgerð og heildanlegt á sérhverju bili
 
 .. math::
 
-  {{\cal L}}\left\{\int_0^t f(\tau) \, d\tau\right\}(s) = \dfrac 1s
-   {{\cal L}}\{f\}(s).
+  {\mathcal{L}}\left\{\int_0^t f(\tau) \, d\tau\right\}(s) = \dfrac 1s
+   {\mathcal{L}}\{f\}(s).
 
 
   
@@ -533,6 +532,6 @@ Við getum því umritað síðustu setningu í
 
   
 
-.. math:: {{\cal L}}\{f\ast g\}={{\cal L}}\{f\}{{\cal L}}\{g\}.
+.. math:: {\mathcal{L}}\{f\ast g\}={\mathcal{L}}\{f\}{\mathcal{L}}\{g\}.
 
 

@@ -233,7 +233,7 @@ af :math:`{{\mathbb  C}}`. Við segjum að :math:`f` sé
 
 .. math::
 
-  \lim _{\substack{ h\to 0\\ h\in{{\mathbb  C}}}}
+  \lim _{\scriptstyle  h\to 0 \atop\scriptstyle  h\in{{\mathbb  C}}}
     \dfrac{f(a+h)-f(a)}h  
 
 er til. Markgildið táknum við með :math:`f{{^{\prime}}}(a)` og köllum
@@ -243,7 +243,7 @@ fallsins :math:`f` í punktinum :math:`a`.
 
 Fall :math:`f:X\to {{\mathbb  C}}` er sagt vera :hover:`fágað,fágað fall` á opna menginu :math:`X` ef :math:`f\in C^1(X)` og :math:`f` er :math:`{{\mathbb  C}}`–deildanlegt í sérhverjum punkti í :math:`X`. 
 
-Við látum :math:`{{\cal O}}(X)` tákna mengi allra
+Við látum :math:`{\mathcal{O}}(X)` tákna mengi allra
 fágaðra falla á :math:`X`. Við segjum að :math:`f` sé *fágað í punktinum*
 :math:`a` ef til er opin grennd :math:`U` um :math:`a` þannig að
 :math:`f` sé fágað í :math:`U`. 
@@ -296,7 +296,7 @@ er :math:`{{\mathbb  C}}`–deildanlegt í :math:`a` og
 Fylgisetning
 ^^^^^^^^^^^^
 
-:math:`{{\cal O}}(X)` er línulegt rúm yfir :math:`{{\mathbb  C}}`.
+:math:`{\mathcal{O}}(X)` er línulegt rúm yfir :math:`{{\mathbb  C}}`.
 
 Ef :math:`f_1,f_2,\dots, f_n` eru :math:`{{\mathbb  C}}`–deildanleg í
 :math:`a` og :math:`\alpha_1,\dots,\alpha_n\in {{\mathbb  C}}`, þá fáum
@@ -310,8 +310,8 @@ Eins fáum við með þrepun að margfeldið :math:`f=f_1f_2\cdots f_n` er
 
 .. math::
 
-  f{{^{\prime}}}(a)= \sum_{j=1}^n f_j{{^{\prime}}}(a)\bigg(\prod_{\substack{ k=1\\ k\neq
-    j}}^n f_k(a)\bigg).
+  f{{^{\prime}}}(a)= \sum_{j=1}^n f_j{{^{\prime}}}(a)\bigg(\prod_{\scriptstyle  k=1 \atop\scriptstyle  k\neq
+    j}^n f_k(a)\bigg).
 
 Athugið að af þessu leiðir formúlan
 
@@ -397,10 +397,10 @@ og :math:`{\partial}_yf(a)`. Ef við skrifum
 .. math::
 
   \begin{aligned}
-   f{{^{\prime}}}(a)=&\lim_{\substack{h\to 0\\ h\in {{\mathbb  R}}}}
+   f{{^{\prime}}}(a)=&\lim_{\scriptstyle h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}}}
    \dfrac{u(\alpha+h,\beta)-u(\alpha,\beta)}h+i
    \dfrac{v(\alpha+h,\beta)-v(\alpha,\beta)}h\\
-   =&\partial_xu(a)+i\partial_xv(a)=\partial_xf(a).\nonumber\end{aligned}
+   =&\partial_xu(a)+i\partial_xv(a)=\partial_xf(a).\end{aligned}
 
 Ef við látum hins vegar :math:`h\to 0` eftir þvertölum, :math:`h=ik`,
 :math:`k\in {{\mathbb  R}}`, þá fáum við
@@ -408,10 +408,10 @@ Ef við látum hins vegar :math:`h\to 0` eftir þvertölum, :math:`h=ik`,
 .. math::
 
   \begin{aligned}
-   f{{^{\prime}}}(a)&=\lim_{\substack{k\to 0\\ k\in {{\mathbb  R}}}}
+   f{{^{\prime}}}(a)&=\lim_{\scriptstyle k\to 0 \atop\scriptstyle  k\in {{\mathbb  R}}}
    \dfrac{u(\alpha,\beta+k)-u(\alpha,\beta)}{ik}+i
    \dfrac{v(\alpha,\beta+k)-v(\alpha,\beta)}{ik}\\
-   &=-i(\partial_yu(a)+i\partial_yv(a))=-i\partial_yf(a).\nonumber\end{aligned}
+   &=-i(\partial_yu(a)+i\partial_yv(a))=-i\partial_yf(a).\end{aligned}
 
 Við höfum því:
 
@@ -455,7 +455,7 @@ deildanlegt í punktinum :math:`a`, ef til er línuleg vörpun
 
 .. math::
 
-  \lim_{\substack{h\to 0\\ h\in {{\mathbb  R}}^2}}
+  \lim_{\scriptstyle h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}^2}}
    \dfrac{\| f(a+h)-f(a)-L(h)\|}{\|h\|}= 0,
 
 þar sem :math:`\|z\|` táknar lengd vigursins :math:`z`. 
@@ -559,11 +559,11 @@ til séu tvinntölur :math:`A`, :math:`B` og fall
 
   \begin{aligned}
    {\partial}_xf(a) &=
-   \lim_{\substack{ h\to 0\\ h\in {{\mathbb  R}}}} \dfrac{f(a+h)-f(a)}h
-   =\lim_{\substack{ h\to 0\\ h\in {{\mathbb  R}}}} A+B+\varphi_a(a+h) = A+B,\\
+   \lim_{\scriptstyle  h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}}} \dfrac{f(a+h)-f(a)}h
+   =\lim_{\scriptstyle  h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}}} A+B+\varphi_a(a+h) = A+B,\\
    {\partial}_yf(a) &=
-   \lim_{\substack{ h\to 0\\ h\in {{\mathbb  R}}}} \dfrac{f(a+ih)-f(a)}h
-   =\lim_{\substack{ h\to 0\\ h\in {{\mathbb  R}}}} iA-iB+\varphi_a(a+ih) = i(A-B).\end{aligned}
+   \lim_{\scriptstyle  h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}}} \dfrac{f(a+ih)-f(a)}h
+   =\lim_{\scriptstyle  h\to 0 \atop\scriptstyle  h\in {{\mathbb  R}}} iA-iB+\varphi_a(a+ih) = i(A-B).\end{aligned}
 
 Ef við leysum :math:`A` og :math:`B` út úr þessum jöfnum, þá fáum við
 
@@ -736,7 +736,7 @@ fyrir samleitnar veldaraðir:
 Setning
 ^^^^^^^
 
-Gerum ráð fyrir að :math:`f,g\in {{\cal O}}(S(\alpha,\varrho))` séu
+Gerum ráð fyrir að :math:`f,g\in {\mathcal{O}}(S(\alpha,\varrho))` séu
 gefin með samleitnum veldaröðum
 
 .. math::
@@ -768,7 +768,7 @@ Setning
 ^^^^^^^
 
 Látum :math:`X\subset {{\mathbb  C}}` vera opið og
-:math:`f\in {{\cal O}}(X)`. Ef :math:`\alpha\in X`,
+:math:`f\in {\mathcal{O}}(X)`. Ef :math:`\alpha\in X`,
 :math:`0<\varrho<d(\alpha,\partial X)`, þar sem
 :math:`d(\alpha,\partial X)` táknar fjarlægð punktsins :math:`\alpha`
 frá jaðrinum :math:`\partial X` á menginu :math:`X`, þá er hægt að setja
@@ -792,14 +792,14 @@ Við skulum skoða nokkrar afleiðingar:
 Fylgisetning
 ^^^^^^^^^^^^
 
-Ef :math:`f\in {{\cal O}}(X)`, þá er
-:math:`f{{^{\prime}}}\in {{\cal O}}(X)`.
+Ef :math:`f\in {\mathcal{O}}(X)`, þá er
+:math:`f{{^{\prime}}}\in {\mathcal{O}}(X)`.
 
 --------------
 
 Nú sjáum við að fallið :math:`f{{^{\prime}}}` er fágað og afleiða þess
 :math:`f{{^{\prime\prime}}}` er einnig fáguð og þannig áfram út í hið
-óendanlega. Fyrir sérhvert fágað fall :math:`f\in {{\cal O}}(X)`
+óendanlega. Fyrir sérhvert fágað fall :math:`f\in {\mathcal{O}}(X)`
 skilgreinum við hærri afleiður :math:`f^{(k)}` með þrepun
 :math:`f^{(0)}=f` og :math:`f^{(k)}=\big(f^{(k-1)}\big){{^{\prime}}}`,
 fyrir :math:`k\geq 1`. Við fáum síðan:
@@ -810,7 +810,7 @@ Setning
 ^^^^^^^
 
 Látum :math:`X` vera opið hlutmengi af :math:`{{\mathbb  C}}`,
-:math:`f\in {{\cal O}}(X)`, :math:`\alpha\in X` og :math:`0<\varrho<d(\alpha,\partial X)`. Þá er
+:math:`f\in {\mathcal{O}}(X)`, :math:`\alpha\in X` og :math:`0<\varrho<d(\alpha,\partial X)`. Þá er
 
 .. math::
 
@@ -979,7 +979,7 @@ Setning
 ^^^^^^^
 
 \(i) Ef :math:`\lambda` er logri á :math:`X`, þá er :math:`0\not\in X`,
-:math:`\lambda\in {{\cal O}}(X)` og
+:math:`\lambda\in {\mathcal{O}}(X)` og
 
 .. math:: \lambda{{^{\prime}}}(z)=\frac 1z, \qquad z\in X.
 
@@ -998,7 +998,7 @@ ef :math:`\theta:X\to {{\mathbb  R}}` er horn á :math:`X`, þá er
 :math:`\lambda(z)=\ln|z|+i\theta(z)` logri á :math:`X`.
 
 \(iii) Ef :math:`\varrho` er :math:`n`–ta rót á :math:`X` þá er
-:math:`\varrho\in {{\cal O}}(X)` og
+:math:`\varrho\in {\mathcal{O}}(X)` og
 
 .. math:: \varrho{{^{\prime}}}(z)=\frac {\varrho(z)}{nz}, \qquad z\in X.
 

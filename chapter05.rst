@@ -286,7 +286,7 @@ Gauss-setningin gefur nú
    &=\int_{{\gamma}}(\vec V\cdot\vec n)\, ds
    =\iint\limits_{{\Omega}} {{\operatorname{div}}}\vec V\, dxdy\\
    &=\iint\limits_{{\Omega}}
-   \big({\partial}_xp(x,y)+{\partial}_yq(x,y)\big)\, dxdy.\nonumber\end{aligned}
+   \big({\partial}_xp(x,y)+{\partial}_yq(x,y)\big)\, dxdy.\end{aligned}
 
 Heildið í vinstri hliðinne nefnist :hover:`flæði vigursviðsins,flæði` 
 :math:`\vec V` yfir jaðarinn :math:`{\partial}{\Omega}`. Green-setningin
@@ -299,7 +299,7 @@ gefur
    &=\int_{{\gamma}}(\vec V\cdot\vec T)\, ds
    =\iint\limits_{{\Omega}} {{\operatorname{rot}}}\vec V\, dxdy\\
    &=\iint\limits_{{\Omega}}
-   \big({\partial}_xq(x,y)-{\partial}_yp(x,y)\big)\, dxdy.\nonumber\end{aligned}
+   \big({\partial}_xq(x,y)-{\partial}_yp(x,y)\big)\, dxdy.\end{aligned}
 
 Heildið í vinstri hliðinni nefnist *hringstreymi* 
 vigursviðsins :math:`\vec V` eftir jaðrinum :math:`{\partial}{\Omega}`.

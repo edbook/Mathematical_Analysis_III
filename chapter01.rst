@@ -4,8 +4,6 @@ TVINNTÖLUR
 Talnakerfin
 -----------
 
-Þetta er breyting
-
 :math:`{{\mathbb  N}}`, :math:`{{\mathbb  Z}}`, :math:`{{\mathbb  Q}}`,
 :math:`{{\mathbb  R}}` og :math:`{{\mathbb  C}}`.
 
@@ -1079,8 +1077,8 @@ reikna út afleiðuna af :math:`Q` í :math:`{\alpha}_j`,
 
 .. math::
 
-  Q{{^{\prime}}}(\alpha_j)=a\prod_{\substack{k=1\\ k\neq
-    j}}^m
+  Q{{^{\prime}}}(\alpha_j)=a\prod_{\scriptstyle k=1 \atop\scriptstyle  k\neq
+    j}^m
    (\alpha_j-\alpha_k).
 
 Þessi formúla segir okkur að :math:`Q'(\alpha_j)` sé fundið með því að
@@ -1106,9 +1104,9 @@ verður nú af gerðinni
    \dfrac{P(z)}{Q(z)}&=
    \dfrac{A_{1,0}}{(z-\alpha_1)^{m_1}}+\cdots+\dfrac{A_{1,m_1-1}}{(z-\alpha_1)}\\
    &+\dfrac{A_{2,0}}{(z-\alpha_2)^{m_2}}+\cdots+\dfrac{A_{2,m_2-1}}{(z-\alpha_2)}
-   \nonumber\\
-   &\qquad \vdots\qquad\qquad\vdots\qquad \qquad \vdots\nonumber\\
-   &+\dfrac{A_{k,0}}{(z-\alpha_k)^{m_k}}+\cdots+\dfrac{A_{k,m_k-1}}{(z-\alpha_k)}\nonumber\end{aligned}
+   \\
+   &\qquad \vdots\qquad\qquad\vdots\qquad \qquad \vdots\\
+   &+\dfrac{A_{k,0}}{(z-\alpha_k)^{m_k}}+\cdots+\dfrac{A_{k,m_k-1}}{(z-\alpha_k)}\end{aligned}
 
 þar sem stuðlarnir eru gefnir með formúlunni
 

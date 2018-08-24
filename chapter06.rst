@@ -394,7 +394,7 @@ er greinilega jafngild línulega hneppinu
   \begin{gathered}
    u_1{{^{\prime}}}= u_2,\qquad  u_2{{^{\prime}}}= u_3, \qquad \dots, \quad
    u_{m-1}{{^{\prime}}}= u_m\\
-   u_m{{^{\prime}}}=-(a_0(t)/a_m(t))u_1-\cdots-(a_{m-1}(t)/a_m(t))u_m+g(t)/a_m(t),\nonumber \end{gathered}
+   u_m{{^{\prime}}}=-(a_0(t)/a_m(t))u_1-\cdots-(a_{m-1}(t)/a_m(t))u_m+g(t)/a_m(t), \end{gathered}
 
 ef :math:`a_m(t)\neq 0` fyrir öll :math:`t\in I`. Fylkið :math:`A` og
 vigurinn :math:`f` verða þá

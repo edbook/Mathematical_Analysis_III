@@ -241,7 +241,7 @@ Setning
 
 Gerum ráð fyrir að :math:`X` sé opið mengi og :math:`f\in C(X)`. Ef
 :math:`f` hefur :hover:`stofnfall` :math:`F`, þ.e.a.s. ef til
-er fall :math:`F\in {{\cal O}}(X)` þannig að :math:`F{{^{\prime}}}=f`
+er fall :math:`F\in {\mathcal{O}}(X)` þannig að :math:`F{{^{\prime}}}=f`
 þá er
 
 .. math:: \int_\gamma f(z)\, dz = F(e_\gamma)-F(u_\gamma)
@@ -343,9 +343,9 @@ Green-setningarinnar. Við tökum :math:`f\in C^ 1(X)`,
   \begin{aligned}
    \int_{\partial\Omega} f\, dz 
    &=\int_{\partial\Omega} (u+iv)\, (dx+idy)\\
-   &=\int_{\partial\Omega} u\, dx - v\, dy +i\int_{\partial\Omega} v\, dx + u\, dy\nonumber\\
-   &=\iint_{\Omega}\big(-\partial_x v-\partial_y u\big) \, dxdy +i\iint_{\Omega}\big(\partial_x u-\partial_y v\big) \, dxdy\nonumber\\
-   &=\iint_{\Omega}i\big(\partial_x u+i\partial_x v\big)- \big(\partial_y u+i\partial_y v \big) \, dxdy \nonumber\\
+   &=\int_{\partial\Omega} u\, dx - v\, dy +i\int_{\partial\Omega} v\, dx + u\, dy\\
+   &=\iint_{\Omega}\big(-\partial_x v-\partial_y u\big) \, dxdy +i\iint_{\Omega}\big(\partial_x u-\partial_y v\big) \, dxdy\\
+   &=\iint_{\Omega}i\big(\partial_x u+i\partial_x v\big)- \big(\partial_y u+i\partial_y v \big) \, dxdy \\
    &=i\iint_{\Omega}\big(\partial_x f+i\partial_y f\big) \, dxdy =2i\iint_{\Omega}\partial_{\bar z} f \, dxdy.
   \end{aligned}
 
@@ -366,7 +366,7 @@ skerast aðeins í endapunktum og hafa jákvæða stefnu miðað við
   \int_{\partial\Omega}f\, dz = 
    2i\iint_{\Omega}\partial_{\bar z} f \, dxdy.
 
-Ef :math:`f\in {{\cal O}}(X)`, þá er
+Ef :math:`f\in {\mathcal{O}}(X)`, þá er
 
 .. math::
 
@@ -399,7 +399,7 @@ Setning
 ^^^^^^^
 
 Ef :math:`X` er stjörnusvæði með tilliti til punktsins :math:`\alpha`,
-þá hefur sérhvert :math:`f\in {{\cal O}}(X)` stofnfall, sem gefið er með
+þá hefur sérhvert :math:`f\in {\mathcal{O}}(X)` stofnfall, sem gefið er með
 formúlunni
 
 
@@ -436,7 +436,7 @@ fyrir sömu forsendum og í Cauchy -setningunni. Ef :math:`f\in C^1(X)`,
    {\zeta-z}\, d\xi d\eta, 
 
 þar sem breytan í heildinu er :math:`{\zeta}={\xi}+i\eta`. Ef
-:math:`f\in {{\cal O}}(X)`, þá er
+:math:`f\in {\mathcal{O}}(X)`, þá er
 
 .. math::
 
@@ -453,7 +453,7 @@ Setning
 ^^^^^^^
 
 (*Meðalgildissetning*).   Látum :math:`X`
-vera opið mengi í :math:`{{\mathbb  C}}`, :math:`f\in {{\cal O}}(X)`, :math:`z\in X` og gerum ráð fyrir að
+vera opið mengi í :math:`{{\mathbb  C}}`, :math:`f\in {\mathcal{O}}(X)`, :math:`z\in X` og gerum ráð fyrir að
 :math:`\overline S(z,r)\subset X`. Þá gildir
 
 .. math:: f(z)=\dfrac 1{2\pi} \int_0^{2\pi}f(z+re^{it})\, dt.
@@ -618,7 +618,7 @@ fæst
 
   f(x+iy)=\dfrac 1{2\pi i}\sum_{j=1}^ N \int_{a_j}^ {b_j}
    \dfrac {f(\gamma_j(t))}{\gamma_j(t)-x-iy}\gamma_j{{^{\prime}}}(t)\, dt, 
-   \qquad f\in {{\cal O}}(X).
+   \qquad f\in {\mathcal{O}}(X).
 
 Nú er heildisstofninn óendanlega oft deildanlegt fall af :math:`(x,y)`
 á :math:`\Omega`, samfelldur á köflum sem fall af :math:`t` á
@@ -658,7 +658,7 @@ Setning
 
 (*Cauchy-formúlan fyrir afleiður*).   Látum :math:`X` og :math:`\Omega` vera
 eins og í Cauchy-setningunni og tökum :math:`z\in \Omega`. Þá er
-sérhvert :math:`f` í :math:`{{\cal O}}(X)` óendanlega oft deildanlegt á
+sérhvert :math:`f` í :math:`{\mathcal{O}}(X)` óendanlega oft deildanlegt á
 :math:`X`, allar hlutafleiður af :math:`f` eru fáguð föll og
 
 .. math::
@@ -677,7 +677,7 @@ Fylgisetning
 
 (*Cauchy-ójöfnur*). Ef :math:`X`
 er opið hlutmengi af :math:`{{\mathbb  C}}`,
-:math:`\bar S(\alpha,\varrho)\subset X`, :math:`f\in {{\cal O}}(X)` og
+:math:`\bar S(\alpha,\varrho)\subset X`, :math:`f\in {\mathcal{O}}(X)` og
 :math:`|f(z)|\leq M` fyrir öll :math:`z\in \partial S(\alpha,\varrho)`, þá er
 
 .. math::
@@ -700,7 +700,7 @@ gerum ráð fyrir að
 .. math:: \int_{\partial\Omega} f\, dz =0
 
 fyrir sérhvert þríhyrningssvæði :math:`\Omega` þannig að
-:math:`\Omega\cup \partial \Omega\subset X`. Þá er :math:`f\in {{\cal O}}(X)`.
+:math:`\Omega\cup \partial \Omega\subset X`. Þá er :math:`f\in {\mathcal{O}}(X)`.
 
 --------------
 
@@ -713,7 +713,7 @@ Setning
 ^^^^^^^
 
 (*Liouville*).  
-Látum :math:`f\in {{\cal O}}({{\mathbb  C}})` og gerum ráð fyrir að
+Látum :math:`f\in {\mathcal{O}}({{\mathbb  C}})` og gerum ráð fyrir að
 :math:`f` sé takmarkað fall. Þá er :math:`f` fasti.
 
 
@@ -740,11 +740,9 @@ Samleitni í jöfnum mæli
    \lim_{t\to \alpha}\sum_{n=0}^\infty f_n(t)=\sum_{n=0}^\infty
    \lim_{t\to \alpha}f_n(t)\\
    \lim_{n\to\infty}\ \int_a ^ b f_n(t)  \, dt=
-   \int_a ^ b \lim_{n\to\infty}\
-   f_n(t) \, dt,\\
+   \int_a ^ b \lim_{n\to\infty}\ f_n(t) \, dt,\\
    \sum_{n=0}^{\infty}\ \int_a ^ b f_n(t)  \, dt=
-   \int_a ^ b \bigg(\sum_{n=0}^{\infty}\
-   f_n(t)\bigg) \, dt,\\
+   \int_a ^ b \bigg(\sum_{n=0}^{\infty}\ f_n(t)\bigg) \, dt,\\
    \dfrac d{dt} \lim_{n\to \infty} f_n(t) =\lim_{n\to\infty}
    \dfrac d{dt} f_n(t),\\
    \dfrac d{dt} \sum_{n=0}^{\infty} f_n(t) =\sum_{n=0}^{\infty}
@@ -896,8 +894,7 @@ Næsta viðfangsefni er formúlan
 .. math::
 
   \lim_{n\to+\infty}\int_a ^ b f_n(t)  \, dt=
-   \int_a ^ b \lim_{n\to+\infty}\
-   f_n(t) \, dt.
+   \int_a ^ b \lim_{n\to+\infty}\ f_n(t) \, dt.
 
 
 Setning
@@ -1054,9 +1051,9 @@ Liðun í veldaröð
 ~~~~~~~~~~~~~~~~
 
 Látum :math:`X` vera opið mengi í :math:`{{\mathbb  C}}`,
-:math:`f\in {{\cal O}}(X)`, :math:`\varrho>0` vera þannig að
+:math:`f\in {\mathcal{O}}(X)`, :math:`\varrho>0` vera þannig að
 :math:`\overline S(\alpha,\varrho)\subset X` og
-:math:`f\in{{\cal O}}(X)`. Þá gefur Cauchy-formúlan okkur
+:math:`f\in{\mathcal{O}}(X)`. Þá gefur Cauchy-formúlan okkur
 
 .. math::
 
@@ -1108,7 +1105,7 @@ Setning
 
 :math:`X` er opið hlutmengi af :math:`{{\mathbb  C}}`,
 :math:`\alpha\in X`, :math:`\overline S(\alpha,\varrho)\subset X` og
-:math:`f\in {{\cal O}}(X)`, þá er unnt að setja :math:`f` fram með
+:math:`f\in {\mathcal{O}}(X)`, þá er unnt að setja :math:`f` fram með
 samleitinni veldaröð á skífunni :math:`S(\alpha,\varrho)`,
 
 .. math::
@@ -1130,7 +1127,7 @@ Skilgreining
 ^^^^^^^^^^^^
 
 Ef :math:`X` er opið hlutmengi af :math:`{{\mathbb  C}}`,
-:math:`\alpha\in X` og :math:`f\in {{\cal O}}(X)`, þá kallast veldaröðin
+:math:`\alpha\in X` og :math:`f\in {\mathcal{O}}(X)`, þá kallast veldaröðin
 
 .. math::
 
@@ -1147,10 +1144,10 @@ Skilgreining
 ^^^^^^^^^^^^
 
 Látum :math:`X` vera opið hlutmengi í :math:`{{\mathbb  C}}`,
-:math:`\alpha\in X` og :math:`f\in {{\cal O}}(X)`. Punkturinn
+:math:`\alpha\in X` og :math:`f\in {\mathcal{O}}(X)`. Punkturinn
 :math:`\alpha` nefnist :hover:`núllstöð` fágaða fallsins
 :math:`f` ef :math:`f(\alpha)=0` og mengið
-:math:`{\cal N}(f)=\{\alpha\in X; f(\alpha)=0\}` kallast 
+:math:`\mathcal{N}(f)=\{\alpha\in X; f(\alpha)=0\}` kallast 
 :hover:`núllstöðvamengi` fágaða fallsins :math:`f`. 
 
 Ef :math:`f` er ekki núllfallið í :math:`S(\alpha,\varrho)`, þar sem 
@@ -1172,9 +1169,9 @@ föllum:
 Setning
 ^^^^^^^
 
-Fall :math:`f\in {{\cal O}}(X)` hefur núllstöð af stigi :math:`m>0` í
+Fall :math:`f\in {\mathcal{O}}(X)` hefur núllstöð af stigi :math:`m>0` í
 punktinum :math:`\alpha\in X` þá og því aðeins að til sé
-:math:`g\in {{\cal O}}(X)` þannig að :math:`g(\alpha)\neq 0` og
+:math:`g\in {\mathcal{O}}(X)` þannig að :math:`g(\alpha)\neq 0` og
 
 .. math::
 
@@ -1205,7 +1202,7 @@ Setning
 ^^^^^^^
 
 (:hover:`Samsemdarsetning,samsemdarsetning` I).   Ef :math:`X` er svæði
-í :math:`{{\mathbb  C}}`, :math:`f,g\in {{\cal O}}(X)` og til er punktur
+í :math:`{{\mathbb  C}}`, :math:`f,g\in {\mathcal{O}}(X)` og til er punktur
 :math:`{\alpha}` í :math:`X` þannig að
 :math:`f^{(n)}({\alpha})=g^{(n)}({\alpha})` fyrir öll :math:`n\geq 0`,
 þá er :math:`f(z)=g(z)` fyrir öll :math:`z\in X`.
@@ -1219,8 +1216,8 @@ Setning
 Setning
 ^^^^^^^
 
-Ef :math:`X` er svæði og :math:`f\in {{\cal O}}(X)` er ekki núllfallið,
-þá er núllstöðvamengi :math:`{\cal N}(f)=\{z\in X; f(z)=0\}` fallsins
+Ef :math:`X` er svæði og :math:`f\in {\mathcal{O}}(X)` er ekki núllfallið,
+þá er núllstöðvamengi :math:`\mathcal{N}(f)=\{z\in X; f(z)=0\}` fallsins
 :math:`f` dreift hlutmengi af :math:`X`.
 
 --------------
@@ -1231,7 +1228,7 @@ Setning
 ^^^^^^^
 
 (:hover:`Samsemdarsetning,samsemdarsetning` II).   Ef :math:`X` er
-svæði, :math:`f,g\in {{\cal O}}(X)` og :math:`f(a_j)=g(a_j)` þar sem
+svæði, :math:`f,g\in {\mathcal{O}}(X)` og :math:`f(a_j)=g(a_j)` þar sem
 :math:`\{a_j\}` er runa af ólíkum punktum, sem hefur markgildi
 :math:`a\in X`, þá er :math:`f(z)=g(z)` fyrir öll :math:`z\in X`.
 
@@ -1263,14 +1260,14 @@ Setning
 ^^^^^^^
 
 (:hover:`Hágildislögmál,hágildislögmál` I). Ef :math:`X` er svæði og
-:math:`f\in {{\cal O}}(X)`, þá getur :math:`|f(z)|` ekki haft staðbundið
+:math:`f\in {\mathcal{O}}(X)`, þá getur :math:`|f(z)|` ekki haft staðbundið
 hágildi í :math:`X` nema :math:`f` sé fastafall.
 
 Setning
 ^^^^^^^
 
 (:hover:`Hágildislögmál,hágildislögmál` II). Látum :math:`X` vera
-takmarkað svæði :math:`f\in {{\cal O}}(X)\cap C(\overline X)` (samfellt á lokuninni
+takmarkað svæði :math:`f\in {\mathcal{O}}(X)\cap C(\overline X)` (samfellt á lokuninni
 :math:`\overline X`). Þá tekur :math:`|f(z)|` hágildi á jaðri svæðisins
 :math:`\partial X`.
 
@@ -1460,14 +1457,14 @@ jafngilt:
 
 \(ii) Sérhvert fágað fall á :math:`X` hefur stofnfall.
 
-\(iii) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
+\(iii) Fyrir sérhvert :math:`f\in {\mathcal{O}}(X)` og sérhvern lokaðan veg
 :math:`\gamma` í :math:`X` er
 
 .. math::
 
    \int_\gamma f(\zeta) \, d\zeta = 0.
 
-\(iv) Fyrir sérhvert :math:`f\in {{\cal O}}(X)` og sérhvern lokaðan veg
+\(iv) Fyrir sérhvert :math:`f\in {\mathcal{O}}(X)` og sérhvern lokaðan veg
 :math:`\gamma` í :math:`X` er
 
 .. math::
@@ -1476,14 +1473,14 @@ jafngilt:
    {\zeta-z} \, d\zeta.
 
 \(v) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur logra,
-þ.e. ef :math:`f\in {{\cal O}}(X)` og :math:`{\cal N}(f)=\varnothing`,
-þá er til :math:`g\in {{\cal O}}(X)` þannig að :math:`f(z)=e^{g(z)}`,
+þ.e. ef :math:`f\in {\mathcal{O}}(X)` og :math:`\mathcal{N}(f)=\varnothing`,
+þá er til :math:`g\in {\mathcal{O}}(X)` þannig að :math:`f(z)=e^{g(z)}`,
 :math:`z\in X`.
 
 \(vi) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða
 :math:`n`-tu rót fyrir öll :math:`n\geq 1`, þ.e. ef
-:math:`f\in {{\cal O}}(X)` og :math:`{\cal N}(f)=\varnothing`, þá er til
-:math:`h\in {{\cal O}}(X)` þannig að :math:`f(z)=h(z)^n`,
+:math:`f\in {\mathcal{O}}(X)` og :math:`\mathcal{N}(f)=\varnothing`, þá er til
+:math:`h\in {\mathcal{O}}(X)` þannig að :math:`f(z)=h(z)^n`,
 :math:`z\in X`.
 
 \(vii) Sérhvert núllstöðvalaust fágað fall á :math:`X` hefur fágaða aðra

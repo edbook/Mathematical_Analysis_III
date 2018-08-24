@@ -48,13 +48,13 @@ Skilgreining
 
 Línulega rúmið, sem samanstendur af öllum lausnum á óhliðruðu jöfnunni
 :math:`u{{^{\prime}}}=A(t)u`, kallast *núllrúm* línulega jöfnuhneppisins. 
-Við táknum það með :math:`{\cal N}(A)`.
+Við táknum það með :math:`\mathcal{N}(A)`.
 
 Setning
 ^^^^^^^
 
 Látum :math:`I\subset {{\mathbb  R}}` vera bil og
-:math:`A\in C(I,{{\mathbb  C}}^ {m\times m})`. Þá hefur núllrúmið :math:`{\cal N}(A)` víddina :math:`m`.
+:math:`A\in C(I,{{\mathbb  C}}^ {m\times m})`. Þá hefur núllrúmið :math:`\mathcal{N}(A)` víddina :math:`m`.
 
 --------------
 
@@ -75,7 +75,7 @@ lausn á :math:`u'=A(t)u+f(t)` af gerðinni
 
 .. math:: u(t)=c_1u_1(t)+\cdots+c_mu_m(t)+u_p(t),
 
-þar sem :math:`u_1,\dots,u_m` er einhver grunnur í :math:`{\cal N}(A)`,
+þar sem :math:`u_1,\dots,u_m` er einhver grunnur í :math:`\mathcal{N}(A)`,
 :math:`c_1,\dots,c_m\in{{\mathbb  C}}` og :math:`u_p` er einhver lausn á
 hliðruðu jöfnunni.
 
@@ -240,6 +240,7 @@ látum :math:`v(t)=[v_1(t),\dots,v_m(t)]^t` vera hnit :math:`u(t)`,
 grunninn :math:`\{\varepsilon_1,\dots,\varepsilon_m\}`,
 þ.e. \ :math:`v=T^{-1}u`, :math:`g=T^{-1}f` og :math:`\beta=T^{-1}b`.
 Við reiknum nú afleiðuna af :math:`v` og notum :math:`A=T\Lambda T^{-1}`
+
 .. math::
 
   \begin{gathered}
@@ -389,7 +390,7 @@ Mengi allra lausna myndar línulegt rúm af vídd :math:`m`.
 Hjálparsetning
 ^^^^^^^^^^^^^^
 
-Látum :math:`u_1,\dots,u_m` vera föll í :math:`{\cal N}(A)`. Þá eru
+Látum :math:`u_1,\dots,u_m` vera föll í :math:`\mathcal{N}(A)`. Þá eru
 eftirfarandi skilyrði jafngild:
 
 \(i) Vigurföllin :math:`u_1,\dots,u_m` eru línulega óháð á bilinu
@@ -411,7 +412,7 @@ Fylki af gerðinni
 .. math:: \Phi(t)=[u_1(t),\dots,u_m(t)], \qquad t\in I,
 
 þar sem dálkavigrarnir :math:`u_1,\dots,u_m` mynda grunn í núllrúminu
-:math:`{\cal N}(A)` fyrir afleiðujöfnuhneppið :math:`u{{^{\prime}}}=A(t)u`, kallast
+:math:`\mathcal{N}(A)` fyrir afleiðujöfnuhneppið :math:`u{{^{\prime}}}=A(t)u`, kallast
 *grunnfylki* fyrir afleiðujöfnuhneppið.
 
 --------------
@@ -424,9 +425,9 @@ andhverfan :math:`\Phi(t)^{-1}` til í sérhverjum punkti
 .. math::
 
   \begin{aligned}
-   \Phi{{^{\prime}}}(t)&= [u_1{{^{\prime}}}(t),\dots,u_m{{^{\prime}}}(t)]=\nonumber\\
+   \Phi{{^{\prime}}}(t)&= [u_1{{^{\prime}}}(t),\dots,u_m{{^{\prime}}}(t)]=\\
    &=[A(t)u_1(t),\dots,A(t)u_m(t)]=\\
-   &=A(t)\Phi(t).\nonumber\end{aligned}
+   &=A(t)\Phi(t).\end{aligned}
 
 Af hjálparsetningunni leiðir einnig að ef :math:`m\times m` fylkjafallið :math:`\Phi` uppfyllir
 :math:`\Phi{{^{\prime}}}=A(t)\Phi` og :math:`\Phi(a)` hefur andhverfu
@@ -459,7 +460,7 @@ Setning
 Látum :math:`\Phi(t)` vera grunnfylki fyrir jöfnuhneppið
 :math:`u{{^{\prime}}}=A(t)u`.
 
-\(i) Sérhvert stak í :math:`{\cal N}(A)` er af gerðinni
+\(i) Sérhvert stak í :math:`\mathcal{N}(A)` er af gerðinni
 :math:`u(t)=\Phi(t)c`, þar sem :math:`c` er vigur í
 :math:`{{\mathbb  C}}^ m`.
 
@@ -968,7 +969,7 @@ Newton-margliður
 Brúunarverkefni
 ~~~~~~~~~~~~~~~
 
-Látum :math:`f\in {{\cal O}}({{\mathbb  C}})` vera gefið fall, látum
+Látum :math:`f\in {\mathcal{O}}({{\mathbb  C}})` vera gefið fall, látum
 :math:`\alpha_1,\dots,\alpha_\ell` vera ólíka punkta í
 :math:`{{\mathbb  C}}`, látum :math:`m_1,\dots,m_\ell` vera jákvæðar
 heiltölur og setjum :math:`m=m_1+\cdots+m_\ell`. Nú ætlum við að sýna
@@ -1019,12 +1020,12 @@ Almenna niðurstaðan er:
 Setning
 ^^^^^^^
 
-Látum :math:`f\in {{\cal O}}({{\mathbb  C}})`,
+Látum :math:`f\in {\mathcal{O}}({{\mathbb  C}})`,
 :math:`\alpha_1,\dots,\alpha_\ell` vera ólíka punkta í
 :math:`{{\mathbb  C}}`, :math:`m_1,\dots,m_\ell` vera jákvæðar
 heiltölur, setjum :math:`m=m_1+\cdots+m_\ell` og skilgreinum
 :math:`p(z)` eins og hér að framan. Þá er til margliða :math:`r` af stigi
-:math:`<m` og :math:`g\in {{\cal O}}({{\mathbb  C}})` þannig að
+:math:`<m` og :math:`g\in {\mathcal{O}}({{\mathbb  C}})` þannig að
 
 .. math::
 

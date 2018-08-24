@@ -4,7 +4,7 @@ LEIFAREIKNINGUR
 Samleitnar Laurent-raðir
 ------------------------
 
-Fyrir sérhvert fall :math:`f\in {{\cal O}}(X)` og sérhvern punktur í
+Fyrir sérhvert fall :math:`f\in {\mathcal{O}}(X)` og sérhvern punktur í
 :math:`\alpha\in X` fæst veldaraðarframsetning á fallinu :math:`f` og
 röðin er samleitin á sérhverri skífu :math:`S(\alpha,\varrho)\subset X`.
 Þessi setning á sér alhæfingu jafnvel fyrir punkta :math:`\alpha` utan
@@ -52,7 +52,7 @@ Setning
 (*Laurent*).   Látum
 :math:`X` vera opið hlutmengi af :math:`{{\mathbb  C}}` og gerum ráð
 fyrir að :math:`A(\alpha,\varrho_1,\varrho_2)\subset X`, þar sem
-:math:`0\leq \varrho_1<\varrho_2\leq +\infty`. Ef :math:`f\in {{\cal O}}(X)`, þá er
+:math:`0\leq \varrho_1<\varrho_2\leq +\infty`. Ef :math:`f\in {\mathcal{O}}(X)`, þá er
 unnt að skrifa :math:`f` sem
 
 .. math::
@@ -201,7 +201,7 @@ Skilgreining
 ^^^^^^^^^^^^
 
 Látum :math:`X` vera opið mengi, :math:`\alpha\in \partial X` og
-:math:`f\in {{\cal O}}(X)`.
+:math:`f\in {\mathcal{O}}(X)`.
 
 \(i) Punkturinn :math:`\alpha` er sagður vera :hover:`einangrður sérstöðupunktur`
 fágaða fallsins :math:`f` ef :math:`\alpha` er einangraður punktur í jaðrinum
@@ -273,7 +273,7 @@ er
    =(z-\alpha)^{m}g(z), \qquad z\in
      S(\alpha,\varepsilon),  \end{aligned}
 
-þar sem fallið :math:`g\in {{\cal O}}(X\cup\{\alpha\})` er skilgreint
+þar sem fallið :math:`g\in {\mathcal{O}}(X\cup\{\alpha\})` er skilgreint
 með
 
 .. math::
@@ -292,7 +292,7 @@ Setning
 
 Einangraður sérstöðupunktur :math:`\alpha` fallsins :math:`f` er
 :hover:`afmáanlegur` ef og aðeins ef til er heiltala :math:`m\geq 0` og fágað
-fall :math:`g\in {{\cal O}}(U)` á grennd :math:`U` um :math:`\alpha`,
+fall :math:`g\in {\mathcal{O}}(U)` á grennd :math:`U` um :math:`\alpha`,
 þannig að :math:`g(\alpha)\neq 0` og
 
 .. math:: f(z)=(z-\alpha)^m g(z), \qquad z\in U.
@@ -330,7 +330,7 @@ Ef :math:`\alpha` er skaut af stigi :math:`m`, þá getum við skrifað
    =\dfrac{g(z)}{(z-\alpha)^m}, \qquad z\in
      S^\ast(\alpha,\varepsilon),  \end{aligned}
 
-þar sem fallið :math:`g\in {{\cal O}}(X\cup\{\alpha\})` er skilgreint
+þar sem fallið :math:`g\in {\mathcal{O}}(X\cup\{\alpha\})` er skilgreint
 með
 
 .. math::
@@ -350,7 +350,7 @@ Setning
 
 Einangraður sérstöðupunktur :math:`\alpha` fallsins :math:`f` er
 :hover:`skaut` *af stigi* :math:`m` ef og aðeins ef til er fágað
-fall :math:`g\in {{\cal O}}(U)` á grennd :math:`U` um :math:`\alpha`,
+fall :math:`g\in {\mathcal{O}}(U)` á grennd :math:`U` um :math:`\alpha`,
 þannig að :math:`g(\alpha)\neq 0` og
 
 .. math:: f(z)=\dfrac{g(z)}{(z-\alpha)^ m}, \qquad z\in U\setminus{{\{\alpha\}}}.
@@ -413,7 +413,7 @@ hefur fallið
 .. math:: f(z)= R(z)-h_1(z)-\cdots-h_k(z)
 
 afmáanlega sérstöðupunkta í :math:`\alpha_1,\dots,\alpha_k`. Við setjum
-:math:`f(\alpha_j)=\lim_{z\to \alpha_j}f(z)`, og fáum að :math:`f\in {{\cal O}}({{\mathbb  C}})`. Fyrst
+:math:`f(\alpha_j)=\lim_{z\to \alpha_j}f(z)`, og fáum að :math:`f\in {\mathcal{O}}({{\mathbb  C}})`. Fyrst
 :math:`{{\operatorname{stig}}}P <{{\operatorname{stig}}}Q`, þá sjáum við
 að fallið sem stendur hægra megin jafnaðarmerkisins stefnir á :math:`0`
 ef :math:`|z|\to +\infty`. Setning Liouville segir okkur nú að :math:`f` sé núllfallið.
@@ -428,7 +428,7 @@ Ef við styttum þáttinn :math:`(z-\alpha_j)^{m_j}` út úr margliðunni
 
   R(z)=\dfrac{f_j(z)}{(z-\alpha_j)^{m_j}}, \qquad
    f_j(z)=\dfrac{P(z)}{q_j(z)},  \quad q_j(z)=\dfrac{Q(z)}{(z-\alpha_j)^{m_j}}
-   =\prod\limits_{\substack{\ell=1\\ \ell\neq j}}^k
+   =\prod\limits_{\scriptstyle \ell=1 \atop\scriptstyle  \ell\neq j}^k
    (z-\alpha_\ell)^{m_\ell}.
 
 Fallið :math:`f_j` er fágað í grennd um :math:`\alpha_j` og stuðlarnir
@@ -449,7 +449,7 @@ Setning
 ^^^^^^^
 
 (*Casorati-Weierstrass*).   Gerum ráð fyrir að :math:`\alpha` sé
-einangraður sérstöðupunktur fallsins :math:`f\in {{\cal O}}(X)`. Þá er
+einangraður sérstöðupunktur fallsins :math:`f\in {\mathcal{O}}(X)`. Þá er
 :math:`\alpha` verulegur þá og því aðeins að
 
 .. math::
@@ -473,7 +473,7 @@ Setning
 ^^^^^^^
 
 (*Picard-setning hin meiri*).   Gerum ráð fyrir að :math:`\alpha` sé
-einangraður sérstöðupunktur fallsins :math:`f\in {{\cal O}}(X)`.
+einangraður sérstöðupunktur fallsins :math:`f\in {\mathcal{O}}(X)`.
 Punkturinn :math:`\alpha` er verulegur sérstöðupunktur þá og því aðeins
 að fyrir sérhvert :math:`\varepsilon>0` er myndmengið
 :math:`f(S^\ast(\alpha,\varepsilon))` allt tvinntalanplanið
@@ -502,7 +502,7 @@ hlutmengi í :math:`{{\mathbb  C}}` og látum :math:`\Omega` vera opið
 hlutmengi af :math:`X` sem uppfyllir sömu forsendur og í
 Cauchy-setningunni. Látum :math:`A` vera dreift hlutmengi af :math:`X`
 sem sker ekki jaðarinn :math:`\partial\Omega` á :math:`\Omega`. Ef
-:math:`f\in {{\cal O}}(X\setminus A)`, þá er
+:math:`f\in {\mathcal{O}}(X\setminus A)`, þá er
 
 .. math::
 
@@ -530,7 +530,7 @@ punkti :math:`\gamma_j(t)`, ef horft er í stefnu
 :math:`\gamma_j{{^{\prime}}}(t)`. Hér höfum við verið að telja upp
 þann hluta af forsendum Cauchy–setningarinnar sem lýsa stikun á jaðri.
 Til viðbótar gerum við ráð fyrir að :math:`A` sé dreift hlutmengi af
-:math:`X` og að :math:`f\in {{\cal A}}(X\setminus A)`. Þá eru allir
+:math:`X` og að :math:`f\in {\mathcal{A}}(X\setminus A)`. Þá eru allir
 punktarnir í :math:`A` einangraðir sérstöðupunktar fallsins :math:`f` og
 leifasetningin segir okkur að
 
@@ -657,11 +657,7 @@ um :math:`\alpha` og :math:`h_1(\alpha)=h^{(m)}(\alpha)/m!\neq 0`. Ef
    =\lim_{z\to \alpha} 
    \dfrac{(z-\alpha)g(z)}{h(z)-h(\alpha)}=\dfrac{g(\alpha)}{h{{^{\prime}}}(\alpha)}.
 
-
-   
-
-Þetta segir okkur, að formúlan sem við leiddum út þegar við fjölluðum
-um útreikning á heildum í kafla 3
+Þetta segir okkur, að formúlan sem við leiddum út í síðasta kafla er
 ekkert annað en sértilfelli af leifasetningunni, því þar gerðum við ráð
 fyrir að núllstöðvar :math:`\alpha_1,\dots,\alpha_m` margliðunnar
 :math:`Q` væru einfaldar og því gefur leifasetningin
@@ -852,7 +848,7 @@ Heildi yfir einingarhringinn
 Við skulum gera ráð fyrir að :math:`f` sé fall af tveimur breytistærðum
 :math:`(x,y)` og að :math:`f` sé skilgreint í grennd um
 einingarhringinn, :math:`x^ 2+y^ 2=1`. Við fáum nú endurbót á
-aðferðinni, sem við leiddum út eftir setningu 3.3.6. Eins og þar athugum
+aðferðinni til að reikna út ákveðin heildi yfir einingarhringinn í síðasta kafla. Eins og þar athugum
 við, að ef :math:`z` er á einingarhringnum, :math:`z=e^{i\theta}`, þá
 er
 
@@ -896,12 +892,13 @@ Nú ætlum við að snúa okkur að heildum af gerðinni
 
 þar sem fallið :math:`f` er fágað í grennd um :math:`{{\mathbb  R}}`.
 Hugsum okkur fyrst að
-:math:`f\in {{\cal O}}({{\mathbb  C}}\setminus A)`, þar sem :math:`A` er
+:math:`f\in {\mathcal{O}}({{\mathbb  C}}\setminus A)`, þar sem :math:`A` er
 dreift mengi. Aðferðin byggir á því að athuga að
 
 .. math:: I=\lim_{r\to +\infty}\int_{-r}^ r f(x)\, dx,
 
-ef heildið er samleitið. Leifasetningin gefur okkur þá
+ef heildið er samleitið. 
+Leifasetningin gefur okkur þá
 
 .. math::
 
@@ -992,10 +989,10 @@ og gerum ráð fyrir að að :math:`Q` hafi engar núllstöðvar á
 .. math::
 
   \int\limits_{-\infty}^ {+\infty} f(x)\, dx =
-   2\pi i\sum_{\alpha\in {\cal N}(Q)\cap H_+}{{\operatorname{Res}}}\big(f,\alpha)
-   =-2\pi i\sum_{\alpha\in {\cal N}(Q)\cap H_-}{{\operatorname{Res}}}\big(f,\alpha),
+   2\pi i\sum_{\alpha\in \mathcal{N}(Q)\cap H_+}{{\operatorname{Res}}}\big(f,\alpha)
+   =-2\pi i\sum_{\alpha\in \mathcal{N}(Q)\cap H_-}{{\operatorname{Res}}}\big(f,\alpha),
 
-þar sem :math:`{\cal N}(Q)` táknar núllstöðvamengi :math:`Q`,
+þar sem :math:`\mathcal{N}(Q)` táknar núllstöðvamengi :math:`Q`,
 :math:`H_+` táknar efra hálfplanið og :math:`H_-` táknar neðra
 hálfplanið.
 
@@ -1022,15 +1019,15 @@ með
   \widehat f(\xi)=\int_{-\infty}^{+\infty} e^{-ix\xi} f(x)\, dx, \qquad
    \xi\in {{\mathbb  R}}.
 
-Vörpunin :math:`{{\cal F}}` sem úthlutar fallinu :math:`f` Fourier-mynd
-sinni, :math:`{{\cal F}}(f)=\widehat f`, nefnist *Fourier-ummyndun*. Við
+Vörpunin :math:`{\mathcal{F}}` sem úthlutar fallinu :math:`f` Fourier-mynd
+sinni, :math:`{\mathcal{F}}(f)=\widehat f`, nefnist *Fourier-ummyndun*. Við
 munum fjalla skipulega um Fourier-ummyndun í 16. kafla og sýna hvernig
 þeim er beitt til þess að leysa afleiðujöfnur og hlutafleiðujöfnur.
 
 Fourier-myndir reiknaðar með leifareikningi.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hugsum okkur nú að :math:`f\in {{\cal O}}({{\mathbb  C}}\setminus A)`,
+Hugsum okkur nú að :math:`f\in {\mathcal{O}}({{\mathbb  C}}\setminus A)`,
 þar sem :math:`A` er dreift mengi og skilgreinum vegina :math:`\gamma_r`
 og :math:`\beta_r` eins og áður, :math:`\gamma_r(\theta)=re^{i\theta}`,
 :math:`\beta_r(\theta)=re^{-i\theta}`, :math:`\theta\in [0,\pi]`.
@@ -1098,7 +1095,7 @@ Setning
 ^^^^^^^
 
 Látum
-:math:`f\in L^1({{\mathbb  R}})\cap {{\cal O}}({{\mathbb  C}}\setminus   A)`, þar sem :math:`A` er endanlegt mengi með engan punkt á
+:math:`f\in L^1({{\mathbb  R}})\cap {\mathcal{O}}({{\mathbb  C}}\setminus   A)`, þar sem :math:`A` er endanlegt mengi með engan punkt á
 :math:`{{\mathbb  R}}` og gerum ráð fyrir að
 :math:`\max_{|z|=r}|f(z)|\to 0` ef :math:`r\to +\infty`. Þá er
 

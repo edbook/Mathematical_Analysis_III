@@ -1164,7 +1164,7 @@ fasta Eulers
   \begin{aligned}
    {\gamma}&=\lim\limits_{k\to {\infty}} \big(1+1/2+\cdots+1/k-\ln k\big)
    \\
-   &\approx 0.577 \,  215 \,  644 \, 90 \dots,\nonumber\end{aligned}
+   &\approx 0.577 \,  215 \,  644 \, 90 \dots,\end{aligned}
 
 nefnist *fall Bessels af annarri gerð með vísi* :math:`0`.
 

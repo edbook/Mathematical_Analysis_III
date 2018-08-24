@@ -6,7 +6,6 @@
 Stærðfræðigreining III
 ======================
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
@@ -17,11 +16,3 @@ Contents:
 
 .. toctree::
    ordaskra
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

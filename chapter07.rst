@@ -137,7 +137,7 @@ eftirfarandi skilyrði jafngild
 \(ii) Jaðargildisverkefnið :math:`P(t,D)u=0`, :math:`Bu=0`, hefur
 einungis núllfallið sem lausn.
 
-\(iii) Ef :math:`u_1,\dots,u_m` er grunnur í :math:`{\cal N}(P(t,D))`, þá
+\(iii) Ef :math:`u_1,\dots,u_m` er grunnur í :math:`\mathcal{N}(P(t,D))`, þá
 er
 
 .. math::
@@ -196,7 +196,7 @@ séu fastaföll, :math:`a_j\in {{\mathbb  C}}`, og :math:`a_m\neq 0`.
    
 
 Fyrsta viðfangsefni okkar er að finna grunn fyrir núllrúmið
-:math:`{\cal N}(P(D))` og fá þannig framsetningu á 
+:math:`\mathcal{N}(P(D))` og fá þannig framsetningu á 
 :hover:`almennri lausn,almenn lausn` 
 :hover:`óhliðruðu,misleitur` 
 jöfnunnar :math:`P(D)u=0`. Við byrjum á
@@ -220,7 +220,7 @@ fæst
   \begin{aligned}
    P(D)e^{\alpha t}&=(a_mD^m+\cdots+a_1D+a_0)e^{\alpha t} \\
    &=(a_m{\alpha}^m+\cdots+a_1{\alpha}+a_0)e^{\alpha
-   t}=P(\alpha)e^{\alpha t}.\nonumber\end{aligned}
+   t}=P(\alpha)e^{\alpha t}.\end{aligned}
 
 Ef við veljum :math:`\alpha` sem eina af núllstöðvum kennimargliðunnar
 :math:`P`, þá sjáum við að :math:`e^{\alpha t}` er lausn á óhliðruðu
@@ -772,7 +772,7 @@ Wronski-fylkið og Wronski-ákveðan
 
 Nú skulum við láta :math:`G(t,\tau)` tákna Green-fallið sem lýst er í
 setningu 7.5.2 og jafnframt gera ráð fyrir því að :math:`u_1,\dots, u_m`
-sé grunnur í :math:`{\cal N}(P(t,D))`. Fyrst :math:`G(t,\tau)` er lausn
+sé grunnur í :math:`\mathcal{N}(P(t,D))`. Fyrst :math:`G(t,\tau)` er lausn
 á óhliðruðu jöfnunni :math:`P(t,D_t)G(t,\tau)=0` fyrir sérhvert
 :math:`\tau\in I`, þá getum við skrifað :math:`G(t,\tau)` sem línulega
 samantekt af grunnföllunum með stuðlum sem eru háðir :math:`\tau`,
@@ -919,7 +919,7 @@ Setning
 Látum :math:`I` vera bil á :math:`{{\mathbb  R}}` og
 :math:`P(t,D)=a_m(t)D^ m+\cdots+a_1(t)D+a_0(t)` vera afleiðuvirkja með
 samfellda stuðla á :math:`I` og :math:`u_1,\dots,u_m` vera grunn í
-:math:`{\cal N}(P(t,D))`. Green-fallið er gefið með formúlunni
+:math:`\mathcal{N}(P(t,D))`. Green-fallið er gefið með formúlunni
 
 .. math::
 
